@@ -1,0 +1,4 @@
+interface:
+  display_name: "Superanalyst"
+  short_description: "Prediksi sepak bola: data, pola, lalu keputusan"
+  default_prompt: "Gunakan $superanalyst untuk menganalisis laga mendatang dengan sumber terbaru, BTTS, dan ketidakpastian."
