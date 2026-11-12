@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "scope": "90m",
+  "home_goals": 5,
+  "away_goals": 0,
+  "completed_date_utc": "2025-05-31",
+  "finished_at": null,
+  "source_url": "https://www.uefa.com/uefachampionsleague/news/0290-1bbe6365b47a-0668db2bbcb1-1000--2024-25-champions-league-all-the-results/",
+  "source_published_date": "2025-05-31",
+  "retrieved_on": "2026-11-12",
+  "note": "Evaluation label only. This file is not opened by the prediction step. Exact full-time timestamp is not claimed."
+}

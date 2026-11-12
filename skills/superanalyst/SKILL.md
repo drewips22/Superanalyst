@@ -20,6 +20,8 @@ Pastikan tim, kompetisi, tanggal, kickoff, zona waktu, dan venue. Bila jadwal am
 
 Catat `as_of` (batas informasi) sebelum analisis. Untuk prediksi nyata, verifikasi jadwal, statistik, berita, klasemen, dan ketersediaan pemain dengan sumber terkini. Untuk rekonstruksi historis, hanya gunakan informasi yang tersedia sebelum `as_of`; berita dan hasil setelahnya bukan fitur. Bila penelusuran tidak tersedia, jelaskan cakupan data yang diberikan dan jangan menyebutnya berita terbaru.
 
+Rekonstruksi yang dibuat sekarang wajib mencatat `reconstructed_at` sebenarnya dan batas arsip sumber, tanpa `recorded_at` fiktif sebelum kickoff. Pisahkan penilaian rekonstruksi dari forecast yang benar-benar direkam saat itu. Bekukan aturan dan masukan sebelum tahap penilaian; keterulangan perhitungan tidak sama dengan uji buta bila hasil historis sudah diketahui.
+
 Standar hasil adalah **90 menit + injury time**, tanpa extra time atau adu penalti. Bedakan hasil 1X2, lolos babak berikutnya, dan hasil kontrak pasar. Periksa venue netral, laga tunda, dan perubahan kickoff.
 
 ## Data: enam kelompok wajib

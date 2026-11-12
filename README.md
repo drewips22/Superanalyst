@@ -4,7 +4,13 @@
 
 Superanalyst adalah repo skill untuk Codex. Isinya mengubah rancangan analisis menjadi prosedur yang bisa diulang, diperiksa sumbernya, dan dievaluasi setelah pertandingan. Bahasa utama: Indonesia.
 
-**Status: v0.1.0 — kerangka penelitian.** Repo tersedia secara lokal. Target publikasi: repo GitHub **private** bernama `Superanalyst`. Akurasi prediksi pada pertandingan nyata belum diukur; data contoh di repo ini seluruhnya sintetis.
+**Status: v0.2.0 — kerangka penelitian dengan satu studi rekonstruksi historis.** Repo GitHub **private** tersedia di [drewips22/Superanalyst](https://github.com/drewips22/Superanalyst). Contoh dalam `examples/` tetap sintetis; kasus nyata pertama berada di `backtests/`. Akurasi strategi dan kalibrasi model pada banyak laga belum diukur.
+
+## Uji pertandingan pertama
+
+[PSG–Inter, final UCL 2025: analisis dan evaluasi](backtests/ucl-2025-final/review.md), dengan cutoff **30 Mei 2025 19.00 WIB**, 31 jam sebelum kickoff. Baseline gol lima laga menghasilkan PSG 44,92%, seri 22,77%, Inter 32,32%, dan BTTS 64,85%. Hasil aktual PSG 5–0 Inter: pilihan pemenang tepat, BTTS keliru.
+
+Analisis dibuat pada November 2026 sebagai **rekonstruksi**, bukan forecast yang direkam pada 2025. Data asli pada saat itu tidak seluruhnya diarsipkan, sehingga kasus ini bukan uji buta. Spesifikasi, sepuluh laga historis, analisis, probabilitas, checksum, label hasil, dan cara mengulang evaluasi tersedia di folder kasus. Satu laga belum menguji keseluruhan kriteria Superanalyst.
 
 ## Cakupan
 
@@ -27,7 +33,7 @@ Untuk memakai salinan lokal dalam chat yang dapat mengakses folder ini:
 
 Untuk memasangnya agar tersedia di chat lain, minta Codex memasang folder `skills/superanalyst` dari salinan repo ini menggunakan mekanisme instalasi skill yang tersedia. **Pembuatan repo ini belum memasang skill secara global.**
 
-Setelah repo private diunggah dan akun pengguna memiliki akses, contoh permintaan instalasi:
+Untuk memasang dari repo private melalui akun yang memiliki akses:
 
 ```text
 $skill-installer pasang skill dari repo drewips22/Superanalyst, path skills/superanalyst.
@@ -70,6 +76,7 @@ skills/superanalyst/
     evaluate.py                   Brier, log loss, dan tabel kalibrasi
 examples/                          contoh sintetis yang bisa dijalankan
 tests/                             pengujian perilaku perhitungan
+backtests/ucl-2025-final/           kasus historis, prediksi, dan evaluasi terpisah
 ```
 
 ## Menjalankan alat
@@ -81,11 +88,12 @@ python skills/superanalyst/scripts/stats.py summary examples/team-history.synthe
 python skills/superanalyst/scripts/stats.py poisson --home-rate 1.6 --away-rate 1.2
 python skills/superanalyst/scripts/evaluate.py examples/predictions.synthetic.jsonl
 python -m unittest discover -s tests -v
+python backtests/ucl-2025-final/run.py verify
 ```
 
 Parameter 1.6 dan 1.2 di atas adalah **contoh perhitungan**, bukan estimasi untuk tim nyata. Kalkulator Poisson tidak melatih model atau menentukan parameter sendiri. Evaluator menilai prediksi yang sudah disimpan; pelatihan dan pengujian kronologis mengikuti [protokol backtest](skills/superanalyst/references/backtesting.md).
 
-Pemeriksaan awal: **26 tes perhitungan lolos**, ketiga contoh perintah berjalan, format skill lolos validator, dan tautan dokumen internal diperiksa. Pemeriksaan ini memvalidasi paket dan perhitungan, bukan akurasi prediksi pertandingan nyata.
+Pemeriksaan: **35 tes perhitungan dan validasi lolos**. Kasus historis dapat dihitung ulang dan dicek melalui checksum. Pemeriksaan struktur skill dan tautan internal juga dilakukan. Tes memvalidasi paket dan perhitungan; mutu prediksi tetap perlu pengujian banyak laga di luar sampel.
 
 ## Pengembangan berikutnya
 
@@ -97,21 +105,18 @@ Pemeriksaan awal: **26 tes perhitungan lolos**, ketiga contoh perintah berjalan,
 
 Data berlisensi dan arsip prediksi pribadi disimpan di `data/` atau `runs/`, yang diabaikan Git. Masukkan ke repo hanya bila hak penggunaan dan kebutuhan berbagi sudah jelas. Belum ada lisensi distribusi publik yang dipilih untuk proyek private ini.
 
-## Menyiapkan GitHub nanti
+## Repo GitHub private
 
-Salinan folder lokal sudah merupakan repo Git. Paket ZIP berisi source tanpa riwayat Git; jika mulai dari ZIP, inisialisasi terlebih dahulu:
-
-```sh
-git init -b main
-git add .
-git commit -m "Initialize Superanalyst"
-```
-
-Buat repo kosong **private** bernama `Superanalyst` di akun yang diinginkan, lalu dari salinan lokal ini:
+Repo tersedia di [drewips22/Superanalyst](https://github.com/drewips22/Superanalyst). Untuk mengambil salinan, gunakan akun yang mempunyai akses:
 
 ```sh
-git remote add origin https://github.com/drewips22/Superanalyst.git
-git push -u origin main
+git clone https://github.com/drewips22/Superanalyst.git
 ```
 
-Alamat di atas adalah target yang direncanakan, bukan klaim bahwa repo remote sudah ada. Autentikasi GitHub diperlukan saat mengunggah.
+Salinan folder lokal sudah terhubung ke `origin`. Setelah membuat commit perubahan yang diinginkan:
+
+```sh
+git push
+```
+
+Paket ZIP berisi source tanpa riwayat Git. Gunakan salinan hasil clone bila ingin melanjutkan pengembangan dengan riwayat commit yang sama.

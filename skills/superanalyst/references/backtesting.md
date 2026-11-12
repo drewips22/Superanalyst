@@ -2,7 +2,7 @@
 
 ## Tujuan dan status
 
-Uji apakah fitur meningkatkan prediksi pertandingan berikutnya, serta apakah probabilitas sesuai frekuensi hasilnya. Jangan menilai metode hanya dari beberapa prediksi yang berhasil. Repo v0.1.0 menyediakan kalkulator dan evaluator; **belum ada hasil backtest pertandingan nyata atau model terlatih**.
+Uji apakah fitur meningkatkan prediksi pertandingan berikutnya, serta apakah probabilitas sesuai frekuensi hasilnya. Jangan menilai metode hanya dari beberapa prediksi yang berhasil. Repo v0.2.0 menyediakan kalkulator, evaluator, dan satu contoh rekonstruksi PSG–Inter 2025; **belum ada model terlatih atau bukti akurasi pada banyak laga di luar sampel**.
 
 ## Bekukan rancangan eksperimen
 
@@ -26,7 +26,12 @@ features_available_at <= as_of <= recorded_at < kickoff_at
 
 `available_at` adalah waktu informasi benar-benar tersedia, bukan sekadar tanggal pertandingan. `retrieved_at` adalah waktu pengunduhan. Arsip yang diunduh sekarang boleh membantu rekonstruksi historis hanya jika ketersediaan saat itu dapat dibuktikan; jangan memalsukan waktu pencatatan lama. Bedakan **forecast yang dibekukan saat itu** dari **backtest rekonstruksi saat ini**.
 
-Evaluator bawaan menilai log forecast yang direkam sebelum kickoff. Untuk rekonstruksi, simpan waktu eksekusi aktual dalam arsip terpisah, dataset point-in-time, dan kode walk-forward; jangan mengisi `recorded_at` fiktif agar lolos validator.
+Evaluator memisahkan dua mode:
+
+- `forecast` (bawaan untuk kompatibilitas): urutan waktu di atas tetap berlaku, termasuk `recorded_at` sebelum kickoff.
+- `retrospective_reconstruction`: `as_of < kickoff_at <= reconstructed_at`, tanpa `recorded_at` fiktif. Wajib isi `point_in_time_verified` dan `reconstruction_notes`. `features_available_at` boleh null bila waktu ketersediaan asli belum dapat dibuktikan; jika ada nilainya, tetap harus <= `as_of`.
+
+Kedua mode tidak digabung dalam satu skor kelompok. Rekonstruksi dengan sumber yang tidak diarsipkan harus diberi label batasnya; mode ini tidak mengubahnya menjadi uji buta. Catat waktu kejadian dan waktu pengunduhan secara terpisah. Untuk backtest luas, gunakan dataset point-in-time dan kode walk-forward; jangan memilih fitur setelah melihat hasil.
 
 Hindari kebocoran melalui klasemen akhir musim, versi xG yang direvisi belakangan, cedera yang baru diumumkan setelah cutoff, line-up resmi pada prediksi T-24 jam, closing odds setelah cutoff, serta statistik pertandingan target. Hasil final hanya menjadi label setelah laga selesai.
 
@@ -77,7 +82,7 @@ Simpan prediksi awal secara append-only. Revisi punya `prediction_id` baru, alas
 
 Log juga keputusan `observe` atau `insufficient_data`. Laporan evaluasi harus menunjukkan berapa laga dipertimbangkan, diprediksi, dilewati, belum selesai, dan selesai. Probabilitas yang tidak dikeluarkan tidak menjadi nol. Cakupan tinggi/rendah harus dibaca bersama skor kualitas prediksi.
 
-Gabungkan label hasil setelah laga selesai tanpa mengubah isi prediksi. Catat ID laga, skor 90 menit, waktu selesai, status final, dan sumber hasil. Pada data nyata gunakan arsip prediksi terpisah atau hash/commit sebelum kickoff; pemeriksaan timestamp saja tidak membuktikan bahwa file tidak pernah diedit.
+Gabungkan label hasil setelah laga selesai tanpa mengubah isi prediksi. Catat ID laga, skor 90 menit, waktu selesai, status final, dan sumber hasil. Jika rekonstruksi hanya memiliki tanggal selesai UTC yang dapat dibuktikan, gunakan `completed_date_utc` dan biarkan `finished_at` null; jangan mengarang presisi jam. Pada forecast nyata gunakan arsip prediksi terpisah atau hash/commit sebelum kickoff; pemeriksaan timestamp saja tidak membuktikan bahwa file tidak pernah diedit.
 
 ## Syarat menaikkan versi
 

@@ -43,7 +43,7 @@ Laju di atas adalah contoh sintetis. Input adalah ekspektasi gol waktu normal un
 
 Asumsi: gol kedua tim Poisson independen. Grid diperpanjang hingga tail tiap tim di bawah `1e-12`; probabilitas 1X2/skor dinormalisasi pada grid tersebut. BTTS dan clean sheet memakai formula analitik. Rentang laju 0–100 adalah batas komputasi, bukan rekomendasi nilai untuk sepak bola. `calibrated=false` selalu dicantumkan karena alat tidak membuktikan kalibrasi model pembentuk lajunya.
 
-## Evaluasi arsip forecast
+## Evaluasi forecast dan rekonstruksi historis
 
 ```sh
 python skills/superanalyst/scripts/evaluate.py examples/predictions.synthetic.jsonl
@@ -54,6 +54,7 @@ JSONL berarti satu objek JSON per baris. Contoh siap jalan ada di folder `exampl
 | Field | Jenis/aturan |
 | --- | --- |
 | `prediction_id`, `match_id` | ID snapshot dan laga |
+| `mode` | `forecast` (bawaan) atau `retrospective_reconstruction`; tidak digabung dalam kelompok evaluasi |
 | `competition`, `model_version`, `horizon` | Kelompok eksperimen; horizon adalah label yang dipilih sebelum evaluasi |
 | `synthetic` | true/false; keduanya dievaluasi terpisah |
 | `scope` | `90m` |
@@ -64,11 +65,22 @@ JSONL berarti satu objek JSON per baris. Contoh siap jalan ada di folder `exampl
 | `reason` | Wajib untuk observe/insufficient_data; probabilitas harus null/tidak diisi |
 | `result` | null untuk belum final, atau objek hasil di bawah |
 
-Objek `result` berisi `status="completed"`, `scope="90m"`, `home_goals`, `away_goals`, `finished_at`, dan `source_url`. Skor waktu normal tetap digunakan bila pertandingan berlanjut ke extra time; waktu selesai boleh waktu penutupan laga penuh. Pertandingan batal/void tidak diberi hasil palsu. Simpan alasannya pada arsip dan jangan menganggapnya kekalahan prediksi.
+Untuk rekonstruksi yang dibuat sesudah pertandingan, **jangan isi `recorded_at` dengan waktu masa lalu**. Sebagai gantinya, isi `reconstructed_at` dengan waktu eksekusi sebenarnya, `point_in_time_verified` (boolean), dan `reconstruction_notes` yang menjelaskan sumber dan batas uji. Wajib `as_of < kickoff_at <= reconstructed_at`. `features_available_at` boleh null jika waktu ketersediaan aslinya tidak dibuktikan; nilai yang diisi harus tetap sebelum cutoff. Rekonstruksi bukan pengganti arsip forecast yang benar-benar dibuat saat itu.
+
+Objek `result` berisi `status="completed"`, `scope="90m"`, `home_goals`, `away_goals`, `finished_at`, dan `source_url`. Dalam mode rekonstruksi saja, `finished_at` boleh null dengan `completed_date_utc` (YYYY-MM-DD) bila sumber tidak membuktikan presisi jam. Skor waktu normal tetap digunakan bila pertandingan berlanjut ke extra time; waktu selesai boleh waktu penutupan laga penuh. Pertandingan batal/void tidak diberi hasil palsu. Simpan alasannya pada arsip dan jangan menganggapnya kekalahan prediksi.
 
 Record dapat menyertakan field tambahan seperti `sources`, `data_version`, `lineup_status`, `parameters`, `revision_of`, dan `reason`; pertahankan untuk audit meski evaluator tidak membacanya. Evaluator awal memerlukan 1X2 **dan** BTTS untuk `predict`. Forecast hanya BTTS perlu perluasan schema/evaluator sebelum dimasukkan; jangan mengarang 1X2 untuk mengisi field.
 
-Keluaran dikelompokkan menurut model, horizon, kompetisi, dan synthetic. Laporan menampilkan rentang menit aktual ke kickoff agar label horizon bisa diperiksa; toleransi horizon tidak ditebak oleh alat. Evaluator menolak dua snapshot laga yang sama pada kelompok yang sama. Pilih satu snapshot menurut aturan eksperimen terlebih dahulu.
+Keluaran dikelompokkan menurut model, horizon, kompetisi, synthetic, dan mode. Laporan menampilkan rentang menit aktual ke kickoff agar label horizon bisa diperiksa; toleransi horizon tidak ditebak oleh alat. Evaluator menolak dua snapshot laga yang sama pada kelompok yang sama. Pilih satu snapshot menurut aturan eksperimen terlebih dahulu.
+
+Dalam repo Superanalyst, contoh kasus nyata dapat diperiksa dengan:
+
+```sh
+python backtests/ucl-2025-final/run.py verify
+python skills/superanalyst/scripts/evaluate.py backtests/ucl-2025-final/scored-reconstruction.jsonl
+```
+
+Folder kasus menyimpan data, spesifikasi, prediksi tanpa hasil, checksum, label hasil, dan evaluasi terpisah. Checksum dibuat pada waktu rekonstruksi sebenarnya; itu tidak membuktikan kebutaan terhadap hasil historis. Runner menolak menimpa snapshot yang sudah ada.
 
 Laporan mencakup jumlah dipertimbangkan/diprediksi/dilewati/belum final, cakupan, Brier, log loss, dan sepuluh bin kalibrasi. Kelompok tanpa hasil yang dapat dinilai menghasilkan metrik `null`. Data contoh yang sangat kecil hanya membuktikan format dan perhitungan, bukan mutu prediksi nyata.
 
