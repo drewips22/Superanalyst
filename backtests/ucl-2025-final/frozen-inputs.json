@@ -1,0 +1,13 @@
+{
+  "frozen_at": "2026-11-12T00:13:13.031912+00:00",
+  "sha256": {
+    "experiment.json": "3a67a0080dae1fce077e35fa352d2d4afe0d83b71001157ff4c9e6a1f98b3e44",
+    "features.json": "5c50a8a0165c7005c15ca13cfd3cbab4b745db17fac4483ba2859bb8aadc937b",
+    "run.py": "68855ffdf2330044ea59ce2eb3085d0e728669a56116edaf338132ea46bdc772",
+    "prediction.json": "ce5f2856c0580b9df50f4abb220a3e69b1fda8b76e43a5d111fd135500701609",
+    "analysis-before-result.md": "13143d758259b3d97f0dc2f519a2997649c35d6a48c68a3cea3a20dd33978ebd",
+    "../../skills/superanalyst/scripts/stats.py": "9726897fcf19972b66125444f89b052507db9a6c99432f6ee85f37eb372160da",
+    "../../skills/superanalyst/scripts/evaluate.py": "4e16415d83e9cd9c9eee6675043c1ef6af8f746e78268f8c111fe6c7cb664aad"
+  },
+  "note": "Frozen during the 2026 reconstruction; not evidence of a pre-2025 forecast."
+}

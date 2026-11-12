@@ -1,9 +1,10 @@
-"""Score frozen pre-match forecasts, grouped by model, horizon and competition."""
+"""Score forecasts and explicitly labeled historical reconstructions separately."""
 
 import argparse
 import json
 import math
 from pathlib import Path
+from datetime import date
 
 from stats import number, required_text, timestamp
 
@@ -35,11 +36,30 @@ def validate(row):
     if not isinstance(row.get("synthetic"), bool):
         raise ValueError("synthetic must be explicitly true or false")
     as_of = timestamp(row.get("as_of"), "as_of")
-    recorded = timestamp(row.get("recorded_at"), "recorded_at")
     kickoff = timestamp(row.get("kickoff_at"), "kickoff_at")
-    available = timestamp(row.get("features_available_at"), "features_available_at")
-    if not available <= as_of <= recorded < kickoff:
-        raise ValueError("require features_available_at <= as_of <= recorded_at < kickoff_at")
+    mode = row.get("mode", "forecast")
+    if mode == "forecast":
+        recorded = timestamp(row.get("recorded_at"), "recorded_at")
+        available = timestamp(row.get("features_available_at"), "features_available_at")
+        if not available <= as_of <= recorded < kickoff:
+            raise ValueError("require features_available_at <= as_of <= recorded_at < kickoff_at")
+        if row.get("reconstructed_at") is not None:
+            raise ValueError("forecast must not contain reconstructed_at")
+    elif mode == "retrospective_reconstruction":
+        if row.get("recorded_at") is not None:
+            raise ValueError("reconstruction must not masquerade as recorded_at forecast")
+        rebuilt = timestamp(row.get("reconstructed_at"), "reconstructed_at")
+        if not as_of < kickoff <= rebuilt:
+            raise ValueError("require as_of < kickoff_at <= reconstructed_at")
+        if not isinstance(row.get("point_in_time_verified"), bool):
+            raise ValueError("reconstruction must state point_in_time_verified")
+        required_text(row.get("reconstruction_notes"), "reconstruction_notes")
+        if row.get("features_available_at") is not None:
+            available = timestamp(row["features_available_at"], "features_available_at")
+            if available > as_of:
+                raise ValueError("reconstruction features_available_at exceeds as_of")
+    else:
+        raise ValueError("invalid evaluation mode")
     decision = row.get("decision")
     if decision not in {"predict", "observe", "insufficient_data"}:
         raise ValueError("invalid decision")
@@ -64,8 +84,16 @@ def validate(row):
             raise ValueError("result must use 90m scope")
         number(result.get("home_goals"), "home_goals", integer=True)
         number(result.get("away_goals"), "away_goals", integer=True)
-        if timestamp(result.get("finished_at"), "finished_at") <= kickoff:
-            raise ValueError("finished_at must be after kickoff")
+        if result.get("finished_at") is not None:
+            if timestamp(result["finished_at"], "finished_at") <= kickoff:
+                raise ValueError("finished_at must be after kickoff")
+        elif mode == "retrospective_reconstruction":
+            # Preserve actual evidence precision instead of fabricating a full-time timestamp.
+            completed = date.fromisoformat(required_text(result.get("completed_date_utc"), "completed_date_utc"))
+            if completed < kickoff.date():
+                raise ValueError("completed_date_utc cannot precede kickoff date")
+        else:
+            raise ValueError("forecast result requires finished_at")
         required_text(result.get("source_url"), "result.source_url")
 
 
@@ -111,15 +139,16 @@ def evaluate(rows):
         if row["prediction_id"] in ids:
             raise ValueError(f"duplicate prediction_id: {row['prediction_id']}")
         ids.add(row["prediction_id"])
-        group_key = (row["model_version"], row["horizon"], row["competition"], row["synthetic"])
+        group_key = (row["model_version"], row["horizon"], row["competition"], row["synthetic"],
+                     row.get("mode", "forecast"))
         match_key = (*group_key, row["match_id"])
         if match_key in match_keys:
             raise ValueError("duplicate match within model/horizon/competition; select a snapshot before scoring")
         match_keys.add(match_key)
         groups.setdefault(group_key, []).append(row)
     summaries = [{"model_version": key[0], "horizon": key[1], "competition": key[2],
-                  "synthetic": key[3], **score_group(values)} for key, values in sorted(groups.items())]
-    return {"evaluator_version": "0.1.0", "records": len(rows),
+                  "synthetic": key[3], "mode": key[4], **score_group(values)} for key, values in sorted(groups.items())]
+    return {"evaluator_version": "0.2.0", "records": len(rows),
             "brier_1x2_convention": "sum of squared errors over three outcomes; range 0 to 2",
             "log_loss_epsilon": EPSILON, "groups": summaries,
             "note": "Scoring only. Timestamp checks do not prove an immutable forecast archive or model quality."}

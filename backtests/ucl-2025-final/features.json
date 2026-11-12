@@ -1,0 +1,162 @@
+{
+  "collection_window": "2026-11-11/2026-11-12",
+  "as_of": "2025-05-30T12:00:00Z",
+  "point_in_time_verified": false,
+  "source_version_note": "Historical match facts retrieved now; original page versions and exact publication timestamps of statistical updates are not archived. Dates of past matches and dated pre-match articles support a retrospective reconstruction only.",
+  "home_team": {
+    "name": "Paris Saint-Germain",
+    "matches": [
+      {
+        "match_id": "2025-05-03-strasbourg-psg", "match_date": "2025-05-03",
+        "opponent": "Strasbourg", "competition": "Ligue 1", "venue": "away",
+        "competitive": true, "scope": "90m", "goals_for": 1, "goals_against": 2,
+        "xg_for": 1.73, "xg_against": 0.73, "xg_series": "Sporting Life / Opta",
+        "shots": 20, "shots_on_target": 4, "possession_pct": 64,
+        "goals_for_76_plus": 0, "goals_against_76_plus": 0,
+        "score_source": "https://www.psg.fr/matchs/football-masculin/20242025/strasbourg-vs-paris-2025-05-03",
+        "stats_source": "https://www.sportinglife.com/football/live/188450/strasbourg-vs-paris-saint-germain/stats"
+      },
+      {
+        "match_id": "2025-05-07-psg-arsenal", "match_date": "2025-05-07",
+        "opponent": "Arsenal", "competition": "UEFA Champions League", "venue": "home",
+        "competitive": true, "scope": "90m", "goals_for": 2, "goals_against": 1,
+        "xg_for": 1.74, "xg_against": 2.91, "xg_series": "Sporting Life / Opta",
+        "shots": 11, "shots_on_target": 6, "possession_pct": 46,
+        "goals_for_76_plus": 0, "goals_against_76_plus": 1,
+        "score_source": "https://www.psg.fr/en/matches/mens-football/20242025/paris-vs-arsenal-2025-05-07",
+        "stats_source": "https://www.sportinglife.com/football/live/205833/paris-saint-germain-vs-arsenal/stats"
+      },
+      {
+        "match_id": "2025-05-10-montpellier-psg", "match_date": "2025-05-10",
+        "opponent": "Montpellier", "competition": "Ligue 1", "venue": "away",
+        "competitive": true, "scope": "90m", "goals_for": 4, "goals_against": 1,
+        "xg_for": 1.50, "xg_against": 0.61, "xg_series": "FotMob / Opta",
+        "shots": 10, "shots_on_target": null, "possession_pct": 70,
+        "goals_for_76_plus": 0, "goals_against_76_plus": 0,
+        "score_source": "https://www.psg.fr/matchs/football-masculin/20242025/montpellier-vs-paris-2025-05-10",
+        "stats_source": "https://www.fotmob.com/fr/matches/paris-saint-germain-vs-montpellier/3c8ddj",
+        "context": "Rotated PSG line-up; domestic opponent quality not adjusted in baseline."
+      },
+      {
+        "match_id": "2025-05-17-psg-auxerre", "match_date": "2025-05-17",
+        "opponent": "Auxerre", "competition": "Ligue 1", "venue": "home",
+        "competitive": true, "scope": "90m", "goals_for": 3, "goals_against": 1,
+        "xg_for": 3.11, "xg_against": 0.63, "xg_series": "Sporting Life / Opta",
+        "shots": 21, "shots_on_target": 9, "possession_pct": 67,
+        "goals_for_76_plus": 1, "goals_against_76_plus": 0,
+        "score_source": "https://www.psg.fr/en/matches/mens-football/20242025/paris-vs-auxerre-2025-05-17",
+        "stats_source": "https://www.sportinglife.com/football/live/188528/paris-saint-germain-vs-auxerre/stats"
+      },
+      {
+        "match_id": "2025-05-24-psg-reims", "match_date": "2025-05-24",
+        "opponent": "Reims", "competition": "Coupe de France final", "venue": "neutral",
+        "competitive": true, "scope": "90m", "goals_for": 3, "goals_against": 0,
+        "xg_for": 3.13, "xg_against": 0.15, "xg_series": "FotMob / Opta",
+        "shots": 20, "shots_on_target": 8, "possession_pct": 76,
+        "goals_for_76_plus": 0, "goals_against_76_plus": 0,
+        "score_source": "https://www.psg.fr/en/matches/mens-football/20242025/paris-vs-reims-2025-05-24",
+        "stats_source": "https://www.fotmob.com/en-GB/matches/reims-vs-paris-saint-germain/37cq5t",
+        "context": "Neutral cup final; PSG is the administrative home label."
+      }
+    ]
+  },
+  "away_team": {
+    "name": "Inter",
+    "matches": [
+      {
+        "match_id": "2025-05-03-inter-verona", "match_date": "2025-05-03",
+        "opponent": "Hellas Verona", "competition": "Serie A", "venue": "home",
+        "competitive": true, "scope": "90m", "goals_for": 1, "goals_against": 0,
+        "xg_for": 1.34, "xg_against": 0.29, "xg_series": "Sporting Life / Opta",
+        "shots": 9, "shots_on_target": 2, "possession_pct": 69,
+        "goals_for_76_plus": 0, "goals_against_76_plus": 0,
+        "score_source": "https://www.inter.it/en/news/inter-verona-serie-a-2024-25",
+        "stats_source": "https://www.sportinglife.com/football/live/192275/internazionale-vs-hellas-verona/stats"
+      },
+      {
+        "match_id": "2025-05-06-inter-barcelona", "match_date": "2025-05-06",
+        "opponent": "Barcelona", "competition": "UEFA Champions League", "venue": "home",
+        "competitive": true, "scope": "90m", "goals_for": 3, "goals_against": 3,
+        "xg_for": null, "xg_against": null, "xg_series": null,
+        "shots": null, "shots_on_target": null, "possession_pct": null,
+        "goals_for_76_plus": 1, "goals_against_76_plus": 1,
+        "score_source": "https://www.inter.it/en/news/inter-barcelona-champions-league-24-25",
+        "stats_source": "https://www.sportinglife.com/football/live/205834/internazionale-vs-barcelona",
+        "context": "3-3 after normal time including Acerbi at 90+3. Frattesi at 99 makes 4-3 AET. Published full-match xG/shot totals cover extra time and are excluded from 90m statistics."
+      },
+      {
+        "match_id": "2025-05-11-torino-inter", "match_date": "2025-05-11",
+        "opponent": "Torino", "competition": "Serie A", "venue": "away",
+        "competitive": true, "scope": "90m", "goals_for": 2, "goals_against": 0,
+        "xg_for": 2.60, "xg_against": 1.57, "xg_series": "Sporting Life / Opta",
+        "shots": null, "shots_on_target": null, "possession_pct": null,
+        "goals_for_76_plus": 0, "goals_against_76_plus": 0,
+        "score_source": "https://www.inter.it/en/inter-tv/0_qzk6k7ty",
+        "stats_source": "https://www.sportinglife.com/football/live/192079/torino-vs-internazionale/commentary"
+      },
+      {
+        "match_id": "2025-05-18-inter-lazio", "match_date": "2025-05-18",
+        "opponent": "Lazio", "competition": "Serie A", "venue": "home",
+        "competitive": true, "scope": "90m", "goals_for": 2, "goals_against": 2,
+        "xg_for": 1.13, "xg_against": 2.09, "xg_series": "Sporting Life / Opta",
+        "shots": 10, "shots_on_target": 3, "possession_pct": 56,
+        "goals_for_76_plus": 1, "goals_against_76_plus": 1,
+        "score_source": "https://www.inter.it/en/news/inter-lazio-serie-a-24-25",
+        "stats_source": "https://www.sportinglife.com/football/live/192203/internazionale-vs-lazio/stats"
+      },
+      {
+        "match_id": "2025-05-23-como-inter", "match_date": "2025-05-23",
+        "opponent": "Como", "competition": "Serie A", "venue": "away",
+        "competitive": true, "scope": "90m", "goals_for": 2, "goals_against": 0,
+        "xg_for": 1.39, "xg_against": 1.25, "xg_series": "Sporting Life / Opta",
+        "shots": null, "shots_on_target": 7, "possession_pct": 61,
+        "goals_for_76_plus": 0, "goals_against_76_plus": 0,
+        "score_source": "https://www.inter.it/en/news/como-inter-serie-a-24-25",
+        "stats_source": "https://www.sportinglife.com/football/live/192244/como-vs-internazionale",
+        "context": "Como goalkeeper Reina sent off before half-time; opponent red card is not adjusted in baseline."
+      }
+    ]
+  },
+  "h2h": {
+    "official_competitive_matches_before_final": 0,
+    "source_published_date": "2025-05-24",
+    "source": "https://www.inter.it/en/news/final-champions-league-inter-psg-fixture-history",
+    "last_five_friendlies_from_psg_perspective": [
+      {"date": "2014-12-30", "goals_for": 1, "goals_against": 0, "possession_pct": null},
+      {"date": "2015-12-30", "goals_for": 1, "goals_against": 0, "possession_pct": null},
+      {"date": "2016-07-24", "goals_for": 3, "goals_against": 1, "possession_pct": null},
+      {"date": "2019-07-27", "goals_for": 1, "goals_against": 1, "possession_pct": null},
+      {"date": "2023-08-01", "goals_for": 1, "goals_against": 2, "possession_pct": null}
+    ],
+    "model_weight": 0,
+    "note": "Friendlies with very different squads. Shootouts ignored. Not used to fit probabilities."
+  },
+  "news_before_cutoff": [
+    {
+      "subject": "Inter availability",
+      "source_date": "2025-05-26",
+      "source_url": "https://www.inter.it/en/news/media-day-champions-league-final-press-conference-inzaghi",
+      "facts": "Inzaghi reports Lautaro fit and is optimistic about Pavard and Zielinski. Optimism is not confirmation of the final XI."
+    },
+    {
+      "subject": "PSG squad",
+      "source_date": "2025-05-30",
+      "reported_publication_local": "2025-05-30 11:29, France",
+      "source_url": "https://www.leparisien.fr/sports/football/psg/psg-inter-milan-le-groupe-parisien-sans-absent-et-avec-kimpembe-30-05-2025-QHZ42DRA5NBYVG4QQHTDEGU3UY.php",
+      "facts": "Report of a 22-player PSG group including returning Kimpembe and Kvaratskhelia. This is squad availability, not a starting XI.",
+      "timing_note": "French publication time interpreted as Europe/Paris (CEST), 09:29 UTC, before the 12:00 UTC cutoff. Original archived version not captured."
+    },
+    {
+      "subject": "Schedule and venue",
+      "source_date": "2025-05-29",
+      "source_url": "https://www.inter.it/en/news/activities-eve-final-champions-league-psg-inter-24-25",
+      "facts": "Final scheduled for 31 May at 21:00 CEST in Munich. Both pre-final press conferences on 30 May occur after this reconstruction's cutoff."
+    }
+  ],
+  "market": {
+    "comparable_archived_sources_collected": 0,
+    "comparison_target": 3,
+    "anomaly_conclusion": null,
+    "reason": "No comparable archived quotes collected for the cutoff. T-30 minute activity would occur after this T-31 hour cutoff and cannot be a feature of this run."
+  }
+}

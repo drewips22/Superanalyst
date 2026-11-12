@@ -1,0 +1,43 @@
+{
+  "experiment_id": "ucl-final-2025-retrospective-v1",
+  "mode": "retrospective_reconstruction",
+  "synthetic": false,
+  "fixture": {
+    "home_label": "Paris Saint-Germain",
+    "away_label": "Inter",
+    "venue_type": "neutral",
+    "venue": "Munich Football Arena, Munich",
+    "competition": "UEFA Champions League 2024/25 final",
+    "kickoff_at": "2025-05-31T19:00:00Z",
+    "scope": "90m"
+  },
+  "as_of": "2025-05-30T12:00:00Z",
+  "horizon_hours": 31,
+  "selection_reason": "A public, well-documented UCL final chosen as a single workflow case study, not a random or representative sample.",
+  "model_version": "last5-goals-mean-poisson-experimental-v1",
+  "window": "five latest completed competitive matches, all competitions, before as_of",
+  "rate_rule": {
+    "home": "(mean(home_team_goals_for_last5) + mean(away_team_goals_against_last5)) / 2",
+    "away": "(mean(away_team_goals_for_last5) + mean(home_team_goals_against_last5)) / 2"
+  },
+  "rules": {
+    "home_advantage_adjustment": 0,
+    "injury_adjustment": 0,
+    "motivation_adjustment": 0,
+    "h2h_adjustment": 0,
+    "market_adjustment": 0,
+    "xg_adjustment": 0,
+    "outcome_pick": "largest 1X2 probability; no claim it exceeds 50%",
+    "btts_pick": "yes if P(BTTS) >= 0.5, otherwise no",
+    "calibrated": false,
+    "post_result_parameter_tuning": false
+  },
+  "limitations": [
+    "The reconstruction is created in November 2026. It is not a forecast actually recorded before the fixture.",
+    "The final result is publicly known and may be known to the analyst. A deterministic rule makes the calculation reproducible but does not create a blind test.",
+    "This simple equal-weight rate rule is an experimental baseline, not a fitted or validated football model.",
+    "Goal counts use normal time plus stoppage time, excluding extra time and shootouts.",
+    "Historical source pages are retrieved now. Their original versions and original publication times are not fully archived.",
+    "No post-cutoff news or final-match statistics may be used as model features. The final result is evaluated separately."
+  ]
+}

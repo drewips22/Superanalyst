@@ -103,6 +103,51 @@ class EvaluationTests(unittest.TestCase):
             with self.subTest(field=field), self.assertRaises(ValueError):
                 evaluate([row])
 
+    def reconstruction(self):
+        row = copy.deepcopy(self.rows[0])
+        row.pop("recorded_at")
+        row.pop("features_available_at")
+        row.update(mode="retrospective_reconstruction", reconstructed_at="2026-11-11T00:00:00Z",
+                   point_in_time_verified=False,
+                   reconstruction_notes="Rebuilt now; historical original versions were not archived.")
+        return row
+
+    def test_reconstruction_preserves_real_creation_time(self):
+        row = self.reconstruction()
+        row["result"].pop("finished_at")
+        row["result"]["completed_date_utc"] = "2026-10-01"
+        group = evaluate([row])["groups"][0]
+        self.assertEqual(group["mode"], "retrospective_reconstruction")
+        self.assertAlmostEqual(group["brier_1x2"], .38)
+
+    def test_forecast_and_reconstruction_never_pool(self):
+        rebuilt = self.reconstruction()
+        rebuilt["prediction_id"] = "rebuilt"
+        groups = evaluate([self.rows[0], rebuilt])["groups"]
+        self.assertEqual({g["mode"] for g in groups}, {"forecast", "retrospective_reconstruction"})
+        self.assertTrue(all(g["scored"] == 1 for g in groups))
+
+    def test_reconstruction_cannot_forge_old_recording_time(self):
+        row = self.reconstruction()
+        row["recorded_at"] = self.rows[0]["recorded_at"]
+        with self.assertRaisesRegex(ValueError, "masquerade"):
+            evaluate([row])
+
+    def test_reconstruction_rejects_post_cutoff_features(self):
+        row = self.reconstruction()
+        row["features_available_at"] = "2026-10-01T11:31:00Z"
+        with self.assertRaisesRegex(ValueError, "exceeds as_of"):
+            evaluate([row])
+
+    def test_reconstruction_requires_disclosure_and_actual_chronology(self):
+        for field, value in [("point_in_time_verified", None),
+                             ("reconstruction_notes", ""),
+                             ("reconstructed_at", "2026-09-30T00:00:00Z")]:
+            row = self.reconstruction()
+            row[field] = value
+            with self.subTest(field=field), self.assertRaises(ValueError):
+                evaluate([row])
+
 
 if __name__ == "__main__":
     unittest.main()
