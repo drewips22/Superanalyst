@@ -1,0 +1,62 @@
+{
+  "reviewed_at": "2026-11-12T10:10:58.648759+00:00",
+  "team_opponent_strength": {
+    "status": "tested_UCL",
+    "n_validation": 125,
+    "n_test": 378
+  },
+  "history_windows": {
+    "status": "tested_UCL",
+    "windows": [
+      5,
+      10,
+      20
+    ]
+  },
+  "home_advantage": {
+    "status": "tested_UCL_as_model_component",
+    "fixed_35_percent": false
+  },
+  "rest_congestion": {
+    "status": "tested_UCL_as_model_component",
+    "coverage": "covered ESPN competitive fixtures only"
+  },
+  "travel": {
+    "status": "tested_validation_not_selected",
+    "kind": "great-circle city proxy",
+    "actual_itinerary_tested": false
+  },
+  "h2h": {
+    "status": "tested_validation_not_selected",
+    "cutoff": "prior three years only"
+  },
+  "motivation": {
+    "status": "phase_points_proxy_tested",
+    "psychological_intensity_tested": false,
+    "fixed_18_percent": false
+  },
+  "xg": {
+    "status": "auxiliary_domestic_study_only",
+    "raw_matches": 760,
+    "validation": 179,
+    "test": 222,
+    "modern_UCL_tested": false
+  },
+  "absences_lineups": {
+    "status": "insufficient_historical_announcement_archive",
+    "validation_tools_implemented": true,
+    "predictive_effect_tested": false,
+    "fixed_22_percent": false
+  },
+  "markets": {
+    "status": "no_usable_timestamped_archive_acquired",
+    "polymarket_public_api_attempt": "certificate verification failed in Python and Windows; web reader unavailable; security checks retained",
+    "three_independent_sources_verified": false,
+    "predictive_effect_tested": false,
+    "validation_tools_implemented": true
+  },
+  "luck": {
+    "status": "post_match_unverified_annotation_only",
+    "excluded_results": 0
+  }
+}

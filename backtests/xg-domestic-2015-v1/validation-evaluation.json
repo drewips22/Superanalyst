@@ -1,0 +1,1652 @@
+{
+  "goals5-alpha0": {
+    "n": 179,
+    "log_loss_1x2": 1.0569281500842111,
+    "brier_1x2": 0.6365543513738083,
+    "brier_btts": 0.26377882181717277,
+    "log_loss_btts": 0.7227182336566357,
+    "brier_over_2_5": 0.26867545971007256,
+    "log_loss_over_2_5": 0.7359744862655764,
+    "correct_1x2": 0.4245810055865922,
+    "correct_btts": 0.5139664804469274,
+    "correct_over_2_5": 0.4972067039106145,
+    "outcome_counts": {
+      "home": 72,
+      "draw": 55,
+      "away": 52,
+      "btts_yes": 95,
+      "over_2_5_yes": 89
+    },
+    "calibration": {
+      "p_btts": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 6,
+          "mean_probability": 0.27546933918581645,
+          "observed_rate": 0.8333333333333334
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 21,
+          "mean_probability": 0.36700662225954406,
+          "observed_rate": 0.5714285714285714
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 58,
+          "mean_probability": 0.4601724846299487,
+          "observed_rate": 0.46551724137931033
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 65,
+          "mean_probability": 0.5480580046176313,
+          "observed_rate": 0.5076923076923077
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 27,
+          "mean_probability": 0.6278795410594455,
+          "observed_rate": 0.6296296296296297
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 2,
+          "mean_probability": 0.7219930242905925,
+          "observed_rate": 0.5
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ],
+      "p_over_2_5": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 3,
+          "mean_probability": 0.19115316946194194,
+          "observed_rate": 1.0
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 10,
+          "mean_probability": 0.25361741514418074,
+          "observed_rate": 0.7
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 24,
+          "mean_probability": 0.35032616064618366,
+          "observed_rate": 0.5
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 61,
+          "mean_probability": 0.4432806405785476,
+          "observed_rate": 0.4426229508196721
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 56,
+          "mean_probability": 0.5482911971102004,
+          "observed_rate": 0.39285714285714285
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 20,
+          "mean_probability": 0.6488382721768011,
+          "observed_rate": 0.8
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 5,
+          "mean_probability": 0.7276430631495717,
+          "observed_rate": 0.4
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ]
+    }
+  },
+  "goals5-alpha0.25": {
+    "n": 179,
+    "log_loss_1x2": 1.0511743118204397,
+    "brier_1x2": 0.6322901461949137,
+    "brier_btts": 0.2586970535452884,
+    "log_loss_btts": 0.7113944140212309,
+    "brier_over_2_5": 0.2629049920074487,
+    "log_loss_over_2_5": 0.7216230821184096,
+    "correct_1x2": 0.4301675977653631,
+    "correct_btts": 0.5139664804469274,
+    "correct_over_2_5": 0.44692737430167595,
+    "outcome_counts": {
+      "home": 72,
+      "draw": 55,
+      "away": 52,
+      "btts_yes": 95,
+      "over_2_5_yes": 89
+    },
+    "calibration": {
+      "p_btts": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 1,
+          "mean_probability": 0.2941584755707811,
+          "observed_rate": 1.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 13,
+          "mean_probability": 0.35638160595237844,
+          "observed_rate": 0.6153846153846154
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 71,
+          "mean_probability": 0.4564977519929197,
+          "observed_rate": 0.49295774647887325
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 79,
+          "mean_probability": 0.5486578302102794,
+          "observed_rate": 0.5316455696202531
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 15,
+          "mean_probability": 0.6349973765084798,
+          "observed_rate": 0.6
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ],
+      "p_over_2_5": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 7,
+          "mean_probability": 0.25612980418144804,
+          "observed_rate": 0.8571428571428571
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 34,
+          "mean_probability": 0.36003723614955296,
+          "observed_rate": 0.5294117647058824
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 68,
+          "mean_probability": 0.4531213193739683,
+          "observed_rate": 0.5147058823529411
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 53,
+          "mean_probability": 0.5474397831872935,
+          "observed_rate": 0.33962264150943394
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 16,
+          "mean_probability": 0.6399668672255538,
+          "observed_rate": 0.75
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 1,
+          "mean_probability": 0.7049612049407716,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ]
+    }
+  },
+  "goals5-alpha0.5": {
+    "n": 179,
+    "log_loss_1x2": 1.049263878849531,
+    "brier_1x2": 0.6306910623406615,
+    "brier_btts": 0.25492606261747447,
+    "log_loss_btts": 0.7033430493122814,
+    "brier_over_2_5": 0.25862991433461957,
+    "log_loss_over_2_5": 0.7116794894852726,
+    "correct_1x2": 0.43575418994413406,
+    "correct_btts": 0.5139664804469274,
+    "correct_over_2_5": 0.4860335195530726,
+    "outcome_counts": {
+      "home": 72,
+      "draw": 55,
+      "away": 52,
+      "btts_yes": 95,
+      "over_2_5_yes": 89
+    },
+    "calibration": {
+      "p_btts": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 8,
+          "mean_probability": 0.3675399966099049,
+          "observed_rate": 0.625
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 77,
+          "mean_probability": 0.4577832590694261,
+          "observed_rate": 0.5064935064935064
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 86,
+          "mean_probability": 0.5437592780089495,
+          "observed_rate": 0.5465116279069767
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 8,
+          "mean_probability": 0.6233517127268069,
+          "observed_rate": 0.5
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ],
+      "p_over_2_5": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 3,
+          "mean_probability": 0.2682084174405835,
+          "observed_rate": 1.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 35,
+          "mean_probability": 0.3643482747426325,
+          "observed_rate": 0.5142857142857142
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 78,
+          "mean_probability": 0.452356886777545,
+          "observed_rate": 0.48717948717948717
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 53,
+          "mean_probability": 0.5393432122092937,
+          "observed_rate": 0.4716981132075472
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 10,
+          "mean_probability": 0.6175328977697506,
+          "observed_rate": 0.5
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ]
+    }
+  },
+  "goals5-alpha0.75": {
+    "n": 179,
+    "log_loss_1x2": 1.0511021974873682,
+    "brier_1x2": 0.6319066393451035,
+    "brier_btts": 0.2524125399483165,
+    "log_loss_btts": 0.6981087193485958,
+    "brier_over_2_5": 0.2561096754419154,
+    "log_loss_over_2_5": 0.7060325327861007,
+    "correct_1x2": 0.4692737430167598,
+    "correct_btts": 0.5083798882681564,
+    "correct_over_2_5": 0.5251396648044693,
+    "outcome_counts": {
+      "home": 72,
+      "draw": 55,
+      "away": 52,
+      "btts_yes": 95,
+      "over_2_5_yes": 89
+    },
+    "calibration": {
+      "p_btts": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 8,
+          "mean_probability": 0.383631934917915,
+          "observed_rate": 0.625
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 80,
+          "mean_probability": 0.46063253532820064,
+          "observed_rate": 0.5125
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 87,
+          "mean_probability": 0.5388716297647147,
+          "observed_rate": 0.5517241379310345
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 4,
+          "mean_probability": 0.6147799196477811,
+          "observed_rate": 0.25
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ],
+      "p_over_2_5": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 1,
+          "mean_probability": 0.2878260024694731,
+          "observed_rate": 1.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 36,
+          "mean_probability": 0.3663052464838183,
+          "observed_rate": 0.5277777777777778
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 92,
+          "mean_probability": 0.45371386589845,
+          "observed_rate": 0.45652173913043476
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 49,
+          "mean_probability": 0.5395127866414954,
+          "observed_rate": 0.5510204081632653
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 1,
+          "mean_probability": 0.6057004188494481,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ]
+    }
+  },
+  "goals5-alpha1": {
+    "n": 179,
+    "log_loss_1x2": 1.056787659548103,
+    "brier_1x2": 0.6360920766589743,
+    "brier_btts": 0.2511986155657292,
+    "log_loss_btts": 0.6956052670928603,
+    "brier_over_2_5": 0.25552843930421715,
+    "log_loss_over_2_5": 0.7047706184298251,
+    "correct_1x2": 0.48044692737430167,
+    "correct_btts": 0.4972067039106145,
+    "correct_over_2_5": 0.5363128491620112,
+    "outcome_counts": {
+      "home": 72,
+      "draw": 55,
+      "away": 52,
+      "btts_yes": 95,
+      "over_2_5_yes": 89
+    },
+    "calibration": {
+      "p_btts": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 11,
+          "mean_probability": 0.38603866896448163,
+          "observed_rate": 0.5454545454545454
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 85,
+          "mean_probability": 0.46072858762807617,
+          "observed_rate": 0.5294117647058824
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 81,
+          "mean_probability": 0.5375424887502236,
+          "observed_rate": 0.5432098765432098
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 2,
+          "mean_probability": 0.6047713334217631,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ],
+      "p_over_2_5": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 2,
+          "mean_probability": 0.2790963876098283,
+          "observed_rate": 0.5
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 41,
+          "mean_probability": 0.3668635445342959,
+          "observed_rate": 0.5365853658536586
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 88,
+          "mean_probability": 0.4499874305375856,
+          "observed_rate": 0.4431818181818182
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 48,
+          "mean_probability": 0.5329491342708186,
+          "observed_rate": 0.5625
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ]
+    }
+  },
+  "goals10-alpha0": {
+    "n": 179,
+    "log_loss_1x2": 1.0471644817872243,
+    "brier_1x2": 0.6301552353303362,
+    "brier_btts": 0.26040771286041675,
+    "log_loss_btts": 0.7144781748818327,
+    "brier_over_2_5": 0.2675473333906025,
+    "log_loss_over_2_5": 0.73011463440079,
+    "correct_1x2": 0.45251396648044695,
+    "correct_btts": 0.4581005586592179,
+    "correct_over_2_5": 0.4860335195530726,
+    "outcome_counts": {
+      "home": 72,
+      "draw": 55,
+      "away": 52,
+      "btts_yes": 95,
+      "over_2_5_yes": 89
+    },
+    "calibration": {
+      "p_btts": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 11,
+          "mean_probability": 0.37537842814719885,
+          "observed_rate": 0.6363636363636364
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 72,
+          "mean_probability": 0.4552186091119602,
+          "observed_rate": 0.5694444444444444
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 84,
+          "mean_probability": 0.5391367339245945,
+          "observed_rate": 0.4880952380952381
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 12,
+          "mean_probability": 0.6384678150582276,
+          "observed_rate": 0.5
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ],
+      "p_over_2_5": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 3,
+          "mean_probability": 0.2784453619721397,
+          "observed_rate": 1.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 38,
+          "mean_probability": 0.36555996190822215,
+          "observed_rate": 0.5263157894736842
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 75,
+          "mean_probability": 0.45226949242602255,
+          "observed_rate": 0.48
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 51,
+          "mean_probability": 0.5420079446988572,
+          "observed_rate": 0.5294117647058824
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 12,
+          "mean_probability": 0.6482318869326656,
+          "observed_rate": 0.25
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ]
+    }
+  },
+  "goals10-alpha0.25": {
+    "n": 179,
+    "log_loss_1x2": 1.0446311936759076,
+    "brier_1x2": 0.628139705354345,
+    "brier_btts": 0.25785710209839585,
+    "log_loss_btts": 0.7091218939354691,
+    "brier_over_2_5": 0.26370799874897677,
+    "log_loss_over_2_5": 0.7215291065977526,
+    "correct_1x2": 0.4692737430167598,
+    "correct_btts": 0.45251396648044695,
+    "correct_over_2_5": 0.49162011173184356,
+    "outcome_counts": {
+      "home": 72,
+      "draw": 55,
+      "away": 52,
+      "btts_yes": 95,
+      "over_2_5_yes": 89
+    },
+    "calibration": {
+      "p_btts": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 5,
+          "mean_probability": 0.37891168462786107,
+          "observed_rate": 0.4
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 77,
+          "mean_probability": 0.45729272004243754,
+          "observed_rate": 0.5974025974025974
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 88,
+          "mean_probability": 0.5337266708877483,
+          "observed_rate": 0.5
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 9,
+          "mean_probability": 0.6248487993737144,
+          "observed_rate": 0.3333333333333333
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ],
+      "p_over_2_5": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 1,
+          "mean_probability": 0.2674258350957185,
+          "observed_rate": 1.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 34,
+          "mean_probability": 0.3725471049922418,
+          "observed_rate": 0.5294117647058824
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 90,
+          "mean_probability": 0.45007580092461197,
+          "observed_rate": 0.4888888888888889
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 46,
+          "mean_probability": 0.5368799094210085,
+          "observed_rate": 0.5217391304347826
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 8,
+          "mean_probability": 0.6240993722166118,
+          "observed_rate": 0.25
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ]
+    }
+  },
+  "goals10-alpha0.5": {
+    "n": 179,
+    "log_loss_1x2": 1.0441394473317689,
+    "brier_1x2": 0.6276307885337277,
+    "brier_btts": 0.25582041552106743,
+    "log_loss_btts": 0.7049187416169989,
+    "brier_over_2_5": 0.2606125250089918,
+    "log_loss_over_2_5": 0.7148769247679493,
+    "correct_1x2": 0.4692737430167598,
+    "correct_btts": 0.4692737430167598,
+    "correct_over_2_5": 0.49162011173184356,
+    "outcome_counts": {
+      "home": 72,
+      "draw": 55,
+      "away": 52,
+      "btts_yes": 95,
+      "over_2_5_yes": 89
+    },
+    "calibration": {
+      "p_btts": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 2,
+          "mean_probability": 0.37008847282964497,
+          "observed_rate": 0.5
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 91,
+          "mean_probability": 0.46437341168617685,
+          "observed_rate": 0.5604395604395604
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 83,
+          "mean_probability": 0.5358352005465036,
+          "observed_rate": 0.5060240963855421
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 3,
+          "mean_probability": 0.6187178477695746,
+          "observed_rate": 0.3333333333333333
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ],
+      "p_over_2_5": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 1,
+          "mean_probability": 0.29234155672903916,
+          "observed_rate": 1.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 30,
+          "mean_probability": 0.37901677065853134,
+          "observed_rate": 0.4666666666666667
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 102,
+          "mean_probability": 0.4488280127604809,
+          "observed_rate": 0.5098039215686274
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 43,
+          "mean_probability": 0.5312855768275767,
+          "observed_rate": 0.5116279069767442
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 3,
+          "mean_probability": 0.6088509773673106,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ]
+    }
+  },
+  "goals10-alpha0.75": {
+    "n": 179,
+    "log_loss_1x2": 1.0456849388552063,
+    "brier_1x2": 0.6286969989242743,
+    "brier_btts": 0.25429699361459523,
+    "log_loss_btts": 0.7018101544469342,
+    "brier_over_2_5": 0.2583517340539119,
+    "log_loss_over_2_5": 0.7101957318940393,
+    "correct_1x2": 0.48044692737430167,
+    "correct_btts": 0.5027932960893855,
+    "correct_over_2_5": 0.4860335195530726,
+    "outcome_counts": {
+      "home": 72,
+      "draw": 55,
+      "away": 52,
+      "btts_yes": 95,
+      "over_2_5_yes": 89
+    },
+    "calibration": {
+      "p_btts": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 2,
+          "mean_probability": 0.3803486607762261,
+          "observed_rate": 0.5
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 99,
+          "mean_probability": 0.46715315639544847,
+          "observed_rate": 0.5252525252525253
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 77,
+          "mean_probability": 0.5340404850482255,
+          "observed_rate": 0.5454545454545454
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 1,
+          "mean_probability": 0.6134539513539632,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ],
+      "p_over_2_5": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 31,
+          "mean_probability": 0.3747218148054156,
+          "observed_rate": 0.5806451612903226
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 111,
+          "mean_probability": 0.4499812759970822,
+          "observed_rate": 0.4864864864864865
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 37,
+          "mean_probability": 0.5259732199273582,
+          "observed_rate": 0.4594594594594595
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ]
+    }
+  },
+  "goals10-alpha1": {
+    "n": 179,
+    "log_loss_1x2": 1.0493287176847408,
+    "brier_1x2": 0.6314086489793986,
+    "brier_btts": 0.2533119740663258,
+    "log_loss_btts": 0.6998131595981387,
+    "brier_over_2_5": 0.25700783848555986,
+    "log_loss_over_2_5": 0.7075544511369652,
+    "correct_1x2": 0.4860335195530726,
+    "correct_btts": 0.5139664804469274,
+    "correct_over_2_5": 0.4972067039106145,
+    "outcome_counts": {
+      "home": 72,
+      "draw": 55,
+      "away": 52,
+      "btts_yes": 95,
+      "over_2_5_yes": 89
+    },
+    "calibration": {
+      "p_btts": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 2,
+          "mean_probability": 0.38262320327503363,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 101,
+          "mean_probability": 0.46146577484053547,
+          "observed_rate": 0.5247524752475248
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 76,
+          "mean_probability": 0.5337402817761708,
+          "observed_rate": 0.5526315789473685
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ],
+      "p_over_2_5": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 32,
+          "mean_probability": 0.36607243314453874,
+          "observed_rate": 0.5625
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 118,
+          "mean_probability": 0.4491272378782835,
+          "observed_rate": 0.4830508474576271
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 29,
+          "mean_probability": 0.5225711291334609,
+          "observed_rate": 0.4827586206896552
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ]
+    }
+  }
+}

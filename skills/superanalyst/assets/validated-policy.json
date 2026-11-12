@@ -1,0 +1,33 @@
+{
+  "policy_version": "0.4.0-experimental",
+  "source_experiment": "ucl-model-upgrade-v1",
+  "status": "provisional_retrospective_recipe",
+  "automatic_global_installation": false,
+  "competition_scope": "UEFA Champions League men's main phase and knockouts",
+  "horizon_hours": 24,
+  "outcome_scope": "90m",
+  "point_in_time_verified": false,
+  "requires_fresh_historical_data_and_refit": true,
+  "calibrated": false,
+  "models_by_target": {
+    "1x2": {
+      "variant": "team_strength_home_form10_rest_motivation",
+      "promotion_gate_passed": true
+    },
+    "btts": {
+      "variant": "goals_last20",
+      "promotion_gate_passed": true
+    },
+    "over_2_5": {
+      "variant": "team_strength",
+      "promotion_gate_passed": true
+    }
+  },
+  "unsupported_or_inactive": [
+    "historical role-weighted absences",
+    "T-30 market anomalies",
+    "fixed 22%, 35%, 18% adjustments",
+    "automatic transfer of auxiliary xG findings to UCL"
+  ],
+  "note": "Use separate target models and identify each one. Historical monthly model snapshots are replay artifacts, not current ratings for a future match. A current forecast needs appropriate updated data and an actual pre-kickoff recording."
+}

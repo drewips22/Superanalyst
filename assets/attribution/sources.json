@@ -1,0 +1,12 @@
+{
+  "StatsBomb": {
+    "source": "https://github.com/hudl/open-data",
+    "terms": "https://github.com/hudl/open-data/blob/master/LICENSE.pdf",
+    "logo_source": "https://raw.githubusercontent.com/hudl/open-data/master/img/SB%20-%20Icon%20Lockup%20-%20Colour%20positive.png",
+    "logo_sha256": "8ba5480785f0dc4be2342ec47c70509483eb79287f85f92be1dfba36fc2872a7"
+  },
+  "GeoNames": {
+    "source": "https://www.geonames.org/export/",
+    "license": "Creative Commons Attribution"
+  }
+}

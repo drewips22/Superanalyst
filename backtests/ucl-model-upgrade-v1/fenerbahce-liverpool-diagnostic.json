@@ -1,0 +1,32 @@
+{
+  "user_hypothesis": "Pengguna menduga kemenangan Fenerbahce disebabkan keberuntungan dan tetap mengunggulkan data/pola pralaga Liverpool.",
+  "actual_1x2": "home",
+  "pre_match_favourite": "away",
+  "favourite_failed_to_win": true,
+  "probability_of_observed_outcome": 0.2329335224694045,
+  "postmatch_chance_quality_available": false,
+  "luck_status": "unverified",
+  "excluded_from_evaluation": false,
+  "result_label_changed": false,
+  "prediction_adjustment": null,
+  "postmatch_xg": null,
+  "note": "Post-match diagnosis only. It cannot become a pre-match feature for this match or remove a model miss.",
+  "match_id": "401915382",
+  "home": "Fenerbahce",
+  "away": "Liverpool",
+  "postmatch_statistics": {
+    "Fenerbahce": {
+      "shots": 17,
+      "shots_on_target": 6,
+      "possession_pct": 32.4
+    },
+    "Liverpool": {
+      "shots": 22,
+      "shots_on_target": 6,
+      "possession_pct": 67.6
+    }
+  },
+  "statistics_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915382",
+  "recorded_at": "2026-11-12T10:05:06.422412+00:00",
+  "interpretation": "Liverpool was the pre-match model favourite. More possession/shots, equal shots on target, and unavailable comparable xG do not establish luck as the cause. Original 1X2 miss remains in the nine-match evaluation."
+}

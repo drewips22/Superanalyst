@@ -1,0 +1,5445 @@
+{
+  "created_at": "2026-11-12T10:05:06.599443+00:00",
+  "mode": "posthoc_diagnostic",
+  "not_used_for_selection_or_promotion": true,
+  "reason": "The selected mixture changes both window (5 to 10) and xG weight. A matched ten-game goals-only control is needed before attributing the combined model gain to xG.",
+  "control_metrics": {
+    "n": 222,
+    "log_loss_1x2": 1.0278754185164551,
+    "brier_1x2": 0.615195319998074,
+    "brier_btts": 0.2405313330124588,
+    "log_loss_btts": 0.6738117197457587,
+    "brier_over_2_5": 0.25327107000175836,
+    "log_loss_over_2_5": 0.7003190653149015,
+    "correct_1x2": 0.49099099099099097,
+    "correct_btts": 0.5855855855855856,
+    "correct_over_2_5": 0.545045045045045,
+    "outcome_counts": {
+      "home": 105,
+      "draw": 56,
+      "away": 61,
+      "btts_yes": 117,
+      "over_2_5_yes": 121
+    },
+    "calibration": {
+      "p_btts": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 2,
+          "mean_probability": 0.2571306174134169,
+          "observed_rate": 0.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 24,
+          "mean_probability": 0.3578237135146261,
+          "observed_rate": 0.4583333333333333
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 87,
+          "mean_probability": 0.4579034407304906,
+          "observed_rate": 0.4482758620689655
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 90,
+          "mean_probability": 0.5485849305505767,
+          "observed_rate": 0.6
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 19,
+          "mean_probability": 0.6340347761970501,
+          "observed_rate": 0.6842105263157895
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ],
+      "p_over_2_5": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 11,
+          "mean_probability": 0.2828218334480233,
+          "observed_rate": 0.36363636363636365
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 37,
+          "mean_probability": 0.3586752866316943,
+          "observed_rate": 0.5135135135135135
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 82,
+          "mean_probability": 0.4470471444662252,
+          "observed_rate": 0.5121951219512195
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 74,
+          "mean_probability": 0.5423317481580607,
+          "observed_rate": 0.5945945945945946
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 18,
+          "mean_probability": 0.6453929902845666,
+          "observed_rate": 0.6666666666666666
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ]
+    }
+  },
+  "selected_mixture_metrics": {
+    "n": 222,
+    "log_loss_1x2": 1.0212328430064104,
+    "brier_1x2": 0.6117012650704461,
+    "brier_btts": 0.24156018469863855,
+    "log_loss_btts": 0.6760571510439507,
+    "brier_over_2_5": 0.253039862703196,
+    "log_loss_over_2_5": 0.6994235387972404,
+    "correct_1x2": 0.4774774774774775,
+    "correct_btts": 0.5855855855855856,
+    "correct_over_2_5": 0.5135135135135135,
+    "outcome_counts": {
+      "home": 105,
+      "draw": 56,
+      "away": 61,
+      "btts_yes": 117,
+      "over_2_5_yes": 121
+    },
+    "calibration": {
+      "p_btts": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 11,
+          "mean_probability": 0.37277539777807694,
+          "observed_rate": 0.18181818181818182
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 100,
+          "mean_probability": 0.46218010450515956,
+          "observed_rate": 0.47
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 106,
+          "mean_probability": 0.5341965701231777,
+          "observed_rate": 0.6132075471698113
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 5,
+          "mean_probability": 0.6172004274961871,
+          "observed_rate": 0.6
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ],
+      "p_over_2_5": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 41,
+          "mean_probability": 0.36445925659463785,
+          "observed_rate": 0.4878048780487805
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 124,
+          "mean_probability": 0.455953411889361,
+          "observed_rate": 0.532258064516129
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 54,
+          "mean_probability": 0.5322330000873006,
+          "observed_rate": 0.6296296296296297
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 3,
+          "mean_probability": 0.6122316133588929,
+          "observed_rate": 0.3333333333333333
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_rate": null
+        }
+      ]
+    }
+  },
+  "control_predictions": [
+    {
+      "match_id": "statsbomb-3754050",
+      "kickoff_at": "2016-03-01T00:00:00+00:00",
+      "as_of": "2016-02-29T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sunderland",
+      "away": "Crystal Palace",
+      "p_1x2": {
+        "home": 0.47882132477465844,
+        "draw": 0.24321452285044712,
+        "away": 0.2779641523748944
+      },
+      "p_btts": 0.5646002003418822,
+      "p_over_2_5": 0.5423791164789341,
+      "goal_rates": {
+        "home": 1.65,
+        "away": 1.2
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754231",
+      "kickoff_at": "2016-03-01T00:00:00+00:00",
+      "as_of": "2016-02-29T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Leicester City",
+      "away": "West Bromwich Albion",
+      "p_1x2": {
+        "home": 0.45151267846392457,
+        "draw": 0.3092023133960629,
+        "away": 0.23928500814001258
+      },
+      "p_btts": 0.36056529710256713,
+      "p_over_2_5": 0.29627964655750205,
+      "goal_rates": {
+        "home": 1.15,
+        "away": 0.75
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754280",
+      "kickoff_at": "2016-03-01T00:00:00+00:00",
+      "as_of": "2016-02-29T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Norwich City",
+      "away": "Chelsea",
+      "p_1x2": {
+        "home": 0.17671359698037176,
+        "draw": 0.20711284687682105,
+        "away": 0.6161735561428072
+      },
+      "p_btts": 0.5507445796318944,
+      "p_over_2_5": 0.5879181591415851,
+      "goal_rates": {
+        "home": 1.0,
+        "away": 2.05
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754327",
+      "kickoff_at": "2016-03-01T00:00:00+00:00",
+      "as_of": "2016-02-29T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Aston Villa",
+      "away": "Everton",
+      "p_1x2": {
+        "home": 0.23383875499527448,
+        "draw": 0.24027210698066623,
+        "away": 0.5258891380240592
+      },
+      "p_btts": 0.5313065880428174,
+      "p_over_2_5": 0.5185432952869836,
+      "goal_rates": {
+        "home": 1.0499999999999998,
+        "away": 1.7
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754334",
+      "kickoff_at": "2016-03-01T00:00:00+00:00",
+      "as_of": "2016-02-29T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AFC Bournemouth",
+      "away": "Southampton",
+      "p_1x2": {
+        "home": 0.18636079801007105,
+        "draw": 0.29040723979454924,
+        "away": 0.5232319621953797
+      },
+      "p_btts": 0.3476965017914849,
+      "p_over_2_5": 0.3097929102159259,
+      "goal_rates": {
+        "home": 0.65,
+        "away": 1.2999999999999998
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3753976",
+      "kickoff_at": "2016-03-02T00:00:00+00:00",
+      "as_of": "2016-03-01T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Arsenal",
+      "away": "Swansea City",
+      "p_1x2": {
+        "home": 0.38307153009385886,
+        "draw": 0.2832359999198037,
+        "away": 0.3336924699863375
+      },
+      "p_btts": 0.46619354811252206,
+      "p_over_2_5": 0.40396117406793175,
+      "goal_rates": {
+        "home": 1.2,
+        "away": 1.1
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3753991",
+      "kickoff_at": "2016-03-02T00:00:00+00:00",
+      "as_of": "2016-03-01T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Liverpool",
+      "away": "Manchester City",
+      "p_1x2": {
+        "home": 0.33809682525452855,
+        "draw": 0.23725759494449702,
+        "away": 0.4246455798009744
+      },
+      "p_btts": 0.618429005679006,
+      "p_over_2_5": 0.5988368526853678,
+      "goal_rates": {
+        "home": 1.4500000000000002,
+        "away": 1.65
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754005",
+      "kickoff_at": "2016-03-02T00:00:00+00:00",
+      "as_of": "2016-03-01T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Stoke City",
+      "away": "Newcastle United",
+      "p_1x2": {
+        "home": 0.456546967495248,
+        "draw": 0.2412600263431344,
+        "away": 0.3021930061616176
+      },
+      "p_btts": 0.5877580042936658,
+      "p_over_2_5": 0.5655150159955757,
+      "goal_rates": {
+        "home": 1.65,
+        "away": 1.3
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754232",
+      "kickoff_at": "2016-03-02T00:00:00+00:00",
+      "as_of": "2016-03-01T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Manchester United",
+      "away": "Watford",
+      "p_1x2": {
+        "home": 0.4340002042813003,
+        "draw": 0.2795972204057589,
+        "away": 0.2864025753129409
+      },
+      "p_btts": 0.45984760951734877,
+      "p_over_2_5": 0.40396117406793175,
+      "goal_rates": {
+        "home": 1.2999999999999998,
+        "away": 1.0
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754349",
+      "kickoff_at": "2016-03-02T00:00:00+00:00",
+      "as_of": "2016-03-01T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "West Ham United",
+      "away": "Tottenham Hotspur",
+      "p_1x2": {
+        "home": 0.28232458335642147,
+        "draw": 0.25222146272250767,
+        "away": 0.46545395392107075
+      },
+      "p_btts": 0.5383207695339535,
+      "p_over_2_5": 0.506375508926538,
+      "goal_rates": {
+        "home": 1.15,
+        "away": 1.55
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879767",
+      "kickoff_at": "2016-03-04T00:00:00+00:00",
+      "as_of": "2016-03-03T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AS Roma",
+      "away": "Fiorentina",
+      "p_1x2": {
+        "home": 0.4914442548022422,
+        "draw": 0.23489570050794478,
+        "away": 0.273660044689813
+      },
+      "p_btts": 0.5895083280572286,
+      "p_over_2_5": 0.5768099188731565,
+      "goal_rates": {
+        "home": 1.75,
+        "away": 1.25
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754061",
+      "kickoff_at": "2016-03-05T00:00:00+00:00",
+      "as_of": "2016-03-04T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Chelsea",
+      "away": "Stoke City",
+      "p_1x2": {
+        "home": 0.525919889402795,
+        "draw": 0.23146083877731455,
+        "away": 0.2426192718198906
+      },
+      "p_btts": 0.5704040483477926,
+      "p_over_2_5": 0.5655150159955755,
+      "goal_rates": {
+        "home": 1.7999999999999998,
+        "away": 1.15
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754151",
+      "kickoff_at": "2016-03-05T00:00:00+00:00",
+      "as_of": "2016-03-04T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Swansea City",
+      "away": "Norwich City",
+      "p_1x2": {
+        "home": 0.46656298065208657,
+        "draw": 0.24711466871775278,
+        "away": 0.2863223506301607
+      },
+      "p_btts": 0.5577193327183606,
+      "p_over_2_5": 0.5305463165333173,
+      "goal_rates": {
+        "home": 1.6,
+        "away": 1.2000000000000002
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754164",
+      "kickoff_at": "2016-03-05T00:00:00+00:00",
+      "as_of": "2016-03-04T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Southampton",
+      "away": "Sunderland",
+      "p_1x2": {
+        "home": 0.41097967201887015,
+        "draw": 0.27488854959771597,
+        "away": 0.3141317783834138
+      },
+      "p_btts": 0.4853150765573204,
+      "p_over_2_5": 0.43029125334248963,
+      "goal_rates": {
+        "home": 1.3,
+        "away": 1.1
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754177",
+      "kickoff_at": "2016-03-05T00:00:00+00:00",
+      "as_of": "2016-03-04T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Newcastle United",
+      "away": "AFC Bournemouth",
+      "p_1x2": {
+        "home": 0.2688032060284245,
+        "draw": 0.26972988562273226,
+        "away": 0.4614669083488433
+      },
+      "p_btts": 0.4762415481763637,
+      "p_over_2_5": 0.4302912533424895,
+      "goal_rates": {
+        "home": 1.0,
+        "away": 1.4
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754249",
+      "kickoff_at": "2016-03-05T00:00:00+00:00",
+      "as_of": "2016-03-04T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Manchester City",
+      "away": "Aston Villa",
+      "p_1x2": {
+        "home": 0.5502014707768489,
+        "draw": 0.23997906393008508,
+        "away": 0.20981946529306614
+      },
+      "p_btts": 0.5012266655531937,
+      "p_over_2_5": 0.49404900047099853,
+      "goal_rates": {
+        "home": 1.7,
+        "away": 0.95
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754277",
+      "kickoff_at": "2016-03-05T00:00:00+00:00",
+      "as_of": "2016-03-04T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Everton",
+      "away": "West Ham United",
+      "p_1x2": {
+        "home": 0.3608927061927828,
+        "draw": 0.25535849946457434,
+        "away": 0.38374879434264286
+      },
+      "p_btts": 0.5580906366192097,
+      "p_over_2_5": 0.5185432952869836,
+      "goal_rates": {
+        "home": 1.35,
+        "away": 1.4
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754289",
+      "kickoff_at": "2016-03-05T00:00:00+00:00",
+      "as_of": "2016-03-04T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Watford",
+      "away": "Leicester City",
+      "p_1x2": {
+        "home": 0.17842320203816403,
+        "draw": 0.2992081595675573,
+        "away": 0.5223686383942787
+      },
+      "p_btts": 0.321920733359411,
+      "p_over_2_5": 0.28280197515196603,
+      "goal_rates": {
+        "home": 0.6,
+        "away": 1.25
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754318",
+      "kickoff_at": "2016-03-05T00:00:00+00:00",
+      "as_of": "2016-03-04T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Tottenham Hotspur",
+      "away": "Arsenal",
+      "p_1x2": {
+        "home": 0.4496300388002306,
+        "draw": 0.2681198030721597,
+        "away": 0.2822501581276097
+      },
+      "p_btts": 0.48975887344660873,
+      "p_over_2_5": 0.4432985000959361,
+      "goal_rates": {
+        "home": 1.4,
+        "away": 1.05
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879768",
+      "kickoff_at": "2016-03-05T00:00:00+00:00",
+      "as_of": "2016-03-04T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Hellas Verona",
+      "away": "Sampdoria",
+      "p_1x2": {
+        "home": 0.3733154561206129,
+        "draw": 0.23215790909621314,
+        "away": 0.39452663478317396
+      },
+      "p_btts": 0.6448277812163126,
+      "p_over_2_5": 0.6304333316038996,
+      "goal_rates": {
+        "home": 1.6,
+        "away": 1.65
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879769",
+      "kickoff_at": "2016-03-05T00:00:00+00:00",
+      "as_of": "2016-03-04T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Napoli",
+      "away": "Chievo",
+      "p_1x2": {
+        "home": 0.6264152786822853,
+        "draw": 0.20256477545686372,
+        "away": 0.17101994586085106
+      },
+      "p_btts": 0.5547133329691336,
+      "p_over_2_5": 0.5988368526853678,
+      "goal_rates": {
+        "home": 2.1,
+        "away": 1.0
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754081",
+      "kickoff_at": "2016-03-06T00:00:00+00:00",
+      "as_of": "2016-03-05T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "West Bromwich Albion",
+      "away": "Manchester United",
+      "p_1x2": {
+        "home": 0.3047448293585973,
+        "draw": 0.2706371687732592,
+        "away": 0.42461800186814347
+      },
+      "p_btts": 0.4941822421553995,
+      "p_over_2_5": 0.4432985000959361,
+      "goal_rates": {
+        "home": 1.1,
+        "away": 1.35
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754220",
+      "kickoff_at": "2016-03-06T00:00:00+00:00",
+      "as_of": "2016-03-05T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Crystal Palace",
+      "away": "Liverpool",
+      "p_1x2": {
+        "home": 0.19142809210363232,
+        "draw": 0.2054714208525007,
+        "away": 0.6031004870438669
+      },
+      "p_btts": 0.5854346920273048,
+      "p_over_2_5": 0.6200962589216269,
+      "goal_rates": {
+        "home": 1.1,
+        "away": 2.1
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879770",
+      "kickoff_at": "2016-03-06T00:00:00+00:00",
+      "as_of": "2016-03-05T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Atalanta",
+      "away": "Juventus",
+      "p_1x2": {
+        "home": 0.0886034495918347,
+        "draw": 0.236834125537865,
+        "away": 0.6745624248703003
+      },
+      "p_btts": 0.263118719206318,
+      "p_over_2_5": 0.3233235838169365,
+      "goal_rates": {
+        "home": 0.39999999999999997,
+        "away": 1.6
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879771",
+      "kickoff_at": "2016-03-06T00:00:00+00:00",
+      "as_of": "2016-03-05T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sassuolo",
+      "away": "AC Milan",
+      "p_1x2": {
+        "home": 0.24711482075778948,
+        "draw": 0.26590261582114433,
+        "away": 0.4869825634210662
+      },
+      "p_btts": 0.46940664174111363,
+      "p_over_2_5": 0.4302912533424895,
+      "goal_rates": {
+        "home": 0.95,
+        "away": 1.45
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879772",
+      "kickoff_at": "2016-03-06T00:00:00+00:00",
+      "as_of": "2016-03-05T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Torino",
+      "away": "Lazio",
+      "p_1x2": {
+        "home": 0.30032605854633626,
+        "draw": 0.2773165994744561,
+        "away": 0.4223573419792076
+      },
+      "p_btts": 0.47289962007038167,
+      "p_over_2_5": 0.4171752074102223,
+      "goal_rates": {
+        "home": 1.05,
+        "away": 1.2999999999999998
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879773",
+      "kickoff_at": "2016-03-06T00:00:00+00:00",
+      "as_of": "2016-03-05T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Frosinone",
+      "away": "Udinese",
+      "p_1x2": {
+        "home": 0.3351141331023062,
+        "draw": 0.2601361125230153,
+        "away": 0.4047497543746785
+      },
+      "p_btts": 0.5375494522586329,
+      "p_over_2_5": 0.49404900047099853,
+      "goal_rates": {
+        "home": 1.25,
+        "away": 1.4
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879774",
+      "kickoff_at": "2016-03-06T00:00:00+00:00",
+      "as_of": "2016-03-05T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Inter Milan",
+      "away": "Palermo",
+      "p_1x2": {
+        "home": 0.4665629806520866,
+        "draw": 0.24711466871775278,
+        "away": 0.28632235063016065
+      },
+      "p_btts": 0.5577193327183604,
+      "p_over_2_5": 0.5305463165333173,
+      "goal_rates": {
+        "home": 1.6,
+        "away": 1.2
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879775",
+      "kickoff_at": "2016-03-06T00:00:00+00:00",
+      "as_of": "2016-03-05T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Genoa",
+      "away": "Empoli",
+      "p_1x2": {
+        "home": 0.5001465395597642,
+        "draw": 0.2606600110101884,
+        "away": 0.2391934494300475
+      },
+      "p_btts": 0.4764224028964395,
+      "p_over_2_5": 0.4432985000959361,
+      "goal_rates": {
+        "home": 1.5,
+        "away": 0.95
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879776",
+      "kickoff_at": "2016-03-06T00:00:00+00:00",
+      "as_of": "2016-03-05T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Bologna",
+      "away": "Carpi",
+      "p_1x2": {
+        "home": 0.4074739466950461,
+        "draw": 0.3197823593420122,
+        "away": 0.2727436939629417
+      },
+      "p_btts": 0.3579704530852507,
+      "p_over_2_5": 0.28280197515196603,
+      "goal_rates": {
+        "home": 1.05,
+        "away": 0.8
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879777",
+      "kickoff_at": "2016-03-11T00:00:00+00:00",
+      "as_of": "2016-03-10T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Juventus",
+      "away": "Sassuolo",
+      "p_1x2": {
+        "home": 0.6024289068971614,
+        "draw": 0.24171726841009614,
+        "away": 0.15585382469274248
+      },
+      "p_btts": 0.40673394980338606,
+      "p_over_2_5": 0.4171752074102224,
+      "goal_rates": {
+        "home": 1.65,
+        "away": 0.7000000000000001
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3753988",
+      "kickoff_at": "2016-03-12T00:00:00+00:00",
+      "as_of": "2016-03-11T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AFC Bournemouth",
+      "away": "Swansea City",
+      "p_1x2": {
+        "home": 0.39986334176038296,
+        "draw": 0.27232401914576243,
+        "away": 0.32781263909385455
+      },
+      "p_btts": 0.4971250240863047,
+      "p_over_2_5": 0.4432985000959361,
+      "goal_rates": {
+        "home": 1.3,
+        "away": 1.15
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754196",
+      "kickoff_at": "2016-03-12T00:00:00+00:00",
+      "as_of": "2016-03-11T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Stoke City",
+      "away": "Southampton",
+      "p_1x2": {
+        "home": 0.25237597017439417,
+        "draw": 0.2914896974245748,
+        "away": 0.456134332401031
+      },
+      "p_btts": 0.4085366994440652,
+      "p_over_2_5": 0.350368648117931,
+      "goal_rates": {
+        "home": 0.8500000000000001,
+        "away": 1.25
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754313",
+      "kickoff_at": "2016-03-12T00:00:00+00:00",
+      "as_of": "2016-03-11T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Norwich City",
+      "away": "Manchester City",
+      "p_1x2": {
+        "home": 0.20131363164426203,
+        "draw": 0.22579094622573945,
+        "away": 0.5728954221299986
+      },
+      "p_btts": 0.5327277133897685,
+      "p_over_2_5": 0.5423791164789342,
+      "goal_rates": {
+        "home": 1.0,
+        "away": 1.85
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879778",
+      "kickoff_at": "2016-03-12T00:00:00+00:00",
+      "as_of": "2016-03-11T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Empoli",
+      "away": "Sampdoria",
+      "p_1x2": {
+        "home": 0.3261967691005406,
+        "draw": 0.23872373264853286,
+        "away": 0.43507949825092657
+      },
+      "p_btts": 0.6087120518287803,
+      "p_over_2_5": 0.5879181591415851,
+      "goal_rates": {
+        "home": 1.4,
+        "away": 1.65
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879779",
+      "kickoff_at": "2016-03-12T00:00:00+00:00",
+      "as_of": "2016-03-11T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Inter Milan",
+      "away": "Bologna",
+      "p_1x2": {
+        "home": 0.3050568407879531,
+        "draw": 0.2893933293186845,
+        "away": 0.40554982989336236
+      },
+      "p_btts": 0.44172950527868937,
+      "p_over_2_5": 0.37728625000368354,
+      "goal_rates": {
+        "home": 1.0,
+        "away": 1.2
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754053",
+      "kickoff_at": "2016-03-13T00:00:00+00:00",
+      "as_of": "2016-03-12T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Aston Villa",
+      "away": "Tottenham Hotspur",
+      "p_1x2": {
+        "home": 0.14594542299352123,
+        "draw": 0.20999076678279072,
+        "away": 0.6440638102236881
+      },
+      "p_btts": 0.47232482550297245,
+      "p_over_2_5": 0.5185432952869836,
+      "goal_rates": {
+        "home": 0.8,
+        "away": 1.9500000000000002
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879780",
+      "kickoff_at": "2016-03-13T00:00:00+00:00",
+      "as_of": "2016-03-12T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Fiorentina",
+      "away": "Hellas Verona",
+      "p_1x2": {
+        "home": 0.42138849793081945,
+        "draw": 0.2463874819440845,
+        "away": 0.33222402012509605
+      },
+      "p_btts": 0.5835349855837727,
+      "p_over_2_5": 0.5540368014428195,
+      "goal_rates": {
+        "home": 1.55,
+        "away": 1.35
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879781",
+      "kickoff_at": "2016-03-13T00:00:00+00:00",
+      "as_of": "2016-03-12T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Chievo",
+      "away": "AC Milan",
+      "p_1x2": {
+        "home": 0.1923440739553666,
+        "draw": 0.24444846961170727,
+        "away": 0.5632074564329262
+      },
+      "p_btts": 0.4626201580544181,
+      "p_over_2_5": 0.4561868841166704,
+      "goal_rates": {
+        "home": 0.8500000000000001,
+        "away": 1.65
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879782",
+      "kickoff_at": "2016-03-13T00:00:00+00:00",
+      "as_of": "2016-03-12T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Carpi",
+      "away": "Frosinone",
+      "p_1x2": {
+        "home": 0.4340002042813003,
+        "draw": 0.2795972204057588,
+        "away": 0.28640257531294083
+      },
+      "p_btts": 0.4598476095173488,
+      "p_over_2_5": 0.40396117406793175,
+      "goal_rates": {
+        "home": 1.3,
+        "away": 1.0
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879783",
+      "kickoff_at": "2016-03-13T00:00:00+00:00",
+      "as_of": "2016-03-12T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Udinese",
+      "away": "AS Roma",
+      "p_1x2": {
+        "home": 0.12608622189537866,
+        "draw": 0.19700997691824587,
+        "away": 0.6769038011863754
+      },
+      "p_btts": 0.45970860629639904,
+      "p_over_2_5": 0.5305463165333173,
+      "goal_rates": {
+        "home": 0.75,
+        "away": 2.05
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879784",
+      "kickoff_at": "2016-03-13T00:00:00+00:00",
+      "as_of": "2016-03-12T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Genoa",
+      "away": "Torino",
+      "p_1x2": {
+        "home": 0.41427102891330575,
+        "draw": 0.30068368077667884,
+        "away": 0.2850452903100154
+      },
+      "p_btts": 0.40552847446815177,
+      "p_over_2_5": 0.3368543278933236,
+      "goal_rates": {
+        "home": 1.15,
+        "away": 0.8999999999999999
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879785",
+      "kickoff_at": "2016-03-13T00:00:00+00:00",
+      "as_of": "2016-03-12T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Lazio",
+      "away": "Atalanta",
+      "p_1x2": {
+        "home": 0.4846787487099347,
+        "draw": 0.27942489993982517,
+        "away": 0.23589635135024017
+      },
+      "p_btts": 0.4241479657677158,
+      "p_over_2_5": 0.37728625000368354,
+      "goal_rates": {
+        "home": 1.35,
+        "away": 0.8500000000000001
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879786",
+      "kickoff_at": "2016-03-13T00:00:00+00:00",
+      "as_of": "2016-03-12T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Palermo",
+      "away": "Napoli",
+      "p_1x2": {
+        "home": 0.14073407109543193,
+        "draw": 0.1826875849022797,
+        "away": 0.6765783440022884
+      },
+      "p_btts": 0.551774340654417,
+      "p_over_2_5": 0.6304333316038996,
+      "goal_rates": {
+        "home": 0.95,
+        "away": 2.3
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754002",
+      "kickoff_at": "2016-03-14T00:00:00+00:00",
+      "as_of": "2016-03-13T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Leicester City",
+      "away": "Newcastle United",
+      "p_1x2": {
+        "home": 0.612832507894757,
+        "draw": 0.23077391580250495,
+        "away": 0.15639357630273804
+      },
+      "p_btts": 0.43594450243243893,
+      "p_over_2_5": 0.4561868841166704,
+      "goal_rates": {
+        "home": 1.75,
+        "away": 0.75
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3753973",
+      "kickoff_at": "2016-03-19T00:00:00+00:00",
+      "as_of": "2016-03-18T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Chelsea",
+      "away": "West Ham United",
+      "p_1x2": {
+        "home": 0.40899215885188384,
+        "draw": 0.24945436520090772,
+        "away": 0.34155347594720853
+      },
+      "p_btts": 0.5754739000805172,
+      "p_over_2_5": 0.5423791164789342,
+      "goal_rates": {
+        "home": 1.5,
+        "away": 1.35
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3753977",
+      "kickoff_at": "2016-03-19T00:00:00+00:00",
+      "as_of": "2016-03-18T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Watford",
+      "away": "Stoke City",
+      "p_1x2": {
+        "home": 0.33513371639666273,
+        "draw": 0.30381215513058835,
+        "away": 0.361054128472749
+      },
+      "p_btts": 0.4109177133052066,
+      "p_over_2_5": 0.3368543278933236,
+      "goal_rates": {
+        "home": 1.0,
+        "away": 1.05
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3753980",
+      "kickoff_at": "2016-03-19T00:00:00+00:00",
+      "as_of": "2016-03-18T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Everton",
+      "away": "Arsenal",
+      "p_1x2": {
+        "home": 0.41091156741547785,
+        "draw": 0.24458947587131116,
+        "away": 0.34449895671321096
+      },
+      "p_btts": 0.5934947681800828,
+      "p_over_2_5": 0.5655150159955755,
+      "goal_rates": {
+        "home": 1.5499999999999998,
+        "away": 1.4
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754052",
+      "kickoff_at": "2016-03-19T00:00:00+00:00",
+      "as_of": "2016-03-18T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "West Bromwich Albion",
+      "away": "Norwich City",
+      "p_1x2": {
+        "home": 0.5379479822972693,
+        "draw": 0.24022655076268118,
+        "away": 0.2218254669400495
+      },
+      "p_btts": 0.5166425475155728,
+      "p_over_2_5": 0.506375508926538,
+      "goal_rates": {
+        "home": 1.7000000000000002,
+        "away": 1.0
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754181",
+      "kickoff_at": "2016-03-19T00:00:00+00:00",
+      "as_of": "2016-03-18T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Crystal Palace",
+      "away": "Leicester City",
+      "p_1x2": {
+        "home": 0.13549876457750676,
+        "draw": 0.20783615916344483,
+        "away": 0.6566650762590484
+      },
+      "p_btts": 0.4525648884122215,
+      "p_over_2_5": 0.506375508926538,
+      "goal_rates": {
+        "home": 0.75,
+        "away": 1.95
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754224",
+      "kickoff_at": "2016-03-19T00:00:00+00:00",
+      "as_of": "2016-03-18T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Swansea City",
+      "away": "Aston Villa",
+      "p_1x2": {
+        "home": 0.5258149120696997,
+        "draw": 0.24510063642426416,
+        "away": 0.2290844515060361
+      },
+      "p_btts": 0.5107218632682331,
+      "p_over_2_5": 0.49404900047099853,
+      "goal_rates": {
+        "home": 1.65,
+        "away": 1.0
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879787",
+      "kickoff_at": "2016-03-19T00:00:00+00:00",
+      "as_of": "2016-03-18T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AS Roma",
+      "away": "Inter Milan",
+      "p_1x2": {
+        "home": 0.5705483736276765,
+        "draw": 0.21485305961340564,
+        "away": 0.2145985667589178
+      },
+      "p_btts": 0.5908800742513742,
+      "p_over_2_5": 0.6095635590826801,
+      "goal_rates": {
+        "home": 2.0,
+        "away": 1.15
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879788",
+      "kickoff_at": "2016-03-19T00:00:00+00:00",
+      "as_of": "2016-03-18T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Empoli",
+      "away": "Palermo",
+      "p_1x2": {
+        "home": 0.423068868898003,
+        "draw": 0.2416906577714976,
+        "away": 0.33524047333049944
+      },
+      "p_btts": 0.6012935864316021,
+      "p_over_2_5": 0.5768099188731565,
+      "goal_rates": {
+        "home": 1.6,
+        "away": 1.4
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754043",
+      "kickoff_at": "2016-03-20T00:00:00+00:00",
+      "as_of": "2016-03-19T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Tottenham Hotspur",
+      "away": "AFC Bournemouth",
+      "p_1x2": {
+        "home": 0.46656298065208657,
+        "draw": 0.24711466871775278,
+        "away": 0.2863223506301607
+      },
+      "p_btts": 0.5577193327183606,
+      "p_over_2_5": 0.5305463165333173,
+      "goal_rates": {
+        "home": 1.6,
+        "away": 1.2000000000000002
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754064",
+      "kickoff_at": "2016-03-20T00:00:00+00:00",
+      "as_of": "2016-03-19T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Southampton",
+      "away": "Liverpool",
+      "p_1x2": {
+        "home": 0.3608927061927828,
+        "draw": 0.2553584994645743,
+        "away": 0.3837487943426429
+      },
+      "p_btts": 0.5580906366192097,
+      "p_over_2_5": 0.5185432952869836,
+      "goal_rates": {
+        "home": 1.35,
+        "away": 1.4000000000000001
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754100",
+      "kickoff_at": "2016-03-20T00:00:00+00:00",
+      "as_of": "2016-03-19T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Newcastle United",
+      "away": "Sunderland",
+      "p_1x2": {
+        "home": 0.26575545392197675,
+        "draw": 0.23114908704296863,
+        "away": 0.5030954590350547
+      },
+      "p_btts": 0.5955552393093643,
+      "p_over_2_5": 0.5879181591415851,
+      "goal_rates": {
+        "home": 1.25,
+        "away": 1.8
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754124",
+      "kickoff_at": "2016-03-20T00:00:00+00:00",
+      "as_of": "2016-03-19T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Manchester City",
+      "away": "Manchester United",
+      "p_1x2": {
+        "home": 0.368043002061801,
+        "draw": 0.26391399587639797,
+        "away": 0.368043002061801
+      },
+      "p_btts": 0.5292099921463088,
+      "p_over_2_5": 0.48157042406394945,
+      "goal_rates": {
+        "home": 1.3,
+        "away": 1.3
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879789",
+      "kickoff_at": "2016-03-20T00:00:00+00:00",
+      "as_of": "2016-03-19T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Frosinone",
+      "away": "Fiorentina",
+      "p_1x2": {
+        "home": 0.3047448293585973,
+        "draw": 0.2706371687732592,
+        "away": 0.42461800186814347
+      },
+      "p_btts": 0.4941822421553995,
+      "p_over_2_5": 0.4432985000959361,
+      "goal_rates": {
+        "home": 1.1,
+        "away": 1.35
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879790",
+      "kickoff_at": "2016-03-20T00:00:00+00:00",
+      "as_of": "2016-03-19T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Torino",
+      "away": "Juventus",
+      "p_1x2": {
+        "home": 0.11709685935987009,
+        "draw": 0.24958254331576366,
+        "away": 0.6333205973243663
+      },
+      "p_btts": 0.30995627004842774,
+      "p_over_2_5": 0.3368543278933236,
+      "goal_rates": {
+        "home": 0.5,
+        "away": 1.55
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879791",
+      "kickoff_at": "2016-03-20T00:00:00+00:00",
+      "as_of": "2016-03-19T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AC Milan",
+      "away": "Lazio",
+      "p_1x2": {
+        "home": 0.39417125353916,
+        "draw": 0.28637710115743575,
+        "away": 0.3194516453034043
+      },
+      "p_btts": 0.4542672635385067,
+      "p_over_2_5": 0.3906607330017219,
+      "goal_rates": {
+        "home": 1.2,
+        "away": 1.0499999999999998
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879792",
+      "kickoff_at": "2016-03-20T00:00:00+00:00",
+      "as_of": "2016-03-19T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sampdoria",
+      "away": "Chievo",
+      "p_1x2": {
+        "home": 0.46758280446206235,
+        "draw": 0.2423141672815589,
+        "away": 0.29010302825637874
+      },
+      "p_btts": 0.576468514575463,
+      "p_over_2_5": 0.5540368014428194,
+      "goal_rates": {
+        "home": 1.65,
+        "away": 1.25
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879793",
+      "kickoff_at": "2016-03-20T00:00:00+00:00",
+      "as_of": "2016-03-19T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sassuolo",
+      "away": "Udinese",
+      "p_1x2": {
+        "home": 0.4869825634210662,
+        "draw": 0.26590261582114433,
+        "away": 0.24711482075778948
+      },
+      "p_btts": 0.46940664174111363,
+      "p_over_2_5": 0.4302912533424895,
+      "goal_rates": {
+        "home": 1.45,
+        "away": 0.95
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879794",
+      "kickoff_at": "2016-03-20T00:00:00+00:00",
+      "as_of": "2016-03-19T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Atalanta",
+      "away": "Bologna",
+      "p_1x2": {
+        "home": 0.23193834527288779,
+        "draw": 0.319280749001178,
+        "away": 0.44878090572593426
+      },
+      "p_btts": 0.3358425007320975,
+      "p_over_2_5": 0.26937891406058756,
+      "goal_rates": {
+        "home": 0.7,
+        "away": 1.1
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879795",
+      "kickoff_at": "2016-03-20T00:00:00+00:00",
+      "as_of": "2016-03-19T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Hellas Verona",
+      "away": "Carpi",
+      "p_1x2": {
+        "home": 0.3315822834442515,
+        "draw": 0.26602160579676165,
+        "away": 0.4023961107589868
+      },
+      "p_btts": 0.5176471934430596,
+      "p_over_2_5": 0.4689470691096572,
+      "goal_rates": {
+        "home": 1.2000000000000002,
+        "away": 1.35
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879796",
+      "kickoff_at": "2016-03-20T00:00:00+00:00",
+      "as_of": "2016-03-19T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Napoli",
+      "away": "Genoa",
+      "p_1x2": {
+        "home": 0.4748298399736863,
+        "draw": 0.2647873060584188,
+        "away": 0.26038285396789485
+      },
+      "p_btts": 0.48384385723413054,
+      "p_over_2_5": 0.4432985000959361,
+      "goal_rates": {
+        "home": 1.4500000000000002,
+        "away": 1.0
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754075",
+      "kickoff_at": "2016-04-02T00:00:00+00:00",
+      "as_of": "2016-04-01T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Aston Villa",
+      "away": "Chelsea",
+      "p_1x2": {
+        "home": 0.1511752419082054,
+        "draw": 0.20676490839060999,
+        "away": 0.6420598497011846
+      },
+      "p_btts": 0.4950941056894991,
+      "p_over_2_5": 0.5423791164789342,
+      "goal_rates": {
+        "home": 0.85,
+        "away": 2.0
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754087",
+      "kickoff_at": "2016-04-02T00:00:00+00:00",
+      "as_of": "2016-04-01T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Liverpool",
+      "away": "Tottenham Hotspur",
+      "p_1x2": {
+        "home": 0.2902546197655979,
+        "draw": 0.21618296334121803,
+        "away": 0.4935624168931841
+      },
+      "p_btts": 0.671731940037276,
+      "p_over_2_5": 0.6791528011378659,
+      "goal_rates": {
+        "home": 1.5,
+        "away": 2.0
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754118",
+      "kickoff_at": "2016-04-02T00:00:00+00:00",
+      "as_of": "2016-04-01T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Arsenal",
+      "away": "Watford",
+      "p_1x2": {
+        "home": 0.4414078325999712,
+        "draw": 0.2975753786611986,
+        "away": 0.26101678873883016
+      },
+      "p_btts": 0.40012575972687536,
+      "p_over_2_5": 0.3368543278933236,
+      "goal_rates": {
+        "home": 1.2,
+        "away": 0.85
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754144",
+      "kickoff_at": "2016-04-02T00:00:00+00:00",
+      "as_of": "2016-04-01T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AFC Bournemouth",
+      "away": "Manchester City",
+      "p_1x2": {
+        "home": 0.368043002061801,
+        "draw": 0.26391399587639797,
+        "away": 0.368043002061801
+      },
+      "p_btts": 0.5292099921463088,
+      "p_over_2_5": 0.48157042406394945,
+      "goal_rates": {
+        "home": 1.3,
+        "away": 1.3
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754175",
+      "kickoff_at": "2016-04-02T00:00:00+00:00",
+      "as_of": "2016-04-01T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sunderland",
+      "away": "West Bromwich Albion",
+      "p_1x2": {
+        "home": 0.368043002061801,
+        "draw": 0.263913995876398,
+        "away": 0.36804300206180107
+      },
+      "p_btts": 0.5292099921463087,
+      "p_over_2_5": 0.48157042406394945,
+      "goal_rates": {
+        "home": 1.2999999999999998,
+        "away": 1.3
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754176",
+      "kickoff_at": "2016-04-02T00:00:00+00:00",
+      "as_of": "2016-04-01T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "West Ham United",
+      "away": "Crystal Palace",
+      "p_1x2": {
+        "home": 0.572103959564465,
+        "draw": 0.22194067766608583,
+        "away": 0.2059553627694492
+      },
+      "p_btts": 0.552833337614642,
+      "p_over_2_5": 0.5655150159955757,
+      "goal_rates": {
+        "home": 1.9,
+        "away": 1.05
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754243",
+      "kickoff_at": "2016-04-02T00:00:00+00:00",
+      "as_of": "2016-04-01T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Norwich City",
+      "away": "Newcastle United",
+      "p_1x2": {
+        "home": 0.3636739568846545,
+        "draw": 0.25015441916728326,
+        "away": 0.38617162394806226
+      },
+      "p_btts": 0.5766770688394344,
+      "p_over_2_5": 0.5423791164789341,
+      "goal_rates": {
+        "home": 1.4,
+        "away": 1.45
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754272",
+      "kickoff_at": "2016-04-02T00:00:00+00:00",
+      "as_of": "2016-04-01T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Stoke City",
+      "away": "Swansea City",
+      "p_1x2": {
+        "home": 0.2774743067546551,
+        "draw": 0.27466878066871164,
+        "away": 0.44785691257663324
+      },
+      "p_btts": 0.4682494603982158,
+      "p_over_2_5": 0.4171752074102224,
+      "goal_rates": {
+        "home": 1.0,
+        "away": 1.35
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879797",
+      "kickoff_at": "2016-04-02T00:00:00+00:00",
+      "as_of": "2016-04-01T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Carpi",
+      "away": "Sassuolo",
+      "p_1x2": {
+        "home": 0.3294237234698794,
+        "draw": 0.29083556984756426,
+        "away": 0.37974070668255633
+      },
+      "p_btts": 0.44422863987212535,
+      "p_over_2_5": 0.37728625000368354,
+      "goal_rates": {
+        "home": 1.05,
+        "away": 1.15
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879798",
+      "kickoff_at": "2016-04-02T00:00:00+00:00",
+      "as_of": "2016-04-01T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Juventus",
+      "away": "Empoli",
+      "p_1x2": {
+        "home": 0.6910309093870991,
+        "draw": 0.21294287753670021,
+        "away": 0.09602621307620059
+      },
+      "p_btts": 0.3284292957885838,
+      "p_over_2_5": 0.40396117406793175,
+      "goal_rates": {
+        "home": 1.8,
+        "away": 0.5
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3753982",
+      "kickoff_at": "2016-04-03T00:00:00+00:00",
+      "as_of": "2016-04-02T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Leicester City",
+      "away": "Southampton",
+      "p_1x2": {
+        "home": 0.4172121888583307,
+        "draw": 0.2922732269048459,
+        "away": 0.29051458423682336
+      },
+      "p_btts": 0.4285489224067937,
+      "p_over_2_5": 0.36385089335948984,
+      "goal_rates": {
+        "home": 1.2000000000000002,
+        "away": 0.95
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754299",
+      "kickoff_at": "2016-04-03T00:00:00+00:00",
+      "as_of": "2016-04-02T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Manchester United",
+      "away": "Everton",
+      "p_1x2": {
+        "home": 0.3811638326551514,
+        "draw": 0.26090375232356733,
+        "away": 0.3579324150212812
+      },
+      "p_btts": 0.5388791593805256,
+      "p_over_2_5": 0.49404900047099864,
+      "goal_rates": {
+        "home": 1.35,
+        "away": 1.3
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879799",
+      "kickoff_at": "2016-04-03T00:00:00+00:00",
+      "as_of": "2016-04-02T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Lazio",
+      "away": "AS Roma",
+      "p_1x2": {
+        "home": 0.23383875499527454,
+        "draw": 0.24027210698066623,
+        "away": 0.5258891380240592
+      },
+      "p_btts": 0.5313065880428176,
+      "p_over_2_5": 0.5185432952869836,
+      "goal_rates": {
+        "home": 1.05,
+        "away": 1.7
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879800",
+      "kickoff_at": "2016-04-03T00:00:00+00:00",
+      "as_of": "2016-04-02T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Fiorentina",
+      "away": "Sampdoria",
+      "p_1x2": {
+        "home": 0.41767047246894196,
+        "draw": 0.25668161007311746,
+        "away": 0.32564791745794053
+      },
+      "p_btts": 0.5461304277857619,
+      "p_over_2_5": 0.506375508926538,
+      "goal_rates": {
+        "home": 1.4500000000000002,
+        "away": 1.25
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879801",
+      "kickoff_at": "2016-04-03T00:00:00+00:00",
+      "as_of": "2016-04-02T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Inter Milan",
+      "away": "Torino",
+      "p_1x2": {
+        "home": 0.4429860532750052,
+        "draw": 0.24959349734739728,
+        "away": 0.3074204493775976
+      },
+      "p_btts": 0.5620572919382847,
+      "p_over_2_5": 0.5305463165333173,
+      "goal_rates": {
+        "home": 1.55,
+        "away": 1.25
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879802",
+      "kickoff_at": "2016-04-03T00:00:00+00:00",
+      "as_of": "2016-04-02T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Chievo",
+      "away": "Palermo",
+      "p_1x2": {
+        "home": 0.368043002061801,
+        "draw": 0.26391399587639797,
+        "away": 0.368043002061801
+      },
+      "p_btts": 0.5292099921463088,
+      "p_over_2_5": 0.48157042406394945,
+      "goal_rates": {
+        "home": 1.3,
+        "away": 1.3
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879803",
+      "kickoff_at": "2016-04-03T00:00:00+00:00",
+      "as_of": "2016-04-02T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Udinese",
+      "away": "Napoli",
+      "p_1x2": {
+        "home": 0.16796791754268078,
+        "draw": 0.2321586640358013,
+        "away": 0.5998734184215179
+      },
+      "p_btts": 0.45497875843348645,
+      "p_over_2_5": 0.468947069109657,
+      "goal_rates": {
+        "home": 0.8,
+        "away": 1.75
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879804",
+      "kickoff_at": "2016-04-03T00:00:00+00:00",
+      "as_of": "2016-04-02T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Genoa",
+      "away": "Frosinone",
+      "p_1x2": {
+        "home": 0.3518683042651968,
+        "draw": 0.3232919356806059,
+        "away": 0.3248397600541974
+      },
+      "p_btts": 0.36392648311852727,
+      "p_over_2_5": 0.28280197515196603,
+      "goal_rates": {
+        "home": 0.95,
+        "away": 0.9
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879805",
+      "kickoff_at": "2016-04-03T00:00:00+00:00",
+      "as_of": "2016-04-02T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Atalanta",
+      "away": "AC Milan",
+      "p_1x2": {
+        "home": 0.2310227375617644,
+        "draw": 0.30218032721638743,
+        "away": 0.4667969352218482
+      },
+      "p_btts": 0.36871330693329685,
+      "p_over_2_5": 0.30979291021592614,
+      "goal_rates": {
+        "home": 0.75,
+        "away": 1.2000000000000002
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879806",
+      "kickoff_at": "2016-04-04T00:00:00+00:00",
+      "as_of": "2016-04-03T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Bologna",
+      "away": "Hellas Verona",
+      "p_1x2": {
+        "home": 0.4361086658193163,
+        "draw": 0.27273134785310094,
+        "away": 0.2911599863275828
+      },
+      "p_btts": 0.48153994353236573,
+      "p_over_2_5": 0.43029125334248963,
+      "goal_rates": {
+        "home": 1.35,
+        "away": 1.05
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754016",
+      "kickoff_at": "2016-04-09T00:00:00+00:00",
+      "as_of": "2016-04-08T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Southampton",
+      "away": "Newcastle United",
+      "p_1x2": {
+        "home": 0.5125827056973254,
+        "draw": 0.26127302616389303,
+        "away": 0.22614426813878158
+      },
+      "p_btts": 0.4610181334003836,
+      "p_over_2_5": 0.4302912533424895,
+      "goal_rates": {
+        "home": 1.5,
+        "away": 0.9
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754022",
+      "kickoff_at": "2016-04-09T00:00:00+00:00",
+      "as_of": "2016-04-08T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Crystal Palace",
+      "away": "Norwich City",
+      "p_1x2": {
+        "home": 0.33809682525452855,
+        "draw": 0.237257594944497,
+        "away": 0.4246455798009745
+      },
+      "p_btts": 0.618429005679006,
+      "p_over_2_5": 0.5988368526853679,
+      "goal_rates": {
+        "home": 1.4500000000000002,
+        "away": 1.6500000000000001
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754030",
+      "kickoff_at": "2016-04-09T00:00:00+00:00",
+      "as_of": "2016-04-08T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Watford",
+      "away": "Everton",
+      "p_1x2": {
+        "home": 0.2498334910075616,
+        "draw": 0.278027606209304,
+        "away": 0.4721389027831344
+      },
+      "p_btts": 0.43958930417537373,
+      "p_over_2_5": 0.3906607330017219,
+      "goal_rates": {
+        "home": 0.9,
+        "away": 1.35
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754035",
+      "kickoff_at": "2016-04-09T00:00:00+00:00",
+      "as_of": "2016-04-08T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Manchester City",
+      "away": "West Bromwich Albion",
+      "p_1x2": {
+        "home": 0.4598659552714559,
+        "draw": 0.2764381354300086,
+        "away": 0.2636959092985355
+      },
+      "p_btts": 0.454277559622411,
+      "p_over_2_5": 0.40396117406793197,
+      "goal_rates": {
+        "home": 1.35,
+        "away": 0.9500000000000001
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754116",
+      "kickoff_at": "2016-04-09T00:00:00+00:00",
+      "as_of": "2016-04-08T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Swansea City",
+      "away": "Chelsea",
+      "p_1x2": {
+        "home": 0.2657842834013875,
+        "draw": 0.24395242362677363,
+        "away": 0.4902632929718389
+      },
+      "p_btts": 0.5521233846254106,
+      "p_over_2_5": 0.5305463165333173,
+      "goal_rates": {
+        "home": 1.15,
+        "away": 1.65
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754241",
+      "kickoff_at": "2016-04-09T00:00:00+00:00",
+      "as_of": "2016-04-08T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "West Ham United",
+      "away": "Arsenal",
+      "p_1x2": {
+        "home": 0.3351141331023062,
+        "draw": 0.2601361125230153,
+        "away": 0.4047497543746785
+      },
+      "p_btts": 0.5375494522586329,
+      "p_over_2_5": 0.49404900047099853,
+      "goal_rates": {
+        "home": 1.25,
+        "away": 1.4
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754262",
+      "kickoff_at": "2016-04-09T00:00:00+00:00",
+      "as_of": "2016-04-08T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Aston Villa",
+      "away": "AFC Bournemouth",
+      "p_1x2": {
+        "home": 0.21948710493919116,
+        "draw": 0.23105792532914152,
+        "away": 0.5494549697316673
+      },
+      "p_btts": 0.5426076835420967,
+      "p_over_2_5": 0.5423791164789341,
+      "goal_rates": {
+        "home": 1.05,
+        "away": 1.7999999999999998
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879807",
+      "kickoff_at": "2016-04-09T00:00:00+00:00",
+      "as_of": "2016-04-08T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Chievo",
+      "away": "Carpi",
+      "p_1x2": {
+        "home": 0.3581535071447112,
+        "draw": 0.2836929857105775,
+        "away": 0.3581535071447112
+      },
+      "p_btts": 0.4669853049646972,
+      "p_over_2_5": 0.40396117406793175,
+      "goal_rates": {
+        "home": 1.15,
+        "away": 1.15
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879808",
+      "kickoff_at": "2016-04-09T00:00:00+00:00",
+      "as_of": "2016-04-08T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Frosinone",
+      "away": "Inter Milan",
+      "p_1x2": {
+        "home": 0.2997897324702882,
+        "draw": 0.2603878521473584,
+        "away": 0.4398224153823534
+      },
+      "p_btts": 0.523066520741483,
+      "p_over_2_5": 0.48157042406394945,
+      "goal_rates": {
+        "home": 1.15,
+        "away": 1.45
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879809",
+      "kickoff_at": "2016-04-09T00:00:00+00:00",
+      "as_of": "2016-04-08T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sassuolo",
+      "away": "Genoa",
+      "p_1x2": {
+        "home": 0.3861502568471961,
+        "draw": 0.2761882106913601,
+        "away": 0.3376615324614438
+      },
+      "p_btts": 0.4875763870501691,
+      "p_over_2_5": 0.4302912533424895,
+      "goal_rates": {
+        "home": 1.25,
+        "away": 1.15
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879810",
+      "kickoff_at": "2016-04-09T00:00:00+00:00",
+      "as_of": "2016-04-08T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AC Milan",
+      "away": "Juventus",
+      "p_1x2": {
+        "home": 0.186360798010071,
+        "draw": 0.2904072397945492,
+        "away": 0.5232319621953798
+      },
+      "p_btts": 0.347696501791485,
+      "p_over_2_5": 0.30979291021592614,
+      "goal_rates": {
+        "home": 0.65,
+        "away": 1.3
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3753986",
+      "kickoff_at": "2016-04-10T00:00:00+00:00",
+      "as_of": "2016-04-09T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Liverpool",
+      "away": "Stoke City",
+      "p_1x2": {
+        "home": 0.5148570673638263,
+        "draw": 0.2133165102272159,
+        "away": 0.27182642240895777
+      },
+      "p_btts": 0.6668921917407166,
+      "p_over_2_5": 0.6791528011378659,
+      "goal_rates": {
+        "home": 2.05,
+        "away": 1.45
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754152",
+      "kickoff_at": "2016-04-10T00:00:00+00:00",
+      "as_of": "2016-04-09T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sunderland",
+      "away": "Leicester City",
+      "p_1x2": {
+        "home": 0.1868881935375686,
+        "draw": 0.2617976650688926,
+        "away": 0.5513141413935387
+      },
+      "p_btts": 0.4099025116724198,
+      "p_over_2_5": 0.3906607330017219,
+      "goal_rates": {
+        "home": 0.75,
+        "away": 1.5
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754209",
+      "kickoff_at": "2016-04-10T00:00:00+00:00",
+      "as_of": "2016-04-09T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Tottenham Hotspur",
+      "away": "Manchester United",
+      "p_1x2": {
+        "home": 0.44591204154141156,
+        "draw": 0.2817189744514442,
+        "away": 0.2723689840071442
+      },
+      "p_btts": 0.44612640807335047,
+      "p_over_2_5": 0.3906607330017219,
+      "goal_rates": {
+        "home": 1.2999999999999998,
+        "away": 0.95
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879811",
+      "kickoff_at": "2016-04-10T00:00:00+00:00",
+      "as_of": "2016-04-09T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Napoli",
+      "away": "Hellas Verona",
+      "p_1x2": {
+        "home": 0.5375990200753932,
+        "draw": 0.23135281060116045,
+        "away": 0.23104816932344638
+      },
+      "p_btts": 0.5568532481367412,
+      "p_over_2_5": 0.5540368014428195,
+      "goal_rates": {
+        "home": 1.8,
+        "away": 1.1
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879812",
+      "kickoff_at": "2016-04-10T00:00:00+00:00",
+      "as_of": "2016-04-09T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Palermo",
+      "away": "Lazio",
+      "p_1x2": {
+        "home": 0.22614426813878152,
+        "draw": 0.261273026163893,
+        "away": 0.5125827056973254
+      },
+      "p_btts": 0.4610181334003835,
+      "p_over_2_5": 0.4302912533424895,
+      "goal_rates": {
+        "home": 0.8999999999999999,
+        "away": 1.5
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879813",
+      "kickoff_at": "2016-04-10T00:00:00+00:00",
+      "as_of": "2016-04-09T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sampdoria",
+      "away": "Udinese",
+      "p_1x2": {
+        "home": 0.3722457114235745,
+        "draw": 0.2799809422645179,
+        "away": 0.3477733463119075
+      },
+      "p_btts": 0.47753818092429434,
+      "p_over_2_5": 0.4171752074102224,
+      "goal_rates": {
+        "home": 1.2000000000000002,
+        "away": 1.15
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879814",
+      "kickoff_at": "2016-04-10T00:00:00+00:00",
+      "as_of": "2016-04-09T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Empoli",
+      "away": "Fiorentina",
+      "p_1x2": {
+        "home": 0.24711482075778948,
+        "draw": 0.26590261582114433,
+        "away": 0.4869825634210662
+      },
+      "p_btts": 0.46940664174111363,
+      "p_over_2_5": 0.4302912533424895,
+      "goal_rates": {
+        "home": 0.95,
+        "away": 1.45
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879815",
+      "kickoff_at": "2016-04-10T00:00:00+00:00",
+      "as_of": "2016-04-09T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Torino",
+      "away": "Atalanta",
+      "p_1x2": {
+        "home": 0.36168883846646394,
+        "draw": 0.27662232306707213,
+        "away": 0.36168883846646394
+      },
+      "p_btts": 0.4883295294650082,
+      "p_over_2_5": 0.4302912533424895,
+      "goal_rates": {
+        "home": 1.2,
+        "away": 1.2
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879816",
+      "kickoff_at": "2016-04-11T00:00:00+00:00",
+      "as_of": "2016-04-10T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AS Roma",
+      "away": "Bologna",
+      "p_1x2": {
+        "home": 0.6589779060836746,
+        "draw": 0.21118268165733825,
+        "away": 0.12983941225898724
+      },
+      "p_btts": 0.4281196552002893,
+      "p_over_2_5": 0.48157042406394945,
+      "goal_rates": {
+        "home": 1.9,
+        "away": 0.7
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754048",
+      "kickoff_at": "2016-04-13T00:00:00+00:00",
+      "as_of": "2016-04-12T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Crystal Palace",
+      "away": "Everton",
+      "p_1x2": {
+        "home": 0.29368534356056036,
+        "draw": 0.23779123603482524,
+        "away": 0.4685234204046144
+      },
+      "p_btts": 0.5945717512811167,
+      "p_over_2_5": 0.5768099188731565,
+      "goal_rates": {
+        "home": 1.2999999999999998,
+        "away": 1.7000000000000002
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754024",
+      "kickoff_at": "2016-04-16T00:00:00+00:00",
+      "as_of": "2016-04-15T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Newcastle United",
+      "away": "Swansea City",
+      "p_1x2": {
+        "home": 0.2098194652930661,
+        "draw": 0.23997906393008506,
+        "away": 0.5502014707768488
+      },
+      "p_btts": 0.5012266655531937,
+      "p_over_2_5": 0.49404900047099864,
+      "goal_rates": {
+        "home": 0.9500000000000001,
+        "away": 1.7000000000000002
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754137",
+      "kickoff_at": "2016-04-16T00:00:00+00:00",
+      "as_of": "2016-04-15T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Everton",
+      "away": "Southampton",
+      "p_1x2": {
+        "home": 0.3581535071447112,
+        "draw": 0.2836929857105775,
+        "away": 0.3581535071447112
+      },
+      "p_btts": 0.4669853049646972,
+      "p_over_2_5": 0.40396117406793175,
+      "goal_rates": {
+        "home": 1.15,
+        "away": 1.15
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754155",
+      "kickoff_at": "2016-04-16T00:00:00+00:00",
+      "as_of": "2016-04-15T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "West Bromwich Albion",
+      "away": "Watford",
+      "p_1x2": {
+        "home": 0.4198819762187208,
+        "draw": 0.3234559021082548,
+        "away": 0.25666212167302443
+      },
+      "p_btts": 0.34299458636941654,
+      "p_over_2_5": 0.26937891406058756,
+      "goal_rates": {
+        "home": 1.05,
+        "away": 0.75
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754172",
+      "kickoff_at": "2016-04-16T00:00:00+00:00",
+      "as_of": "2016-04-15T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Norwich City",
+      "away": "Sunderland",
+      "p_1x2": {
+        "home": 0.300001263255676,
+        "draw": 0.2975317514287151,
+        "away": 0.4024669853156089
+      },
+      "p_btts": 0.4190786354194274,
+      "p_over_2_5": 0.3503686481179309,
+      "goal_rates": {
+        "home": 0.95,
+        "away": 1.15
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754295",
+      "kickoff_at": "2016-04-16T00:00:00+00:00",
+      "as_of": "2016-04-15T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Manchester United",
+      "away": "Aston Villa",
+      "p_1x2": {
+        "home": 0.6353222537414067,
+        "draw": 0.21909171723288104,
+        "away": 0.1455860290257123
+      },
+      "p_btts": 0.4446698591596916,
+      "p_over_2_5": 0.48157042406394945,
+      "goal_rates": {
+        "home": 1.85,
+        "away": 0.75
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754322",
+      "kickoff_at": "2016-04-16T00:00:00+00:00",
+      "as_of": "2016-04-15T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Chelsea",
+      "away": "Manchester City",
+      "p_1x2": {
+        "home": 0.4527402786914241,
+        "draw": 0.25632074608604094,
+        "away": 0.2909389752225349
+      },
+      "p_btts": 0.5308842835329465,
+      "p_over_2_5": 0.49404900047099853,
+      "goal_rates": {
+        "home": 1.5,
+        "away": 1.15
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879817",
+      "kickoff_at": "2016-04-16T00:00:00+00:00",
+      "as_of": "2016-04-15T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Inter Milan",
+      "away": "Napoli",
+      "p_1x2": {
+        "home": 0.3127651729838316,
+        "draw": 0.2586054061441659,
+        "away": 0.4286294208720025
+      },
+      "p_btts": 0.5348867130544299,
+      "p_over_2_5": 0.49404900047099864,
+      "goal_rates": {
+        "home": 1.2000000000000002,
+        "away": 1.4500000000000002
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879818",
+      "kickoff_at": "2016-04-16T00:00:00+00:00",
+      "as_of": "2016-04-15T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Bologna",
+      "away": "Torino",
+      "p_1x2": {
+        "home": 0.3248195276438089,
+        "draw": 0.299054443519569,
+        "away": 0.37612602883662216
+      },
+      "p_btts": 0.4217059033834601,
+      "p_over_2_5": 0.350368648117931,
+      "goal_rates": {
+        "home": 1.0,
+        "away": 1.1
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879819",
+      "kickoff_at": "2016-04-16T00:00:00+00:00",
+      "as_of": "2016-04-15T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Carpi",
+      "away": "Genoa",
+      "p_1x2": {
+        "home": 0.25823352440412567,
+        "draw": 0.28366991899588845,
+        "away": 0.458096556599986
+      },
+      "p_btts": 0.4317017055877222,
+      "p_over_2_5": 0.37728625000368354,
+      "goal_rates": {
+        "home": 0.9,
+        "away": 1.3
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754009",
+      "kickoff_at": "2016-04-17T00:00:00+00:00",
+      "as_of": "2016-04-16T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Arsenal",
+      "away": "Crystal Palace",
+      "p_1x2": {
+        "home": 0.4902632929718389,
+        "draw": 0.24395242362677363,
+        "away": 0.2657842834013875
+      },
+      "p_btts": 0.5521233846254106,
+      "p_over_2_5": 0.5305463165333173,
+      "goal_rates": {
+        "home": 1.65,
+        "away": 1.15
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754216",
+      "kickoff_at": "2016-04-17T00:00:00+00:00",
+      "as_of": "2016-04-16T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AFC Bournemouth",
+      "away": "Liverpool",
+      "p_1x2": {
+        "home": 0.25389311414898064,
+        "draw": 0.2099648138670555,
+        "away": 0.5361420719839638
+      },
+      "p_btts": 0.6611439912277302,
+      "p_over_2_5": 0.6791528011378659,
+      "goal_rates": {
+        "home": 1.4,
+        "away": 2.1
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754227",
+      "kickoff_at": "2016-04-17T00:00:00+00:00",
+      "as_of": "2016-04-16T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Leicester City",
+      "away": "West Ham United",
+      "p_1x2": {
+        "home": 0.4398224153823534,
+        "draw": 0.2603878521473584,
+        "away": 0.2997897324702882
+      },
+      "p_btts": 0.523066520741483,
+      "p_over_2_5": 0.48157042406394945,
+      "goal_rates": {
+        "home": 1.45,
+        "away": 1.15
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879820",
+      "kickoff_at": "2016-04-17T00:00:00+00:00",
+      "as_of": "2016-04-16T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Juventus",
+      "away": "Palermo",
+      "p_1x2": {
+        "home": 0.752388333180107,
+        "draw": 0.18804000011969096,
+        "away": 0.059571666700201954
+      },
+      "p_btts": 0.2511425156205158,
+      "p_over_2_5": 0.3906607330017219,
+      "goal_rates": {
+        "home": 1.9000000000000001,
+        "away": 0.35
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879821",
+      "kickoff_at": "2016-04-17T00:00:00+00:00",
+      "as_of": "2016-04-16T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Fiorentina",
+      "away": "Sassuolo",
+      "p_1x2": {
+        "home": 0.30888207501036646,
+        "draw": 0.26441577874929467,
+        "away": 0.4267021462403388
+      },
+      "p_btts": 0.5148479326804934,
+      "p_over_2_5": 0.468947069109657,
+      "goal_rates": {
+        "home": 1.15,
+        "away": 1.4
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879822",
+      "kickoff_at": "2016-04-17T00:00:00+00:00",
+      "as_of": "2016-04-16T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Udinese",
+      "away": "Chievo",
+      "p_1x2": {
+        "home": 0.3050568407879531,
+        "draw": 0.28939332931868456,
+        "away": 0.4055498298933624
+      },
+      "p_btts": 0.44172950527868954,
+      "p_over_2_5": 0.37728625000368354,
+      "goal_rates": {
+        "home": 1.0,
+        "away": 1.2000000000000002
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879823",
+      "kickoff_at": "2016-04-17T00:00:00+00:00",
+      "as_of": "2016-04-16T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Atalanta",
+      "away": "AS Roma",
+      "p_1x2": {
+        "home": 0.15117524190820542,
+        "draw": 0.20676490839060999,
+        "away": 0.6420598497011846
+      },
+      "p_btts": 0.4950941056894992,
+      "p_over_2_5": 0.5423791164789342,
+      "goal_rates": {
+        "home": 0.8500000000000001,
+        "away": 2.0
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879824",
+      "kickoff_at": "2016-04-17T00:00:00+00:00",
+      "as_of": "2016-04-16T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sampdoria",
+      "away": "AC Milan",
+      "p_1x2": {
+        "home": 0.3909587120822888,
+        "draw": 0.2942450680288285,
+        "away": 0.31479621988888284
+      },
+      "p_btts": 0.43196794722300136,
+      "p_over_2_5": 0.3638508933594897,
+      "goal_rates": {
+        "home": 1.15,
+        "away": 1.0
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879825",
+      "kickoff_at": "2016-04-17T00:00:00+00:00",
+      "as_of": "2016-04-16T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Lazio",
+      "away": "Empoli",
+      "p_1x2": {
+        "home": 0.4198974850340573,
+        "draw": 0.2845079741854254,
+        "away": 0.2955945407805174
+      },
+      "p_btts": 0.45101498653023187,
+      "p_over_2_5": 0.3906607330017219,
+      "goal_rates": {
+        "home": 1.25,
+        "away": 1.0
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879826",
+      "kickoff_at": "2016-04-17T00:00:00+00:00",
+      "as_of": "2016-04-16T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Hellas Verona",
+      "away": "Frosinone",
+      "p_1x2": {
+        "home": 0.34482134189294156,
+        "draw": 0.26352063071062065,
+        "away": 0.3916580273964377
+      },
+      "p_btts": 0.5285285207082523,
+      "p_over_2_5": 0.48157042406394945,
+      "goal_rates": {
+        "home": 1.25,
+        "away": 1.35
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754187",
+      "kickoff_at": "2016-04-18T00:00:00+00:00",
+      "as_of": "2016-04-17T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Stoke City",
+      "away": "Tottenham Hotspur",
+      "p_1x2": {
+        "home": 0.1900456713146429,
+        "draw": 0.22489279042338847,
+        "away": 0.5850615382619687
+      },
+      "p_btts": 0.5168318728570891,
+      "p_over_2_5": 0.5305463165333173,
+      "goal_rates": {
+        "home": 0.95,
+        "away": 1.85
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754206",
+      "kickoff_at": "2016-04-19T00:00:00+00:00",
+      "as_of": "2016-04-18T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Newcastle United",
+      "away": "Manchester City",
+      "p_1x2": {
+        "home": 0.20794563143583394,
+        "draw": 0.23056775510366137,
+        "away": 0.5614866134605048
+      },
+      "p_btts": 0.527631733232189,
+      "p_over_2_5": 0.5305463165333173,
+      "goal_rates": {
+        "home": 1.0,
+        "away": 1.8
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879827",
+      "kickoff_at": "2016-04-19T00:00:00+00:00",
+      "as_of": "2016-04-18T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Napoli",
+      "away": "Bologna",
+      "p_1x2": {
+        "home": 0.44878090572593426,
+        "draw": 0.319280749001178,
+        "away": 0.23193834527288779
+      },
+      "p_btts": 0.3358425007320975,
+      "p_over_2_5": 0.26937891406058756,
+      "goal_rates": {
+        "home": 1.1,
+        "away": 0.7
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754086",
+      "kickoff_at": "2016-04-20T00:00:00+00:00",
+      "as_of": "2016-04-19T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "West Ham United",
+      "away": "Watford",
+      "p_1x2": {
+        "home": 0.48698256342106633,
+        "draw": 0.26590261582114433,
+        "away": 0.24711482075778946
+      },
+      "p_btts": 0.46940664174111363,
+      "p_over_2_5": 0.43029125334248963,
+      "goal_rates": {
+        "home": 1.4500000000000002,
+        "away": 0.95
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754294",
+      "kickoff_at": "2016-04-20T00:00:00+00:00",
+      "as_of": "2016-04-19T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Liverpool",
+      "away": "Everton",
+      "p_1x2": {
+        "home": 0.48159537763702553,
+        "draw": 0.22630434385155787,
+        "away": 0.29210027851141657
+      },
+      "p_btts": 0.634940077576488,
+      "p_over_2_5": 0.6304333316038996,
+      "goal_rates": {
+        "home": 1.85,
+        "away": 1.4
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754310",
+      "kickoff_at": "2016-04-20T00:00:00+00:00",
+      "as_of": "2016-04-19T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Manchester United",
+      "away": "Crystal Palace",
+      "p_1x2": {
+        "home": 0.4340002042813003,
+        "draw": 0.2795972204057589,
+        "away": 0.2864025753129409
+      },
+      "p_btts": 0.45984760951734877,
+      "p_over_2_5": 0.40396117406793175,
+      "goal_rates": {
+        "home": 1.2999999999999998,
+        "away": 1.0
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879828",
+      "kickoff_at": "2016-04-20T00:00:00+00:00",
+      "as_of": "2016-04-19T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AS Roma",
+      "away": "Torino",
+      "p_1x2": {
+        "home": 0.5802684432399154,
+        "draw": 0.2076418660144982,
+        "away": 0.2120896907455863
+      },
+      "p_btts": 0.613232527236056,
+      "p_over_2_5": 0.6405735336749161,
+      "goal_rates": {
+        "home": 2.0999999999999996,
+        "away": 1.2000000000000002
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879829",
+      "kickoff_at": "2016-04-20T00:00:00+00:00",
+      "as_of": "2016-04-19T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Empoli",
+      "away": "Hellas Verona",
+      "p_1x2": {
+        "home": 0.41767047246894196,
+        "draw": 0.25668161007311746,
+        "away": 0.32564791745794053
+      },
+      "p_btts": 0.5461304277857619,
+      "p_over_2_5": 0.506375508926538,
+      "goal_rates": {
+        "home": 1.4500000000000002,
+        "away": 1.25
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879830",
+      "kickoff_at": "2016-04-20T00:00:00+00:00",
+      "as_of": "2016-04-19T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Genoa",
+      "away": "Inter Milan",
+      "p_1x2": {
+        "home": 0.34155347594720853,
+        "draw": 0.24945436520090772,
+        "away": 0.40899215885188384
+      },
+      "p_btts": 0.5754739000805172,
+      "p_over_2_5": 0.5423791164789342,
+      "goal_rates": {
+        "home": 1.35,
+        "away": 1.5
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879831",
+      "kickoff_at": "2016-04-20T00:00:00+00:00",
+      "as_of": "2016-04-19T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sassuolo",
+      "away": "Sampdoria",
+      "p_1x2": {
+        "home": 0.37224571142357443,
+        "draw": 0.279980942264518,
+        "away": 0.34777334631190754
+      },
+      "p_btts": 0.4775381809242942,
+      "p_over_2_5": 0.4171752074102223,
+      "goal_rates": {
+        "home": 1.2,
+        "away": 1.15
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879832",
+      "kickoff_at": "2016-04-20T00:00:00+00:00",
+      "as_of": "2016-04-19T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Palermo",
+      "away": "Atalanta",
+      "p_1x2": {
+        "home": 0.20302309354834128,
+        "draw": 0.2349035530993485,
+        "away": 0.5620733533523102
+      },
+      "p_btts": 0.5066905458348034,
+      "p_over_2_5": 0.506375508926538,
+      "goal_rates": {
+        "home": 0.95,
+        "away": 1.75
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879833",
+      "kickoff_at": "2016-04-20T00:00:00+00:00",
+      "as_of": "2016-04-19T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Juventus",
+      "away": "Lazio",
+      "p_1x2": {
+        "home": 0.5120252780732547,
+        "draw": 0.2675388406332542,
+        "away": 0.22043588129349106
+      },
+      "p_btts": 0.4382736236802794,
+      "p_over_2_5": 0.40396117406793175,
+      "goal_rates": {
+        "home": 1.45,
+        "away": 0.85
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879834",
+      "kickoff_at": "2016-04-20T00:00:00+00:00",
+      "as_of": "2016-04-19T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Udinese",
+      "away": "Fiorentina",
+      "p_1x2": {
+        "home": 0.3376615324614438,
+        "draw": 0.2761882106913601,
+        "away": 0.3861502568471961
+      },
+      "p_btts": 0.4875763870501691,
+      "p_over_2_5": 0.4302912533424895,
+      "goal_rates": {
+        "home": 1.15,
+        "away": 1.25
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879835",
+      "kickoff_at": "2016-04-20T00:00:00+00:00",
+      "as_of": "2016-04-19T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Chievo",
+      "away": "Frosinone",
+      "p_1x2": {
+        "home": 0.4539508097035757,
+        "draw": 0.2999718358353123,
+        "away": 0.24607735446111195
+      },
+      "p_btts": 0.3848121072071891,
+      "p_over_2_5": 0.3233235838169365,
+      "goal_rates": {
+        "home": 1.2000000000000002,
+        "away": 0.8
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754284",
+      "kickoff_at": "2016-04-21T00:00:00+00:00",
+      "as_of": "2016-04-20T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Arsenal",
+      "away": "West Bromwich Albion",
+      "p_1x2": {
+        "home": 0.4629203281877405,
+        "draw": 0.2634891673700128,
+        "away": 0.2735905044422467
+      },
+      "p_btts": 0.49757696141894586,
+      "p_over_2_5": 0.4561868841166704,
+      "goal_rates": {
+        "home": 1.45,
+        "away": 1.05
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879836",
+      "kickoff_at": "2016-04-21T00:00:00+00:00",
+      "as_of": "2016-04-20T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AC Milan",
+      "away": "Carpi",
+      "p_1x2": {
+        "home": 0.35021845273668073,
+        "draw": 0.2995630945266385,
+        "away": 0.35021845273668073
+      },
+      "p_btts": 0.4225809300306713,
+      "p_over_2_5": 0.350368648117931,
+      "goal_rates": {
+        "home": 1.05,
+        "away": 1.05
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754154",
+      "kickoff_at": "2016-04-23T00:00:00+00:00",
+      "as_of": "2016-04-22T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Liverpool",
+      "away": "Newcastle United",
+      "p_1x2": {
+        "home": 0.6232270728317795,
+        "draw": 0.19708504160800117,
+        "away": 0.17968788556021936
+      },
+      "p_btts": 0.5932089253408266,
+      "p_over_2_5": 0.6405735336749162,
+      "goal_rates": {
+        "home": 2.2,
+        "away": 1.1
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754242",
+      "kickoff_at": "2016-04-23T00:00:00+00:00",
+      "as_of": "2016-04-22T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AFC Bournemouth",
+      "away": "Chelsea",
+      "p_1x2": {
+        "home": 0.25012818375531076,
+        "draw": 0.23562917831898536,
+        "away": 0.5142426379257039
+      },
+      "p_btts": 0.5646125072269088,
+      "p_over_2_5": 0.5540368014428194,
+      "goal_rates": {
+        "home": 1.15,
+        "away": 1.75
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754282",
+      "kickoff_at": "2016-04-23T00:00:00+00:00",
+      "as_of": "2016-04-22T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Aston Villa",
+      "away": "Southampton",
+      "p_1x2": {
+        "home": 0.15117638209704154,
+        "draw": 0.21539403724703785,
+        "away": 0.6334295806559206
+      },
+      "p_btts": 0.46830792939989313,
+      "p_over_2_5": 0.506375508926538,
+      "goal_rates": {
+        "home": 0.8,
+        "away": 1.9
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754307",
+      "kickoff_at": "2016-04-23T00:00:00+00:00",
+      "as_of": "2016-04-22T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Manchester City",
+      "away": "Stoke City",
+      "p_1x2": {
+        "home": 0.502750007614335,
+        "draw": 0.23534669249647677,
+        "away": 0.26190329988918837
+      },
+      "p_btts": 0.5773715505857853,
+      "p_over_2_5": 0.5655150159955757,
+      "goal_rates": {
+        "home": 1.75,
+        "away": 1.2000000000000002
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879837",
+      "kickoff_at": "2016-04-23T00:00:00+00:00",
+      "as_of": "2016-04-22T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Inter Milan",
+      "away": "Udinese",
+      "p_1x2": {
+        "home": 0.4223573419792076,
+        "draw": 0.2773165994744561,
+        "away": 0.30032605854633626
+      },
+      "p_btts": 0.47289962007038167,
+      "p_over_2_5": 0.4171752074102223,
+      "goal_rates": {
+        "home": 1.2999999999999998,
+        "away": 1.05
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3753990",
+      "kickoff_at": "2016-04-24T00:00:00+00:00",
+      "as_of": "2016-04-23T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sunderland",
+      "away": "Arsenal",
+      "p_1x2": {
+        "home": 0.2739413897976517,
+        "draw": 0.24809661116559747,
+        "away": 0.47796199903675085
+      },
+      "p_btts": 0.5453945738329989,
+      "p_over_2_5": 0.5185432952869836,
+      "goal_rates": {
+        "home": 1.15,
+        "away": 1.6
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754228",
+      "kickoff_at": "2016-04-24T00:00:00+00:00",
+      "as_of": "2016-04-23T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Leicester City",
+      "away": "Swansea City",
+      "p_1x2": {
+        "home": 0.4858997346657423,
+        "draw": 0.2724103251240111,
+        "away": 0.2416899402102466
+      },
+      "p_btts": 0.4470922200405982,
+      "p_over_2_5": 0.40396117406793175,
+      "goal_rates": {
+        "home": 1.4,
+        "away": 0.9
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879838",
+      "kickoff_at": "2016-04-24T00:00:00+00:00",
+      "as_of": "2016-04-23T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sampdoria",
+      "away": "Lazio",
+      "p_1x2": {
+        "home": 0.36880746876412185,
+        "draw": 0.2873146117153453,
+        "away": 0.3438779195205329
+      },
+      "p_btts": 0.4558913714847316,
+      "p_over_2_5": 0.3906607330017219,
+      "goal_rates": {
+        "home": 1.15,
+        "away": 1.1
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879839",
+      "kickoff_at": "2016-04-24T00:00:00+00:00",
+      "as_of": "2016-04-23T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Fiorentina",
+      "away": "Juventus",
+      "p_1x2": {
+        "home": 0.15639357630273804,
+        "draw": 0.23077391580250495,
+        "away": 0.612832507894757
+      },
+      "p_btts": 0.43594450243243893,
+      "p_over_2_5": 0.4561868841166704,
+      "goal_rates": {
+        "home": 0.75,
+        "away": 1.75
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879840",
+      "kickoff_at": "2016-04-24T00:00:00+00:00",
+      "as_of": "2016-04-23T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Bologna",
+      "away": "Genoa",
+      "p_1x2": {
+        "home": 0.2143477772275601,
+        "draw": 0.2742914305136014,
+        "away": 0.5113607922588385
+      },
+      "p_btts": 0.4148772303035058,
+      "p_over_2_5": 0.37728625000368354,
+      "goal_rates": {
+        "home": 0.8,
+        "away": 1.4
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879841",
+      "kickoff_at": "2016-04-24T00:00:00+00:00",
+      "as_of": "2016-04-23T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Frosinone",
+      "away": "Palermo",
+      "p_1x2": {
+        "home": 0.501398476028683,
+        "draw": 0.24954828125951703,
+        "away": 0.24905324271179996
+      },
+      "p_btts": 0.5188169459546189,
+      "p_over_2_5": 0.49404900047099864,
+      "goal_rates": {
+        "home": 1.6,
+        "away": 1.05
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879842",
+      "kickoff_at": "2016-04-24T00:00:00+00:00",
+      "as_of": "2016-04-23T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Atalanta",
+      "away": "Chievo",
+      "p_1x2": {
+        "home": 0.2780885994372899,
+        "draw": 0.25766721477624444,
+        "away": 0.46424418578646565
+      },
+      "p_btts": 0.5182723343678246,
+      "p_over_2_5": 0.48157042406394945,
+      "goal_rates": {
+        "home": 1.1,
+        "away": 1.5
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879843",
+      "kickoff_at": "2016-04-24T00:00:00+00:00",
+      "as_of": "2016-04-23T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Torino",
+      "away": "Sassuolo",
+      "p_1x2": {
+        "home": 0.32205162010757243,
+        "draw": 0.2623428952383813,
+        "away": 0.4156054846540463
+      },
+      "p_btts": 0.5264824023605252,
+      "p_over_2_5": 0.48157042406394945,
+      "goal_rates": {
+        "home": 1.2,
+        "away": 1.4
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754332",
+      "kickoff_at": "2016-04-25T00:00:00+00:00",
+      "as_of": "2016-04-24T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Tottenham Hotspur",
+      "away": "West Bromwich Albion",
+      "p_1x2": {
+        "home": 0.5776079829492612,
+        "draw": 0.25478156100295524,
+        "away": 0.16761045604778357
+      },
+      "p_btts": 0.3965659469437117,
+      "p_over_2_5": 0.3906607330017219,
+      "goal_rates": {
+        "home": 1.55,
+        "away": 0.7
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879844",
+      "kickoff_at": "2016-04-25T00:00:00+00:00",
+      "as_of": "2016-04-24T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Carpi",
+      "away": "Empoli",
+      "p_1x2": {
+        "home": 0.41721218885833067,
+        "draw": 0.2922732269048459,
+        "away": 0.2905145842368234
+      },
+      "p_btts": 0.4285489224067937,
+      "p_over_2_5": 0.36385089335948984,
+      "goal_rates": {
+        "home": 1.2000000000000002,
+        "away": 0.9500000000000001
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879845",
+      "kickoff_at": "2016-04-25T00:00:00+00:00",
+      "as_of": "2016-04-24T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AS Roma",
+      "away": "Napoli",
+      "p_1x2": {
+        "home": 0.47230580761545127,
+        "draw": 0.21854912849170013,
+        "away": 0.3091450638928486
+      },
+      "p_btts": 0.6756753380090618,
+      "p_over_2_5": 0.6791528011378659,
+      "goal_rates": {
+        "home": 1.95,
+        "away": 1.5499999999999998
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879846",
+      "kickoff_at": "2016-04-25T00:00:00+00:00",
+      "as_of": "2016-04-24T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Hellas Verona",
+      "away": "AC Milan",
+      "p_1x2": {
+        "home": 0.2416899402102466,
+        "draw": 0.2724103251240111,
+        "away": 0.4858997346657423
+      },
+      "p_btts": 0.4470922200405982,
+      "p_over_2_5": 0.40396117406793175,
+      "goal_rates": {
+        "home": 0.9,
+        "away": 1.4
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754037",
+      "kickoff_at": "2016-04-30T00:00:00+00:00",
+      "as_of": "2016-04-29T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Everton",
+      "away": "AFC Bournemouth",
+      "p_1x2": {
+        "home": 0.40899215885188384,
+        "draw": 0.24945436520090772,
+        "away": 0.34155347594720853
+      },
+      "p_btts": 0.5754739000805172,
+      "p_over_2_5": 0.5423791164789342,
+      "goal_rates": {
+        "home": 1.5,
+        "away": 1.35
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754063",
+      "kickoff_at": "2016-04-30T00:00:00+00:00",
+      "as_of": "2016-04-29T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Watford",
+      "away": "Aston Villa",
+      "p_1x2": {
+        "home": 0.5620733533523102,
+        "draw": 0.2349035530993485,
+        "away": 0.20302309354834128
+      },
+      "p_btts": 0.5066905458348034,
+      "p_over_2_5": 0.506375508926538,
+      "goal_rates": {
+        "home": 1.75,
+        "away": 0.95
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754132",
+      "kickoff_at": "2016-04-30T00:00:00+00:00",
+      "as_of": "2016-04-29T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Stoke City",
+      "away": "Sunderland",
+      "p_1x2": {
+        "home": 0.28232458335642147,
+        "draw": 0.25222146272250767,
+        "away": 0.46545395392107075
+      },
+      "p_btts": 0.5383207695339535,
+      "p_over_2_5": 0.506375508926538,
+      "goal_rates": {
+        "home": 1.15,
+        "away": 1.55
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754170",
+      "kickoff_at": "2016-04-30T00:00:00+00:00",
+      "as_of": "2016-04-29T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Newcastle United",
+      "away": "Crystal Palace",
+      "p_1x2": {
+        "home": 0.34155347594720853,
+        "draw": 0.24945436520090772,
+        "away": 0.40899215885188384
+      },
+      "p_btts": 0.5754739000805172,
+      "p_over_2_5": 0.5423791164789342,
+      "goal_rates": {
+        "home": 1.35,
+        "away": 1.5
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754184",
+      "kickoff_at": "2016-04-30T00:00:00+00:00",
+      "as_of": "2016-04-29T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Arsenal",
+      "away": "Norwich City",
+      "p_1x2": {
+        "home": 0.5380747465967434,
+        "draw": 0.24509658589943295,
+        "away": 0.21682866750382357
+      },
+      "p_btts": 0.49548264613907855,
+      "p_over_2_5": 0.48157042406394945,
+      "goal_rates": {
+        "home": 1.65,
+        "away": 0.95
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754192",
+      "kickoff_at": "2016-04-30T00:00:00+00:00",
+      "as_of": "2016-04-29T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "West Bromwich Albion",
+      "away": "West Ham United",
+      "p_1x2": {
+        "home": 0.3037180492467205,
+        "draw": 0.25481677758669585,
+        "away": 0.4414651731665837
+      },
+      "p_btts": 0.5428811406791177,
+      "p_over_2_5": 0.506375508926538,
+      "goal_rates": {
+        "home": 1.2,
+        "away": 1.5
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879847",
+      "kickoff_at": "2016-04-30T00:00:00+00:00",
+      "as_of": "2016-04-29T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Udinese",
+      "away": "Torino",
+      "p_1x2": {
+        "home": 0.39413190137612425,
+        "draw": 0.25780494020862416,
+        "away": 0.3480631584152516
+      },
+      "p_btts": 0.5480767557641306,
+      "p_over_2_5": 0.5063755089265379,
+      "goal_rates": {
+        "home": 1.4,
+        "away": 1.2999999999999998
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879848",
+      "kickoff_at": "2016-04-30T00:00:00+00:00",
+      "as_of": "2016-04-29T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Chievo",
+      "away": "Fiorentina",
+      "p_1x2": {
+        "home": 0.46292032818774054,
+        "draw": 0.26348916737001277,
+        "away": 0.27359050444224664
+      },
+      "p_btts": 0.49757696141894586,
+      "p_over_2_5": 0.4561868841166704,
+      "goal_rates": {
+        "home": 1.4500000000000002,
+        "away": 1.05
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754018",
+      "kickoff_at": "2016-05-01T00:00:00+00:00",
+      "as_of": "2016-04-30T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Swansea City",
+      "away": "Liverpool",
+      "p_1x2": {
+        "home": 0.16987373801936784,
+        "draw": 0.195450461409009,
+        "away": 0.6346758005716232
+      },
+      "p_btts": 0.5780333003582329,
+      "p_over_2_5": 0.6304333316038996,
+      "goal_rates": {
+        "home": 1.05,
+        "away": 2.2
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754165",
+      "kickoff_at": "2016-05-01T00:00:00+00:00",
+      "as_of": "2016-04-30T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Manchester United",
+      "away": "Leicester City",
+      "p_1x2": {
+        "home": 0.25237597017439417,
+        "draw": 0.2914896974245748,
+        "away": 0.456134332401031
+      },
+      "p_btts": 0.4085366994440652,
+      "p_over_2_5": 0.350368648117931,
+      "goal_rates": {
+        "home": 0.8500000000000001,
+        "away": 1.25
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754320",
+      "kickoff_at": "2016-05-01T00:00:00+00:00",
+      "as_of": "2016-04-30T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Southampton",
+      "away": "Manchester City",
+      "p_1x2": {
+        "home": 0.2863223506301607,
+        "draw": 0.24711466871775278,
+        "away": 0.46656298065208657
+      },
+      "p_btts": 0.5577193327183606,
+      "p_over_2_5": 0.5305463165333173,
+      "goal_rates": {
+        "home": 1.2000000000000002,
+        "away": 1.6
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879849",
+      "kickoff_at": "2016-05-01T00:00:00+00:00",
+      "as_of": "2016-04-30T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Empoli",
+      "away": "Bologna",
+      "p_1x2": {
+        "home": 0.39131805047136187,
+        "draw": 0.32645813075007446,
+        "away": 0.2822238187785638
+      },
+      "p_btts": 0.34809048293292266,
+      "p_over_2_5": 0.26937891406058756,
+      "goal_rates": {
+        "home": 1.0,
+        "away": 0.8
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879850",
+      "kickoff_at": "2016-05-01T00:00:00+00:00",
+      "as_of": "2016-04-30T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Juventus",
+      "away": "Carpi",
+      "p_1x2": {
+        "home": 0.5514566558184338,
+        "draw": 0.26832387618522796,
+        "away": 0.18021946799633815
+      },
+      "p_btts": 0.38532856588828984,
+      "p_over_2_5": 0.36385089335948984,
+      "goal_rates": {
+        "home": 1.4500000000000002,
+        "away": 0.7000000000000001
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879851",
+      "kickoff_at": "2016-05-01T00:00:00+00:00",
+      "as_of": "2016-04-30T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AC Milan",
+      "away": "Frosinone",
+      "p_1x2": {
+        "home": 0.45395080970357565,
+        "draw": 0.2999718358353123,
+        "away": 0.246077354461112
+      },
+      "p_btts": 0.38481210720718895,
+      "p_over_2_5": 0.3233235838169365,
+      "goal_rates": {
+        "home": 1.2,
+        "away": 0.8
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879852",
+      "kickoff_at": "2016-05-01T00:00:00+00:00",
+      "as_of": "2016-04-30T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Palermo",
+      "away": "Sampdoria",
+      "p_1x2": {
+        "home": 0.15585382469274248,
+        "draw": 0.2417172684100961,
+        "away": 0.6024289068971614
+      },
+      "p_btts": 0.406733949803386,
+      "p_over_2_5": 0.4171752074102223,
+      "goal_rates": {
+        "home": 0.7,
+        "away": 1.65
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879853",
+      "kickoff_at": "2016-05-01T00:00:00+00:00",
+      "as_of": "2016-04-30T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Lazio",
+      "away": "Inter Milan",
+      "p_1x2": {
+        "home": 0.27359050444224664,
+        "draw": 0.26348916737001277,
+        "away": 0.46292032818774054
+      },
+      "p_btts": 0.49757696141894586,
+      "p_over_2_5": 0.4561868841166704,
+      "goal_rates": {
+        "home": 1.05,
+        "away": 1.4500000000000002
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879854",
+      "kickoff_at": "2016-05-01T00:00:00+00:00",
+      "as_of": "2016-04-30T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sassuolo",
+      "away": "Hellas Verona",
+      "p_1x2": {
+        "home": 0.5130489666976342,
+        "draw": 0.2554415236337989,
+        "away": 0.23150950966856684
+      },
+      "p_btts": 0.4830960013426545,
+      "p_over_2_5": 0.4561868841166704,
+      "goal_rates": {
+        "home": 1.55,
+        "away": 0.95
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754092",
+      "kickoff_at": "2016-05-02T00:00:00+00:00",
+      "as_of": "2016-05-01T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Chelsea",
+      "away": "Tottenham Hotspur",
+      "p_1x2": {
+        "home": 0.33524047333049944,
+        "draw": 0.2416906577714976,
+        "away": 0.423068868898003
+      },
+      "p_btts": 0.6012935864316021,
+      "p_over_2_5": 0.5768099188731565,
+      "goal_rates": {
+        "home": 1.4,
+        "away": 1.6
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879855",
+      "kickoff_at": "2016-05-02T00:00:00+00:00",
+      "as_of": "2016-05-01T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Napoli",
+      "away": "Atalanta",
+      "p_1x2": {
+        "home": 0.502750007614335,
+        "draw": 0.23534669249647677,
+        "away": 0.2619032998891883
+      },
+      "p_btts": 0.577371550585785,
+      "p_over_2_5": 0.5655150159955757,
+      "goal_rates": {
+        "home": 1.75,
+        "away": 1.2
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879856",
+      "kickoff_at": "2016-05-02T00:00:00+00:00",
+      "as_of": "2016-05-01T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Genoa",
+      "away": "AS Roma",
+      "p_1x2": {
+        "home": 0.23614876153902045,
+        "draw": 0.2160352390328887,
+        "away": 0.5478159994280908
+      },
+      "p_btts": 0.6169341277349192,
+      "p_over_2_5": 0.6304333316038996,
+      "goal_rates": {
+        "home": 1.25,
+        "away": 2.0
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754026",
+      "kickoff_at": "2016-05-07T00:00:00+00:00",
+      "as_of": "2016-05-06T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Crystal Palace",
+      "away": "Stoke City",
+      "p_1x2": {
+        "home": 0.41767047246894196,
+        "draw": 0.25668161007311746,
+        "away": 0.3256479174579406
+      },
+      "p_btts": 0.5461304277857619,
+      "p_over_2_5": 0.506375508926538,
+      "goal_rates": {
+        "home": 1.45,
+        "away": 1.25
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754033",
+      "kickoff_at": "2016-05-07T00:00:00+00:00",
+      "as_of": "2016-05-06T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Leicester City",
+      "away": "Everton",
+      "p_1x2": {
+        "home": 0.5776079829492612,
+        "draw": 0.25478156100295524,
+        "away": 0.16761045604778357
+      },
+      "p_btts": 0.3965659469437117,
+      "p_over_2_5": 0.3906607330017219,
+      "goal_rates": {
+        "home": 1.55,
+        "away": 0.7
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754070",
+      "kickoff_at": "2016-05-07T00:00:00+00:00",
+      "as_of": "2016-05-06T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Aston Villa",
+      "away": "Newcastle United",
+      "p_1x2": {
+        "home": 0.21707047456776749,
+        "draw": 0.22263184496150637,
+        "away": 0.5602976804707261
+      },
+      "p_btts": 0.5673473654471494,
+      "p_over_2_5": 0.5768099188731565,
+      "goal_rates": {
+        "home": 1.1,
+        "away": 1.9
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754108",
+      "kickoff_at": "2016-05-07T00:00:00+00:00",
+      "as_of": "2016-05-06T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sunderland",
+      "away": "Chelsea",
+      "p_1x2": {
+        "home": 0.28232458335642147,
+        "draw": 0.25222146272250767,
+        "away": 0.46545395392107075
+      },
+      "p_btts": 0.5383207695339535,
+      "p_over_2_5": 0.506375508926538,
+      "goal_rates": {
+        "home": 1.15,
+        "away": 1.55
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754158",
+      "kickoff_at": "2016-05-07T00:00:00+00:00",
+      "as_of": "2016-05-06T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "West Ham United",
+      "away": "Swansea City",
+      "p_1x2": {
+        "home": 0.5036675194709197,
+        "draw": 0.22341758077625312,
+        "away": 0.2729148997528271
+      },
+      "p_btts": 0.6299653279631955,
+      "p_over_2_5": 0.6304333316038996,
+      "goal_rates": {
+        "home": 1.9000000000000001,
+        "away": 1.35
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754210",
+      "kickoff_at": "2016-05-07T00:00:00+00:00",
+      "as_of": "2016-05-06T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Norwich City",
+      "away": "Manchester United",
+      "p_1x2": {
+        "home": 0.24607735446111195,
+        "draw": 0.2999718358353123,
+        "away": 0.4539508097035757
+      },
+      "p_btts": 0.3848121072071891,
+      "p_over_2_5": 0.3233235838169365,
+      "goal_rates": {
+        "home": 0.8,
+        "away": 1.2000000000000002
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754225",
+      "kickoff_at": "2016-05-07T00:00:00+00:00",
+      "as_of": "2016-05-06T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AFC Bournemouth",
+      "away": "West Bromwich Albion",
+      "p_1x2": {
+        "home": 0.37090993817532153,
+        "draw": 0.25818012364935705,
+        "away": 0.37090993817532153
+      },
+      "p_btts": 0.5487249914479668,
+      "p_over_2_5": 0.506375508926538,
+      "goal_rates": {
+        "home": 1.35,
+        "away": 1.35
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879857",
+      "kickoff_at": "2016-05-07T00:00:00+00:00",
+      "as_of": "2016-05-06T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Inter Milan",
+      "away": "Empoli",
+      "p_1x2": {
+        "home": 0.42329681241299727,
+        "draw": 0.3131381289121442,
+        "away": 0.2635650586748586
+      },
+      "p_btts": 0.367368571407334,
+      "p_over_2_5": 0.29627964655750216,
+      "goal_rates": {
+        "home": 1.1,
+        "away": 0.8
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879858",
+      "kickoff_at": "2016-05-07T00:00:00+00:00",
+      "as_of": "2016-05-06T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Bologna",
+      "away": "AC Milan",
+      "p_1x2": {
+        "home": 0.2635650586748586,
+        "draw": 0.3131381289121442,
+        "away": 0.42329681241299727
+      },
+      "p_btts": 0.367368571407334,
+      "p_over_2_5": 0.29627964655750216,
+      "goal_rates": {
+        "home": 0.8,
+        "away": 1.1
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3753992",
+      "kickoff_at": "2016-05-08T00:00:00+00:00",
+      "as_of": "2016-05-07T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Tottenham Hotspur",
+      "away": "Southampton",
+      "p_1x2": {
+        "home": 0.4693935051226629,
+        "draw": 0.23352055603352037,
+        "away": 0.29708593884381673
+      },
+      "p_btts": 0.6120349982972212,
+      "p_over_2_5": 0.5988368526853678,
+      "goal_rates": {
+        "home": 1.75,
+        "away": 1.35
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754314",
+      "kickoff_at": "2016-05-08T00:00:00+00:00",
+      "as_of": "2016-05-07T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Manchester City",
+      "away": "Arsenal",
+      "p_1x2": {
+        "home": 0.41091156741547796,
+        "draw": 0.24458947587131116,
+        "away": 0.3444989567132109
+      },
+      "p_btts": 0.5934947681800828,
+      "p_over_2_5": 0.5655150159955757,
+      "goal_rates": {
+        "home": 1.55,
+        "away": 1.4
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754342",
+      "kickoff_at": "2016-05-08T00:00:00+00:00",
+      "as_of": "2016-05-07T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Liverpool",
+      "away": "Watford",
+      "p_1x2": {
+        "home": 0.6146991571470719,
+        "draw": 0.2041131442924422,
+        "away": 0.18118769856048594
+      },
+      "p_btts": 0.5704579495029031,
+      "p_over_2_5": 0.6095635590826802,
+      "goal_rates": {
+        "home": 2.1,
+        "away": 1.05
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879859",
+      "kickoff_at": "2016-05-08T00:00:00+00:00",
+      "as_of": "2016-05-07T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Carpi",
+      "away": "Lazio",
+      "p_1x2": {
+        "home": 0.3722457114235745,
+        "draw": 0.2799809422645179,
+        "away": 0.3477733463119075
+      },
+      "p_btts": 0.47753818092429434,
+      "p_over_2_5": 0.4171752074102224,
+      "goal_rates": {
+        "home": 1.2000000000000002,
+        "away": 1.15
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879860",
+      "kickoff_at": "2016-05-08T00:00:00+00:00",
+      "as_of": "2016-05-07T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Fiorentina",
+      "away": "Palermo",
+      "p_1x2": {
+        "home": 0.3971299623626496,
+        "draw": 0.27909098739208654,
+        "away": 0.3237790502452638
+      },
+      "p_btts": 0.47599328165728,
+      "p_over_2_5": 0.4171752074102224,
+      "goal_rates": {
+        "home": 1.25,
+        "away": 1.1
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879861",
+      "kickoff_at": "2016-05-08T00:00:00+00:00",
+      "as_of": "2016-05-07T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Frosinone",
+      "away": "Sassuolo",
+      "p_1x2": {
+        "home": 0.1923440739553666,
+        "draw": 0.24444846961170727,
+        "away": 0.5632074564329262
+      },
+      "p_btts": 0.4626201580544181,
+      "p_over_2_5": 0.4561868841166704,
+      "goal_rates": {
+        "home": 0.8500000000000001,
+        "away": 1.65
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879862",
+      "kickoff_at": "2016-05-08T00:00:00+00:00",
+      "as_of": "2016-05-07T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Torino",
+      "away": "Napoli",
+      "p_1x2": {
+        "home": 0.2729148997528272,
+        "draw": 0.22341758077625315,
+        "away": 0.5036675194709198
+      },
+      "p_btts": 0.6299653279631955,
+      "p_over_2_5": 0.6304333316038996,
+      "goal_rates": {
+        "home": 1.35,
+        "away": 1.9
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879863",
+      "kickoff_at": "2016-05-08T00:00:00+00:00",
+      "as_of": "2016-05-07T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Atalanta",
+      "away": "Udinese",
+      "p_1x2": {
+        "home": 0.41959328367975246,
+        "draw": 0.2513744837223796,
+        "away": 0.329032232597868
+      },
+      "p_btts": 0.5651481094427756,
+      "p_over_2_5": 0.5305463165333173,
+      "goal_rates": {
+        "home": 1.5,
+        "away": 1.3
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879864",
+      "kickoff_at": "2016-05-08T00:00:00+00:00",
+      "as_of": "2016-05-07T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Hellas Verona",
+      "away": "Juventus",
+      "p_1x2": {
+        "home": 0.07564790555172163,
+        "draw": 0.18958572164392484,
+        "away": 0.7347663728043535
+      },
+      "p_btts": 0.31081573008112556,
+      "p_over_2_5": 0.4302912533424895,
+      "goal_rates": {
+        "home": 0.44999999999999996,
+        "away": 1.95
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879865",
+      "kickoff_at": "2016-05-08T00:00:00+00:00",
+      "as_of": "2016-05-07T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sampdoria",
+      "away": "Genoa",
+      "p_1x2": {
+        "home": 0.4223573419792077,
+        "draw": 0.2773165994744561,
+        "away": 0.3003260585463362
+      },
+      "p_btts": 0.4728996200703816,
+      "p_over_2_5": 0.4171752074102223,
+      "goal_rates": {
+        "home": 1.3,
+        "away": 1.0499999999999998
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879866",
+      "kickoff_at": "2016-05-08T00:00:00+00:00",
+      "as_of": "2016-05-07T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AS Roma",
+      "away": "Chievo",
+      "p_1x2": {
+        "home": 0.4429860532750052,
+        "draw": 0.24959349734739728,
+        "away": 0.3074204493775976
+      },
+      "p_btts": 0.5620572919382847,
+      "p_over_2_5": 0.5305463165333173,
+      "goal_rates": {
+        "home": 1.55,
+        "away": 1.25
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754134",
+      "kickoff_at": "2016-05-10T00:00:00+00:00",
+      "as_of": "2016-05-09T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "West Ham United",
+      "away": "Manchester United",
+      "p_1x2": {
+        "home": 0.38374879434264286,
+        "draw": 0.25535849946457434,
+        "away": 0.3608927061927828
+      },
+      "p_btts": 0.5580906366192097,
+      "p_over_2_5": 0.5185432952869836,
+      "goal_rates": {
+        "home": 1.4,
+        "away": 1.35
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3753989",
+      "kickoff_at": "2016-05-11T00:00:00+00:00",
+      "as_of": "2016-05-10T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sunderland",
+      "away": "Everton",
+      "p_1x2": {
+        "home": 0.4614669083488433,
+        "draw": 0.26972988562273226,
+        "away": 0.2688032060284245
+      },
+      "p_btts": 0.4762415481763637,
+      "p_over_2_5": 0.4302912533424895,
+      "goal_rates": {
+        "home": 1.4,
+        "away": 1.0
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754055",
+      "kickoff_at": "2016-05-11T00:00:00+00:00",
+      "as_of": "2016-05-10T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Liverpool",
+      "away": "Chelsea",
+      "p_1x2": {
+        "home": 0.4613101367194074,
+        "draw": 0.22126937330226773,
+        "away": 0.31742048997832484
+      },
+      "p_btts": 0.6699290433286897,
+      "p_over_2_5": 0.6698056996226207,
+      "goal_rates": {
+        "home": 1.9,
+        "away": 1.5499999999999998
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754207",
+      "kickoff_at": "2016-05-11T00:00:00+00:00",
+      "as_of": "2016-05-10T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Norwich City",
+      "away": "Watford",
+      "p_1x2": {
+        "home": 0.37219080957537265,
+        "draw": 0.30797044062779,
+        "away": 0.31983874979683735
+      },
+      "p_btts": 0.39865651067095614,
+      "p_over_2_5": 0.3233235838169365,
+      "goal_rates": {
+        "home": 1.05,
+        "away": 0.95
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879867",
+      "kickoff_at": "2016-05-14T00:00:00+00:00",
+      "as_of": "2016-05-13T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Napoli",
+      "away": "Frosinone",
+      "p_1x2": {
+        "home": 0.6176926703547859,
+        "draw": 0.2102730331991082,
+        "away": 0.17203429644610588
+      },
+      "p_btts": 0.5302633992573185,
+      "p_over_2_5": 0.5655150159955757,
+      "goal_rates": {
+        "home": 2.0,
+        "away": 0.95
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879868",
+      "kickoff_at": "2016-05-14T00:00:00+00:00",
+      "as_of": "2016-05-13T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Sassuolo",
+      "away": "Inter Milan",
+      "p_1x2": {
+        "home": 0.3438779195205329,
+        "draw": 0.2873146117153453,
+        "away": 0.36880746876412185
+      },
+      "p_btts": 0.4558913714847316,
+      "p_over_2_5": 0.3906607330017219,
+      "goal_rates": {
+        "home": 1.1,
+        "away": 1.15
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879869",
+      "kickoff_at": "2016-05-14T00:00:00+00:00",
+      "as_of": "2016-05-13T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "AC Milan",
+      "away": "AS Roma",
+      "p_1x2": {
+        "home": 0.21262136756130207,
+        "draw": 0.22648519436137085,
+        "away": 0.5608934380773271
+      },
+      "p_btts": 0.5478483046316244,
+      "p_over_2_5": 0.5540368014428195,
+      "goal_rates": {
+        "home": 1.05,
+        "away": 1.85
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879870",
+      "kickoff_at": "2016-05-14T00:00:00+00:00",
+      "as_of": "2016-05-13T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Juventus",
+      "away": "Sampdoria",
+      "p_1x2": {
+        "home": 0.5901817503056896,
+        "draw": 0.2481891497754427,
+        "away": 0.1616290999188676
+      },
+      "p_btts": 0.4017770219367388,
+      "p_over_2_5": 0.40396117406793175,
+      "goal_rates": {
+        "home": 1.6,
+        "away": 0.7
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3753994",
+      "kickoff_at": "2016-05-15T00:00:00+00:00",
+      "as_of": "2016-05-14T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Southampton",
+      "away": "Crystal Palace",
+      "p_1x2": {
+        "home": 0.47796199903675085,
+        "draw": 0.24809661116559747,
+        "away": 0.2739413897976517
+      },
+      "p_btts": 0.5453945738329989,
+      "p_over_2_5": 0.5185432952869836,
+      "goal_rates": {
+        "home": 1.6,
+        "away": 1.15
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754041",
+      "kickoff_at": "2016-05-15T00:00:00+00:00",
+      "as_of": "2016-05-14T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Arsenal",
+      "away": "Aston Villa",
+      "p_1x2": {
+        "home": 0.6743785496550916,
+        "draw": 0.19434839685896452,
+        "away": 0.13127305348594392
+      },
+      "p_btts": 0.48323782768620377,
+      "p_over_2_5": 0.5540368014428195,
+      "goal_rates": {
+        "home": 2.1,
+        "away": 0.8
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754042",
+      "kickoff_at": "2016-05-15T00:00:00+00:00",
+      "as_of": "2016-05-14T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "West Bromwich Albion",
+      "away": "Liverpool",
+      "p_1x2": {
+        "home": 0.20981946529306608,
+        "draw": 0.23997906393008506,
+        "away": 0.5502014707768488
+      },
+      "p_btts": 0.5012266655531937,
+      "p_over_2_5": 0.49404900047099864,
+      "goal_rates": {
+        "home": 0.95,
+        "away": 1.7000000000000002
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754123",
+      "kickoff_at": "2016-05-15T00:00:00+00:00",
+      "as_of": "2016-05-14T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Everton",
+      "away": "Norwich City",
+      "p_1x2": {
+        "home": 0.2688032060284245,
+        "draw": 0.26972988562273226,
+        "away": 0.4614669083488433
+      },
+      "p_btts": 0.4762415481763637,
+      "p_over_2_5": 0.4302912533424895,
+      "goal_rates": {
+        "home": 1.0,
+        "away": 1.4
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754149",
+      "kickoff_at": "2016-05-15T00:00:00+00:00",
+      "as_of": "2016-05-14T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Swansea City",
+      "away": "Manchester City",
+      "p_1x2": {
+        "home": 0.2580563211033428,
+        "draw": 0.22738480962354518,
+        "away": 0.514558869273112
+      },
+      "p_btts": 0.60130723921974,
+      "p_over_2_5": 0.5988368526853678,
+      "goal_rates": {
+        "home": 1.25,
+        "away": 1.85
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754199",
+      "kickoff_at": "2016-05-15T00:00:00+00:00",
+      "as_of": "2016-05-14T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Stoke City",
+      "away": "West Ham United",
+      "p_1x2": {
+        "home": 0.23989342663897625,
+        "draw": 0.20330089141857952,
+        "away": 0.5568056819424442
+      },
+      "p_btts": 0.6699236001433522,
+      "p_over_2_5": 0.6972531552839984,
+      "goal_rates": {
+        "home": 1.4,
+        "away": 2.2
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754229",
+      "kickoff_at": "2016-05-15T00:00:00+00:00",
+      "as_of": "2016-05-14T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Chelsea",
+      "away": "Leicester City",
+      "p_1x2": {
+        "home": 0.2779641523748944,
+        "draw": 0.24321452285044712,
+        "away": 0.47882132477465844
+      },
+      "p_btts": 0.5646002003418822,
+      "p_over_2_5": 0.5423791164789341,
+      "goal_rates": {
+        "home": 1.2,
+        "away": 1.65
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754308",
+      "kickoff_at": "2016-05-15T00:00:00+00:00",
+      "as_of": "2016-05-14T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Watford",
+      "away": "Sunderland",
+      "p_1x2": {
+        "home": 0.19783108663897514,
+        "draw": 0.23952000342575674,
+        "away": 0.5626489099352681
+      },
+      "p_btts": 0.4850203944210001,
+      "p_over_2_5": 0.48157042406394945,
+      "goal_rates": {
+        "home": 0.9,
+        "away": 1.7
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754333",
+      "kickoff_at": "2016-05-15T00:00:00+00:00",
+      "as_of": "2016-05-14T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Newcastle United",
+      "away": "Tottenham Hotspur",
+      "p_1x2": {
+        "home": 0.24133540035081943,
+        "draw": 0.2449048299791947,
+        "away": 0.5137597696699858
+      },
+      "p_btts": 0.5252178550078404,
+      "p_over_2_5": 0.506375508926538,
+      "goal_rates": {
+        "home": 1.05,
+        "away": 1.65
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879871",
+      "kickoff_at": "2016-05-15T00:00:00+00:00",
+      "as_of": "2016-05-14T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Udinese",
+      "away": "Carpi",
+      "p_1x2": {
+        "home": 0.28672890648766514,
+        "draw": 0.26201916226752897,
+        "away": 0.4512519312448059
+      },
+      "p_btts": 0.510640294209276,
+      "p_over_2_5": 0.4689470691096572,
+      "goal_rates": {
+        "home": 1.1,
+        "away": 1.4500000000000002
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879872",
+      "kickoff_at": "2016-05-15T00:00:00+00:00",
+      "as_of": "2016-05-14T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Chievo",
+      "away": "Bologna",
+      "p_1x2": {
+        "home": 0.5085192707090697,
+        "draw": 0.29812319080048383,
+        "away": 0.19335753849044657
+      },
+      "p_btts": 0.3410180456014289,
+      "p_over_2_5": 0.29627964655750205,
+      "goal_rates": {
+        "home": 1.25,
+        "away": 0.65
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879873",
+      "kickoff_at": "2016-05-15T00:00:00+00:00",
+      "as_of": "2016-05-14T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Empoli",
+      "away": "Torino",
+      "p_1x2": {
+        "home": 0.34136208043880245,
+        "draw": 0.2696334818190036,
+        "away": 0.38900443774219395
+      },
+      "p_btts": 0.5083589936776841,
+      "p_over_2_5": 0.4561868841166704,
+      "goal_rates": {
+        "home": 1.2,
+        "away": 1.3
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879874",
+      "kickoff_at": "2016-05-15T00:00:00+00:00",
+      "as_of": "2016-05-14T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Lazio",
+      "away": "Fiorentina",
+      "p_1x2": {
+        "home": 0.4748298399736863,
+        "draw": 0.2647873060584188,
+        "away": 0.26038285396789485
+      },
+      "p_btts": 0.48384385723413054,
+      "p_over_2_5": 0.4432985000959361,
+      "goal_rates": {
+        "home": 1.4500000000000002,
+        "away": 1.0
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879875",
+      "kickoff_at": "2016-05-15T00:00:00+00:00",
+      "as_of": "2016-05-14T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Palermo",
+      "away": "Hellas Verona",
+      "p_1x2": {
+        "home": 0.3477733463119075,
+        "draw": 0.2799809422645179,
+        "away": 0.3722457114235745
+      },
+      "p_btts": 0.47753818092429434,
+      "p_over_2_5": 0.4171752074102224,
+      "goal_rates": {
+        "home": 1.15,
+        "away": 1.2000000000000002
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3879876",
+      "kickoff_at": "2016-05-15T00:00:00+00:00",
+      "as_of": "2016-05-14T00:00:00+00:00",
+      "competition": "Serie A",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Genoa",
+      "away": "Atalanta",
+      "p_1x2": {
+        "home": 0.43362979526036854,
+        "draw": 0.24325388020326677,
+        "away": 0.3231163245363647
+      },
+      "p_btts": 0.5912029273078856,
+      "p_over_2_5": 0.5655150159955757,
+      "goal_rates": {
+        "home": 1.6,
+        "away": 1.35
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    },
+    {
+      "match_id": "statsbomb-3754159",
+      "kickoff_at": "2016-05-17T00:00:00+00:00",
+      "as_of": "2016-05-16T00:00:00+00:00",
+      "competition": "Premier League",
+      "variant": "goals10-alpha0-posthoc-control",
+      "home": "Manchester United",
+      "away": "AFC Bournemouth",
+      "p_1x2": {
+        "home": 0.46424418578646565,
+        "draw": 0.25766721477624444,
+        "away": 0.2780885994372899
+      },
+      "p_btts": 0.5182723343678246,
+      "p_over_2_5": 0.48157042406394945,
+      "goal_rates": {
+        "home": 1.5,
+        "away": 1.1
+      },
+      "mode": "retrospective_reconstruction",
+      "point_in_time_verified": false,
+      "result": null
+    }
+  ],
+  "limitation": "Computed after held-out results were already seen. It clarifies attribution but is not an independent confirmation; repeat the matched comparison on a new period."
+}

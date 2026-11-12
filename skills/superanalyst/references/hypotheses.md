@@ -60,6 +60,14 @@ Hipotesis efisiensi pasar membahas bagaimana informasi tercermin dalam harga. Pe
 
 **Uji:** tetapkan jendela T-30, definisi perubahan, ketahanan pergerakan, spread dan likuiditas sebelum pengujian. Cocokkan dengan waktu berita publik, pengumuman XI, serta tiga pasar sebanding. Pisahkan berita terkonfirmasi, mikrostruktur/likuiditas, dan penyebab tak diketahui. Bandingkan model lapangan saja, pasar saja, dan kombinasi; nilai tambahan informasi di luar sampel.
 
+## Catatan empiris 12 November 2026
+
+[Pengembangan UCL](../../../backtests/ucl-model-upgrade-v1/review.md) menguji kekuatan tim/lawan, jendela 5/10/20, kandang, istirahat, H2H, proxy jarak kota dan proxy poin fase UCL. Resep berbeda per target dipilih pada 125 laga validasi, kemudian membaik terhadap gol5 pada 378 laga dua musim uji. Ini tidak menaksir efek psikologis, tidak membuktikan angka 22%/35%/18%, dan tidak menyatakan setiap komponen memberi manfaat sendiri di luar sampel.
+
+[Studi xG tambahan](../../../backtests/xg-domestic-2015-v1/review.md) berada di dua liga pria 2015/16. Campuran membantu pemenang terhadap baseline gol5 pada sampel itu, tetapi BTTS dan total gol berbasis xG murni tidak membaik. Perbandingan jendela yang sama ditandai sebagai diagnosis posthoc; belum menjadi dasar mengaktifkan xG pada UCL modern.
+
+Absensi berbobot peran/pengganti dan anomali pasar belum memiliki arsip sebelum cutoff yang cukup dalam pekerjaan ini. Validasi cap waktu dan sumber sudah tersedia, tetapi efek prediktifnya tetap belum diuji. [Status cakupan](../../../backtests/ucl-model-upgrade-v1/coverage-status.json).
+
 ## Cara memperbarui status
 
 Gunakan status `hipotesis`, `didukung pada konteks tertentu`, `tidak didukung pada sampel uji`, atau `belum dapat dinilai`. Simpan ID eksperimen, sumber/dataset, periode, cutoff, ukuran sampel, versi fitur/model, efek beserta ketidakpastiannya, dan metrik out-of-sample. Koefisien baru hanya aktif dalam model dan konteks yang benar-benar diuji. Jangan mengubah semua hipotesis menjadi aturan hanya karena satu musim terlihat cocok.

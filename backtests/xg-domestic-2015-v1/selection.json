@@ -1,0 +1,19 @@
+{
+  "selected": {
+    "1x2": "goals10-alpha0.5",
+    "btts": "goals5-alpha1",
+    "over_2_5": "goals5-alpha1"
+  },
+  "n": 179,
+  "created_at": "2026-11-12T09:57:51.532975+00:00",
+  "corpus_sha256": "6f6af4e2c6eb11acd763c65c43198fe1485426cbbb9ca79602d30f7f0160ee4d",
+  "sha256": {
+    "run.py": "16d05211afb8ca4a363a660fa0d7a9945e24364aa822140ed74db443faf86f4a",
+    "experiment.json": "0064866dbe3342968d731ae099293c8ff6e8e919062e8aaf7d9139c55aa5ed02",
+    "features.json": "5bb7ccb05db22478a08f20384477782f0b9921f4fdb9db8df0bb6f8850a8b32b",
+    "validation-predictions.json": "a914c2d32c94d19641ad61f26b5eafb93ac8825497c50498129e446b84bcc101",
+    "validation-evaluation.json": "02f955574711fd0c5aa677e002e3867c85d711d11d48fc3806f3f65dae3bc000",
+    "../../skills/superanalyst/scripts/research/scoring.py": "3d972920b5e347ecb4a2c8cd3c7775cd03e1605dd0348c21ce8cd599286956f6",
+    "../../skills/superanalyst/scripts/stats.py": "9726897fcf19972b66125444f89b052507db9a6c99432f6ee85f37eb372160da"
+  }
+}

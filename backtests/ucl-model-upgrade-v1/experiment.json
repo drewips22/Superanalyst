@@ -1,0 +1,42 @@
+{
+  "experiment_id": "ucl-model-upgrade-v1",
+  "declared_on": "2026-11-12",
+  "mode": "retrospective_reconstruction",
+  "point_in_time_verified": false,
+  "scope": "90m",
+  "data_source": "ESPN historical schedules/results; StatsBomb Open Data only for separately labeled xG study",
+  "training_seasons_start_year": [2020, 2021, 2022],
+  "validation_seasons_start_year": [2023],
+  "test_seasons_start_year": [2024, 2025],
+  "target_competition": "UEFA Champions League, main group/league phase through final; qualifying excluded",
+  "horizon_hours": 24,
+  "historical_availability": "Result/score features admitted no earlier than kickoff + 4 hours as a conservative reconstruction proxy, not a verified source publication timestamp. Date-only domestic scores are admitted from the following UTC day; no fabricated publication times.",
+  "cohort_rule": "All completed target fixtures in each declared season with verified 90-minute score. Baseline comparison uses the same fixtures with at least five eligible historical team matches; report excluded/cold-start fixtures separately.",
+  "fit_schedule": "Monthly walk-forward. Each fit uses only rows available at or before the earliest forecast cutoff in that month's target block. Earlier validation/test outcomes may enter later fits only according to this predeclared schedule. Hyperparameters and variant selection are frozen after validation.",
+  "training_window_days": 1461,
+  "recency_half_life_days": 365,
+  "regularization": {"team_parameters": 10.0, "numeric_features": 5.0, "competition_parameters": 2.0},
+  "candidates": [
+    "goals_last5_baseline", "goals_last10", "goals_last20",
+    "team_strength", "team_strength_home",
+    "team_strength_home_form5", "team_strength_home_form10", "team_strength_home_form20",
+    "team_strength_home_form10_rest", "team_strength_home_form10_rest_h2h",
+    "team_strength_home_form10_rest_travel", "team_strength_home_form10_rest_motivation"
+  ],
+  "selection_rule": "Choose 1X2 variant by lowest validation log loss, tie-break Brier; choose BTTS variant by lowest validation Brier, tie-break log loss; choose total-goal variant by lowest validation Brier. All variants and failures reported. These are separate target models, not a claimed single joint forecast.",
+  "promotion_gate": "For each target separately, the validation-selected variant must beat the last5 baseline on pooled held-out primary metric, must not worsen that target's companion proper scoring metric, and must improve the primary metric in each of the two held-out seasons. Report paired time-block uncertainty; no claim of established superiority from point estimates alone. Targets failing the gate retain the earlier baseline/research-only status. No retuning after test results.",
+  "primary_metrics": {"1x2": "log_loss", "btts": "brier", "over_2_5": "brier"},
+  "bootstrap": {"unit": "UTC calendar month", "replicates": 2000, "seed": 1729},
+  "extra_features": {
+    "form": "Causal rolling mean goals for/against with a league-wide training prior; compare windows 5, 10, 20; no removing large scores based on later results.",
+    "rest": "Days since last eligible covered competitive fixture and number of covered fixtures in preceding 14 days; explicit source coverage limits.",
+    "travel": "Great-circle distance from away club's previously observed home venue city to target venue city, labeled city-distance proxy; not actual itinerary. Missing coordinates remain unavailable, not zero distance.",
+    "h2h": "Causal prior competitive head-to-head goal differential in preceding three years, shrunk by n/(n+5); not counts from target or future fixtures.",
+    "motivation": "UCL phase points per game and games played as measurable standings proxies, labeled as such; no claim to measure psychological intensity or automatic +18%.",
+    "absences": "Requires historically announced status and role/minutes before cutoff; target actual lineup is not a T-24h feature. Unsupported histories remain not tested.",
+    "markets": "Requires comparable timestamped quotes before each cutoff. Undated/closing quotes cannot substitute for T-24h. Anomalies at T-30 are a distinct horizon and need independent sources."
+  },
+  "luck_policy": "User suspects Fenerbahce's win over Liverpool involved luck. Store as an unverified post-match diagnostic hypothesis. The match remains a scored loss for Liverpool's 1X2 pick; no luck feature or result exclusion.",
+  "old_cases": "Previously frozen PSG-Inter and nine-match November cohort remain unchanged and are not used to select these variants.",
+  "auxiliary_xg": "StatsBomb complete Premier League and Serie A 2015/16 seasons. Separate chronological study of prior-match xG features versus goals; not evidence of transfer to modern UCL. Retain single-provider definition and normal-time event scope."
+}

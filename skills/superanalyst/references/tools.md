@@ -1,6 +1,6 @@
 # Panduan alat dan format input
 
-Semua alat memakai Python 3.11+ dan pustaka standar. Jalankan dari akar repo. Alat tidak mengambil berita, mengunduh statistik, melatih model, atau memantau pasar secara otomatis. Hasil JSON ditulis ke layar; arahkan ke file dalam `runs/` bila ingin menyimpannya.
+Semua alat memakai Python 3.11+. Alat dasar `stats.py` dan `evaluate.py` hanya memakai pustaka standar. Penelitian di `scripts/research/` menambahkan kolektor historis, fitur kausal, model terlatih dan validasi konteks; fit/replay model terlatih memerlukan dependensi opsional pada `requirements-research.txt`. Lihat [panduan model terlatih](trained-models.md). Tidak ada pengumpulan berita, pemantauan pasar atau pengiriman transaksi otomatis yang sedang berjalan. Jalankan dari akar repo; arahkan hasil pribadi ke `runs/`.
 
 ## Ringkasan lima laga
 

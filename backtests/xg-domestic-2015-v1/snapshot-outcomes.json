@@ -1,0 +1,4562 @@
+{
+  "statsbomb-3754078": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754078.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754097": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754097.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754128": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754128.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754138": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754138.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754237": {
+    "home_goals": 4,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754237.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754300": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754300.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3753985": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753985.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754112": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754112.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754141": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754141.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754145": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754145.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754107": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754107.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3753993": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753993.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754034": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754034.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754203": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754203.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754267": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754267.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754270": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754270.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754344": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754344.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754066": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754066.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754312": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754312.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754020": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754020.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3753987": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753987.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754104": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754104.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754131": {
+    "home_goals": 3,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754131.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754180": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754180.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754190": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754190.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754254": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754254.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3878540": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878540.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878541": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878541.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754059": {
+    "home_goals": 2,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754059.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754189": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754189.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754233": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754233.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3878542": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878542.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878543": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878543.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878544": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878544.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878545": {
+    "home_goals": 5,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878545.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878546": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878546.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878547": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878547.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878548": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878548.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878549": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878549.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754129": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754129.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3753984": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753984.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754007": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754007.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754023": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754023.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754083": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754083.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754204": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754204.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754205": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754205.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754246": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754246.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754268": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754268.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3878550": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878550.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878551": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878551.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754221": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754221.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754337": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754337.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3878552": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878552.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878553": {
+    "home_goals": 4,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878553.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878554": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878554.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878555": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878555.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878556": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878556.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878557": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878557.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878558": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878558.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878559": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878559.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754003": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754003.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754213": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754213.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754240": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754240.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754257": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754257.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754315": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754315.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754325": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754325.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754336": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754336.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3878592": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878592.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878593": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878593.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878594": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878594.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754106": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754106.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754148": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754148.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3878595": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878595.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878596": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878596.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878597": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878597.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878598": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878598.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878599": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878599.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878600": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878600.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754329": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754329.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3878601": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878601.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754010": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754010.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754068": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754068.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754077": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754077.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754146": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754146.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754169": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754169.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754217": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754217.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754298": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754298.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3878602": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878602.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878603": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878603.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754011": {
+    "home_goals": 2,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754011.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754040": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754040.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754222": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754222.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3878604": {
+    "home_goals": 5,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878604.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878605": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878605.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878606": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878606.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878607": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878607.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878608": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878608.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878609": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878609.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878610": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878610.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3878611": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3878611.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879537": {
+    "home_goals": 2,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879537.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879538": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879538.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879539": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879539.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879540": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879540.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879541": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879541.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879542": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879542.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879543": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879543.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879544": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879544.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879545": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879545.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879546": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879546.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3753978": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753978.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754001": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754001.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754008": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754008.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754174": {
+    "home_goals": 2,
+    "away_goals": 5,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754174.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754197": {
+    "home_goals": 4,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754197.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754212": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754212.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754323": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754323.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754339": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754339.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879547": {
+    "home_goals": 5,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879547.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879548": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879548.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754266": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754266.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879549": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879549.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879550": {
+    "home_goals": 1,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879550.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879551": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879551.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879552": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879552.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879553": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879553.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879554": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879554.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754105": {
+    "home_goals": 2,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754105.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879555": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879555.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879556": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879556.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3753995": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753995.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754076": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754076.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754079": {
+    "home_goals": 6,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754079.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754099": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754099.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754278": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754278.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754330": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754330.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754335": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754335.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879557": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879557.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879558": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879558.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754060": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754060.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754074": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754074.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754171": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754171.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879559": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879559.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879560": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879560.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879561": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879561.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879562": {
+    "home_goals": 0,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879562.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879563": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879563.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879564": {
+    "home_goals": 2,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879564.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879565": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879565.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879566": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879566.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3753999": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753999.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754067": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754067.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754115": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754115.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754193": {
+    "home_goals": 5,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754193.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754198": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754198.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754245": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754245.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754256": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754256.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754302": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754302.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879567": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879567.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879568": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879568.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754102": {
+    "home_goals": 6,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754102.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879569": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879569.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879570": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879570.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879571": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879571.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879572": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879572.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879573": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879573.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879574": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879574.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879575": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879575.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879576": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879576.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754269": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754269.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754017": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754017.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754091": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754091.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754126": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754126.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754133": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754133.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754263": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754263.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754288": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754288.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879577": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879577.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879578": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879578.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879579": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879579.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754015": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754015.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754119": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754119.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754230": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754230.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754234": {
+    "home_goals": 1,
+    "away_goals": 5,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754234.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879580": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879580.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879581": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879581.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879582": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879582.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879583": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879583.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879584": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879584.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879585": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879585.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879586": {
+    "home_goals": 4,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879586.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879587": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879587.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879588": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879588.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879589": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879589.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879590": {
+    "home_goals": 3,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879590.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879591": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879591.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879592": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879592.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879593": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879593.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879594": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879594.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879595": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879595.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879596": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879596.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3753983": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753983.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754006": {
+    "home_goals": 2,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754006.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754090": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754090.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754098": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754098.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754167": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754167.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754223": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754223.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754273": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754273.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879597": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879597.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879598": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879598.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754082": {
+    "home_goals": 6,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754082.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754191": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754191.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879599": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879599.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879600": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879600.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879601": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879601.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879602": {
+    "home_goals": 4,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879602.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879603": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879603.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879604": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879604.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754029": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754029.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879605": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879605.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879606": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879606.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754000": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754000.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754156": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754156.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754194": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754194.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754238": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754238.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754293": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754293.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754297": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754297.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754311": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754311.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879607": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879607.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879608": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879608.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754258": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754258.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754265": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754265.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754351": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754351.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879609": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879609.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879610": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879610.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879611": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879611.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879612": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879612.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879613": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879613.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879614": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879614.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879615": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879615.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879616": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879616.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3753972": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753972.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3753996": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753996.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754185": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754185.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754208": {
+    "home_goals": 1,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754208.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754211": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754211.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754247": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754247.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754283": {
+    "home_goals": 4,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754283.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754301": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754301.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879617": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879617.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879618": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879618.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754109": {
+    "home_goals": 4,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754109.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879619": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879619.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879620": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879620.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879621": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879621.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879622": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879622.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879623": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879623.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879624": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879624.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879625": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879625.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879626": {
+    "home_goals": 4,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879626.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3753979": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753979.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754028": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754028.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754150": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754150.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754157": {
+    "home_goals": 3,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754157.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754178": {
+    "home_goals": 2,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754178.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754186": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754186.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754304": {
+    "home_goals": 5,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754304.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879627": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879627.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879628": {
+    "home_goals": 4,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879628.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754038": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754038.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754047": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754047.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754093": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754093.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754235": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754235.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879629": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879629.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879630": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879630.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879631": {
+    "home_goals": 2,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879631.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879632": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879632.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879633": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879633.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879634": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879634.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879635": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879635.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879636": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879636.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879637": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879637.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754073": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754073.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754085": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754085.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754113": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754113.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754135": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754135.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754160": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754160.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754215": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754215.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754286": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754286.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754347": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754347.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879638": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879638.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879639": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879639.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754143": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754143.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879640": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879640.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879641": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879641.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879642": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879642.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879643": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879643.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879644": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879644.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879645": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879645.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879646": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879646.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754046": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754046.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754072": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754072.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754096": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754096.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754162": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754162.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754182": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754182.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754218": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754218.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754328": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754328.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879647": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879647.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879648": {
+    "home_goals": 0,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879648.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879649": {
+    "home_goals": 4,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879649.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754117": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754117.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754255": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754255.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754276": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754276.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879650": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879650.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879651": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879651.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879652": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879652.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879653": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879653.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879654": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879654.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754013": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754013.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879655": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879655.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754025": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754025.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754044": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754044.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754136": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754136.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754153": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754153.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754166": {
+    "home_goals": 2,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754166.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754188": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754188.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754219": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754219.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879656": {
+    "home_goals": 2,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879656.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754051": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754051.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754259": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754259.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879657": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879657.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879658": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879658.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879659": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879659.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879660": {
+    "home_goals": 2,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879660.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879661": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879661.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879662": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879662.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879663": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879663.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879664": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879664.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879665": {
+    "home_goals": 2,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879665.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754296": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754296.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3753974": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753974.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754014": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754014.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754054": {
+    "home_goals": 4,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754054.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754057": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754057.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754248": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754248.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754279": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754279.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754285": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754285.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754287": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754287.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754309": {
+    "home_goals": 4,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754309.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754343": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754343.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3753998": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753998.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754019": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754019.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754056": {
+    "home_goals": 3,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754056.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754130": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754130.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754173": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754173.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754195": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754195.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754291": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754291.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754326": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754326.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754045": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754045.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754226": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754226.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754036": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754036.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754058": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754058.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754069": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754069.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754101": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754101.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754122": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754122.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754251": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754251.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754319": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754319.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754346": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754346.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754114": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754114.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754140": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754140.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879666": {
+    "home_goals": 2,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879666.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879667": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879667.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879668": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879668.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879669": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879669.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879670": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879670.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879671": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879671.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879672": {
+    "home_goals": 3,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879672.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879673": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879673.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879674": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879674.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879675": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879675.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879676": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879676.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879677": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879677.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879678": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879678.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879679": {
+    "home_goals": 1,
+    "away_goals": 5,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879679.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879680": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879680.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879681": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879681.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879682": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879682.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879683": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879683.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879684": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879684.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879685": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879685.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3753981": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753981.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754021": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754021.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754088": {
+    "home_goals": 3,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754088.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754032": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754032.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754062": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754062.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754065": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754065.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754071": {
+    "home_goals": 2,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754071.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754142": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754142.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754183": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754183.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754305": {
+    "home_goals": 3,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754305.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754004": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754004.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754027": {
+    "home_goals": 4,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754027.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754125": {
+    "home_goals": 3,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754125.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754168": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754168.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754250": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754250.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754260": {
+    "home_goals": 4,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754260.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754338": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754338.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879686": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879686.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879687": {
+    "home_goals": 4,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879687.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879688": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879688.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754202": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754202.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754345": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754345.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879689": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879689.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879690": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879690.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879691": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879691.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879692": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879692.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879693": {
+    "home_goals": 0,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879693.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879694": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879694.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879695": {
+    "home_goals": 4,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879695.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754161": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754161.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879696": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879696.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3753975": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753975.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754084": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754084.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754110": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754110.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754179": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754179.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754200": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754200.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754271": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754271.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754341": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754341.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754348": {
+    "home_goals": 4,
+    "away_goals": 5,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754348.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879697": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879697.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879698": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879698.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754111": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754111.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754163": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754163.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879699": {
+    "home_goals": 2,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879699.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879700": {
+    "home_goals": 4,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879700.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879701": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879701.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879702": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879702.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879703": {
+    "home_goals": 4,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879703.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879704": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879704.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879705": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879705.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879706": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879706.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879707": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879707.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879708": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879708.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879709": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879709.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879710": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879710.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879711": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879711.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879712": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879712.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879713": {
+    "home_goals": 0,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879713.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879714": {
+    "home_goals": 5,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879714.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879715": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879715.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879716": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879716.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3753997": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753997.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754089": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754089.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754094": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754094.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754095": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754095.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754201": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754201.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754275": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754275.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754317": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754317.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754340": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754340.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879717": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879717.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754103": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754103.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754252": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754252.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879718": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879718.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879719": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879719.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879720": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879720.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879721": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879721.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879722": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879722.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879723": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879723.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879724": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879724.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879725": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879725.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879726": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879726.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754080": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754080.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754120": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754120.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754127": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754127.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754290": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754290.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754292": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754292.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754303": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754303.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754306": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754306.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754316": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754316.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879727": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879727.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879728": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879728.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754253": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754253.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754281": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754281.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879729": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879729.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879730": {
+    "home_goals": 3,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879730.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879731": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879731.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879732": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879732.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879733": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879733.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879734": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879734.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879735": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879735.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879736": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879736.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879737": {
+    "home_goals": 5,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879737.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879738": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879738.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754031": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754031.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754039": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754039.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754139": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754139.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754244": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754244.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754264": {
+    "home_goals": 5,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754264.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754274": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754274.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754350": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754350.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879739": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879739.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879740": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879740.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879741": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879741.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754147": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754147.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754214": {
+    "home_goals": 0,
+    "away_goals": 6,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754214.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754261": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754261.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879742": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879742.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879743": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879743.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879744": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879744.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879745": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879745.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879746": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879746.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879747": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879747.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879748": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879748.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879749": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879749.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879750": {
+    "home_goals": 2,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879750.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879751": {
+    "home_goals": 5,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879751.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879752": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879752.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879753": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879753.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879754": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879754.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879755": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879755.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879756": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879756.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754012": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754012.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754049": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754049.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754121": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754121.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754236": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754236.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754321": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754321.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754331": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754331.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879757": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879757.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879758": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879758.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754239": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754239.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754324": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754324.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879759": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879759.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879760": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879760.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879761": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879761.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879762": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879762.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879763": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879763.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879764": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879764.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879765": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879765.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879766": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879766.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754050": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754050.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754231": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754231.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754280": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754280.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754327": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754327.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754334": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754334.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3753976": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753976.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3753991": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753991.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754005": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754005.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754232": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754232.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754349": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754349.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879767": {
+    "home_goals": 4,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879767.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754061": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754061.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754151": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754151.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754164": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754164.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754177": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754177.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754249": {
+    "home_goals": 4,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754249.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754277": {
+    "home_goals": 2,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754277.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754289": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754289.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754318": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754318.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879768": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879768.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879769": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879769.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754081": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754081.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754220": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754220.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879770": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879770.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879771": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879771.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879772": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879772.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879773": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879773.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879774": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879774.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879775": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879775.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879776": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879776.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879777": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879777.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3753988": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753988.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754196": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754196.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754313": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754313.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879778": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879778.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879779": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879779.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754053": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754053.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879780": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879780.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879781": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879781.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879782": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879782.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879783": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879783.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879784": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879784.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879785": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879785.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879786": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879786.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754002": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754002.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3753973": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753973.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3753977": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753977.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3753980": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753980.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754052": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754052.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754181": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754181.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754224": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754224.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879787": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879787.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879788": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879788.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754043": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754043.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754064": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754064.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754100": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754100.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754124": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754124.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879789": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879789.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879790": {
+    "home_goals": 1,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879790.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879791": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879791.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879792": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879792.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879793": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879793.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879794": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879794.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879795": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879795.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879796": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879796.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754075": {
+    "home_goals": 0,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754075.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754087": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754087.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754118": {
+    "home_goals": 4,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754118.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754144": {
+    "home_goals": 0,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754144.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754175": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754175.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754176": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754176.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754243": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754243.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754272": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754272.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879797": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879797.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879798": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879798.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3753982": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753982.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754299": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754299.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879799": {
+    "home_goals": 1,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879799.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879800": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879800.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879801": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879801.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879802": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879802.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879803": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879803.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879804": {
+    "home_goals": 4,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879804.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879805": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879805.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879806": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879806.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754016": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754016.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754022": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754022.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754030": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754030.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754035": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754035.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754116": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754116.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754241": {
+    "home_goals": 3,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754241.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754262": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754262.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879807": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879807.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879808": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879808.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879809": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879809.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879810": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879810.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3753986": {
+    "home_goals": 4,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753986.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754152": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754152.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754209": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754209.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879811": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879811.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879812": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879812.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879813": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879813.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879814": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879814.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879815": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879815.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879816": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879816.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754048": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754048.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754024": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754024.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754137": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754137.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754155": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754155.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754172": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754172.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754295": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754295.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754322": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754322.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879817": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879817.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879818": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879818.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879819": {
+    "home_goals": 4,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879819.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754009": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754009.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754216": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754216.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754227": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754227.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879820": {
+    "home_goals": 4,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879820.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879821": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879821.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879822": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879822.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879823": {
+    "home_goals": 3,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879823.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879824": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879824.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879825": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879825.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879826": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879826.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754187": {
+    "home_goals": 0,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754187.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754206": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754206.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879827": {
+    "home_goals": 6,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879827.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754086": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754086.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754294": {
+    "home_goals": 4,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754294.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754310": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754310.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879828": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879828.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879829": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879829.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879830": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879830.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879831": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879831.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879832": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879832.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879833": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879833.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879834": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879834.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879835": {
+    "home_goals": 5,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879835.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754284": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754284.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879836": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879836.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754154": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754154.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754242": {
+    "home_goals": 1,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754242.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754282": {
+    "home_goals": 2,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754282.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754307": {
+    "home_goals": 4,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754307.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879837": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879837.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3753990": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753990.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754228": {
+    "home_goals": 4,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754228.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879838": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879838.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879839": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879839.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879840": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879840.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879841": {
+    "home_goals": 0,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879841.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879842": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879842.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879843": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879843.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754332": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754332.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879844": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879844.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879845": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879845.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879846": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879846.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754037": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754037.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754063": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754063.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754132": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754132.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754170": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754170.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754184": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754184.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754192": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754192.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879847": {
+    "home_goals": 1,
+    "away_goals": 5,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879847.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879848": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879848.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754018": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754018.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754165": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754165.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754320": {
+    "home_goals": 4,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754320.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879849": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879849.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879850": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879850.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879851": {
+    "home_goals": 3,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879851.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879852": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879852.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879853": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879853.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879854": {
+    "home_goals": 1,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879854.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754092": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754092.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879855": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879855.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879856": {
+    "home_goals": 2,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879856.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754026": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754026.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754033": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754033.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754070": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754070.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754108": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754108.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754158": {
+    "home_goals": 1,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754158.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754210": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754210.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754225": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754225.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879857": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879857.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879858": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879858.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3753992": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753992.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754314": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754314.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754342": {
+    "home_goals": 2,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754342.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879859": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879859.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879860": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879860.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879861": {
+    "home_goals": 0,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879861.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879862": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879862.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879863": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879863.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879864": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879864.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879865": {
+    "home_goals": 0,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879865.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879866": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879866.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754134": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754134.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3753989": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753989.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754055": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754055.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754207": {
+    "home_goals": 4,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754207.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879867": {
+    "home_goals": 4,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879867.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879868": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879868.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879869": {
+    "home_goals": 1,
+    "away_goals": 3,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879869.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879870": {
+    "home_goals": 5,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879870.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3753994": {
+    "home_goals": 4,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3753994.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754041": {
+    "home_goals": 4,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754041.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754042": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754042.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754123": {
+    "home_goals": 3,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754123.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754149": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754149.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754199": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754199.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754229": {
+    "home_goals": 1,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754229.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754308": {
+    "home_goals": 2,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754308.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3754333": {
+    "home_goals": 5,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754333.json",
+    "competition": "Premier League"
+  },
+  "statsbomb-3879871": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879871.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879872": {
+    "home_goals": 0,
+    "away_goals": 0,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879872.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879873": {
+    "home_goals": 2,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879873.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879874": {
+    "home_goals": 2,
+    "away_goals": 4,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879874.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879875": {
+    "home_goals": 3,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879875.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3879876": {
+    "home_goals": 1,
+    "away_goals": 2,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3879876.json",
+    "competition": "Serie A"
+  },
+  "statsbomb-3754159": {
+    "home_goals": 3,
+    "away_goals": 1,
+    "source_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/events/3754159.json",
+    "competition": "Premier League"
+  }
+}

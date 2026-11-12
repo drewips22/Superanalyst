@@ -1,0 +1,26 @@
+{
+  "experiment_id": "xg-domestic-2015-v1",
+  "declared_on": "2026-11-12",
+  "mode": "retrospective_reconstruction",
+  "point_in_time_verified": false,
+  "provider": "StatsBomb Open Data",
+  "competitions": ["Premier League", "Serie A"],
+  "season": "2015/16",
+  "scope": "90m",
+  "history_scope": "league matches covered in the complete open seasons; domestic cups and European fixtures are not included",
+  "validation_dates": ["2016-01-01", "2016-03-01"],
+  "test_dates": ["2016-03-01", "2016-06-01"],
+  "date_precision": "Calendar dates. Result availability proxy is next UTC midnight; feature cutoff is previous UTC midnight before the target date. Not a claimed exact T-24h archive.",
+  "windows": [5, 10],
+  "xg_mix_weights": [0.0, 0.25, 0.5, 0.75, 1.0],
+  "rate_rule": "For each side, mix (1-alpha)*mean(historical goals for/opponent goals against) + alpha*mean(historical published xG for/opponent xG against), divided by two across own attack and opposing defense. No target-game xG can enter features.",
+  "minimum_history": 5,
+  "baseline": "goals5-alpha0",
+  "selection": "Choose each target on validation proper score only: log loss for 1X2, Brier for BTTS and Over 2.5; companion score breaks ties.",
+  "promotion_gate": "Selected variant must improve pooled primary score, not worsen companion score, and improve primary score in each league. Even if passed, status is auxiliary domestic evidence only; no automatic transfer to modern UCL.",
+  "limitations": [
+    "Open xG export/model version and original publication time are not verified as contemporaneously available in 2015/16.",
+    "This is one older season in two men's domestic leagues, not a UCL backtest.",
+    "All eligible results remain scored; no unlucky exclusions."
+  ]
+}

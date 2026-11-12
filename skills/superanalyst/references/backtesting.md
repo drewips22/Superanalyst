@@ -2,7 +2,7 @@
 
 ## Tujuan dan status
 
-Uji apakah fitur meningkatkan prediksi pertandingan berikutnya, serta apakah probabilitas sesuai frekuensi hasilnya. Jangan menilai metode hanya dari beberapa prediksi yang berhasil. Repo v0.3.0 menyediakan kalkulator, evaluator, rekonstruksi PSG–Inter 2025 dan sembilan laga UCL November 2026; **belum ada model terlatih atau bukti keunggulan pada banyak laga di luar sampel**. Lihat [catatan penelitian](research-log.md) untuk batas hasil studi ini.
+Uji apakah fitur meningkatkan prediksi pertandingan berikutnya, serta apakah probabilitas sesuai frekuensi hasilnya. Jangan menilai metode hanya dari beberapa prediksi yang berhasil. Repo v0.4.0 menyediakan model penelitian terlatih, dengan pemilihan pada 125 laga dan peningkatan terhadap baseline lima laga pada 378 laga UCL dua musim uji terpisah. Ini rekonstruksi dengan proxy ketersediaan data, belum merupakan konfirmasi pada forecast yang direkam saat itu. Studi xG tambahan juga dipisahkan dari UCL. Lihat [catatan penelitian](research-log.md) dan [batas model](trained-models.md).
 
 ## Bekukan rancangan eksperimen
 

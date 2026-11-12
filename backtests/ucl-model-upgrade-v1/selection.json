@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-11-12T09:54:50.048370+00:00",
+  "selected": {
+    "1x2": "team_strength_home_form10_rest_motivation",
+    "btts": "goals_last20",
+    "over_2_5": "team_strength"
+  },
+  "n_validation": 125,
+  "validation_seasons": [
+    2023
+  ],
+  "frozen_sha256": {
+    "validation-predictions.json": "c033d6bb3301ef26338455a85ccc7150052bec231ca98fc46d5fe83e64e58e8a",
+    "validation-models.json": "e723a3fb5f1d069b46b5037c3a7492cefb6e70af642f4826bb4d829679243d40",
+    "validation-evaluation.json": "e2b91d93020579c5f82a4a28ec8e4bab5de539022bb645670a41b01ada520792",
+    "input-manifest.json": "d82bb1e42a485032062629f4e21b50589b7f40b43db13032ded433f2c19a94e6"
+  },
+  "note": "Variant choice uses validation only. Separate target models; no assertion of a common joint goal distribution when variants differ."
+}

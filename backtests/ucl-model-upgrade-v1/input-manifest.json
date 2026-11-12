@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-11-12T09:52:28.518889+00:00",
+  "mode": "retrospective_reconstruction",
+  "point_in_time_verified": false,
+  "n_corpus_matches": 25496,
+  "target_counts": {
+    "2020": 125,
+    "2021": 125,
+    "2022": 125,
+    "2023": 125,
+    "2024": 189,
+    "2025": 189
+  },
+  "coverage": {
+    "2020": {
+      "considered": 125,
+      "eligible": 113,
+      "cold_start": 12
+    },
+    "2021": {
+      "considered": 125,
+      "eligible": 125,
+      "cold_start": 0
+    },
+    "2022": {
+      "considered": 125,
+      "eligible": 125,
+      "cold_start": 0
+    },
+    "2023": {
+      "considered": 125,
+      "eligible": 125,
+      "cold_start": 0
+    },
+    "2024": {
+      "considered": 189,
+      "eligible": 189,
+      "cold_start": 0
+    },
+    "2025": {
+      "considered": 189,
+      "eligible": 189,
+      "cold_start": 0
+    }
+  },
+  "unresolved_normal_time": 24,
+  "data_files_sha256": {
+    "matches.jsonl": "e62fb8a159aa1e18ddcc0fb70086601c5d33780beb2a3c58cd9d3edd78e99e1a",
+    "manifest.json": "e18f9e24ed54f0778a2f129c5ca9d97a6a36afc55b78cf464660a346e1e3f703",
+    "features.json": "bd9c905e72a37cb872d516c113123d1993477db2e58660275736e2f05ba3a19b",
+    "geography/coordinates.json": "8396b8312814f37d52f05294e96114ad603634642495baa6be89edf88f9f167f"
+  },
+  "code_sha256": {
+    "run.py": "74bebc8f55c4fd7e26c60813247a3f8b7ba34f312a04df1ea2cbfe4de860095f",
+    "experiment.json": "833c3985372a61d9014c3b02fbaf68032b9d2796c5521a4869fe094b92d95da8",
+    "../../skills/superanalyst/scripts/research/features.py": "1c0dc65e3810c9f605485deb6cc3d17f0ce79d64d64c578d11d5afec34b580f0",
+    "../../skills/superanalyst/scripts/research/models.py": "f5c9c6b4efc6ae93520c83266b694c82989230c38f1d2e73dff54219922b2328",
+    "../../skills/superanalyst/scripts/research/scoring.py": "3d972920b5e347ecb4a2c8cd3c7775cd03e1605dd0348c21ce8cd599286956f6",
+    "../../skills/superanalyst/scripts/research/collect_history.py": "3f8452e464ddfce23d81fcd813692f901710b735f88d6f87954f889fcbae3f48",
+    "../../skills/superanalyst/scripts/research/coordinates.py": "6a06abccf57a55b8c1fe6d8870ba94e86921306acd9b2f32176084802e1819e6",
+    "../../skills/superanalyst/scripts/stats.py": "9726897fcf19972b66125444f89b052507db9a6c99432f6ee85f37eb372160da"
+  },
+  "note": "All selected phase fixtures are included; historical source versions and availability proxies are not verified pre-match archives. No claims of a fully blind historical test."
+}

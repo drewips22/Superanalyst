@@ -1,6 +1,16 @@
 # Catatan pengembangan empiris
 
-Ditinjau 12 November 2026. Hasil di sini berasal dari rekonstruksi dengan hasil historis sudah terekspos dan versi sumber asli tidak sepenuhnya diarsipkan. Tidak ada koefisien baru yang disahkan.
+Ditinjau 12 November 2026. Hasil di sini berasal dari rekonstruksi dengan hasil historis sudah terekspos dan versi sumber asli tidak sepenuhnya diarsipkan. Tidak ada koefisien universal yang disahkan; parameter terlatih hanya berlaku dalam varian dan cakupan penelitiannya.
+
+## Pengembangan terlatih v0.4.0
+
+[Laporan UCL dua musim](../../../backtests/ucl-model-upgrade-v1/review.md): corpus 25.496 catatan laga, 125 laga validasi 2023/24, 378 laga uji 2024/25–2025/26. Pilihan dikunci sebelum penilaian uji, dengan fit bulanan yang hanya memakai data terdahulu. Dibanding baseline lima laga, log loss 1X2 turun 8,2%, Brier BTTS 3,6%, Brier Over 2,5 5,2%; masing-masing juga membaik di kedua musim uji. Itu penurunan kesalahan, bukan tambahan poin persentase akurasi.
+
+Resep eksperimental yang lolos memakai model berbeda per target: kekuatan tim/kandang/form10/istirahat/proxy poin fase untuk 1X2, gol20 untuk BTTS, kekuatan tim untuk total gol. Lihat [panduan pemakaian](trained-models.md). H2H dan jarak antarkota tidak dipilih karena tidak menambah perbaikan pada validasi. Efek motivasi psikologis, absensi, dan anomali pasar belum ditaksir; angka 22%, 35%, 18% tetap tidak aktif.
+
+[Studi xG terpisah](../../../backtests/xg-domestic-2015-v1/review.md) memuat 760 laga dua liga pria 2015/16, dengan 179 validasi dan 222 uji. Campuran gol+xG jendela 10 memperbaiki prediksi pemenang terhadap gol5, tetapi xG murni tidak memperbaiki BTTS/total gol. Kontrol jendela yang sama ditambahkan sesudah penilaian dan diberi label posthoc; jangan menganggap seluruh keuntungan campuran sebagai efek xG atau memindahkannya ke UCL modern.
+
+Catatan pengguna tentang Fenerbahçe beruntung disimpan sebagai diagnosis tidak terverifikasi. Kekalahan Liverpool tetap dinilai. Snapshot model lama, fitur, kode dan hasil tidak diubah untuk membuat prediksi lama terlihat lebih baik. Koefisien terlatih hanya berlaku pada varian dan cakupan penelitian masing-masing; belum menjadi angka universal skill.
 
 ## Sesi Rabu Matchday 4 UCL 2026/27
 

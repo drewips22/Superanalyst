@@ -13,6 +13,7 @@ Susun analisis dalam urutan **data → pola → keputusan**. Jawab dalam bahasa 
 - **Pergerakan pasar/Polymarket:** baca juga [protokol pasar](references/markets.md).
 - **Menguji aturan atau prediksi:** baca [daftar hipotesis](references/hypotheses.md) dan [protokol backtest](references/backtesting.md).
 - **Mengembangkan dari studi yang sudah dinilai:** baca [catatan penelitian](references/research-log.md); jangan mengubah kasus yang dibekukan atau memperlakukan hasil satu sesi sebagai koefisien universal.
+- **Memakai/menguji model terlatih:** baca [resep model dan batas validasi](references/trained-models.md). Model UCL T-24 jam bersifat eksperimental dan memerlukan data terbaru serta fit ulang; snapshot lama bukan rating terkini.
 - **Perhitungan berulang:** gunakan [panduan alat](references/tools.md). Alat menghitung statistik dan mengevaluasi probabilitas; pengumpulan berita serta penentuan parameter tetap memerlukan sumber dan metode yang dijelaskan.
 
 ## Kunci pertandingan dan batas waktu
@@ -48,5 +49,7 @@ Standar hasil adalah **90 menit + injury time**, tanpa extra time atau adu penal
 Tutup dengan kecenderungan 1X2, BTTS, skenario yang mengubah penilaian, kualitas data, dan status **analisis layak / provisional / observasi / tidak cukup data**. Status ini adalah kelayakan analisis, bukan instruksi transaksi.
 
 Jika ada probabilitas, tulis model/versinya, parameter, asumsi, sumber, dan apakah sudah dikalibrasi. Probabilitas 1X2 berjumlah 100%; BTTS dihitung dari distribusi gabungan gol. Skor paling mungkin hanyalah salah satu skenario dan dapat memiliki peluang kecil. Bedakan rentang sensitivitas dari interval keyakinan statistik.
+
+Bila 1X2, BTTS dan total gol memakai model berbeda, identifikasi model tiap target; jangan menyajikannya sebagai satu distribusi gabungan yang sama. Pilih model melalui validasi sebelum menilai periode uji. Catatan `unlucky` hanya diagnosis sesudah laga, bukan fitur prapertandingan atau alasan menghapus kekalahan dari metrik.
 
 Simpan prediksi sebelum kickoff bila akan dievaluasi; revisi menjadi snapshot baru dengan alasan perubahan. Jangan menimpa prediksi setelah hasil diketahui. Jadwal cek ulang sebelum kickoff adalah saran pemeriksaan, bukan klaim pemantauan otomatis sedang berjalan. Akhiri secara singkat bahwa analisis menjadi bahan pertimbangan, bukan hasil mutlak.

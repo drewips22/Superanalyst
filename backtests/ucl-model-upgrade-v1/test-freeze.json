@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-11-12T09:56:28.128064+00:00",
+  "n": 378,
+  "variants": [
+    "goals_last20",
+    "goals_last5_baseline",
+    "team_strength",
+    "team_strength_home_form10_rest_motivation"
+  ],
+  "sha256": {
+    "test-predictions.json": "7024b27964bdeab3527afe80cd6f6548e83def2e9e124c9db05051666d7a222c",
+    "test-models.json": "33db3d788229c1837bd7ce2d0c818c19ff027874446945178336903280a25e7a",
+    "selection.json": "f20c113a8fcb71d45da9b85d57b05b458628cb1af406d9fc9cf7085b1e76f65d"
+  },
+  "note": "Predictions frozen before grading; history and fitted weights are chronologically gated, but sources are retrospective and historical outcomes may already be generally known."
+}

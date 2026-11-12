@@ -1,0 +1,4 @@
+# Optional: only the trained-model research tools need these packages.
+# Analytic gradients and L-BFGS optimization replace fragile handwritten fitting.
+numpy>=1.26,<3
+scipy>=1.11,<2

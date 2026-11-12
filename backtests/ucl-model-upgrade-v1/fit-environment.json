@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "note": "Environment used for fitting/replay; recorded after evaluation. Model/data/source manifests remain authoritative."
+}

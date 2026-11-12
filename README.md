@@ -4,7 +4,25 @@
 
 Superanalyst adalah repo skill untuk Codex. Isinya mengubah rancangan analisis menjadi prosedur yang bisa diulang, diperiksa sumbernya, dan dievaluasi setelah pertandingan. Bahasa utama: Indonesia.
 
-**Status: v0.3.0 — kerangka penelitian dengan dua studi rekonstruksi historis.** Repo GitHub **private** tersedia di [drewips22/Superanalyst](https://github.com/drewips22/Superanalyst). Contoh dalam `examples/` tetap sintetis; kasus nyata berada di `backtests/`. Keunggulan strategi dan kalibrasi pada banyak laga di luar sampel belum dibuktikan.
+**Status: v0.4.0 — model penelitian terlatih dengan pengujian UCL dua musim terpisah.** Repo GitHub **private** tersedia di [drewips22/Superanalyst](https://github.com/drewips22/Superanalyst). Contoh dalam `examples/` tetap sintetis; studi nyata berada di `backtests/`. Hasil rekonstruksi membaik terhadap baseline lima laga, dengan batas sumber dan kebutuhan konfirmasi pada prediksi yang benar-benar direkam sebelum kickoff.
+
+## Pengembangan model: 378 laga uji UCL
+
+[Laporan lengkap](backtests/ucl-model-upgrade-v1/review.md) memakai corpus 25.496 laga historis, 125 laga UCL untuk memilih varian, lalu **378 laga UCL 2024/25–2025/26** untuk pengujian kronologis. Pilihan dikunci sebelum tahap penilaian uji; model dipasang ulang bulanan hanya dengan informasi yang mendahului cutoff T-24 jam.
+
+| Target | Kesalahan probabilitas: lama → baru | Penurunan relatif | Pilihan tepat: lama → baru |
+| --- | ---: | ---: | ---: |
+| Pemenang/seri | Log loss 1,0033 → 0,9211 | **8,2%** | 52,9% → 57,7% |
+| BTTS | Brier 0,2541 → 0,2451 | **3,6%** | 54,0% → 55,8% |
+| Over 2,5 | Brier 0,2348 → 0,2226 | **5,2%** | 62,2% → 66,4% |
+
+Ketiga target membaik pada masing-masing musim uji dan lolos batas peningkatan yang sudah ditetapkan. Target memakai model berbeda: pemenang memakai kekuatan tim/lawan + kandang + form10 + istirahat + proxy poin fase UCL; BTTS memakai gol 20 laga; total gol memakai kekuatan tim. [Kebijakan dan batas pemakaian](skills/superanalyst/references/trained-models.md).
+
+Ini **rekonstruksi dengan sumber historis yang diambil sekarang**, bukan uji buta penuh atau forecast yang direkam saat itu. Ketersediaan hasil menggunakan proxy waktu, cakupan kompetisi dapat terbatas, dan kalibrasi untuk pemakaian langsung belum disahkan. Model belum dibandingkan dengan arsip pasar pada waktu yang sama. Snapshot bulanan lama dipakai untuk replay; laga mendatang memerlukan data terbaru dan fit ulang.
+
+[Studi tambahan xG](backtests/xg-domestic-2015-v1/review.md) memakai 760 laga dua liga pria 2015/16, dengan 222 laga uji terpisah. Campuran gol+xG membaik untuk pemenang, tetapi tidak untuk BTTS/total gol; ini tidak otomatis diterapkan ke UCL. Absensi berbobot peran dan anomali pasar masih membutuhkan arsip sebelum cutoff. [Status setiap faktor](backtests/ucl-model-upgrade-v1/coverage-status.json).
+
+Catatan pengguna tentang Fenerbahçe beruntung disimpan sebagai [hipotesis diagnosis](backtests/ucl-model-upgrade-v1/fenerbahce-liverpool-diagnostic.json). Hasil pertandingan tetap dihitung dalam evaluasi.
 
 ## Sembilan laga UCL pada 5 November 2026 WIB
 
@@ -80,15 +98,19 @@ skills/superanalyst/
   scripts/
     stats.py                      ringkasan lima laga dan distribusi Poisson
     evaluate.py                   Brier, log loss, dan tabel kalibrasi
+    research/                     kolektor, fitur kausal, fit model, dan validasi konteks
 examples/                          contoh sintetis yang bisa dijalankan
 tests/                             pengujian perilaku perhitungan
 backtests/ucl-2025-final/           kasus historis, prediksi, dan evaluasi terpisah
 backtests/ucl-2026-11-04/           sembilan laga UCL, pola, dan evaluasi terpisah
+backtests/ucl-model-upgrade-v1/     validasi 125 laga dan uji UCL 378 laga
+backtests/xg-domestic-2015-v1/      studi xG tambahan dua liga
+requirements-research.txt          dependensi opsional untuk model terlatih
 ```
 
 ## Menjalankan alat
 
-Gunakan Python 3.11 atau lebih baru. Alat hanya memakai pustaka standar, tanpa paket tambahan. Jalankan dari akar repo; ganti `python` dengan lokasi interpreter Python bila diperlukan.
+Gunakan Python 3.11 atau lebih baru. Alat dasar statistik/evaluasi memakai pustaka standar. Penelitian model terlatih memakai NumPy dan SciPy untuk optimasi dengan gradien analitik. Jalankan dari akar repo; ganti `python` dengan lokasi interpreter Python bila diperlukan.
 
 ```sh
 python skills/superanalyst/scripts/stats.py summary examples/team-history.synthetic.json
@@ -99,17 +121,25 @@ python backtests/ucl-2025-final/run.py verify
 python backtests/ucl-2026-11-04/run.py verify
 ```
 
+Untuk mengulang probabilitas dan skor penelitian dari snapshot yang tersimpan di repo, tanpa mengunduh seluruh corpus:
+
+```sh
+python -m pip install -r requirements-research.txt
+python backtests/ucl-model-upgrade-v1/replay.py
+python backtests/xg-domestic-2015-v1/replay.py
+```
+
 Parameter 1.6 dan 1.2 di atas adalah **contoh perhitungan**, bukan estimasi untuk tim nyata. Kalkulator Poisson tidak melatih model atau menentukan parameter sendiri. Evaluator menilai prediksi yang sudah disimpan; pelatihan dan pengujian kronologis mengikuti [protokol backtest](skills/superanalyst/references/backtesting.md).
 
-Pemeriksaan: **43 tes perhitungan dan validasi lolos**. Kedua studi historis dapat dihitung ulang dan dicek melalui checksum. Pemeriksaan struktur skill dan tautan internal juga dilakukan. Tes memvalidasi paket dan perhitungan; mutu prediksi tetap perlu pengujian banyak laga di luar sampel.
+Pemeriksaan: **68 tes perhitungan dan validasi** dengan dependensi penelitian. Studi historis dapat dihitung ulang dan dicek melalui checksum; penelitian baru menyediakan replay model/fitur dan skor. Pemeriksaan struktur skill dan tautan internal juga dilakukan. Tes memvalidasi kode; bukti mutu prediksi berasal dari evaluasi pertandingan, dengan batas sumber yang dijelaskan pada setiap studi.
 
 ## Pengembangan berikutnya
 
-1. Tentukan kompetisi awal dan sumber data yang tersedia secara konsisten.
-2. Kumpulkan statistik, berita, dan snapshot pasar dengan waktu ketersediaannya.
-3. Tetapkan model pembanding serta batas waktu prediksi sebelum melihat hasil uji.
-4. Uji fitur satu per satu: lima laga, H2H, pemain absen, perjalanan, motivasi, lalu pasar.
-5. Catat hasil uji pada musim berikutnya, kalibrasi, cakupan data, dan kegagalan prediksi.
+1. Konfirmasi resep UCL pada prediksi baru yang dikunci sebelum kickoff, lalu periksa kalibrasinya.
+2. Kumpulkan xG UCL yang konsisten, pengumuman absensi berbobot peran, dan snapshot pasar bertimestamp.
+3. Uji tambahan fitur pada cohort/horizon yang sama; pertahankan eksperimen yang tidak berhasil.
+4. Uji efek di liga/horizon lain sebelum memperluas cakupan resep terpilih.
+5. Simpan seluruh hasil termasuk kekalahan favorit dan diagnosis sesudah laga.
 
 Data berlisensi dan arsip prediksi pribadi disimpan di `data/` atau `runs/`, yang diabaikan Git. Masukkan ke repo hanya bila hak penggunaan dan kebutuhan berbagi sudah jelas. Belum ada lisensi distribusi publik yang dipilih untuk proyek private ini.
 
