@@ -1,0 +1,39 @@
+{
+  "experiment_id": "ucl-md4-wednesday-2026-retrospective-v1",
+  "mode": "retrospective_reconstruction",
+  "synthetic": false,
+  "as_of": "2026-11-04T12:00:00Z",
+  "date_in_user_timezone": "2026-11-05",
+  "date_in_uefa_calendar": "2026-11-04",
+  "timezone": "Asia/Jakarta",
+  "scope": "90m",
+  "selection_rule": "All nine fixtures in the user-provided image, the Wednesday half of Champions League Matchday 4; Tuesday's nine matches are outside this requested cohort.",
+  "target_result_exposure": "Results were visible in the supplied image and some verification search snippets. This is not a blind test. Subsequent feature collection filters target scores/status/incidents, and the deterministic rule will not be tuned to these results.",
+  "model_version": "last5-goals-mean-poisson-experimental-v1",
+  "rate_rule": {
+    "home": "(home_team_GF_last5/5 + away_team_GA_last5/5)/2",
+    "away": "(away_team_GF_last5/5 + home_team_GA_last5/5)/2"
+  },
+  "numerical_adjustments": {"home_advantage": 0, "injuries": 0, "motivation": 0, "market": 0, "h2h": 0, "xg": 0},
+  "picks": {"1x2": "largest 1X2 probability", "btts": "yes if probability >= 0.5", "over_2_5": "yes if probability >= 0.5"},
+  "history_selection": "Five latest completed competitive matches in all competitions before the common cutoff; no target fixture can enter the history. Keep normal-time draws as draws even when a shootout/extra time decided the tie.",
+  "coverage_policy": "Missing features remain null. No fabricated xG, injury counts or market quotes. No numerical prediction for a team with fewer than five verified 90m histories.",
+  "predeclared_pattern_flags": {
+    "both_scored_ge4of5": "both teams scored in at least four of their last five matches",
+    "both_conceded_ge4of5": "both teams conceded in at least four of their last five matches",
+    "both_low_clean_sheet": "each team kept at most one clean sheet in its last five matches",
+    "one_high_clean_sheet": "at least one team kept three or more clean sheets in its last five matches",
+    "both_historical_btts_majority": "BTTS occurred in at least three of the last five matches for each team",
+    "away_model_favourite": "away 1X2 probability is the largest of the three outcomes",
+    "both_shots_12_to_15": "each team's mean total shots is 12 to 15 inclusive, only when all five games have comparable data; otherwise null"
+  },
+  "pattern_policy": "Flags are descriptive candidate hypotheses; no fitted coefficients or causality claims. Report all cohort games, misses and unavailable flags. Do not optimize thresholds after grading.",
+  "calibrated": false,
+  "point_in_time_verified": false,
+  "notes": [
+    "The baseline is intentionally the same goal-only rule used for the earlier case; here its lack of venue/opponent adjustment remains a limitation.",
+    "Historical pages are retrieved now, not archived snapshots guaranteed to be identical at cutoff.",
+    "The sample is a single selected session with nine correlated games, not an independent season-long validation.",
+    "Pre-match team news, H2H and xG are researched as context; their incremental predictive value is not tested by this baseline."
+  ]
+}

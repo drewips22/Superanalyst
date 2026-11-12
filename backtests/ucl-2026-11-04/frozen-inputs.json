@@ -1,0 +1,14 @@
+{
+  "frozen_at": "2026-11-12T01:18:21.647220+00:00",
+  "sha256": {
+    "experiment.json": "76aa1e0af16e209901e8c2e5576e49e52642540a0ac5b9a9a4a2ed02e4bd7c41",
+    "fixtures.json": "562940087a4d6c7beaa8f85fad0ceccd1a0eadb803f1bac64cf614ddd9101bbb",
+    "features.json": "32d6d31da61a8980722af1fa3804d3f4784bcbe78aef12da1160bc568ef20b03",
+    "run.py": "a963dbe180cbdcc72db4da631c966ce9d093f2b3f1718b7a6cea1298fdb1b98b",
+    "predictions.json": "0a82ce7d63698fd5ff52505ae36156e708bf9ce34ea392f6a1e9c57af809faed",
+    "analysis-before-result.md": "99b5ffb58f868f64e8f58d044ecbb71aba4071d407152ee5a2372f9f1e4a0c37",
+    "../../skills/superanalyst/scripts/stats.py": "9726897fcf19972b66125444f89b052507db9a6c99432f6ee85f37eb372160da",
+    "../../skills/superanalyst/scripts/evaluate.py": "4e16415d83e9cd9c9eee6675043c1ef6af8f746e78268f8c111fe6c7cb664aad"
+  },
+  "note": "Frozen before grading during reconstruction; not evidence of a blind pre-match forecast."
+}
