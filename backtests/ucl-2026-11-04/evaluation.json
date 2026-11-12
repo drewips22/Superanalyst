@@ -1,0 +1,740 @@
+{
+  "evaluator_version": "0.2.0",
+  "records": 9,
+  "brier_1x2_convention": "sum of squared errors over three outcomes; range 0 to 2",
+  "log_loss_epsilon": 1e-15,
+  "groups": [
+    {
+      "model_version": "last5-goals-mean-poisson-experimental-v1",
+      "horizon": "common-cutoff-T-5h45-to-8h",
+      "competition": "UEFA Champions League 2026/27",
+      "synthetic": false,
+      "mode": "retrospective_reconstruction",
+      "considered": 9,
+      "predicted": 9,
+      "abstained": 0,
+      "resolved": 9,
+      "unresolved": 0,
+      "scored": 9,
+      "prediction_coverage": 1.0,
+      "minutes_before_kickoff": {
+        "min": 345.0,
+        "max": 480.0
+      },
+      "brier_1x2": 0.5200073443229066,
+      "log_loss_1x2": 0.8815127600053233,
+      "brier_btts": 0.14182312218328783,
+      "log_loss_btts": 0.4658359994637126,
+      "calibration": {
+        "home": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "upper_inclusive": false,
+            "n": 2,
+            "mean_probability": 0.1409194285636572,
+            "observed_rate": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "upper_inclusive": false,
+            "n": 1,
+            "mean_probability": 0.2329335224694045,
+            "observed_rate": 1.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "upper_inclusive": false,
+            "n": 3,
+            "mean_probability": 0.32959709170409246,
+            "observed_rate": 0.3333333333333333
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "upper_inclusive": false,
+            "n": 3,
+            "mean_probability": 0.4605034334295553,
+            "observed_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "upper_inclusive": true,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          }
+        ],
+        "draw": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "upper_inclusive": false,
+            "n": 2,
+            "mean_probability": 0.1727445500550724,
+            "observed_rate": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "upper_inclusive": false,
+            "n": 7,
+            "mean_probability": 0.22459544641804974,
+            "observed_rate": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "upper_inclusive": true,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          }
+        ],
+        "away": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "upper_inclusive": false,
+            "n": 1,
+            "mean_probability": 0.2522069424259847,
+            "observed_rate": 1.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "upper_inclusive": false,
+            "n": 2,
+            "mean_probability": 0.31704900288979015,
+            "observed_rate": 0.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "upper_inclusive": false,
+            "n": 3,
+            "mean_probability": 0.4601164493134228,
+            "observed_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "upper_inclusive": false,
+            "n": 1,
+            "mean_probability": 0.5579424810574704,
+            "observed_rate": 0.0
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "upper_inclusive": false,
+            "n": 2,
+            "mean_probability": 0.6863360213812704,
+            "observed_rate": 1.0
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "upper_inclusive": true,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          }
+        ],
+        "btts": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "upper_inclusive": false,
+            "n": 2,
+            "mean_probability": 0.4871566124951152,
+            "observed_rate": 1.0
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "upper_inclusive": false,
+            "n": 1,
+            "mean_probability": 0.5805949090277394,
+            "observed_rate": 1.0
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "upper_inclusive": false,
+            "n": 3,
+            "mean_probability": 0.6606369156254926,
+            "observed_rate": 1.0
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "upper_inclusive": false,
+            "n": 3,
+            "mean_probability": 0.7251125731496203,
+            "observed_rate": 1.0
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "upper_inclusive": false,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "upper_inclusive": true,
+            "n": 0,
+            "mean_probability": null,
+            "observed_rate": null
+          }
+        ]
+      }
+    }
+  ],
+  "note": "Scoring only. Timestamp checks do not prove an immutable forecast archive or model quality.",
+  "comparisons": [
+    {
+      "match_id": "401915383",
+      "home": "AEK Athens",
+      "away": "Real Madrid",
+      "score": "2-3",
+      "actual_1x2": "away",
+      "actual_btts": true,
+      "actual_over_2_5": true,
+      "correct_1x2": true,
+      "correct_btts": true,
+      "correct_over_2_5": true,
+      "exact_score_probability": 0.054143068972531794
+    },
+    {
+      "match_id": "401915382",
+      "home": "Fenerbahce",
+      "away": "Liverpool",
+      "score": "3-2",
+      "actual_1x2": "home",
+      "actual_btts": true,
+      "actual_over_2_5": true,
+      "correct_1x2": false,
+      "correct_btts": true,
+      "correct_over_2_5": true,
+      "exact_score_probability": 0.026945494732792362
+    },
+    {
+      "match_id": "401915304",
+      "home": "Borussia Dortmund",
+      "away": "Real Betis",
+      "score": "2-1",
+      "actual_1x2": "home",
+      "actual_btts": true,
+      "actual_over_2_5": true,
+      "correct_1x2": true,
+      "correct_btts": true,
+      "correct_over_2_5": true,
+      "exact_score_probability": 0.09155863817386162
+    },
+    {
+      "match_id": "401915301",
+      "home": "FC Porto",
+      "away": "Napoli",
+      "score": "4-1",
+      "actual_1x2": "home",
+      "actual_btts": true,
+      "actual_over_2_5": true,
+      "correct_1x2": true,
+      "correct_btts": true,
+      "correct_over_2_5": true,
+      "exact_score_probability": 0.024199046131953575
+    },
+    {
+      "match_id": "401915305",
+      "home": "Lens",
+      "away": "Como",
+      "score": "1-9",
+      "actual_1x2": "away",
+      "actual_btts": true,
+      "actual_over_2_5": true,
+      "correct_1x2": true,
+      "correct_btts": false,
+      "correct_over_2_5": true,
+      "exact_score_probability": 9.634886637883543e-05
+    },
+    {
+      "match_id": "401915303",
+      "home": "PSV Eindhoven",
+      "away": "Club Brugge",
+      "score": "1-2",
+      "actual_1x2": "away",
+      "actual_btts": true,
+      "actual_over_2_5": true,
+      "correct_1x2": true,
+      "correct_btts": true,
+      "correct_over_2_5": true,
+      "exact_score_probability": 0.08384284232951725
+    },
+    {
+      "match_id": "401915306",
+      "home": "RB Leipzig",
+      "away": "Manchester City",
+      "score": "2-3",
+      "actual_1x2": "away",
+      "actual_btts": true,
+      "actual_over_2_5": true,
+      "correct_1x2": true,
+      "correct_btts": true,
+      "correct_over_2_5": true,
+      "exact_score_probability": 0.05265672917955524
+    },
+    {
+      "match_id": "401915381",
+      "home": "Slavia Prague",
+      "away": "Arsenal",
+      "score": "1-2",
+      "actual_1x2": "away",
+      "actual_btts": true,
+      "actual_over_2_5": true,
+      "correct_1x2": false,
+      "correct_btts": false,
+      "correct_over_2_5": false,
+      "exact_score_probability": 0.0615637489679241
+    },
+    {
+      "match_id": "401915302",
+      "home": "Viking FK",
+      "away": "Sabah FK",
+      "score": "4-1",
+      "actual_1x2": "home",
+      "actual_btts": true,
+      "actual_over_2_5": true,
+      "correct_1x2": false,
+      "correct_btts": true,
+      "correct_over_2_5": true,
+      "exact_score_probability": 0.01634875581673956
+    }
+  ],
+  "pick_hits": {
+    "1x2": 6,
+    "btts": 7,
+    "over_2_5": 8
+  },
+  "p_over_2_5_metrics": {
+    "brier": 0.13256017284681898,
+    "log_loss": 0.4418785670335714
+  },
+  "uninformed_comparison": {
+    "brier_1x2": 0.6666666666666667,
+    "log_loss_1x2": 1.0986122886681098,
+    "brier_btts": 0.25,
+    "log_loss_btts": 0.6931471805599453,
+    "brier_over_2_5": 0.25,
+    "log_loss_over_2_5": 0.6931471805599453
+  },
+  "patterns": {
+    "both_scored_ge4of5": {
+      "true": {
+        "n": 7,
+        "match_ids": [
+          "401915383",
+          "401915382",
+          "401915304",
+          "401915303",
+          "401915306",
+          "401915381",
+          "401915302"
+        ],
+        "btts_yes": 7,
+        "over_2_5_yes": 7,
+        "correct_1x2": 4
+      },
+      "false": {
+        "n": 2,
+        "match_ids": [
+          "401915301",
+          "401915305"
+        ],
+        "btts_yes": 2,
+        "over_2_5_yes": 2,
+        "correct_1x2": 2
+      },
+      "unknown": {
+        "n": 0,
+        "match_ids": [],
+        "btts_yes": 0,
+        "over_2_5_yes": 0,
+        "correct_1x2": 0
+      }
+    },
+    "both_conceded_ge4of5": {
+      "true": {
+        "n": 2,
+        "match_ids": [
+          "401915383",
+          "401915382"
+        ],
+        "btts_yes": 2,
+        "over_2_5_yes": 2,
+        "correct_1x2": 1
+      },
+      "false": {
+        "n": 7,
+        "match_ids": [
+          "401915304",
+          "401915301",
+          "401915305",
+          "401915303",
+          "401915306",
+          "401915381",
+          "401915302"
+        ],
+        "btts_yes": 7,
+        "over_2_5_yes": 7,
+        "correct_1x2": 5
+      },
+      "unknown": {
+        "n": 0,
+        "match_ids": [],
+        "btts_yes": 0,
+        "over_2_5_yes": 0,
+        "correct_1x2": 0
+      }
+    },
+    "both_low_clean_sheet": {
+      "true": {
+        "n": 2,
+        "match_ids": [
+          "401915383",
+          "401915382"
+        ],
+        "btts_yes": 2,
+        "over_2_5_yes": 2,
+        "correct_1x2": 1
+      },
+      "false": {
+        "n": 7,
+        "match_ids": [
+          "401915304",
+          "401915301",
+          "401915305",
+          "401915303",
+          "401915306",
+          "401915381",
+          "401915302"
+        ],
+        "btts_yes": 7,
+        "over_2_5_yes": 7,
+        "correct_1x2": 5
+      },
+      "unknown": {
+        "n": 0,
+        "match_ids": [],
+        "btts_yes": 0,
+        "over_2_5_yes": 0,
+        "correct_1x2": 0
+      }
+    },
+    "one_high_clean_sheet": {
+      "true": {
+        "n": 3,
+        "match_ids": [
+          "401915301",
+          "401915381",
+          "401915302"
+        ],
+        "btts_yes": 3,
+        "over_2_5_yes": 3,
+        "correct_1x2": 1
+      },
+      "false": {
+        "n": 6,
+        "match_ids": [
+          "401915383",
+          "401915382",
+          "401915304",
+          "401915305",
+          "401915303",
+          "401915306"
+        ],
+        "btts_yes": 6,
+        "over_2_5_yes": 6,
+        "correct_1x2": 5
+      },
+      "unknown": {
+        "n": 0,
+        "match_ids": [],
+        "btts_yes": 0,
+        "over_2_5_yes": 0,
+        "correct_1x2": 0
+      }
+    },
+    "both_historical_btts_majority": {
+      "true": {
+        "n": 4,
+        "match_ids": [
+          "401915383",
+          "401915382",
+          "401915304",
+          "401915306"
+        ],
+        "btts_yes": 4,
+        "over_2_5_yes": 4,
+        "correct_1x2": 3
+      },
+      "false": {
+        "n": 5,
+        "match_ids": [
+          "401915301",
+          "401915305",
+          "401915303",
+          "401915381",
+          "401915302"
+        ],
+        "btts_yes": 5,
+        "over_2_5_yes": 5,
+        "correct_1x2": 3
+      },
+      "unknown": {
+        "n": 0,
+        "match_ids": [],
+        "btts_yes": 0,
+        "over_2_5_yes": 0,
+        "correct_1x2": 0
+      }
+    },
+    "away_model_favourite": {
+      "true": {
+        "n": 6,
+        "match_ids": [
+          "401915383",
+          "401915382",
+          "401915305",
+          "401915303",
+          "401915306",
+          "401915302"
+        ],
+        "btts_yes": 6,
+        "over_2_5_yes": 6,
+        "correct_1x2": 4
+      },
+      "false": {
+        "n": 3,
+        "match_ids": [
+          "401915304",
+          "401915301",
+          "401915381"
+        ],
+        "btts_yes": 3,
+        "over_2_5_yes": 3,
+        "correct_1x2": 2
+      },
+      "unknown": {
+        "n": 0,
+        "match_ids": [],
+        "btts_yes": 0,
+        "over_2_5_yes": 0,
+        "correct_1x2": 0
+      }
+    },
+    "both_shots_12_to_15": {
+      "true": {
+        "n": 0,
+        "match_ids": [],
+        "btts_yes": 0,
+        "over_2_5_yes": 0,
+        "correct_1x2": 0
+      },
+      "false": {
+        "n": 4,
+        "match_ids": [
+          "401915382",
+          "401915304",
+          "401915305",
+          "401915306"
+        ],
+        "btts_yes": 4,
+        "over_2_5_yes": 4,
+        "correct_1x2": 3
+      },
+      "unknown": {
+        "n": 5,
+        "match_ids": [
+          "401915383",
+          "401915301",
+          "401915303",
+          "401915381",
+          "401915302"
+        ],
+        "btts_yes": 5,
+        "over_2_5_yes": 5,
+        "correct_1x2": 3
+      }
+    }
+  },
+  "evaluation_created_at": "2026-11-12T01:19:42.561165+00:00",
+  "outcomes_sha256": "19033c895d7445dcfc7f470c4906e9ddb42ed8b18f64579f0f1bfff722ba9759",
+  "predictions_sha256": "0a82ce7d63698fd5ff52505ae36156e708bf9ce34ea392f6a1e9c57af809faed"
+}

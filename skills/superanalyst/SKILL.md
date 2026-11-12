@@ -12,6 +12,7 @@ Susun analisis dalam urutan **data → pola → keputusan**. Jawab dalam bahasa 
 - **Analisis pertandingan:** baca [metodologi](references/methodology.md), lalu gunakan [format laporan](assets/report-template.md).
 - **Pergerakan pasar/Polymarket:** baca juga [protokol pasar](references/markets.md).
 - **Menguji aturan atau prediksi:** baca [daftar hipotesis](references/hypotheses.md) dan [protokol backtest](references/backtesting.md).
+- **Mengembangkan dari studi yang sudah dinilai:** baca [catatan penelitian](references/research-log.md); jangan mengubah kasus yang dibekukan atau memperlakukan hasil satu sesi sebagai koefisien universal.
 - **Perhitungan berulang:** gunakan [panduan alat](references/tools.md). Alat menghitung statistik dan mengevaluasi probabilitas; pengumpulan berita serta penentuan parameter tetap memerlukan sumber dan metode yang dijelaskan.
 
 ## Kunci pertandingan dan batas waktu
@@ -39,6 +40,7 @@ Standar hasil adalah **90 menit + injury time**, tanpa extra time atau adu penal
 - Data hilang tetap `null`/N/A, bukan nol. Laporkan denominator, misalnya xG tersedia 3/5 laga. Gunakan provider, jenis xG, dan cakupan waktu yang konsisten; jangan merata-ratakan provider yang berbeda tanpa harmonisasi.
 - Angka awal **22%**, **35%**, dan **18%** bukan koefisien aktif. Lihat status dan cara mengujinya di daftar hipotesis. Contoh **12–15 tembakan**, **kebobolan 1–2 gol**, dan **clean sheet 18–24%** juga bukan ambang universal.
 - Jangan menghitung bukti berulang sebagai faktor terpisah: hasil, gol, dan xG saling berkaitan; efek kandang bisa sudah terkandung dalam model; pasar bisa sudah merespons cedera.
+- Periksa cakupan piala domestik dan pisahkan skor 90 menit dari adu penalti. Bandingkan level lawan/liga dan sebaran gol per laga; satu kemenangan besar dapat mendominasi rerata. Jangan memperbaiki prediksi yang sudah dinilai dengan aturan baru.
 - Bedakan persen relatif dari poin persentase. Jelaskan dasar setiap penyesuaian numerik. Jika belum ada model yang layak, berikan penilaian kualitatif dan skenario, bukan probabilitas karangan.
 
 ## Keputusan: simpulkan sesuai kualitas bukti

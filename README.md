@@ -4,7 +4,13 @@
 
 Superanalyst adalah repo skill untuk Codex. Isinya mengubah rancangan analisis menjadi prosedur yang bisa diulang, diperiksa sumbernya, dan dievaluasi setelah pertandingan. Bahasa utama: Indonesia.
 
-**Status: v0.2.0 — kerangka penelitian dengan satu studi rekonstruksi historis.** Repo GitHub **private** tersedia di [drewips22/Superanalyst](https://github.com/drewips22/Superanalyst). Contoh dalam `examples/` tetap sintetis; kasus nyata pertama berada di `backtests/`. Akurasi strategi dan kalibrasi model pada banyak laga belum diukur.
+**Status: v0.3.0 — kerangka penelitian dengan dua studi rekonstruksi historis.** Repo GitHub **private** tersedia di [drewips22/Superanalyst](https://github.com/drewips22/Superanalyst). Contoh dalam `examples/` tetap sintetis; kasus nyata berada di `backtests/`. Keunggulan strategi dan kalibrasi pada banyak laga di luar sampel belum dibuktikan.
+
+## Sembilan laga UCL pada 5 November 2026 WIB
+
+[Laporan per laga dan pola](backtests/ucl-2026-11-04/review.md) memakai cutoff **4 November 19.00 WIB**, sebelum sembilan laga sesi Rabu Matchday 4 (tanggal UEFA 4 November). Aturan gol lima laga yang sama dengan kasus pertama menghasilkan **1X2 tepat 6/9, BTTS 7/9, Over 2,5 8/9**. Pilihan pemenang yang keliru: Liverpool, Slavia, Sabah.
+
+Seluruh sembilan hasil ternyata BTTS dan Over 2,5, sehingga sampel ini belum menguji kemampuan pola membedakan kejadian positif dan negatif. Hasil sudah terlihat pada lampiran dan sumber dinamis: ini **rekonstruksi, bukan uji buta**. Prediksi dan masukan dibekukan sebelum tahap penilaian; versi sumber asli tidak seluruhnya diarsipkan. xG konsisten belum diperoleh; angka ini hanya menilai baseline gol, bukan seluruh kriteria skill. Lihat [catatan pengembangan dari kasus ini](skills/superanalyst/references/research-log.md).
 
 ## Uji pertandingan pertama
 
@@ -77,6 +83,7 @@ skills/superanalyst/
 examples/                          contoh sintetis yang bisa dijalankan
 tests/                             pengujian perilaku perhitungan
 backtests/ucl-2025-final/           kasus historis, prediksi, dan evaluasi terpisah
+backtests/ucl-2026-11-04/           sembilan laga UCL, pola, dan evaluasi terpisah
 ```
 
 ## Menjalankan alat
@@ -89,11 +96,12 @@ python skills/superanalyst/scripts/stats.py poisson --home-rate 1.6 --away-rate 
 python skills/superanalyst/scripts/evaluate.py examples/predictions.synthetic.jsonl
 python -m unittest discover -s tests -v
 python backtests/ucl-2025-final/run.py verify
+python backtests/ucl-2026-11-04/run.py verify
 ```
 
 Parameter 1.6 dan 1.2 di atas adalah **contoh perhitungan**, bukan estimasi untuk tim nyata. Kalkulator Poisson tidak melatih model atau menentukan parameter sendiri. Evaluator menilai prediksi yang sudah disimpan; pelatihan dan pengujian kronologis mengikuti [protokol backtest](skills/superanalyst/references/backtesting.md).
 
-Pemeriksaan: **35 tes perhitungan dan validasi lolos**. Kasus historis dapat dihitung ulang dan dicek melalui checksum. Pemeriksaan struktur skill dan tautan internal juga dilakukan. Tes memvalidasi paket dan perhitungan; mutu prediksi tetap perlu pengujian banyak laga di luar sampel.
+Pemeriksaan: **43 tes perhitungan dan validasi lolos**. Kedua studi historis dapat dihitung ulang dan dicek melalui checksum. Pemeriksaan struktur skill dan tautan internal juga dilakukan. Tes memvalidasi paket dan perhitungan; mutu prediksi tetap perlu pengujian banyak laga di luar sampel.
 
 ## Pengembangan berikutnya
 

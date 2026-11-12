@@ -1,0 +1,455 @@
+[
+  {
+    "match_id": "401915383",
+    "home": "AEK Athens",
+    "away": "Real Madrid",
+    "result": {
+      "status": "completed",
+      "scope": "90m",
+      "home_goals": 2,
+      "away_goals": 3,
+      "finished_at": null,
+      "completed_date_utc": "2026-11-04",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915383"
+    },
+    "source_api": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915383",
+    "corroborating_source_url": "https://www.uefa.com/uefachampionsleague/news/02ab-21fe508a035b-5eed0199e0b2-1000--champions-league-round-up-como-equal-biggest-ever-win-real/",
+    "retrieved_at": "2026-11-12T01:19:16.045714+00:00",
+    "incidents_postmatch_only": [
+      {
+        "team_id": "887",
+        "type": "Goal",
+        "clock": "12'",
+        "text": "Goal! AEK Athens 1, Real Madrid 0. Aboubakary Koïta (AEK Athens) left footed shot from the centre of the box to the bottom right corner. Assisted by Luka Jovic."
+      },
+      {
+        "team_id": "86",
+        "type": "Goal",
+        "clock": "32'",
+        "text": "Goal! AEK Athens 1, Real Madrid 1. Jude Bellingham (Real Madrid) left footed shot from the centre of the box to the bottom right corner. Assisted by Marc Cucurella with a cross."
+      },
+      {
+        "team_id": "887",
+        "type": "Goal",
+        "clock": "75'",
+        "text": "Goal! AEK Athens 2, Real Madrid 1. Stavros Pilios (AEK Athens) left footed shot from the centre of the box to the centre of the goal. Assisted by Aboubakary Koïta following a fast break."
+      },
+      {
+        "team_id": "86",
+        "type": "Goal",
+        "clock": "78'",
+        "text": "Goal! AEK Athens 2, Real Madrid 2. Kylian Mbappé (Real Madrid) right footed shot from very close range to the bottom left corner. Assisted by Denzel Dumfries."
+      },
+      {
+        "team_id": "86",
+        "type": "Goal",
+        "clock": "90'+2'",
+        "text": "Goal! AEK Athens 2, Real Madrid 3. Federico Valverde (Real Madrid) right footed shot from outside the box to the top right corner. Assisted by Brahim Díaz."
+      },
+      {
+        "team_id": "887",
+        "type": "Red Card",
+        "clock": "90'+5'",
+        "text": "Aboubakary Koïta (AEK Athens) is shown the red card."
+      }
+    ]
+  },
+  {
+    "match_id": "401915382",
+    "home": "Fenerbahce",
+    "away": "Liverpool",
+    "result": {
+      "status": "completed",
+      "scope": "90m",
+      "home_goals": 3,
+      "away_goals": 2,
+      "finished_at": null,
+      "completed_date_utc": "2026-11-04",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915382"
+    },
+    "source_api": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915382",
+    "corroborating_source_url": "https://www.uefa.com/uefachampionsleague/news/02ab-21fe508a035b-5eed0199e0b2-1000--champions-league-round-up-como-equal-biggest-ever-win-real/",
+    "retrieved_at": "2026-11-12T01:19:17.092809+00:00",
+    "incidents_postmatch_only": [
+      {
+        "team_id": "364",
+        "type": "Goal",
+        "clock": "25'",
+        "text": "Goal! Fenerbahce 0, Liverpool 1. Trey Nyoni (Liverpool) right footed shot from the centre of the box to the centre of the goal."
+      },
+      {
+        "team_id": "436",
+        "type": "Goal - Free-kick",
+        "clock": "29'",
+        "text": "Goal! Fenerbahce 1, Liverpool 1. Mason Greenwood (Fenerbahce) from a free kick with a right footed shot to the bottom left corner."
+      },
+      {
+        "team_id": "364",
+        "type": "Goal - Header",
+        "clock": "69'",
+        "text": "Goal! Fenerbahce 1, Liverpool 2. Alexander Isak (Liverpool) header from very close range to the high centre of the goal. Assisted by Cody Gakpo with a cross."
+      },
+      {
+        "team_id": "436",
+        "type": "Goal - Volley",
+        "clock": "73'",
+        "text": "Goal! Fenerbahce 2, Liverpool 2. Archie Brown (Fenerbahce) left footed shot from the left side of the six yard box to the bottom left corner following a corner."
+      },
+      {
+        "team_id": "436",
+        "type": "Goal - Header",
+        "clock": "79'",
+        "text": "Goal! Fenerbahce 3, Liverpool 2. Vedat Muriqi (Fenerbahce) header from the centre of the box to the bottom left corner. Assisted by Archie Brown with a cross."
+      }
+    ]
+  },
+  {
+    "match_id": "401915304",
+    "home": "Borussia Dortmund",
+    "away": "Real Betis",
+    "result": {
+      "status": "completed",
+      "scope": "90m",
+      "home_goals": 2,
+      "away_goals": 1,
+      "finished_at": null,
+      "completed_date_utc": "2026-11-04",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915304"
+    },
+    "source_api": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915304",
+    "corroborating_source_url": "https://www.uefa.com/uefachampionsleague/news/02ab-21fe508a035b-5eed0199e0b2-1000--champions-league-round-up-como-equal-biggest-ever-win-real/",
+    "retrieved_at": "2026-11-12T01:19:17.070758+00:00",
+    "incidents_postmatch_only": [
+      {
+        "team_id": "124",
+        "type": "Goal",
+        "clock": "49'",
+        "text": "Goal! Borussia Dortmund 1, Real Betis 0. Fábio Silva (Borussia Dortmund) right footed shot from very close range to the bottom left corner."
+      },
+      {
+        "team_id": "244",
+        "type": "Goal",
+        "clock": "67'",
+        "text": "Goal! Borussia Dortmund 1, Real Betis 1. Aitor Ruibal (Real Betis) right footed shot from the centre of the box to the bottom left corner. Assisted by Abde Ezzalzouli."
+      },
+      {
+        "team_id": "124",
+        "type": "Goal",
+        "clock": "72'",
+        "text": "Goal! Borussia Dortmund 2, Real Betis 1. Konstantinos Karetsas (Borussia Dortmund) left footed shot from the centre of the box to the bottom right corner. Assisted by Fábio Silva."
+      }
+    ]
+  },
+  {
+    "match_id": "401915301",
+    "home": "FC Porto",
+    "away": "Napoli",
+    "result": {
+      "status": "completed",
+      "scope": "90m",
+      "home_goals": 4,
+      "away_goals": 1,
+      "finished_at": null,
+      "completed_date_utc": "2026-11-04",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915301"
+    },
+    "source_api": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915301",
+    "corroborating_source_url": "https://www.uefa.com/uefachampionsleague/news/02ab-21fe508a035b-5eed0199e0b2-1000--champions-league-round-up-como-equal-biggest-ever-win-real/",
+    "retrieved_at": "2026-11-12T01:19:15.931989+00:00",
+    "incidents_postmatch_only": [
+      {
+        "team_id": "437",
+        "type": "Goal - Header",
+        "clock": "11'",
+        "text": "Goal! FC Porto 1, Napoli 0. Jan Bednarek (FC Porto) header from the centre of the box to the bottom left corner. Assisted by Gabri Veiga with a cross following a corner."
+      },
+      {
+        "team_id": "114",
+        "type": "Goal",
+        "clock": "43'",
+        "text": "Goal! FC Porto 1, Napoli 1. Scott McTominay (Napoli) right footed shot from the centre of the box to the high centre of the goal."
+      },
+      {
+        "team_id": "437",
+        "type": "Goal",
+        "clock": "71'",
+        "text": "Goal! FC Porto 2, Napoli 1. Gabri Veiga (FC Porto) left footed shot from the centre of the box to the centre of the goal. Assisted by Santiago Giménez with a through ball following a fast break."
+      },
+      {
+        "team_id": "437",
+        "type": "Goal - Header",
+        "clock": "80'",
+        "text": "Goal! FC Porto 3, Napoli 1. Jakub Kiwior (FC Porto) header from the centre of the box to the bottom left corner. Assisted by Hwang In-Beom with a cross following a corner."
+      },
+      {
+        "team_id": "114",
+        "type": "Red Card",
+        "clock": "88'",
+        "text": "Rafa Marín (Napoli) is shown the red card."
+      },
+      {
+        "team_id": "437",
+        "type": "Penalty - Scored",
+        "clock": "90'",
+        "text": "Goal! FC Porto 4, Napoli 1. Samu Aghehowa (FC Porto) converts the penalty with a right footed shot to the bottom right corner."
+      }
+    ]
+  },
+  {
+    "match_id": "401915305",
+    "home": "Lens",
+    "away": "Como",
+    "result": {
+      "status": "completed",
+      "scope": "90m",
+      "home_goals": 1,
+      "away_goals": 9,
+      "finished_at": null,
+      "completed_date_utc": "2026-11-04",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915305"
+    },
+    "source_api": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915305",
+    "corroborating_source_url": "https://www.uefa.com/uefachampionsleague/news/02ab-21fe508a035b-5eed0199e0b2-1000--champions-league-round-up-como-equal-biggest-ever-win-real/",
+    "retrieved_at": "2026-11-12T01:19:17.239948+00:00",
+    "incidents_postmatch_only": [
+      {
+        "team_id": "2572",
+        "type": "Goal - Volley",
+        "clock": "7'",
+        "text": "Goal! Lens 0, Como 1. Tasos Douvikas (Como) right footed shot from very close range to the bottom right corner. Assisted by Máximo Perrone following a corner."
+      },
+      {
+        "team_id": "2572",
+        "type": "Goal",
+        "clock": "32'",
+        "text": "Goal! Lens 0, Como 2. Tasos Douvikas (Como) right footed shot from very close range to the bottom right corner. Assisted by Álex Valle."
+      },
+      {
+        "team_id": "2572",
+        "type": "Goal",
+        "clock": "40'",
+        "text": "Goal! Lens 0, Como 3. Nico Paz (Como) left footed shot from the right side of the box to the high centre of the goal. Assisted by Tasos Douvikas following a fast break."
+      },
+      {
+        "team_id": "2572",
+        "type": "Goal",
+        "clock": "47'",
+        "text": "Goal! Lens 0, Como 4. Lucas da Cunha (Como) left footed shot from the right side of the box to the bottom left corner. Assisted by Nico Paz with a through ball."
+      },
+      {
+        "team_id": "2572",
+        "type": "Goal - Header",
+        "clock": "53'",
+        "text": "Goal! Lens 0, Como 5. Marc Oliver Kempf (Como) header from the centre of the box to the bottom right corner. Assisted by Luis Milla with a cross following a corner."
+      },
+      {
+        "team_id": "2572",
+        "type": "Goal",
+        "clock": "57'",
+        "text": "Goal! Lens 0, Como 6. Tasos Douvikas (Como) right footed shot from the right side of the box to the bottom right corner. Assisted by Nico Paz with a through ball."
+      },
+      {
+        "team_id": "2572",
+        "type": "Goal",
+        "clock": "62'",
+        "text": "Goal! Lens 0, Como 7. Mattia Liberali (Como) left footed shot from the right side of the box to the bottom right corner. Assisted by Jacobo Ramón."
+      },
+      {
+        "team_id": "175",
+        "type": "Goal - Volley",
+        "clock": "65'",
+        "text": "Goal! Lens 1, Como 7. Ruben Aguilar (Lens) right footed shot from the centre of the box to the bottom left corner. Assisted by Florian Thauvin with a cross following a corner."
+      },
+      {
+        "team_id": "2572",
+        "type": "Goal",
+        "clock": "69'",
+        "text": "Goal! Lens 1, Como 8. Martin Baturina (Como) right footed shot from the centre of the box to the bottom left corner. Assisted by Mattia Liberali."
+      },
+      {
+        "team_id": "2572",
+        "type": "Goal",
+        "clock": "90'+1'",
+        "text": "Goal! Lens 1, Como 9. Matteo Papaccioli (Como) left footed shot from the centre of the box to the centre of the goal. Assisted by Mattia Liberali with a through ball.Goal awarded following VAR Review."
+      }
+    ]
+  },
+  {
+    "match_id": "401915303",
+    "home": "PSV Eindhoven",
+    "away": "Club Brugge",
+    "result": {
+      "status": "completed",
+      "scope": "90m",
+      "home_goals": 1,
+      "away_goals": 2,
+      "finished_at": null,
+      "completed_date_utc": "2026-11-04",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915303"
+    },
+    "source_api": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915303",
+    "corroborating_source_url": "https://www.uefa.com/uefachampionsleague/news/02ab-21fe508a035b-5eed0199e0b2-1000--champions-league-round-up-como-equal-biggest-ever-win-real/",
+    "retrieved_at": "2026-11-12T01:19:17.377558+00:00",
+    "incidents_postmatch_only": [
+      {
+        "team_id": "570",
+        "type": "Goal - Header",
+        "clock": "25'",
+        "text": "Goal! PSV Eindhoven 0, Club Brugge 1. Nicolò Tresoldi (Club Brugge) header from the centre of the box to the centre of the goal. Assisted by Joaquin Seys with a cross following a corner."
+      },
+      {
+        "team_id": "148",
+        "type": "Goal",
+        "clock": "54'",
+        "text": "Goal! PSV Eindhoven 1, Club Brugge 1. Kodai Sano (PSV Eindhoven) right footed shot from the centre of the box to the bottom left corner."
+      },
+      {
+        "team_id": "570",
+        "type": "Goal",
+        "clock": "65'",
+        "text": "Goal! PSV Eindhoven 1, Club Brugge 2. Carlos Forbs (Club Brugge) left footed shot from the centre of the box to the bottom left corner. Assisted by Joaquin Seys following a fast break."
+      }
+    ]
+  },
+  {
+    "match_id": "401915306",
+    "home": "RB Leipzig",
+    "away": "Manchester City",
+    "result": {
+      "status": "completed",
+      "scope": "90m",
+      "home_goals": 2,
+      "away_goals": 3,
+      "finished_at": null,
+      "completed_date_utc": "2026-11-04",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915306"
+    },
+    "source_api": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915306",
+    "corroborating_source_url": "https://www.uefa.com/uefachampionsleague/news/02ab-21fe508a035b-5eed0199e0b2-1000--champions-league-round-up-como-equal-biggest-ever-win-real/",
+    "retrieved_at": "2026-11-12T01:19:17.042207+00:00",
+    "incidents_postmatch_only": [
+      {
+        "team_id": "382",
+        "type": "Own Goal",
+        "clock": "37'",
+        "text": "Own Goal by Castello Lukeba, RB Leipzig. RB Leipzig 0, Manchester City 1."
+      },
+      {
+        "team_id": "11420",
+        "type": "Goal",
+        "clock": "49'",
+        "text": "Goal! RB Leipzig 1, Manchester City 1. Ridle Baku (RB Leipzig) right footed shot from a difficult angle on the right to the bottom left corner. Assisted by Brajan Gruda following a fast break."
+      },
+      {
+        "team_id": "382",
+        "type": "Goal - Header",
+        "clock": "58'",
+        "text": "Goal! RB Leipzig 1, Manchester City 2. Enzo Fernández (Manchester City) header from the centre of the box to the bottom left corner. Assisted by Iliman Ndiaye with a cross."
+      },
+      {
+        "team_id": "11420",
+        "type": "Goal",
+        "clock": "61'",
+        "text": "Goal! RB Leipzig 2, Manchester City 2. Antonio Nusa (RB Leipzig) left footed shot from the centre of the box to the bottom right corner. Assisted by Christopher Nkunku."
+      },
+      {
+        "team_id": "382",
+        "type": "Goal",
+        "clock": "78'",
+        "text": "Goal! RB Leipzig 2, Manchester City 3. Erling Haaland (Manchester City) left footed shot from very close range to the centre of the goal. Assisted by Elliot Anderson."
+      }
+    ]
+  },
+  {
+    "match_id": "401915381",
+    "home": "Slavia Prague",
+    "away": "Arsenal",
+    "result": {
+      "status": "completed",
+      "scope": "90m",
+      "home_goals": 1,
+      "away_goals": 2,
+      "finished_at": null,
+      "completed_date_utc": "2026-11-04",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915381"
+    },
+    "source_api": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915381",
+    "corroborating_source_url": "https://www.uefa.com/uefachampionsleague/news/02ab-21fe508a035b-5eed0199e0b2-1000--champions-league-round-up-como-equal-biggest-ever-win-real/",
+    "retrieved_at": "2026-11-12T01:19:17.265681+00:00",
+    "incidents_postmatch_only": [
+      {
+        "team_id": "359",
+        "type": "Goal",
+        "clock": "9'",
+        "text": "Goal! Slavia Prague 0, Arsenal 1. Noni Madueke (Arsenal) right footed shot from the right side of the box to the centre of the goal. Assisted by Viktor Gyökeres with a through ball."
+      },
+      {
+        "team_id": "359",
+        "type": "Goal",
+        "clock": "38'",
+        "text": "Goal! Slavia Prague 0, Arsenal 2. Viktor Gyökeres (Arsenal) right footed shot from the left side of the box to the top right corner. Assisted by Mikel Merino."
+      },
+      {
+        "team_id": "494",
+        "type": "Goal",
+        "clock": "90'",
+        "text": "Goal! Slavia Prague 1, Arsenal 2. Wiktor Nowak (Slavia Prague) right footed shot from very close range to the high centre of the goal. Assisted by David Jurásek with a cross."
+      }
+    ]
+  },
+  {
+    "match_id": "401915302",
+    "home": "Viking FK",
+    "away": "Sabah FK",
+    "result": {
+      "status": "completed",
+      "scope": "90m",
+      "home_goals": 4,
+      "away_goals": 1,
+      "finished_at": null,
+      "completed_date_utc": "2026-11-04",
+      "source_url": "https://www.espn.com/soccer/match/_/gameId/401915302"
+    },
+    "source_api": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/summary?event=401915302",
+    "corroborating_source_url": "https://www.uefa.com/uefachampionsleague/news/02ab-21fe508a035b-5eed0199e0b2-1000--champions-league-round-up-como-equal-biggest-ever-win-real/",
+    "retrieved_at": "2026-11-12T01:19:18.535887+00:00",
+    "incidents_postmatch_only": [
+      {
+        "team_id": "21922",
+        "type": "Goal",
+        "clock": "11'",
+        "text": "Goal! Viking 0, Sabah 1. Orphé Mbina (Sabah) right footed shot from the centre of the box to the bottom right corner. Assisted by Umarali Rakhmonaliev following a fast break."
+      },
+      {
+        "team_id": "510",
+        "type": "Goal",
+        "clock": "27'",
+        "text": "Goal! Viking 1, Sabah 1. Erik Botheim (Viking) right footed shot from the centre of the box to the bottom left corner. Assisted by Kristoffer Haugen with a cross."
+      },
+      {
+        "team_id": "510",
+        "type": "Goal",
+        "clock": "69'",
+        "text": "Goal! Viking 2, Sabah 1. Zlatko Tripic (Viking) right footed shot from very close range to the bottom right corner following a set piece situation."
+      },
+      {
+        "team_id": "21922",
+        "type": "Red Card",
+        "clock": "77'",
+        "text": "Aden McCarthy (Sabah) is shown the red card."
+      },
+      {
+        "team_id": "510",
+        "type": "Goal - Header",
+        "clock": "81'",
+        "text": "Goal! Viking 3, Sabah 1. Henrik Falchener (Viking) header from the centre of the box to the bottom left corner. Assisted by Zlatko Tripic with a cross following a corner."
+      },
+      {
+        "team_id": "510",
+        "type": "Goal",
+        "clock": "90'+4'",
+        "text": "Goal! Viking 4, Sabah 1. Erik Botheim (Viking) right footed shot from the centre of the box to the high centre of the goal. Assisted by Peter Christiansen."
+      }
+    ]
+  }
+]
