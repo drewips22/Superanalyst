@@ -4,7 +4,15 @@
 
 Superanalyst adalah repo skill untuk Codex. Isinya mengubah rancangan analisis menjadi prosedur yang bisa diulang, diperiksa sumbernya, dan dievaluasi setelah pertandingan. Bahasa utama: Indonesia.
 
-**Status: v0.4.2 — keyakinan per target; acuan UNL dan model penelitian UCL tidak diubah.** Repo GitHub **private** tersedia di [drewips22/Superanalyst](https://github.com/drewips22/Superanalyst). Contoh dalam `examples/` tetap sintetis; studi nyata berada di `backtests/`. Hasil rekonstruksi membaik terhadap baseline lima laga, dengan batas sumber dan kebutuhan konfirmasi pada prediksi yang benar-benar direkam sebelum kickoff.
+**Status: BETA TEST (v0.4.2).** Repo publik [drewips22/Superanalyst](https://github.com/drewips22/Superanalyst) dibuka untuk pengujian, reproduksi penelitian, dan masukan. Acuan UNL serta model penelitian UCL tetap dipertahankan. Contoh dalam `examples/` bersifat sintetis; studi nyata berada di `backtests/`. Hasil rekonstruksi membaik terhadap baseline lima laga, dengan batas sumber dan kebutuhan konfirmasi pada prediksi yang benar-benar direkam sebelum kickoff.
+
+## Beta test
+
+Superanalyst masih dikembangkan. Hasil awal tidak menjamin akurasi jangka panjang; probabilitas untuk penggunaan langsung belum disahkan kalibrasinya. Kerangka data → pola → keputusan dapat dipakai lintas kompetisi, sementara model, parameter dan tingkat keyakinannya perlu diuji sesuai kompetisi serta waktu prediksi. Analisis menjadi bahan pertimbangan, bukan hasil mutlak.
+
+- Catat prediksi sebelum kickoff, termasuk sumber, waktu analisis, versi, serta pilihan yang masih observasi. Simpan revisi dan hasil penilaian secara terpisah.
+- Laporkan masalah atau saran melalui [GitHub Issues](https://github.com/drewips22/Superanalyst/issues). Sertakan laga, kompetisi, waktu analisis, versi, target 1X2/BTTS/total gol, serta sumber yang dapat diperiksa. Hindari kredensial dan data pribadi.
+- Perubahan metode diuji pada pertandingan berikutnya sebelum dijadikan acuan. Seluruh kesalahan tetap masuk evaluasi; keberhasilan satu matchday tidak cukup untuk mengganti atau mengesahkan model.
 
 ## Perbaikan pencatatan v0.4.2
 
@@ -73,7 +81,7 @@ Untuk memakai salinan lokal dalam chat yang dapat mengakses folder ini:
 
 Untuk memasangnya agar tersedia di chat lain, minta Codex memasang folder `skills/superanalyst` dari salinan repo ini menggunakan mekanisme instalasi skill yang tersedia. **Pembuatan repo ini belum memasang skill secara global.**
 
-Untuk memasang dari repo private melalui akun yang memiliki akses:
+Untuk memasang dari repo publik:
 
 ```text
 $skill-installer pasang skill dari repo drewips22/Superanalyst, path skills/superanalyst.
@@ -157,11 +165,11 @@ Pemeriksaan: **74 tes perhitungan dan validasi** dengan dependensi penelitian. S
 4. Uji efek di liga/horizon lain sebelum memperluas cakupan resep terpilih.
 5. Simpan seluruh hasil termasuk kekalahan favorit dan diagnosis sesudah laga.
 
-Data berlisensi dan arsip prediksi pribadi disimpan di `data/` atau `runs/`, yang diabaikan Git. Masukkan ke repo hanya bila hak penggunaan dan kebutuhan berbagi sudah jelas. Belum ada lisensi distribusi publik yang dipilih untuk proyek private ini.
+Data berlisensi dan arsip prediksi pribadi disimpan di `data/` atau `runs/`, yang diabaikan Git. Masukkan ke repo hanya bila hak penggunaan dan kebutuhan berbagi sudah jelas. Lisensi distribusi kode belum ditetapkan; sumber data mengikuti ketentuan dan atribusi masing-masing.
 
-## Repo GitHub private
+## Repo GitHub publik
 
-Repo tersedia di [drewips22/Superanalyst](https://github.com/drewips22/Superanalyst). Untuk mengambil salinan, gunakan akun yang mempunyai akses:
+Repo tersedia untuk beta test di [drewips22/Superanalyst](https://github.com/drewips22/Superanalyst). Untuk mengambil salinan:
 
 ```sh
 git clone https://github.com/drewips22/Superanalyst.git

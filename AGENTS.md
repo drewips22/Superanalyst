@@ -9,7 +9,7 @@ The user-facing language is Indonesian. Preserve the data → patterns → decis
 - Examples must remain visibly synthetic. Do not claim real-world accuracy from unit tests or synthetic examples.
 - New dependencies require a concrete benefit; current tools use Python's standard library.
 - After changing calculations or validation, run `python -m unittest discover -s tests -v` and the relevant example commands.
-- Keep local data and forecast archives out of Git unless their inclusion is explicitly intended. The user authorized publication to the private `drewips22/Superanalyst` repository and inclusion of the UCL case study.
+- Keep local data and forecast archives out of Git unless their inclusion is explicitly intended. The user authorized the `drewips22/Superanalyst` repository to become public for beta testing and inclusion of the UCL case studies. This does not authorize publishing local data, private forecast archives or credentials.
 - Preserve frozen case inputs, code and analysis once graded. Create a new experiment directory for revisions; do not edit the existing case to make its predictions fit the result.
 - Research helper files are also named in frozen manifests. Version a changed helper and start a new experiment instead of invalidating the archived cases.
 - Keep validation-based target selection fixed after test results are opened. Post-grading diagnostics must be labeled posthoc and cannot silently replace the selected model or exclude a result as unlucky.
