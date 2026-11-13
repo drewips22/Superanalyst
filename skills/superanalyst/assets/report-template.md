@@ -64,6 +64,16 @@ Kronologi berita vs harga: [isi]. Penjelasan: [terkonfirmasi / inferensi / belum
 
 ## Keputusan
 
+Untuk snapshot versi 0.4.2+, isi tiap target secara terpisah. Observasi berarti belum menerbitkan pilihan target tersebut; skenario skor tidak mengisi pilihan otomatis.
+
+| Target | Pilihan / observasi | Keyakinan target | Status | Bukti mendukung | Bukti berlawanan / alasan observasi |
+| --- | --- | --- | --- | --- | --- |
+| 1X2 | | | | | |
+| BTTS | | | | | |
+| Total 2,5 | | | | | |
+
+Status XI resmi: [sudah/belum, sumber dan waktu]. Konflik ketersediaan yang belum selesai: [isi atau tidak ditemukan]. Peringatan kualitas sumber: [isi atau tidak ditemukan].
+
 - **Kecenderungan 1X2:** [arah dan alasan]. Probabilitas hanya bila ada dasar; jumlah 100%.
 - **BTTS:** [arah/estimasi dan alasan].
 - **Model/versi/parameter:** [isi, atau analisis kualitatif]. Kalibrasi: [sudah diuji/belum].

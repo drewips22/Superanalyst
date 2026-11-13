@@ -3,23 +3,64 @@
   "method_id": "qualitative_superanalyst_national_team_pilot_v1",
   "adopted_date_wib": "2026-11-13",
   "status": "user_adopted_working_baseline_not_calibrated",
-  "workflow": ["data", "pola", "keputusan"],
+  "workflow": [
+    "data",
+    "pola",
+    "keputusan"
+  ],
   "scoring_scope": "90m_plus_stoppage_no_extra_time_no_penalties",
-  "history_window": {"competitive_matches": 5, "friendlies": "separate", "current_unl_group_comparator": 4},
+  "history_window": {
+    "competitive_matches": 5,
+    "friendlies": "separate",
+    "current_unl_group_comparator": 4
+  },
   "forecast_type": "qualitative_with_score_scenarios",
   "trained_national_team_model": null,
   "calibrated_probabilities": false,
   "fixed_injury_home_motivation_multipliers": null,
   "ucl_model_weights_applied": false,
   "missing_data": "explicit_null_or_NA_with_coverage",
-  "required_analysis_groups": ["recent_form", "goals_and_h2h", "lineup_and_context", "btts", "market_anomalies", "independent_market_checks"],
+  "required_analysis_groups": [
+    "recent_form",
+    "goals_and_h2h",
+    "lineup_and_context",
+    "btts",
+    "market_anomalies",
+    "independent_market_checks"
+  ],
   "reference_pilot": {
     "forecast_recorded_at": "2026-11-12T11:04:14.428281+00:00",
     "matches": 8,
-    "results": {"1x2": {"correct": 7, "evaluated": 8}, "btts": {"correct": 5, "evaluated": 6}, "total_2_5": {"correct": 5, "evaluated": 6}, "score_scenario": {"correct": 5, "evaluated": 8}},
+    "results": {
+      "1x2": {
+        "correct": 7,
+        "evaluated": 8
+      },
+      "btts": {
+        "correct": 5,
+        "evaluated": 6
+      },
+      "total_2_5": {
+        "correct": 5,
+        "evaluated": 6
+      },
+      "score_scenario": {
+        "correct": 5,
+        "evaluated": 8
+      }
+    },
     "scope_of_claim": "one_prospective_matchday_only"
   },
   "posthoc_proposals_auto_activated": false,
   "excluded_as_unlucky": [],
-  "forecast_archives": "append_only_revisions_and_evaluations_separate"
+  "forecast_archives": "append_only_revisions_and_evaluations_separate",
+  "decision_protocol": {
+    "version": "1.1",
+    "effective_plugin_version": "0.4.2",
+    "confidence_and_status_per_target": true,
+    "observation_has_null_pick": true,
+    "lineup_conflicts_explicit": true,
+    "source_quality_warnings_explicit": true,
+    "numeric_model_or_weights_changed": false
+  }
 }

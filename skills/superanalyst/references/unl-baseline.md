@@ -31,6 +31,8 @@ Italia–Prancis salah pada seri dan Under; Inggris–Kroasia salah pada BTTS Ti
 
 Ini satu matchday prospektif, bukan bukti akurasi jangka panjang atau keunggulan atas pasar. Tidak ada probabilitas awal sehingga Brier/log loss tidak dapat dihitung. Arsip asli tetap lokal di `runs/unl-2026-11-12/`; salinan bukti terpilih dapat disertakan dalam paket privat pada `reference-cases/unl-2026-11-12/`.
 
-## Usulan yang tetap terpisah
+## Perbaikan pencatatan yang disetujui
 
-Pencatatan keyakinan/status per target yang lebih rinci, abstain 1X2 terstruktur, perbandingan snapshot XI resmi, model rating lawan dan penambahan xG merupakan calon pengembangan. Jangan mengubah bobot atau menyebutnya meningkatkan akurasi sebelum rancangan dibekukan dan diuji pada pertandingan baru. Acuan kerja ini tidak menghalangi memakai fakta terbaru; yang ditahan adalah pengaktifan metode atau koefisien baru tanpa pengujian.
+Versi plugin 0.4.2 menambahkan [protokol keputusan v1.1](decision-quality.md): keyakinan/status terpisah per target, observasi terstruktur, pengecekan konflik pemain serta kualitas sumber. Berlaku untuk snapshot baru; tidak menghapus pilihan lama dan tidak mengganti metode atau bobot acuan.
+
+Perbandingan manfaat snapshot XI resmi, model rating lawan dan tambahan fitur xG tetap memerlukan pengujian. Jangan menyebut perbaikan pencatatan sebagai peningkatan akurasi sebelum dibuktikan pada pertandingan baru. Acuan kerja ini tetap memakai fakta terbaru; yang ditahan adalah pengaktifan koefisien baru tanpa pengujian.
