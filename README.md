@@ -4,7 +4,19 @@
 
 Superanalyst adalah repo skill untuk Codex. Isinya mengubah rancangan analisis menjadi prosedur yang bisa diulang, diperiksa sumbernya, dan dievaluasi setelah pertandingan. Bahasa utama: Indonesia.
 
-**Status: v0.4.0 — model penelitian terlatih dengan pengujian UCL dua musim terpisah.** Repo GitHub **private** tersedia di [drewips22/Superanalyst](https://github.com/drewips22/Superanalyst). Contoh dalam `examples/` tetap sintetis; studi nyata berada di `backtests/`. Hasil rekonstruksi membaik terhadap baseline lima laga, dengan batas sumber dan kebutuhan konfirmasi pada prediksi yang benar-benar direkam sebelum kickoff.
+**Status: v0.4.1 — acuan UNL kualitatif dan kemasan plugin; model penelitian UCL tidak diubah.** Repo GitHub **private** tersedia di [drewips22/Superanalyst](https://github.com/drewips22/Superanalyst). Contoh dalam `examples/` tetap sintetis; studi nyata berada di `backtests/`. Hasil rekonstruksi membaik terhadap baseline lima laga, dengan batas sumber dan kebutuhan konfirmasi pada prediksi yang benar-benar direkam sebelum kickoff.
+
+## Acuan UNL yang dipertahankan
+
+Pengguna menetapkan metode `qualitative_superanalyst_national_team_pilot_v1` sebagai [acuan kerja UNL](skills/superanalyst/references/unl-baseline.md) pada 13 November 2026. Prediksi prospektif delapan laga sesi pertama menghasilkan 1X2 7/8, BTTS 5/6, total 2,5 gol 5/6, dan skenario skor tepat 5/8. Semua kekeliruan tetap dihitung. Ini hasil satu sesi, bukan akurasi jangka panjang, kalibrasi probabilitas atau bukti keunggulan terhadap pasar.
+
+Urutan data → pola → keputusan dan keenam kelompok analisis tetap berlaku. Usulan pengembangan dicatat terpisah; tidak ada bobot baru yang diaktifkan berdasarkan satu matchday. [Spesifikasi acuan](skills/superanalyst/assets/unl-baseline-policy.json).
+
+## Plugin untuk akun ChatGPT
+
+Manifest `plugin.json` di akar repo mengemas skill sebagai plugin. Paket privat dapat dipasang melalui fitur plugin akun yang tersedia; pemasangan lokal ke `~/.codex/skills` tidak menyinkronkan skill ke ChatGPT HP. Plugin akun yang didukung tersedia di ChatGPT web, desktop dan mobile sesuai [dokumentasi OpenAI](https://learn.chatgpt.com/docs/plugins).
+
+Keberadaan manifest atau ZIP tidak membuktikan pemasangan cloud selesai. Konfirmasi status pada halaman plugin akun setelah unggah dan pemasangan. Paket tidak membutuhkan MCP atau hooks lokal; lihat [panduan lingkungan plugin](skills/superanalyst/references/plugin-runtime.md). Arsip pribadi tetap di luar Git; bukti pilot terpilih dapat dibawa dalam paket privat tanpa mengubah arsip asli.
 
 ## Pengembangan model: 378 laga uji UCL
 

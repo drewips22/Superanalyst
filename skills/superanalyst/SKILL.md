@@ -9,6 +9,8 @@ Susun analisis dalam urutan **data → pola → keputusan**. Jawab dalam bahasa 
 
 ## Pilih pekerjaan
 
+- **Prediksi tim nasional/UNL:** pertahankan [acuan operasional UNL v1](references/unl-baseline.md), yaitu metode kualitatif sesi 13 November 2026 WIB. Jangan mengaktifkan usulan pascaevaluasi atau bobot UCL secara otomatis.
+- **Pemakaian sebagai plugin ChatGPT:** baca [lingkungan plugin](references/plugin-runtime.md) bila perlu menjalankan alat atau membuka arsip dari paket, bukan dari checkout lokal.
 - **Analisis pertandingan:** baca [metodologi](references/methodology.md), lalu gunakan [format laporan](assets/report-template.md).
 - **Pergerakan pasar/Polymarket:** baca juga [protokol pasar](references/markets.md).
 - **Menguji aturan atau prediksi:** baca [daftar hipotesis](references/hypotheses.md) dan [protokol backtest](references/backtesting.md).
