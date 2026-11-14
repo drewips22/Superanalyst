@@ -9,8 +9,9 @@ Susun analisis dalam urutan **data → pola → keputusan**. Jawab dalam bahasa 
 
 ## Pilih pekerjaan
 
-- **Prediksi tim nasional/UNL:** pertahankan [acuan operasional UNL v1](references/unl-baseline.md), yaitu metode kualitatif sesi 13 November 2026 WIB. Jangan mengaktifkan usulan pascaevaluasi atau bobot UCL secara otomatis.
-- **Menerbitkan prediksi baru:** gunakan [protokol keputusan v1.1](references/decision-quality.md) untuk memisahkan keyakinan setiap target, observasi, skenario XI dan pemeriksaan kualitas data. Ini perbaikan pencatatan; metode serta bobot acuan tetap.
+- **Prediksi UNL:** pertahankan [acuan operasional UNL v1](references/unl-baseline.md), yaitu metode kualitatif sesi 13 November 2026 WIB. Jangan mengaktifkan usulan pascaevaluasi atau bobot UCL secara otomatis.
+- **Pertandingan persahabatan:** tambahkan [pemeriksaan konteks persahabatan](references/friendly-context.md). Lima laga kompetitif tetap ditampilkan, dengan uji coba terbaru dan relevansi skuad/pelatih dibaca terpisah; belum ada bobot numerik baru.
+- **Menerbitkan atau memperbarui prediksi:** ikuti [jurnal keputusan v1.2](references/decision-journal.md), yang melengkapi protokol v1.1. Gunakan kembali keputusan tersimpan untuk input dan cutoff yang sama; revisi memerlukan alasan serta snapshot baru. Metode dan bobot acuan tetap.
 - **Pemakaian sebagai plugin ChatGPT:** baca [lingkungan plugin](references/plugin-runtime.md) bila perlu menjalankan alat atau membuka arsip dari paket, bukan dari checkout lokal.
 - **Analisis pertandingan:** baca [metodologi](references/methodology.md), lalu gunakan [format laporan](assets/report-template.md).
 - **Pergerakan pasar/Polymarket:** baca juga [protokol pasar](references/markets.md).
@@ -52,6 +53,8 @@ Standar hasil adalah **90 menit + injury time**, tanpa extra time atau adu penal
 Tutup dengan kecenderungan 1X2, BTTS, skenario yang mengubah penilaian, kualitas data, dan status **analisis layak / provisional / observasi / tidak cukup data**. Status ini adalah kelayakan analisis, bukan instruksi transaksi.
 
 Untuk snapshot baru versi 0.4.2+, setiap target 1X2, BTTS dan total gol memiliki pilihan, keyakinan dan status sendiri. Observasi pada target berarti tidak menerbitkan pilihan target itu (`pick: null`) dengan alasan. Ketidakjelasan pemenang tidak otomatis berarti memilih seri. Skenario skor tidak otomatis menjadi pilihan BTTS atau total. Jangan menerapkan format baru untuk menghapus pilihan pada arsip lama.
+
+Mulai v0.4.3, simpan juga `focus_target` sebelum hasil diketahui. Ringkasan teks dan gambar mengambil pilihan, keyakinan, status, serta fokus dari snapshot yang sama. Saat memperbarui XI, jelaskan perubahan dari perkiraan awal dan pengaruhnya pada target; daftar nama starter saja tidak cukup untuk mengubah pilihan. Bedakan informasi baru, konfirmasi XI, koreksi data dan penilaian ulang bukti lama.
 
 Jika ada probabilitas, tulis model/versinya, parameter, asumsi, sumber, dan apakah sudah dikalibrasi. Probabilitas 1X2 berjumlah 100%; BTTS dihitung dari distribusi gabungan gol. Skor paling mungkin hanyalah salah satu skenario dan dapat memiliki peluang kecil. Bedakan rentang sensitivitas dari interval keyakinan statistik.
 

@@ -1,0 +1,23 @@
+{
+  "schema_version": "qualitative-forecast-v2",
+  "synthetic": true,
+  "as_of": "2026-01-01T10:00:00Z",
+  "recorded_at": null,
+  "forecasts": [{
+    "match_id": "synthetic-journal-1",
+    "synthetic": true,
+    "home": "Tim contoh kandang",
+    "away": "Tim contoh tandang",
+    "kickoff_at": "2099-01-01T20:00:00Z",
+    "analysis_method": "synthetic-qualitative-example-not-a-model",
+    "probabilities": null,
+    "result_90m": null,
+    "score_scenario": [2, 0],
+    "focus_target": "1x2",
+    "targets": {
+      "1x2": {"pick": "H", "confidence": "medium", "status": "provisional", "supporting_evidence": ["Bukti sintetis untuk contoh pencatatan"], "contradicting_evidence": ["Ketidakpastian sintetis"], "abstain_reason": null},
+      "btts": {"pick": null, "confidence": null, "status": "observasi", "supporting_evidence": [], "contradicting_evidence": ["Data contoh belum cukup"], "abstain_reason": "Contoh observasi, bukan memilih BTTS dari skenario skor"},
+      "total_2_5": {"pick": "under", "confidence": "low", "status": "provisional", "supporting_evidence": ["Bukti sintetis total gol"], "contradicting_evidence": ["Skenario tiga gol belum dapat disingkirkan"], "abstain_reason": null}
+    }
+  }]
+}

@@ -1,0 +1,7 @@
+{
+  "synthetic": true,
+  "as_of": "2026-01-01T10:00:00Z",
+  "profile": "competitive",
+  "facts": {"description": "Contoh sintetis untuk pencatatan, bukan statistik atau ramalan tim nyata."},
+  "sources": [{"id": "synthetic-preview", "url": "https://example.com/synthetic-preview", "available_at": "2026-01-01T09:00:00Z", "retrieved_at": "2026-01-01T09:30:00Z"}]
+}

@@ -4,7 +4,7 @@
 
 Superanalyst adalah repo skill untuk Codex. Isinya mengubah rancangan analisis menjadi prosedur yang bisa diulang, diperiksa sumbernya, dan dievaluasi setelah pertandingan. Bahasa utama: Indonesia.
 
-**Status: BETA TEST (v0.4.2).** Repo publik [drewips22/Superanalyst](https://github.com/drewips22/Superanalyst) dibuka untuk pengujian, reproduksi penelitian, dan masukan. Acuan UNL serta model penelitian UCL tetap dipertahankan. Contoh dalam `examples/` bersifat sintetis; studi nyata berada di `backtests/`. Hasil rekonstruksi membaik terhadap baseline lima laga, dengan batas sumber dan kebutuhan konfirmasi pada prediksi yang benar-benar direkam sebelum kickoff.
+**Status: BETA TEST (v0.4.3).** Repo publik [drewips22/Superanalyst](https://github.com/drewips22/Superanalyst) dibuka untuk pengujian, reproduksi penelitian, dan masukan. Acuan UNL serta model penelitian UCL tetap dipertahankan. Contoh dalam `examples/` bersifat sintetis; studi nyata berada di `backtests/`. Hasil rekonstruksi membaik terhadap baseline lima laga, dengan batas sumber dan kebutuhan konfirmasi pada prediksi yang benar-benar direkam sebelum kickoff.
 
 ## Beta test
 
@@ -13,6 +13,21 @@ Superanalyst masih dikembangkan. Hasil awal tidak menjamin akurasi jangka panjan
 - Catat prediksi sebelum kickoff, termasuk sumber, waktu analisis, versi, serta pilihan yang masih observasi. Simpan revisi dan hasil penilaian secara terpisah.
 - Laporkan masalah atau saran melalui [GitHub Issues](https://github.com/drewips22/Superanalyst/issues). Sertakan laga, kompetisi, waktu analisis, versi, target 1X2/BTTS/total gol, serta sumber yang dapat diperiksa. Hindari kredensial dan data pribadi.
 - Perubahan metode diuji pada pertandingan berikutnya sebelum dijadikan acuan. Seluruh kesalahan tetap masuk evaluasi; keberhasilan satu matchday tidak cukup untuk mengganti atau mengesahkan model.
+
+## Perbaikan terbatas v0.4.3
+
+[Jurnal keputusan v1.2](skills/superanalyst/references/decision-journal.md) menjaga konsistensi analisis ulang: input yang sama memakai keputusan tersimpan, fokus dikunci per laga, dan setiap revisi dicatat menurut informasi baru, XI, koreksi data atau penilaian ulang. Teks dan gambar mengambil keputusan dari snapshot yang sama. Alat baru mencatat waktu penyimpanan aktual, menolak penimpaan arsip, serta menilai fokus dan cakupan pilihan.
+
+[Konteks persahabatan](skills/superanalyst/references/friendly-context.md) memisahkan lima laga kompetitif dari uji coba terbaru dan memeriksa umur data, perubahan pelatih/pemain, XI serta aturan pergantian. Tidak ada koefisien baru atau perubahan bobot UNL/UCL; manfaat prediktif tambahan tetap perlu diuji. Alat arsip v0.4.2 dan seluruh kasus yang dibekukan dipertahankan.
+
+Contoh pencatatan yang sepenuhnya sintetis:
+
+```sh
+python skills/superanalyst/scripts/decision_journal.py record examples/journal-forecast.synthetic.json examples/journal-inputs.synthetic.json --out runs/journal-demo/initial.json
+python skills/superanalyst/scripts/decision_journal.py reuse runs/journal-demo/initial.json examples/journal-inputs.synthetic.json
+```
+
+Gunakan berkas keluaran baru untuk pengulangan contoh. Ini pemeriksaan proses dan format, bukan pengujian akurasi pertandingan nyata.
 
 ## Perbaikan pencatatan v0.4.2
 
@@ -155,7 +170,7 @@ python backtests/xg-domestic-2015-v1/replay.py
 
 Parameter 1.6 dan 1.2 di atas adalah **contoh perhitungan**, bukan estimasi untuk tim nyata. Kalkulator Poisson tidak melatih model atau menentukan parameter sendiri. Evaluator menilai prediksi yang sudah disimpan; pelatihan dan pengujian kronologis mengikuti [protokol backtest](skills/superanalyst/references/backtesting.md).
 
-Pemeriksaan: **74 tes perhitungan dan validasi** dengan dependensi penelitian. Studi historis dapat dihitung ulang dan dicek melalui checksum; penelitian baru menyediakan replay model/fitur dan skor. Pemeriksaan struktur skill dan tautan internal juga dilakukan. Tes memvalidasi kode; bukti mutu prediksi berasal dari evaluasi pertandingan, dengan batas sumber yang dijelaskan pada setiap studi.
+Pemeriksaan: **95 tes perhitungan dan validasi** dengan dependensi penelitian, termasuk 21 tes jurnal keputusan. Studi historis dapat dihitung ulang dan dicek melalui checksum; penelitian menyediakan replay model/fitur dan skor. Pemeriksaan struktur skill dan tautan internal juga dilakukan. Tes memvalidasi kode dan perilaku pencatatan; bukti mutu prediksi berasal dari evaluasi pertandingan, dengan batas sumber yang dijelaskan pada setiap studi.
 
 ## Pengembangan berikutnya
 
