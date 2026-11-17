@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-11-17T13:21:27.621917+00:00",
+  "as_of": "2026-11-17T13:21:27.050360+00:00",
+  "scope": "90m",
+  "forecast_mode": true,
+  "qualitative_frozen_before_beta_inference": true,
+  "main_method_changed": false,
+  "main_snapshot_id": "b4379cc9c776421ba62e087d115664bd",
+  "experimental_snapshot_id": "9d9c316e2d92502e1965b8bf5267e862",
+  "context_file_sha256": "e47da684bb938a2c413f5f932f2d266118196772c194664c58bd45898e830aaf",
+  "forecast_counts": {
+    "beta_v2": {
+      "active_targets": 9,
+      "focus_matches": 5
+    },
+    "hybrid": {
+      "active_targets": 7,
+      "focus_matches": 5
+    }
+  },
+  "main_active_targets": 15,
+  "main_focus_matches": 8,
+  "input_data_files_sha256": {
+    "facts-v2.json": "eadf6b79216a85828b72253b85414754568adce759322ebd35ebb263123ca9d9",
+    "fresh-data.json": "74089d1f70537c1f0d5cf63c817c1412676a4627c3eee00cc91a6a19fd17eb69",
+    "verified-updates-v2.jsonl": "88dac6e5be20f9456ae0d3c14f597256db60ae8e844b30b417db2363927df989",
+    "data-verification-v1.json": "fae702fe870bd8e04d22ce4fb069068552f8942d51656f673c8e969c74d1f389"
+  },
+  "frozen_model_files_sha256": {
+    "model/beta_engine.py": "8f94ed45e6968f50ec836b28ff5826ec33314e596cae52b9103b6d402a09c0ec",
+    "model/predict.py": "f42f864af17f8dc10d6310672cd324249540b21e8a59bf5cf0ddcadef2d00787",
+    "model/research.py": "fab6faed02bc6f89d93066cba54b72fd87125bccc9f3466d2819f8b7e87ce707",
+    "model/train.py": "d4ca79a6b16489c4eba22cb301259edbdbcbc237c26a416ed30c9be0f66bab4e",
+    "model/tests/test_beta.py": "7aa9f3cc9aa166eb1e22e2c6061884e23993b4e9768dd1b1a010749bdaece879",
+    "model/tests/test_training.py": "18a1e14845d85453acd7a00c91a8e9784236c2d2bfc487b45e04fab10bd7fd85",
+    "model/vendor/national_models.py": "517723f9fe0ebac48e9d6ebcf13ecceed8625a8781b8dabb6700002bc1d541dc",
+    "model/vendor/portable.py": "b77bef785dd916b6e1727412d0c3a1bb5ad657518001ead64be4ca48d909fce4"
+  },
+  "run_files_sha256": {
+    "beta-inputs-v1.json": "267cf9ad649e8913f1be51fc8b405f00be614fa07489f3b4cf2ecd056e9e09a5",
+    "experimental-forecast-v1.json": "ce93922d1e53c1ba51845ed2e12a8ef538a0d966f230002460a097221ceb7a84",
+    "main-forecast-v1.json": "79bc57ef0b6d87fe8a8eeb79f7714634436ddcd3784a1c7ae1a13f2847ac4110",
+    "main-inputs-v1.json": "88a5a0b4a47c210427014f9a0993abd90f59e3936c192a8a3c3e3d7fb504f91b",
+    "main-journal-v1.json": "9f61e8bcc07a8c015013182376ef6d1e4bc435ea2f52845aba8cf821a3ebcf04",
+    "model-package-forecast-v1.json": "aeb1c6b44cc164d00904253431aca9a54132012b43278a8370dd196432bd6fec",
+    "outcomes-pending-v1.json": "113534bed2d148fb94d0d10df801dceb71bf7f6999eb15e69e849b199e52c053"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "scope": "90m",
+  "status": "pending",
+  "source_snapshot_id": "9d9c316e2d92502e1965b8bf5267e862",
+  "main_snapshot_id": "b4379cc9c776421ba62e087d115664bd",
+  "results": [
+    {
+      "match_id": "2047919",
+      "home": "Denmark",
+      "away": "Norwegia",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "status": "pending",
+      "home_goals": null,
+      "away_goals": null,
+      "source_url": null,
+      "scope": "90m"
+    },
+    {
+      "match_id": "2047920",
+      "home": "Wales",
+      "away": "Portugal",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "status": "pending",
+      "home_goals": null,
+      "away_goals": null,
+      "source_url": null,
+      "scope": "90m"
+    },
+    {
+      "match_id": "2047917",
+      "home": "Bosnia & Herzegovina",
+      "away": "Rumania",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "status": "pending",
+      "home_goals": null,
+      "away_goals": null,
+      "source_url": null,
+      "scope": "90m"
+    },
+    {
+      "match_id": "2047921",
+      "home": "Hungaria",
+      "away": "Irlandia Utara",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "status": "pending",
+      "home_goals": null,
+      "away_goals": null,
+      "source_url": null,
+      "scope": "90m"
+    },
+    {
+      "match_id": "2047923",
+      "home": "Irlandia",
+      "away": "Kosovo",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "status": "pending",
+      "home_goals": null,
+      "away_goals": null,
+      "source_url": null,
+      "scope": "90m"
+    },
+    {
+      "match_id": "2047916",
+      "home": "Israel",
+      "away": "Austria",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "status": "pending",
+      "home_goals": null,
+      "away_goals": null,
+      "source_url": null,
+      "scope": "90m"
+    },
+    {
+      "match_id": "2047922",
+      "home": "Polandia",
+      "away": "Swedia",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "status": "pending",
+      "home_goals": null,
+      "away_goals": null,
+      "source_url": null,
+      "scope": "90m"
+    },
+    {
+      "match_id": "2047918",
+      "home": "Ukraina",
+      "away": "Georgia",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "status": "pending",
+      "home_goals": null,
+      "away_goals": null,
+      "source_url": null,
+      "scope": "90m"
+    }
+  ]
+}

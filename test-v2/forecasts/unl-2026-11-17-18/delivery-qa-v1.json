@@ -1,0 +1,14 @@
+{
+  "verified_at": "2026-11-17T13:29:04.287521+00:00",
+  "history_table_rows": 80,
+  "projected_xis": 16,
+  "eleven_players_in_each_projection": true,
+  "experimental_unit_tests": {
+    "run_at_date": "2026-11-17",
+    "passed": 18,
+    "failed": 0
+  },
+  "numeric_and_snapshot_checks": "verification-v1.json",
+  "qualitative_context_matches_pre_inference_sha256": true,
+  "raw_news_html_published": false
+}

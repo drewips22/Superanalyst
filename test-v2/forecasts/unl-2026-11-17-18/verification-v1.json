@@ -1,0 +1,19 @@
+{
+  "verified_at": "2026-11-17T13:25:09.559046+00:00",
+  "matches": 8,
+  "team_history_rows": 80,
+  "unique_history_matches": 40,
+  "main_journal_valid": true,
+  "all_frozen_run_hashes_valid": true,
+  "original_bundle_files_unchanged": 80,
+  "numeric_inference_reproduced": true,
+  "raw_mc_reproduced": true,
+  "mc_recipes_per_match": 2,
+  "mc_samples_per_recipe": 10000,
+  "total_raw_mc_samples": 160000,
+  "max_raw_mc_analytical_abs_error": 0.012182590962361461,
+  "all_results_pending": true,
+  "all_recorded_before_kickoff": true,
+  "hybrid_subset_of_main": true,
+  "main_method_changed": false
+}

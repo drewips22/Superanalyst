@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-11-17T13:25:10.025567+00:00",
+  "as_of": "2026-11-17T13:21:27.050360+00:00",
+  "snapshot_id": "9d9c316e2d92502e1965b8bf5267e862",
+  "scope": "90m",
+  "files_sha256": {
+    "Analisis-Lengkap-Beta-V2-Hybrid.md": "e2b0c150d8b001125ab24e90ab565d7920255bb0691764ed3d1f9e24db296ae0",
+    "beta-inputs-v1.json": "267cf9ad649e8913f1be51fc8b405f00be614fa07489f3b4cf2ecd056e9e09a5",
+    "data-verification-v1.json": "fae702fe870bd8e04d22ce4fb069068552f8942d51656f673c8e969c74d1f389",
+    "experimental-forecast-v1.json": "ce93922d1e53c1ba51845ed2e12a8ef538a0d966f230002460a097221ceb7a84",
+    "facts-v2.json": "eadf6b79216a85828b72253b85414754568adce759322ebd35ebb263123ca9d9",
+    "freeze-receipt-v1.json": "61e3fa028195799a847b52ad61f0a6e6372ebad12ac8b17397b98da8af3d5c9d",
+    "main-forecast-v1.json": "79bc57ef0b6d87fe8a8eeb79f7714634436ddcd3784a1c7ae1a13f2847ac4110",
+    "main-inputs-v1.json": "88a5a0b4a47c210427014f9a0993abd90f59e3936c192a8a3c3e3d7fb504f91b",
+    "main-journal-v1.json": "9f61e8bcc07a8c015013182376ef6d1e4bc435ea2f52845aba8cf821a3ebcf04",
+    "model-package-forecast-v1.json": "aeb1c6b44cc164d00904253431aca9a54132012b43278a8370dd196432bd6fec",
+    "outcomes-pending-v1.json": "113534bed2d148fb94d0d10df801dceb71bf7f6999eb15e69e849b199e52c053",
+    "sources-v1.json": "5677304108f0a186d7e82c5be64418d5e21fa43e354203a4ab2887454834cd0f",
+    "verification-v1.json": "5b8cd825fff1d7c73a949fd0ea25e9ed130e90ba0305aa0b42c14a4920591276",
+    "verified-updates-v2.jsonl": "88dac6e5be20f9456ae0d3c14f597256db60ae8e844b30b417db2363927df989"
+  },
+  "news_html_not_redistributed": true,
+  "all_results_pending": true,
+  "reproduction": "Use frozen model code in test-v2/model, this package, beta-inputs-v1.json, and max_p55 policy. Reuse stored forecasts after cutoff; do not create new backdated forecasts."
+}

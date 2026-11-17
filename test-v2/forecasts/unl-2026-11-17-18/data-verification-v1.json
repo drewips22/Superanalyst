@@ -1,0 +1,16 @@
+{
+  "verified_at": "2026-11-17T13:10:26.728425+00:00",
+  "fixtures": 8,
+  "teams": 16,
+  "historical_unique_matches": 40,
+  "team_history_rows": 80,
+  "all_last5_match_fresh_schedules": true,
+  "fixture_status_pre": true,
+  "neutral_metadata_corrections": 10,
+  "updates": 44,
+  "updates_used_by_three_day_guard": 26,
+  "model_method_changed": false,
+  "old_updates_sha256": "bb5ee765e6f0212296256dc0e87747ff3369d4f4f22d1658d70d4f657e53f212",
+  "facts_v2_sha256": "eadf6b79216a85828b72253b85414754568adce759322ebd35ebb263123ca9d9",
+  "updates_sha256": "88dac6e5be20f9456ae0d3c14f597256db60ae8e844b30b417db2363927df989"
+}

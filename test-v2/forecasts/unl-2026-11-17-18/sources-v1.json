@@ -1,0 +1,1060 @@
+[
+  {
+    "id": "espn-scoreboard-20260924",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20260924&limit=100",
+    "title": "scoreboard-20260924.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:37.632649+00:00",
+    "sha256": "9c07f24750d2c789370670c5a0fff53407b5a60cc96ede44768bb982580eddf2"
+  },
+  {
+    "id": "espn-scoreboard-20260925",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20260925&limit=100",
+    "title": "scoreboard-20260925.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:37.501331+00:00",
+    "sha256": "8ebd7082bf71e9482bf6853336ff037fa3b7b1d102604b8421a5d785006099e3"
+  },
+  {
+    "id": "espn-scoreboard-20260927",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20260927&limit=100",
+    "title": "scoreboard-20260927.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:37.829030+00:00",
+    "sha256": "0592ba23f2c21ca985b0188144b1c31c0991504683f2b36f05264bfba76cb421"
+  },
+  {
+    "id": "espn-scoreboard-20260928",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20260928&limit=100",
+    "title": "scoreboard-20260928.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:37.227266+00:00",
+    "sha256": "829e9dd46ddccf30b954d88a132a6042dd4b696502d6fe574d0d7a2f04571d5c"
+  },
+  {
+    "id": "espn-scoreboard-20261001",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261001&limit=100",
+    "title": "scoreboard-20261001.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:38.497384+00:00",
+    "sha256": "2dae84b2844bf584ac2f42432f1ec2f972d4a898f234a164c8cf030e4bed8abc"
+  },
+  {
+    "id": "espn-scoreboard-20261002",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261002&limit=100",
+    "title": "scoreboard-20261002.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:39.245761+00:00",
+    "sha256": "377023b98ee00bde0a55522d134f1b0d2ff7681bec500fce3930bcaecdb4e3c5"
+  },
+  {
+    "id": "espn-scoreboard-20261004",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261004&limit=100",
+    "title": "scoreboard-20261004.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:41.788280+00:00",
+    "sha256": "c08723e797f751103e3e09e6dbb12a0a03e3fe5ba021bff33d3afc5f30ee6734"
+  },
+  {
+    "id": "espn-scoreboard-20261005",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261005&limit=100",
+    "title": "scoreboard-20261005.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:38.666221+00:00",
+    "sha256": "783a513ce49c3f1fbc1db0702cc27c46805ded141e92e01e766eff256295c29a"
+  },
+  {
+    "id": "espn-scoreboard-20261112",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261112&limit=100",
+    "title": "scoreboard-20261112.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:41.972868+00:00",
+    "sha256": "90535a249b93f2b6e2990c9731359e18c416395d21aa4a56d4e298383e4cc0f5"
+  },
+  {
+    "id": "espn-scoreboard-20261113",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261113&limit=100",
+    "title": "scoreboard-20261113.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:42.550831+00:00",
+    "sha256": "4b0b8c3e7c30cbb49c5621d7e88035077372b4e35ca0008e29284b741eaa1a26"
+  },
+  {
+    "id": "espn-scoreboard-20261114",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261114&limit=100",
+    "title": "scoreboard-20261114.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:43.324294+00:00",
+    "sha256": "07a25f65ee416a1060041d52d622d5680b61a8873ca349b8e75ba5512c1a31ef"
+  },
+  {
+    "id": "espn-scoreboard-20261115",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261115&limit=100",
+    "title": "scoreboard-20261115.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:43.707999+00:00",
+    "sha256": "f2368aa2db6856d0e0c3dd3b0bb6e9d28d5945fcf0b03fcb39ee1389b7dc9828"
+  },
+  {
+    "id": "espn-scoreboard-20261116",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261116&limit=100",
+    "title": "scoreboard-20261116.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:44.119918+00:00",
+    "sha256": "c86447b681ef47509f555d8e1fdb101349add3b38c987870632c2475642e387b"
+  },
+  {
+    "id": "espn-scoreboard-20261117",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard?dates=20261117&limit=100",
+    "title": "scoreboard-20261117.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:44.742565+00:00",
+    "sha256": "76fadb5b37b90bd18a9f214392a69c30a87074e660c4bf1b6dcb722234e537c8"
+  },
+  {
+    "id": "espn-schedule-479",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/479/schedule?season=2026&limit=200",
+    "title": "schedule-479.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:50.942736+00:00",
+    "sha256": "953f0cfadbdf8edce953672814a0c3c05ea3d5fecb681439f03d4bd5d2c9c862"
+  },
+  {
+    "id": "espn-schedule-464",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/464/schedule?season=2026&limit=200",
+    "title": "schedule-464.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:50.839112+00:00",
+    "sha256": "c6242694664ba53716f07e1b408942cc4937c3bb6357c45eac3a6841f954e9b4"
+  },
+  {
+    "id": "espn-schedule-578",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/578/schedule?season=2026&limit=200",
+    "title": "schedule-578.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:49.735342+00:00",
+    "sha256": "a44c6a814874329c0911ea97e986d7302fb6721913cf203cc6c6ddc1a253fa62"
+  },
+  {
+    "id": "espn-schedule-482",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/482/schedule?season=2026&limit=200",
+    "title": "schedule-482.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:49.681998+00:00",
+    "sha256": "703cb6cc7abe39368bb3692c455efdea7f5d08873da60782c44f2db514254e89"
+  },
+  {
+    "id": "espn-schedule-452",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/452/schedule?season=2026&limit=200",
+    "title": "schedule-452.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:55.917001+00:00",
+    "sha256": "883e9d8015dea2088922f5ebe7aadd97869e8bb3a5168da6c8c95992987d4b59"
+  },
+  {
+    "id": "espn-schedule-473",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/473/schedule?season=2026&limit=200",
+    "title": "schedule-473.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:55.934090+00:00",
+    "sha256": "256613908624090def86ceba528dd91e3ec97d1d82743c6533df073de7222ef7"
+  },
+  {
+    "id": "espn-schedule-480",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/480/schedule?season=2026&limit=200",
+    "title": "schedule-480.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:56.648706+00:00",
+    "sha256": "cb0bc92d8318aba02803275b63df974ba7b2a0d2c73316091feb38d029b84807"
+  },
+  {
+    "id": "espn-schedule-586",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/586/schedule?season=2026&limit=200",
+    "title": "schedule-586.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:55.745251+00:00",
+    "sha256": "98499d06fd4dec8f2191d1aa81bc03edcdfdc8cd4ef46e5e0a56f510328503a6"
+  },
+  {
+    "id": "espn-schedule-476",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/476/schedule?season=2026&limit=200",
+    "title": "schedule-476.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:58.262719+00:00",
+    "sha256": "e29bf4e09286e9d377e4b3f153e9d8096d2ce0a4a61db009528f5feac321240c"
+  },
+  {
+    "id": "espn-schedule-18272",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/18272/schedule?season=2026&limit=200",
+    "title": "schedule-18272.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:58.206683+00:00",
+    "sha256": "089ec4a2762c2d773b8e06e10e4778e949ce5ee3696f8d0868e73f10c0adf1fe"
+  },
+  {
+    "id": "espn-schedule-461",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/461/schedule?season=2026&limit=200",
+    "title": "schedule-461.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:58.263702+00:00",
+    "sha256": "073a8e37368cf69a5f36ac6dab17ec895d310b301638cf90dd7c0e9f817e2227"
+  },
+  {
+    "id": "espn-schedule-474",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/474/schedule?season=2026&limit=200",
+    "title": "schedule-474.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:58.268676+00:00",
+    "sha256": "3fadc3ffabb0a398e667c758253b7ecc62fc89ceda8bb3548357f4b01988e8a6"
+  },
+  {
+    "id": "espn-schedule-471",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/471/schedule?season=2026&limit=200",
+    "title": "schedule-471.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:59.253784+00:00",
+    "sha256": "4bf1cc66f7bfc8393a76cc1e63f758a584cc40c44d261140af5e00ab70a2a26a"
+  },
+  {
+    "id": "espn-schedule-466",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/466/schedule?season=2026&limit=200",
+    "title": "schedule-466.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:54:59.426358+00:00",
+    "sha256": "968d06859bfb9d28b724aaf4bc16f3132ec1bef6a925fb92aa8e0930e799ba15"
+  },
+  {
+    "id": "espn-schedule-457",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/457/schedule?season=2026&limit=200",
+    "title": "schedule-457.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:00.061473+00:00",
+    "sha256": "e876db768e548d0139502ba954ef1bf5a9ef51736f1dc6206e75a094afec4355"
+  },
+  {
+    "id": "espn-schedule-584",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/584/schedule?season=2026&limit=200",
+    "title": "schedule-584.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:00.200580+00:00",
+    "sha256": "ba24620b0233171405c907c7e71f86402dd734a33af27ba146004fceab783ac1"
+  },
+  {
+    "id": "espn-summary-401861044",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861044",
+    "title": "summary-401861044.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:01.976662+00:00",
+    "sha256": "082d8e127abce72cb5b80668d42aafe56c781eb447fe94290d78e64512a8b083"
+  },
+  {
+    "id": "espn-summary-401861045",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861045",
+    "title": "summary-401861045.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:01.459360+00:00",
+    "sha256": "e5d7ab9d6ef42f6fbf55ead498a93f13bdcfaf66edad6e28bbeb6661a6b7523b"
+  },
+  {
+    "id": "espn-summary-401861046",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861046",
+    "title": "summary-401861046.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:02.172785+00:00",
+    "sha256": "f5ca02813373e4927818ca2a6bb7feac5439d2df24abb18cd294a4721ef91c96"
+  },
+  {
+    "id": "espn-summary-401861048",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861048",
+    "title": "summary-401861048.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:01.494206+00:00",
+    "sha256": "335b48b343c6904ed2edbf14d2c9849673e09c83ce343c11df35c93328ffb4d5"
+  },
+  {
+    "id": "espn-summary-401861049",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861049",
+    "title": "summary-401861049.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:02.694378+00:00",
+    "sha256": "92c3662ec3ea89b139d986b9f0adc9eed2b68603ba47a577310c381e4adcce45"
+  },
+  {
+    "id": "espn-summary-401861051",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861051",
+    "title": "summary-401861051.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:03.863711+00:00",
+    "sha256": "69b686a4d5c3cda91257ce4ca999414d02573f2b4abaa5cab0cdc9ca7e542e62"
+  },
+  {
+    "id": "espn-summary-401861054",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861054",
+    "title": "summary-401861054.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:03.744800+00:00",
+    "sha256": "2e85a2f7900e725c09b0d6b58f3f5d055fd031032685618512fe86b90ade814e"
+  },
+  {
+    "id": "espn-summary-401861055",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861055",
+    "title": "summary-401861055.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:03.864751+00:00",
+    "sha256": "43b38df0349531ab30c3ad443955b87f6641cdacbd092d2684552368fb2c80e4"
+  },
+  {
+    "id": "espn-summary-401861070",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861070",
+    "title": "summary-401861070.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:04.439521+00:00",
+    "sha256": "1d512a067ad9d97a12143c9094f3af881965399975d675b3d010129b128df051"
+  },
+  {
+    "id": "espn-summary-401861071",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861071",
+    "title": "summary-401861071.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:05.692967+00:00",
+    "sha256": "53d5a320240e94a3f7b7697724d610d75891aa841212c1d8eef575e3e6e812b6"
+  },
+  {
+    "id": "espn-summary-401861072",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861072",
+    "title": "summary-401861072.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:06.099061+00:00",
+    "sha256": "9e81bfab855107edd80497bd0092219a4a61b56742604180f681a19eb54353c7"
+  },
+  {
+    "id": "espn-summary-401861073",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861073",
+    "title": "summary-401861073.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:06.511308+00:00",
+    "sha256": "851a323661854cb3cb0497556fe5737c9390ce1c2b980945686643a0b990412b"
+  },
+  {
+    "id": "espn-summary-401861075",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861075",
+    "title": "summary-401861075.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:06.412409+00:00",
+    "sha256": "3de243543b967485fd3ed707444eb9fefd9abe170b9e5f9cea43823d080455cf"
+  },
+  {
+    "id": "espn-summary-401861078",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861078",
+    "title": "summary-401861078.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:07.079296+00:00",
+    "sha256": "ec4477600c36ffdcf30893d57c472877bc365b12dad3a3470c4d8c3e89327128"
+  },
+  {
+    "id": "espn-summary-401861079",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861079",
+    "title": "summary-401861079.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:08.274844+00:00",
+    "sha256": "81509613c2ecf17e44f43129127c65d0b133b0e96f4b9a7402dd5eba00778cb7"
+  },
+  {
+    "id": "espn-summary-401861080",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861080",
+    "title": "summary-401861080.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:09.495825+00:00",
+    "sha256": "2fca5aad6932b1535cfd061dc710dd67cece4cfd5e6b8ea86024a11fa46bf627"
+  },
+  {
+    "id": "espn-summary-401861094",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861094",
+    "title": "summary-401861094.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:09.681818+00:00",
+    "sha256": "890e58a0cbef0485b45584ff07a5866a2f41ddff1a8272ff7f42c3448f94bba8"
+  },
+  {
+    "id": "espn-summary-401861095",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861095",
+    "title": "summary-401861095.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:09.902238+00:00",
+    "sha256": "57d46a06bde2e52f39b69826cb4440d5a7feec7c3a3bb0d76517e8d3a2ed3b48"
+  },
+  {
+    "id": "espn-summary-401861096",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861096",
+    "title": "summary-401861096.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:12.102024+00:00",
+    "sha256": "8023e49e99c6ef73c7e1e2d35844f11566f6554d523ccf93490d612f184a4da1"
+  },
+  {
+    "id": "espn-summary-401861100",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861100",
+    "title": "summary-401861100.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:10.525831+00:00",
+    "sha256": "d148e18101ebe8340fab0f4e31d7e13a04104701114f03317b73489029c6e710"
+  },
+  {
+    "id": "espn-summary-401861102",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861102",
+    "title": "summary-401861102.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:10.978145+00:00",
+    "sha256": "7e22b6435cce12089c23d45cba22f1a45313ca6ab1bb7b3a89cc0b1fb0934e46"
+  },
+  {
+    "id": "espn-summary-401861106",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861106",
+    "title": "summary-401861106.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:11.720604+00:00",
+    "sha256": "dbefedb6072fae9aedc8434ce8919168da3ca0b6d5392f852d74a6612e051635"
+  },
+  {
+    "id": "espn-summary-401861107",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861107",
+    "title": "summary-401861107.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:12.526333+00:00",
+    "sha256": "d297fc2396a4870471546c3252598a1bcc2e8d936fc73bf6b58a0e0fa00b9055"
+  },
+  {
+    "id": "espn-summary-401861108",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861108",
+    "title": "summary-401861108.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:13.379895+00:00",
+    "sha256": "386912be4ad4c3e3fb860977d71f6ac11b2b5352cd4f2d266aa1a9cc715b0a6d"
+  },
+  {
+    "id": "espn-summary-401861121",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861121",
+    "title": "summary-401861121.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:13.480213+00:00",
+    "sha256": "1e869fbd9337de172c6db41438eacb8321ee522aede0eb4adebf96c8bacc8054"
+  },
+  {
+    "id": "espn-summary-401861124",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861124",
+    "title": "summary-401861124.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:14.305741+00:00",
+    "sha256": "62fd844eb45473f26a372d3f0ffa3d334ba6011470ee7a4e614d408066895ccd"
+  },
+  {
+    "id": "espn-summary-401861125",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861125",
+    "title": "summary-401861125.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:13.820608+00:00",
+    "sha256": "3a0b7a79018a6e1eab8be67636b5dc210a3bae441f537c5dbbef51bd46fccc95"
+  },
+  {
+    "id": "espn-summary-401861126",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861126",
+    "title": "summary-401861126.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:18.495405+00:00",
+    "sha256": "5360782f7f94d511dbd22d50769b93936e4254975427c4842b62eb9dd4a3aec4"
+  },
+  {
+    "id": "espn-summary-401861128",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861128",
+    "title": "summary-401861128.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:18.566762+00:00",
+    "sha256": "dcafc6396307e236cfdc874a72f783eaea7c07dd6458fd739e3253bbc8966e63"
+  },
+  {
+    "id": "espn-summary-401861132",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861132",
+    "title": "summary-401861132.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:16.471260+00:00",
+    "sha256": "b96c63c24d304f36e1223373e0c1855ec1e0337b922c1f888f267c7194f87266"
+  },
+  {
+    "id": "espn-summary-401861133",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861133",
+    "title": "summary-401861133.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:18.172008+00:00",
+    "sha256": "421df668068ea34a16a905d8334a51d9fa6eed6fd6aefb28aaf93a4e9982ea59"
+  },
+  {
+    "id": "espn-summary-401861134",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861134",
+    "title": "summary-401861134.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:19.558563+00:00",
+    "sha256": "10a5cfcfa78ebd110ea646e8712b6bea47536afb2abfce3faf197ce6bddb617a"
+  },
+  {
+    "id": "espn-summary-401861163",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861163",
+    "title": "summary-401861163.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:19.878055+00:00",
+    "sha256": "1ff8d40711cdabcba9dbe0b1924ad1e939b05e2ebe100700e73843ffaf404899"
+  },
+  {
+    "id": "espn-summary-401861164",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861164",
+    "title": "summary-401861164.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:21.016139+00:00",
+    "sha256": "fda64ffb88d33d84435c5ac7f4adeb373e03c0eed8f44bcce9e602ced7eff562"
+  },
+  {
+    "id": "espn-summary-401861165",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861165",
+    "title": "summary-401861165.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:21.014196+00:00",
+    "sha256": "87e5251e1efdd9e4d03a826cea78c6847db7b7c3a45344886dc9dc7a49588375"
+  },
+  {
+    "id": "espn-summary-401861166",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861166",
+    "title": "summary-401861166.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:21.420041+00:00",
+    "sha256": "37f61d6273cf8ad8ccbbf5b008cdd283aa5c32b15f98d9c92d6e6e6cd10d7a91"
+  },
+  {
+    "id": "espn-summary-401861167",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861167",
+    "title": "summary-401861167.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:21.859921+00:00",
+    "sha256": "89d9735a0b41ee7e9d18a61732a4cdecac4cbacb987a943f77dbc04872b6c5a4"
+  },
+  {
+    "id": "espn-summary-401861168",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861168",
+    "title": "summary-401861168.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:23.768038+00:00",
+    "sha256": "f076ae3b827b82928efefabf06427e496a0a50c77b22fa0336499165004b8742"
+  },
+  {
+    "id": "espn-summary-401861169",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861169",
+    "title": "summary-401861169.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:23.974369+00:00",
+    "sha256": "edf1fe35009baa9733291af961c392ae2ce5741afea789dfdc7cfba12ca854f3"
+  },
+  {
+    "id": "espn-summary-401861170",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861170",
+    "title": "summary-401861170.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:24.336942+00:00",
+    "sha256": "d2d3c7689737756905b1dd4bdbe5d875acbb70fae482df7e535ea40db49368e0"
+  },
+  {
+    "id": "espn-preview-401861194",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861194",
+    "title": "preview-401861194.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:25.514963+00:00",
+    "sha256": "3d2e0e83c7cb35556ce8faa994945580509183487e6ca84d265057f39afb414c"
+  },
+  {
+    "id": "espn-preview-401861189",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861189",
+    "title": "preview-401861189.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:25.189548+00:00",
+    "sha256": "16c41bd52358f490cd22faf3ff4bdeb68cea7c2ec5dd18dda6789aa8663f71e6"
+  },
+  {
+    "id": "espn-preview-401861196",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861196",
+    "title": "preview-401861196.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:25.680582+00:00",
+    "sha256": "990ae519aedfd2597d3f4c4dcdca0404cfb3e2ba235d595ad0005ad72f285d49"
+  },
+  {
+    "id": "espn-preview-401861191",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861191",
+    "title": "preview-401861191.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:25.829506+00:00",
+    "sha256": "e8ad835198bc93c74c08d057b86ee90aca60410488fcc8b4785ecfe218a45067"
+  },
+  {
+    "id": "espn-preview-401861192",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861192",
+    "title": "preview-401861192.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:27.072829+00:00",
+    "sha256": "94ef195f0baec804273373f6859da1dad59c9b821c7f1a35e00310cb7bc9f4fa"
+  },
+  {
+    "id": "espn-preview-401861193",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861193",
+    "title": "preview-401861193.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:28.321869+00:00",
+    "sha256": "57c928030ed2254810235f81b28dee9c76ed7d12f033a600dedb03599bba626e"
+  },
+  {
+    "id": "espn-preview-401861195",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861195",
+    "title": "preview-401861195.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:27.803358+00:00",
+    "sha256": "2599ac6bf07c3a52104f2e43d6bb854358a2768db595439af3a8246dd2f7d12d"
+  },
+  {
+    "id": "espn-preview-401861190",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861190",
+    "title": "preview-401861190.json",
+    "source_type": "provider_api",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T12:55:28.220154+00:00",
+    "sha256": "fee60ec535d2b369e643d80dbf2aededbda8396b2b5a627437eb3838c3f56060"
+  },
+  {
+    "id": "uefa-fixtures",
+    "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+    "retrieved_at": "2026-11-17T13:07:07.154036+00:00",
+    "status": "fetch_unavailable_use_browsed_or_indexed_source",
+    "error": "The read operation timed out",
+    "title": "uefa-fixtures",
+    "available_at": null,
+    "source_type": "primary_or_current_secondary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session."
+  },
+  {
+    "id": "uefa-permutations",
+    "url": "https://www.uefa.com/uefanationsleague/news/02ab-2209792f2fda-6a523d4500bb-1000--nations-league-latest-on-quarter-final-qualification-prom/",
+    "retrieved_at": "2026-11-17T13:07:07.091073+00:00",
+    "status": "fetch_unavailable_use_browsed_or_indexed_source",
+    "error": "The read operation timed out",
+    "title": "uefa-permutations",
+    "available_at": null,
+    "source_type": "primary_or_current_secondary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session."
+  },
+  {
+    "id": "fai-preview",
+    "url": "https://www.fai.ie/latest/match-preview-mnt-republic-ireland-v-kosovo/",
+    "retrieved_at": "2026-11-17T13:04:16.732912+00:00",
+    "retrieved_at_basis": "cache_file_write_time_proxy",
+    "status": "ok",
+    "sha256": "1e98726f9db8bcbf255d672c5caf1ef71451b4035d5f92325e1200764893a5fb",
+    "links": [],
+    "title": "FAI: Collins pulang; Abankwah pulih; menang untuk posisi kedua",
+    "available_at": null,
+    "source_type": "primary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session.",
+    "published_date": "2026-11-16"
+  },
+  {
+    "id": "ifa-preview",
+    "url": "https://www.irishfa.com/news/2026/november/o-neill-wants-players-to-show-spirit-and-conviction-against-hungary",
+    "retrieved_at": "2026-11-17T13:04:19.144985+00:00",
+    "retrieved_at_basis": "cache_file_write_time_proxy",
+    "status": "ok",
+    "sha256": "920dfecb78661be89b0a14419070b19278616d8379327054ff430a52ea80d4d6",
+    "links": [],
+    "title": "Irish FA: Donley dan pelatih ONeill skors; pemain lainnya tersedia",
+    "available_at": null,
+    "source_type": "primary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session.",
+    "published_date": "2026-11-16"
+  },
+  {
+    "id": "nff-squad",
+    "url": "https://www.fotball.no/landslag/norge-a-herrer/2026/herrelandslagets-tropp-til-nations-league-kamper/",
+    "retrieved_at": "2026-11-17T13:06:46.457872+00:00",
+    "status": "fetch_unavailable_use_browsed_or_indexed_source",
+    "error": "HTTP Error 403: Forbidden",
+    "title": "NFF: skuad dan pembaruan Aursnes/Vetlesen",
+    "available_at": null,
+    "source_type": "primary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session.",
+    "published_date": "2026-11-04"
+  },
+  {
+    "id": "nff-program",
+    "url": "https://www.fotball.no/tema/medieservice/2026/herrelandslagets-program-til-kampene-mot-wales-og-danmark/",
+    "retrieved_at": "2026-11-17T13:06:46.610518+00:00",
+    "status": "fetch_unavailable_use_browsed_or_indexed_source",
+    "error": "HTTP Error 403: Forbidden",
+    "title": "nff-program",
+    "available_at": null,
+    "source_type": "primary_or_current_secondary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session."
+  },
+  {
+    "id": "oefb-preview",
+    "url": "https://www.oefb.at/oefb/News/Nationalteam-Vorschau-ISR-AUT/",
+    "retrieved_at": "2026-11-17T13:04:23.466902+00:00",
+    "retrieved_at_basis": "cache_file_write_time_proxy",
+    "status": "ok",
+    "sha256": "3f68db05ed4015de37a442d70507adf681eb2f11263845ae7231a09aa72bd466",
+    "links": [],
+    "title": "oefb-preview",
+    "available_at": null,
+    "source_type": "primary_or_current_secondary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session."
+  },
+  {
+    "id": "oefb-absences",
+    "url": "https://www.oefb.at/oefb/News/Nationalteam-Vorschau-AUT-IRL/",
+    "retrieved_at": "2026-11-17T13:04:25.012005+00:00",
+    "retrieved_at_basis": "cache_file_write_time_proxy",
+    "status": "ok",
+    "sha256": "fb8b8dce17af3e64548c8f53f1ded1d34dab34905c8d6100f8c59cad4bcace0e",
+    "links": [],
+    "title": "oefb-absences",
+    "available_at": null,
+    "source_type": "primary_or_current_secondary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session."
+  },
+  {
+    "id": "por-medical",
+    "url": "https://www.abola.pt/noticias/medico-da-selecao-explica-dispensa-de-bernardo-silva-a-posicao-foi-correta-2026111617005371230",
+    "retrieved_at": "2026-11-17T13:04:27.678134+00:00",
+    "retrieved_at_basis": "cache_file_write_time_proxy",
+    "status": "ok",
+    "sha256": "2a5aaa713529438aa8ef4c29264912af0e74b16247c673df97903e42201b3247",
+    "links": [],
+    "title": "Penjelasan dokter FPF tentang Bernardo Silva",
+    "available_at": null,
+    "source_type": "secondary_quoting_team_doctor",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session.",
+    "published_date": "2026-11-16"
+  },
+  {
+    "id": "por-departures",
+    "url": "https://as.com/futbol/internacional/bernardo-silva-tocado-vuelve-a-madrid-f202611-n/",
+    "retrieved_at": "2026-11-17T13:04:28.270634+00:00",
+    "retrieved_at_basis": "cache_file_write_time_proxy",
+    "status": "ok",
+    "sha256": "2bbdc43bf89589c541651c4c376e01d231cbb553f9ff31a47d8637e1d93b733e",
+    "links": [],
+    "title": "Bernardo meninggalkan kamp; Dias dan Palhinha skors",
+    "available_at": null,
+    "source_type": "secondary_quoting_federation",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session.",
+    "published_date": "2026-11-15"
+  },
+  {
+    "id": "den-nor-preview",
+    "url": "https://www.sportsmole.co.uk/football/denmark/preview/denmark-vs-norway-prediction-team-news-lineups_609154.html",
+    "retrieved_at": "2026-11-17T13:04:29.615660+00:00",
+    "retrieved_at_basis": "cache_file_write_time_proxy",
+    "status": "ok",
+    "sha256": "802ce21162857141f9e5aeb4ebc45837f157f004ba110cd36b44bf14942ea8f3",
+    "links": [],
+    "title": "den-nor-preview",
+    "available_at": null,
+    "source_type": "primary_or_current_secondary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session."
+  },
+  {
+    "id": "wal-por-preview",
+    "url": "https://www.sportsmole.co.uk/football/portugal/uefa-nations-league/preview/wales-vs-portugal-prediction-team-news-lineups_609143.html",
+    "retrieved_at": "2026-11-17T13:04:30.000884+00:00",
+    "retrieved_at_basis": "cache_file_write_time_proxy",
+    "status": "ok",
+    "sha256": "8332b8cb1ee658607ea40eb45f51eb31f7b643c3374a39843c450776f16a0fc1",
+    "links": [],
+    "title": "wal-por-preview",
+    "available_at": null,
+    "source_type": "primary_or_current_secondary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session."
+  },
+  {
+    "id": "bih-rou-preview",
+    "url": "https://www.sportsmole.co.uk/football/bosnia-herzegovina/uefa-nations-league/preview/bosnia-hvina-vs-romania-prediction-team-news-lineups_609182.html",
+    "retrieved_at": "2026-11-17T13:04:30.225363+00:00",
+    "retrieved_at_basis": "cache_file_write_time_proxy",
+    "status": "ok",
+    "sha256": "3332efd49bbcf2fddd2492eeef6dd3bf479a327248cb0826dd31bafe4546d07d",
+    "links": [],
+    "title": "bih-rou-preview",
+    "available_at": null,
+    "source_type": "primary_or_current_secondary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session."
+  },
+  {
+    "id": "hun-nir-preview",
+    "url": "https://www.sportsmole.co.uk/football/hungary/nations-league-predictions/preview/hungary-vs-n-ireland-prediction-team-news-lineups_609115.html",
+    "retrieved_at": "2026-11-17T13:04:31.182101+00:00",
+    "retrieved_at_basis": "cache_file_write_time_proxy",
+    "status": "ok",
+    "sha256": "b63a17f3f90618101ee8496d7d75a23f4ec532e1ef4ee2f5911169cdf096e3e1",
+    "links": [],
+    "title": "hun-nir-preview",
+    "available_at": null,
+    "source_type": "primary_or_current_secondary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session."
+  },
+  {
+    "id": "isr-aut-preview",
+    "url": "https://www.sportsmole.co.uk/football/israel/uefa-nations-league/preview/israel-vs-austria-prediction-team-news-lineups_609141.html",
+    "retrieved_at": "2026-11-17T13:04:31.134703+00:00",
+    "retrieved_at_basis": "cache_file_write_time_proxy",
+    "status": "ok",
+    "sha256": "010a7b6a15689ad9f0ab6e1265f7c349c06227ee0933342e949f5f89ce6d4cb9",
+    "links": [],
+    "title": "isr-aut-preview",
+    "available_at": null,
+    "source_type": "primary_or_current_secondary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session."
+  },
+  {
+    "id": "pol-swe-preview",
+    "url": "https://www.sportsmole.co.uk/football/poland/uefa-nations-league/preview/poland-vs-sweden-prediction-team-news-lineups_609183.html",
+    "retrieved_at": "2026-11-17T13:04:32.272345+00:00",
+    "retrieved_at_basis": "cache_file_write_time_proxy",
+    "status": "ok",
+    "sha256": "9e07409f0f760c0463e230e4bf748d251a6957d103e07dad343ef1caf2224e94",
+    "links": [],
+    "title": "pol-swe-preview",
+    "available_at": null,
+    "source_type": "primary_or_current_secondary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session."
+  },
+  {
+    "id": "ukr-geo-preview",
+    "url": "https://www.sportsmole.co.uk/football/ukraine/uefa-nations-league/preview/ukraine-vs-georgia-prediction-team-news-lineups_609161.html",
+    "retrieved_at": "2026-11-17T13:04:32.228133+00:00",
+    "retrieved_at_basis": "cache_file_write_time_proxy",
+    "status": "ok",
+    "sha256": "248808c4712b5b711dbbd7377d4f752b35048c28e57f28b8278198e32b5a0144",
+    "links": [],
+    "title": "ukr-geo-preview",
+    "available_at": null,
+    "source_type": "primary_or_current_secondary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session."
+  },
+  {
+    "id": "ukr-geo-teamnews",
+    "url": "https://www.forebet.com/en/football-match-previews/32393-fine-margins-loom-as-ukraine-face-goal-shy-georgia",
+    "retrieved_at": "2026-11-17T13:06:50.298297+00:00",
+    "status": "fetch_unavailable_use_browsed_or_indexed_source",
+    "error": "HTTP Error 403: Forbidden",
+    "title": "ukr-geo-teamnews",
+    "available_at": null,
+    "source_type": "primary_or_current_secondary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session."
+  },
+  {
+    "id": "wal-por-teamnews",
+    "url": "https://www.tntsports.co.uk/betting/tips/wales-vs-portugal-prediction-tips-and-odds-nations-league-17-11-26/",
+    "retrieved_at": "2026-11-17T13:06:50.382334+00:00",
+    "status": "fetch_unavailable_use_browsed_or_indexed_source",
+    "error": "HTTP Error 403: Forbidden",
+    "title": "wal-por-teamnews",
+    "available_at": null,
+    "source_type": "primary_or_current_secondary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session."
+  },
+  {
+    "id": "den-nor-teamnews",
+    "url": "https://www.tntsports.co.uk/betting/tips/denmark-vs-norway-prediction-tips-and-odds-17-11-26/",
+    "retrieved_at": "2026-11-17T13:06:50.513893+00:00",
+    "status": "fetch_unavailable_use_browsed_or_indexed_source",
+    "error": "HTTP Error 403: Forbidden",
+    "title": "den-nor-teamnews",
+    "available_at": null,
+    "source_type": "primary_or_current_secondary",
+    "timestamp_note": "Cache-write proxy where identified; failed direct requests were supplemented by browser/index review in this session."
+  },
+  {
+    "id": "irl-kos-teamnews",
+    "url": "https://www.rte.ie/sport/soccer/2026/1116/1599361-republic-of-ireland-v-kosovo-all-you-need-to-know/",
+    "title": "RTE: Collins, Zhegrova dan Hodza tidak tersedia",
+    "published_date": "2026-11-16",
+    "source_type": "secondary_current_indexed",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T13:21:26.930387+00:00",
+    "retrieved_at_basis": "session_archival_capture",
+    "timestamp_note": "Source reviewed in this session before archival capture; exact original publication instant is unknown."
+  },
+  {
+    "id": "irl-kos-xi",
+    "url": "https://www.irishtimes.com/sport/soccer/2026/11/16/irelands-nations-league-campaign-comes-down-to-must-win-kosovo-clash/",
+    "title": "XI perkiraan Irlandia dan Kosovo; bukan XI resmi",
+    "published_date": "2026-11-16",
+    "source_type": "secondary_current_indexed",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T13:21:26.930387+00:00",
+    "retrieved_at_basis": "session_archival_capture",
+    "timestamp_note": "Source reviewed in this session before archival capture; exact original publication instant is unknown."
+  },
+  {
+    "id": "swe-last-xi",
+    "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/11/herrlandslaget-startelva/",
+    "title": "SvFF: XI resmi 14 November, hanya rujukan proyeksi berikutnya",
+    "published_date": "2026-11-14",
+    "source_type": "primary_prior_match",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T13:21:26.930387+00:00",
+    "retrieved_at_basis": "session_archival_capture",
+    "timestamp_note": "Source reviewed in this session before archival capture; exact original publication instant is unknown."
+  },
+  {
+    "id": "match-2047919",
+    "url": "https://www.uefa.com/uefanationsleague/match/2047919--denmark-vs-norway/",
+    "title": "Denmark–Norwegia official UEFA fixture",
+    "source_type": "primary",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T13:21:26.930387+00:00",
+    "retrieved_at_basis": "session_archival_capture"
+  },
+  {
+    "id": "match-2047920",
+    "url": "https://www.uefa.com/uefanationsleague/match/2047920--wales-vs-portugal/",
+    "title": "Wales–Portugal official UEFA fixture",
+    "source_type": "primary",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T13:21:26.930387+00:00",
+    "retrieved_at_basis": "session_archival_capture"
+  },
+  {
+    "id": "match-2047917",
+    "url": "https://www.uefa.com/uefanationsleague/match/2047917--bosnia-and-herzegovina-vs-romania/",
+    "title": "Bosnia & Herzegovina–Rumania official UEFA fixture",
+    "source_type": "primary",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T13:21:26.930387+00:00",
+    "retrieved_at_basis": "session_archival_capture"
+  },
+  {
+    "id": "match-2047921",
+    "url": "https://www.uefa.com/uefanationsleague/match/2047921--hungary-vs-northern-ireland/",
+    "title": "Hungaria–Irlandia Utara official UEFA fixture",
+    "source_type": "primary",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T13:21:26.930387+00:00",
+    "retrieved_at_basis": "session_archival_capture"
+  },
+  {
+    "id": "match-2047923",
+    "url": "https://www.uefa.com/uefanationsleague/match/2047923--republic-of-ireland-vs-kosovo/",
+    "title": "Irlandia–Kosovo official UEFA fixture",
+    "source_type": "primary",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T13:21:26.930387+00:00",
+    "retrieved_at_basis": "session_archival_capture"
+  },
+  {
+    "id": "match-2047916",
+    "url": "https://www.uefa.com/uefanationsleague/match/2047916--israel-vs-austria/",
+    "title": "Israel–Austria official UEFA fixture",
+    "source_type": "primary",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T13:21:26.930387+00:00",
+    "retrieved_at_basis": "session_archival_capture"
+  },
+  {
+    "id": "match-2047922",
+    "url": "https://www.uefa.com/uefanationsleague/match/2047922--poland-vs-sweden/",
+    "title": "Polandia–Swedia official UEFA fixture",
+    "source_type": "primary",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T13:21:26.930387+00:00",
+    "retrieved_at_basis": "session_archival_capture"
+  },
+  {
+    "id": "match-2047918",
+    "url": "https://www.uefa.com/uefanationsleague/match/2047918--ukraine-vs-georgia/",
+    "title": "Ukraina–Georgia official UEFA fixture",
+    "source_type": "primary",
+    "available_at": null,
+    "retrieved_at": "2026-11-17T13:21:26.930387+00:00",
+    "retrieved_at_basis": "session_archival_capture"
+  }
+]

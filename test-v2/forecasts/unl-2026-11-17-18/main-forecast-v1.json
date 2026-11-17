@@ -1,0 +1,546 @@
+{
+  "schema_version": "qualitative-forecast-v2",
+  "synthetic": false,
+  "as_of": "2026-11-17T13:21:27.050360+00:00",
+  "recorded_at": "2026-11-17T13:21:27.140951+00:00",
+  "forecasts": [
+    {
+      "match_id": "2047919",
+      "home": "Denmark",
+      "away": "Norwegia",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "neutral": false,
+      "group": "A4",
+      "venue": "Parken Stadium",
+      "competition": "UEFA Nations League 2026/27",
+      "synthetic": false,
+      "scope": "90m",
+      "analysis_method": "qualitative_superanalyst_national_team_pilot_v1",
+      "probabilities": null,
+      "result_90m": null,
+      "lineup_status": "projected",
+      "source_ids": [
+        "den-nor-preview",
+        "den-nor-teamnews",
+        "nff-squad",
+        "nff-program",
+        "uefa-permutations",
+        "match-2047919"
+      ],
+      "targets": {
+        "1x2": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "supporting_evidence": [
+            "Denmark menang dua laga terakhir; Norwegia membutuhkan kemenangan."
+          ],
+          "contradicting_evidence": [
+            "Kualitas serang berimbang; Denmark cukup seri; XI dan Andersen belum pasti."
+          ],
+          "abstain_reason": "Kualitas serang berimbang; Denmark cukup seri; XI dan Andersen belum pasti."
+        },
+        "btts": {
+          "pick": true,
+          "confidence": "medium",
+          "status": "provisional",
+          "supporting_evidence": [
+            "Norwegia mencetak dan kebobolan dalam 5/5; Denmark mencetak dalam 5/5.",
+            "Rata-rata SoT Denmark 4,8 dan Norwegia 5,2; laga pertama 3–2."
+          ],
+          "contradicting_evidence": [
+            "Dua clean sheet Denmark terjadi melawan Wales; Denmark dapat memperlambat permainan untuk mengejar seri."
+          ],
+          "abstain_reason": null
+        },
+        "total_2_5": {
+          "pick": "over",
+          "confidence": "medium",
+          "status": "provisional",
+          "supporting_evidence": [
+            "Kelima laga Norwegia dan tiga laga Denmark melewati 2,5."
+          ],
+          "contradicting_evidence": [
+            "Bukan xG; dua laga kandang Denmark memberi hasil sangat berbeda."
+          ],
+          "abstain_reason": null
+        }
+      },
+      "focus_target": "btts",
+      "score_scenario": [
+        2,
+        2
+      ]
+    },
+    {
+      "match_id": "2047920",
+      "home": "Wales",
+      "away": "Portugal",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "neutral": false,
+      "group": "A4",
+      "venue": "Cardiff City Stadium",
+      "competition": "UEFA Nations League 2026/27",
+      "synthetic": false,
+      "scope": "90m",
+      "analysis_method": "qualitative_superanalyst_national_team_pilot_v1",
+      "probabilities": null,
+      "result_90m": null,
+      "lineup_status": "projected",
+      "source_ids": [
+        "wal-por-preview",
+        "wal-por-teamnews",
+        "por-medical",
+        "por-departures",
+        "uefa-permutations",
+        "match-2047920"
+      ],
+      "targets": {
+        "1x2": {
+          "pick": "A",
+          "confidence": "low",
+          "status": "provisional",
+          "supporting_evidence": [
+            "Portugal empat kemenangan, produksi 17,8 tembakan/6,8 SoT; Wales kalah 4/5.",
+            "Portugal masih mengejar posisi pertama, bukan sekadar laga tanpa target."
+          ],
+          "contradicting_evidence": [
+            "Dias dan Palhinha skors; Bernardo Silva pulang; baru kalah 1–4.",
+            "Hanya seri sudah cukup; Wales bermain di Cardiff."
+          ],
+          "abstain_reason": null
+        },
+        "btts": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "supporting_evidence": [
+            "Portugal BTTS 4/5 dan Wales belum clean sheet."
+          ],
+          "contradicting_evidence": [
+            "Wales gagal mencetak 3/5; Ampadu skors dan kondisi Neco Williams melemahkan kepastian serangan."
+          ],
+          "abstain_reason": "Wales gagal mencetak 3/5; Ampadu skors dan kondisi Neco Williams melemahkan kepastian serangan."
+        },
+        "total_2_5": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "supporting_evidence": [
+            "Portugal Over 4/5."
+          ],
+          "contradicting_evidence": [
+            "Wales Under 3/5; perubahan pertahanan Portugal dan tempo mengejar seri bisa memberi skenario berlawanan."
+          ],
+          "abstain_reason": "Wales Under 3/5; perubahan pertahanan Portugal dan tempo mengejar seri bisa memberi skenario berlawanan."
+        }
+      },
+      "focus_target": "1x2",
+      "score_scenario": [
+        0,
+        2
+      ]
+    },
+    {
+      "match_id": "2047917",
+      "home": "Bosnia & Herzegovina",
+      "away": "Rumania",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "neutral": false,
+      "group": "B4",
+      "venue": "Bilino Polje Stadium",
+      "competition": "UEFA Nations League 2026/27",
+      "synthetic": false,
+      "scope": "90m",
+      "analysis_method": "qualitative_superanalyst_national_team_pilot_v1",
+      "probabilities": null,
+      "result_90m": null,
+      "lineup_status": "projected",
+      "source_ids": [
+        "bih-rou-preview",
+        "uefa-permutations",
+        "match-2047917"
+      ],
+      "targets": {
+        "1x2": {
+          "pick": "H",
+          "confidence": "medium",
+          "status": "provisional",
+          "supporting_evidence": [
+            "Bosnia kalah hanya sekali, tidak kalah pada dua laga kandang UNL; menang 4–2 pada pertemuan pertama.",
+            "Rumania kebobolan 14 gol; kalah dalam dua tandang grup."
+          ],
+          "contradicting_evidence": [
+            "Bosnia sudah pasti kedua dan dapat merotasi; Rumania baru menang atas Polandia.",
+            "Tabakovic diragukan, Hadzikadunic absen."
+          ],
+          "abstain_reason": null
+        },
+        "btts": {
+          "pick": true,
+          "confidence": "low",
+          "status": "provisional",
+          "supporting_evidence": [
+            "Bosnia dan Rumania sama-sama BTTS 3/5; Rumania harus mengejar kemenangan."
+          ],
+          "contradicting_evidence": [
+            "Rumania gagal mencetak pada dua laga; Bosnia tiga laga terakhir kandang/kelompok tidak selalu terbuka."
+          ],
+          "abstain_reason": null
+        },
+        "total_2_5": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "supporting_evidence": [
+            "Rumania Over 4/5 dan mengejar tiga poin."
+          ],
+          "contradicting_evidence": [
+            "Bosnia Under 3/5; skor 0–6 menyumbang 6 dari 14 kebobolan Rumania sehingga rerata rentan hasil ekstrem."
+          ],
+          "abstain_reason": "Bosnia Under 3/5; skor 0–6 menyumbang 6 dari 14 kebobolan Rumania sehingga rerata rentan hasil ekstrem."
+        }
+      },
+      "focus_target": "1x2",
+      "score_scenario": [
+        2,
+        1
+      ]
+    },
+    {
+      "match_id": "2047921",
+      "home": "Hungaria",
+      "away": "Irlandia Utara",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "neutral": false,
+      "group": "B2",
+      "venue": "Puskás Aréna",
+      "competition": "UEFA Nations League 2026/27",
+      "synthetic": false,
+      "scope": "90m",
+      "analysis_method": "qualitative_superanalyst_national_team_pilot_v1",
+      "probabilities": null,
+      "result_90m": null,
+      "lineup_status": "projected",
+      "source_ids": [
+        "hun-nir-preview",
+        "ifa-preview",
+        "uefa-permutations",
+        "match-2047921"
+      ],
+      "targets": {
+        "1x2": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "supporting_evidence": [
+            "Hungaria menang tiga kali beruntun dan menjadi tuan rumah."
+          ],
+          "contradicting_evidence": [
+            "Irlandia Utara belum kebobolan dan belum kalah; Orban serta Vitalis skors; hasil seri cukup bagi tamu."
+          ],
+          "abstain_reason": "Irlandia Utara belum kebobolan dan belum kalah; Orban serta Vitalis skors; hasil seri cukup bagi tamu."
+        },
+        "btts": {
+          "pick": false,
+          "confidence": "medium",
+          "status": "provisional",
+          "supporting_evidence": [
+            "Irlandia Utara clean sheet 5/5; Hungaria clean sheet 3/5; pertemuan pertama 0–0."
+          ],
+          "contradicting_evidence": [
+            "Orban absen; Hungaria harus mengejar menang sehingga risiko transisi menit akhir meningkat."
+          ],
+          "abstain_reason": null
+        },
+        "total_2_5": {
+          "pick": "under",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "supporting_evidence": [
+            "Empat dari lima laga masing-masing tim Under; NI mencetak lebih dari satu hanya sekali.",
+            "Donley skors mengurangi opsi penyerang NI; struktur pertahanan tamu terjaga."
+          ],
+          "contradicting_evidence": [
+            "Gol cepat mengubah kebutuhan taktik; kehilangan Orban dapat merusak keseimbangan Hungaria."
+          ],
+          "abstain_reason": null
+        }
+      },
+      "focus_target": "total_2_5",
+      "score_scenario": [
+        1,
+        0
+      ]
+    },
+    {
+      "match_id": "2047923",
+      "home": "Irlandia",
+      "away": "Kosovo",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "neutral": false,
+      "group": "B3",
+      "venue": "Aviva Stadium",
+      "competition": "UEFA Nations League 2026/27",
+      "synthetic": false,
+      "scope": "90m",
+      "analysis_method": "qualitative_superanalyst_national_team_pilot_v1",
+      "probabilities": null,
+      "result_90m": null,
+      "lineup_status": "projected",
+      "source_ids": [
+        "fai-preview",
+        "irl-kos-teamnews",
+        "irl-kos-xi",
+        "uefa-permutations",
+        "match-2047923"
+      ],
+      "targets": {
+        "1x2": {
+          "pick": "H",
+          "confidence": "low",
+          "status": "provisional",
+          "supporting_evidence": [
+            "FAI mengonfirmasi target menang dan rekor tanpa kalah kandang lebih panjang; Kosovo belum menang dalam empat laga grup terakhir.",
+            "Zhegrova absen dan Hodza skors mempersempit opsi lawan."
+          ],
+          "contradicting_evidence": [
+            "Ireland hanya menang 1/5; kalah pada pertemuan pertama; Collins tidak tersedia."
+          ],
+          "abstain_reason": null
+        },
+        "btts": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "supporting_evidence": [
+            "Collins absen dapat memberi ruang untuk Muriqi."
+          ],
+          "contradicting_evidence": [
+            "Kosovo dua kali gagal mencetak dan tanpa Zhegrova; Ireland dua kali gagal mencetak."
+          ],
+          "abstain_reason": "Kosovo dua kali gagal mencetak dan tanpa Zhegrova; Ireland dua kali gagal mencetak."
+        },
+        "total_2_5": {
+          "pick": "under",
+          "confidence": "medium",
+          "status": "provisional",
+          "supporting_evidence": [
+            "Kosovo Under 4/5; Ireland Under 3/5; pertemuan pertama 1–0.",
+            "Tamu dapat mempertahankan posisi kedua dengan hasil seri."
+          ],
+          "contradicting_evidence": [
+            "Ireland harus menang; Collins absen dan tekanan menit akhir bisa membuka laga."
+          ],
+          "abstain_reason": null
+        }
+      },
+      "focus_target": "total_2_5",
+      "score_scenario": [
+        1,
+        0
+      ]
+    },
+    {
+      "match_id": "2047916",
+      "home": "Israel",
+      "away": "Austria",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "neutral": true,
+      "group": "B3",
+      "venue": "Nagyerdei Stadium",
+      "competition": "UEFA Nations League 2026/27",
+      "synthetic": false,
+      "scope": "90m",
+      "analysis_method": "qualitative_superanalyst_national_team_pilot_v1",
+      "probabilities": null,
+      "result_90m": null,
+      "lineup_status": "projected",
+      "source_ids": [
+        "isr-aut-preview",
+        "oefb-preview",
+        "oefb-absences",
+        "uefa-permutations",
+        "match-2047916"
+      ],
+      "targets": {
+        "1x2": {
+          "pick": "A",
+          "confidence": "low",
+          "status": "provisional",
+          "supporting_evidence": [
+            "Austria tidak terkalahkan, 16 tembakan dan 6,8 SoT per laga; Israel belum menang dan hanya dua gol.",
+            "Pertemuan pertama dimenangi Austria 3–1; venue Debrecen bukan keuntungan kandang fisik Israel."
+          ],
+          "contradicting_evidence": [
+            "Austria sudah pasti promosi, membuka rotasi; ada beberapa absensi menyerang.",
+            "Israel membutuhkan hasil positif dan tiga laga terakhir berakhir seri."
+          ],
+          "abstain_reason": null
+        },
+        "btts": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "supporting_evidence": [
+            "Austria BTTS 4/5."
+          ],
+          "contradicting_evidence": [
+            "Israel gagal mencetak 3/5 dan membuat 2,6 SoT per laga; XI Austria belum resmi."
+          ],
+          "abstain_reason": "Israel gagal mencetak 3/5 dan membuat 2,6 SoT per laga; XI Austria belum resmi."
+        },
+        "total_2_5": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "supporting_evidence": [
+            "Austria mencetak dua gol per laga."
+          ],
+          "contradicting_evidence": [
+            "Israel tiga hasil seri dengan gol sedikit; prioritas Austria sudah tercapai, tempo/rotasi belum terkonfirmasi."
+          ],
+          "abstain_reason": "Israel tiga hasil seri dengan gol sedikit; prioritas Austria sudah tercapai, tempo/rotasi belum terkonfirmasi."
+        }
+      },
+      "focus_target": "1x2",
+      "score_scenario": [
+        0,
+        2
+      ]
+    },
+    {
+      "match_id": "2047922",
+      "home": "Polandia",
+      "away": "Swedia",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "neutral": false,
+      "group": "B4",
+      "venue": "Municipal Stadium Wroclaw",
+      "competition": "UEFA Nations League 2026/27",
+      "synthetic": false,
+      "scope": "90m",
+      "analysis_method": "qualitative_superanalyst_national_team_pilot_v1",
+      "probabilities": null,
+      "result_90m": null,
+      "lineup_status": "projected",
+      "source_ids": [
+        "pol-swe-preview",
+        "swe-last-xi",
+        "uefa-permutations",
+        "match-2047922"
+      ],
+      "targets": {
+        "1x2": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "supporting_evidence": [
+            "Swedia belum kalah, empat kemenangan, unggul kualitas performa grup."
+          ],
+          "contradicting_evidence": [
+            "Swedia sudah promosi sehingga rotasi mungkin; Polandia tanpa kalah pada dua kandang fisik grup.",
+            "Satu feed pasar justru mengunggulkan Polandia; belum ada tiga pembanding independen."
+          ],
+          "abstain_reason": "Swedia sudah promosi sehingga rotasi mungkin; Polandia tanpa kalah pada dua kandang fisik grup.; Satu feed pasar justru mengunggulkan Polandia; belum ada tiga pembanding independen."
+        },
+        "btts": {
+          "pick": true,
+          "confidence": "medium",
+          "status": "provisional",
+          "supporting_evidence": [
+            "Swedia mencetak 5/5 dan kebobolan 4/5; Polandia menghadapi absensi di pertahanan.",
+            "Kedua tim menghasilkan SoT 5,4 dan 4,6 per laga; Polandia perlu mengamankan posisi ketiga."
+          ],
+          "contradicting_evidence": [
+            "Enam dari delapan gol Polandia berasal dari satu laga; XI Swedia dan kondisi Cash belum resmi."
+          ],
+          "abstain_reason": null
+        },
+        "total_2_5": {
+          "pick": "over",
+          "confidence": "medium",
+          "status": "provisional",
+          "supporting_evidence": [
+            "Kedua tim Over 3/5; pertemuan pertama 3–1."
+          ],
+          "contradicting_evidence": [
+            "Polandia dua kali gagal mencetak; skenario rotasi dapat mengurangi daya serang Swedia."
+          ],
+          "abstain_reason": null
+        }
+      },
+      "focus_target": "btts",
+      "score_scenario": [
+        1,
+        2
+      ]
+    },
+    {
+      "match_id": "2047918",
+      "home": "Ukraina",
+      "away": "Georgia",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "neutral": true,
+      "group": "B2",
+      "venue": "Košická futbalová aréna (KFA)",
+      "competition": "UEFA Nations League 2026/27",
+      "synthetic": false,
+      "scope": "90m",
+      "analysis_method": "qualitative_superanalyst_national_team_pilot_v1",
+      "probabilities": null,
+      "result_90m": null,
+      "lineup_status": "projected",
+      "source_ids": [
+        "ukr-geo-preview",
+        "ukr-geo-teamnews",
+        "uefa-permutations",
+        "match-2047918"
+      ],
+      "targets": {
+        "1x2": {
+          "pick": "H",
+          "confidence": "low",
+          "status": "provisional",
+          "supporting_evidence": [
+            "Georgia belum mencetak dalam lima laga; Kvaratskhelia absen; Ukraina memiliki opsi penyerang yang lebih banyak."
+          ],
+          "contradicting_evidence": [
+            "Ukraina kalah tiga kali beruntun dan hanya dua gol; venue Košice netral, bukan kandang fisik."
+          ],
+          "abstain_reason": null
+        },
+        "btts": {
+          "pick": false,
+          "confidence": "medium",
+          "status": "provisional",
+          "supporting_evidence": [
+            "Georgia gagal mencetak 5/5; Ukraina gagal mencetak 3/5; pertemuan pertama 0–0."
+          ],
+          "contradicting_evidence": [
+            "Georgia harus menang dan dapat meningkatkan risiko di akhir; nol gol historis tidak berarti peluang gol nol."
+          ],
+          "abstain_reason": null
+        },
+        "total_2_5": {
+          "pick": "under",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "supporting_evidence": [
+            "Georgia Under 5/5, hanya empat kebobolan; Ukraina 2 GF dan 6 GA dalam lima laga.",
+            "Ukraina dapat bertahan di B dengan seri, sedangkan masalah penyelesaian kedua tim belum teratasi."
+          ],
+          "contradicting_evidence": [
+            "Gol cepat/penalti/kartu dapat mengubah struktur; Georgia wajib mengambil risiko jika belum unggul."
+          ],
+          "abstain_reason": null
+        }
+      },
+      "focus_target": "total_2_5",
+      "score_scenario": [
+        1,
+        0
+      ]
+    }
+  ]
+}
