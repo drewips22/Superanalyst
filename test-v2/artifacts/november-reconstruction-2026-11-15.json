@@ -1,0 +1,4483 @@
+{
+  "schema_version": "superanalyst-experimental-forecast-v1",
+  "model_version": "superanalyst-beta-v2.0.0-experimental",
+  "mode": "retrospective_reconstruction",
+  "synthetic": false,
+  "as_of": "2026-11-15T13:47:09.850488+00:00",
+  "model_package_sha256": "f1f72b1dbfa51c5cdb6b886822542b88a2e4c53b06376f3bc61ceefe43613786",
+  "input_sha256": "791e714abcb0ce996d4d306b6f6cd845ab2afca3285319769a6cb543032bc3fc",
+  "focus_policy": {
+    "id": "max_p55",
+    "min_probability": 0.55,
+    "winner_priority": null
+  },
+  "scope": "90m",
+  "main_operational_model_changed": false,
+  "history_audit_source": "supplied_provenance_not_independent_machine_verification",
+  "rows": [
+    {
+      "match_id": "2047903",
+      "home": "Siprus",
+      "away": "Montenegro",
+      "kickoff_at": "2026-11-15T21:00:00+07:00",
+      "probabilities": {
+        "1x2": {
+          "H": 0.2557232128105225,
+          "D": 0.33788646722126797,
+          "A": 0.4063903199682095
+        },
+        "btts": 0.4440111133295766,
+        "total_2_5": {
+          "over": 0.45146321863811034,
+          "under": 0.5485367813618897
+        }
+      },
+      "by_target": {
+        "1x2": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.2557771872057673,
+            1.1180478080709717
+          ],
+          "raw": [
+            0.39474113927766563,
+            0.2775888868791393,
+            0.32766997384319524
+          ],
+          "calibrated": [
+            0.2557232128105225,
+            0.33788646722126797,
+            0.4063903199682095
+          ]
+        },
+        "btts": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.2557771872057673,
+            1.1180478080709717
+          ],
+          "raw": 0.4813520913692286,
+          "calibrated": 0.4440111133295766
+        },
+        "total_2_5": {
+          "recipe_id": "strength_h365_plus_friendlies",
+          "goal_rates": [
+            1.4333296046004593,
+            1.0931246669812444
+          ],
+          "raw": 0.4629546469937219,
+          "calibrated": 0.45146321863811034
+        }
+      },
+      "calibration": "frozen_2020_2021_not_proven_current",
+      "one_joint_score_distribution": false,
+      "decision": {
+        "raw_directions": {
+          "1x2": "A",
+          "btts": false,
+          "total_2_5": "under"
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.4063903199682095,
+            "reason": "below_frozen_threshold"
+          },
+          "btts": {
+            "pick": false,
+            "status": "experimental",
+            "probability": 0.5559888866704235,
+            "reason": "passes_frozen_threshold"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5485367813618897,
+            "reason": "below_frozen_threshold"
+          }
+        },
+        "focus": {
+          "target": "btts",
+          "pick": false,
+          "probability": 0.5559888866704235
+        },
+        "focus_policy_id": "max_p55"
+      },
+      "hybrid": {
+        "model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+        "source_main_sha256": "65a89bc5711fe8981f617334cb0807d17915ea35c555178e2d80d93da773059c",
+        "source_main_focus": "btts",
+        "source_main_targets": {
+          "1x2": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Montenegro lebih konsisten tetapi Siprus menang dua laga kandang; posisi grup sudah pasti."
+            ],
+            "abstain_reason": "Montenegro lebih konsisten tetapi Siprus menang dua laga kandang; posisi grup sudah pasti."
+          },
+          "btts": {
+            "pick": true,
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Montenegro BTTS 4/5; Siprus mencetak gol 4/5.",
+              "Savic absen; kedua lini depan masih mempunyai opsi utama menurut daftar XI FotMob."
+            ],
+            "contradicting_evidence": [
+              "Siprus kebobolan hanya dua gol dalam empat laga terbaru; risiko tempo rendah/rotasi tetap ada."
+            ],
+            "abstain_reason": null
+          },
+          "total_2_5": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Pola Siprus Under 3/5 berhadapan dengan Montenegro Over 4/5; belum cukup konsisten."
+            ],
+            "abstain_reason": "Pola Siprus Under 3/5 berhadapan dengan Montenegro Over 4/5; belum cukup konsisten."
+          }
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": 0.4440111133295766,
+            "reason": "numerical_direction_disagrees"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          }
+        },
+        "focus": null,
+        "focus_reason": "no_supported_main_pick",
+        "probabilities_belong_to": "superanalyst-beta-v2.0.0-experimental",
+        "focus_policy_id": "max_p55"
+      },
+      "quality_issues": [],
+      "last5_diagnostic": {
+        "full": {
+          "rates": [
+            1.1111111111111112,
+            1.2222222222222223
+          ],
+          "probabilities": {
+            "1x2": {
+              "H": 0.3323761926448101,
+              "D": 0.2807232048458359,
+              "A": 0.3869006025093536
+            },
+            "btts": 0.47320415174639213,
+            "total_2_5": {
+              "over": 0.41278086126554714,
+              "under": 0.5872191387344529
+            }
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": false,
+            "total_2_5": "under"
+          }
+        },
+        "runs": [
+          {
+            "omitted_match_id": "unl-2026-09-25-Montenegro-Cyprus",
+            "rates": [
+              1.125,
+              1.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3562840305513042,
+                "D": 0.2874319388973915,
+                "A": 0.3562840305513042
+              },
+              "btts": 0.45609428984516487,
+              "total_2_5": {
+                "over": 0.3906607330017219,
+                "under": 0.6093392669982781
+              }
+            },
+            "directions": {
+              "1x2": null,
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-09-28-Armenia-Montenegro",
+            "rates": [
+              1.0,
+              1.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3457458387231646,
+                "D": 0.30850832255367105,
+                "A": 0.3457458387231646
+              },
+              "btts": 0.39957640089372803,
+              "total_2_5": {
+                "over": 0.3233235838169365,
+                "under": 0.6766764161830635
+              }
+            },
+            "directions": {
+              "1x2": null,
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-09-28-Latvia-Cyprus",
+            "rates": [
+              1.25,
+              1.375
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.33993733148074884,
+                "D": 0.26183762332589194,
+                "A": 0.39822504519335944
+              },
+              "btts": 0.5330953643693148,
+              "total_2_5": {
+                "over": 0.487828280343769,
+                "under": 0.512171719656231
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-02-Cyprus-Armenia",
+            "rates": [
+              1.0,
+              1.375
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2731070142008386,
+                "D": 0.27220020636111236,
+                "A": 0.4546927794380491
+              },
+              "btts": 0.47229545223447467,
+              "total_2_5": {
+                "over": 0.42374617231206135,
+                "under": 0.5762538276879386
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-02-Latvia-Montenegro",
+            "rates": [
+              1.125,
+              1.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3562840305513042,
+                "D": 0.2874319388973915,
+                "A": 0.3562840305513042
+              },
+              "btts": 0.45609428984516487,
+              "total_2_5": {
+                "over": 0.3906607330017219,
+                "under": 0.6093392669982781
+              }
+            },
+            "directions": {
+              "1x2": null,
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-05-Cyprus-Latvia",
+            "rates": [
+              1.0,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2955945407805737,
+                "D": 0.28450797418519064,
+                "A": 0.4198974850342359
+              },
+              "btts": 0.45101498653023187,
+              "total_2_5": {
+                "over": 0.3906607330017219,
+                "under": 0.6093392669982781
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-05-Montenegro-Armenia",
+            "rates": [
+              1.25,
+              1.375
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.33993733148074884,
+                "D": 0.26183762332589194,
+                "A": 0.39822504519335944
+              },
+              "btts": 0.5330953643693148,
+              "total_2_5": {
+                "over": 0.487828280343769,
+                "under": 0.512171719656231
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-11-12-Armenia-Cyprus",
+            "rates": [
+              1.125,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3307384350702737,
+                "D": 0.2776546667101791,
+                "A": 0.3916068982195475
+              },
+              "btts": 0.48185722499212363,
+              "total_2_5": {
+                "over": 0.42374617231206135,
+                "under": 0.5762538276879386
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-11-12-Montenegro-Latvia",
+            "rates": [
+              1.125,
+              1.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3562840305513042,
+                "D": 0.2874319388973915,
+                "A": 0.3562840305513042
+              },
+              "btts": 0.45609428984516487,
+              "total_2_5": {
+                "over": 0.3906607330017219,
+                "under": 0.6093392669982781
+              }
+            },
+            "directions": {
+              "1x2": null,
+              "btts": false,
+              "total_2_5": "under"
+            }
+          }
+        ],
+        "unique_matches": 9,
+        "direction_flip_counts": {
+          "1x2": 4,
+          "btts": 2,
+          "total_2_5": 0
+        },
+        "unstable_targets": [
+          "1x2",
+          "btts"
+        ],
+        "method": "leave_one_unique_historical_match_out_no_refill",
+        "diagnostic_only": true,
+        "is_statistical_confidence_interval": false,
+        "historical_scores_removed_from_model": false
+      },
+      "raw_mc_by_recipe": {
+        "strength_h730": {
+          "seed": 8804398520518080213,
+          "samples": 10000,
+          "recipe_id": "strength_h730",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.3997,
+              "D": 0.2737,
+              "A": 0.3266
+            },
+            "btts": 0.4678,
+            "total_2_5": {
+              "over": 0.4167,
+              "under": 0.5832999999999999
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1263
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1220
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 1102
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 951
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 820
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 741
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 680
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 2,
+              "count": 556
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 461
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 359
+            }
+          ]
+        },
+        "strength_h365_plus_friendlies": {
+          "seed": 1463527331309712438,
+          "samples": 10000,
+          "recipe_id": "strength_h365_plus_friendlies",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.4456,
+              "D": 0.2605,
+              "A": 0.2939
+            },
+            "btts": 0.511,
+            "total_2_5": {
+              "over": 0.4651,
+              "under": 0.5348999999999999
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1255
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1128
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 941
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 890
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 795
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 789
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 701
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 2,
+              "count": 492
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 472
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 459
+            }
+          ]
+        }
+      },
+      "result_90m": null
+    },
+    {
+      "match_id": "2047899",
+      "home": "Latvia",
+      "away": "Armenia",
+      "kickoff_at": "2026-11-15T21:00:00+07:00",
+      "probabilities": {
+        "1x2": {
+          "H": 0.39316885681776775,
+          "D": 0.32781334701751574,
+          "A": 0.2790177961647165
+        },
+        "btts": 0.4467810315021688,
+        "total_2_5": {
+          "over": 0.4292158145698655,
+          "under": 0.5707841854301345
+        }
+      },
+      "by_target": {
+        "1x2": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.4523202793436591,
+            1.009389753957445
+          ],
+          "raw": [
+            0.4731883887812248,
+            0.2643304544211138,
+            0.2624811567976616
+          ],
+          "calibrated": [
+            0.39316885681776775,
+            0.32781334701751574,
+            0.2790177961647165
+          ]
+        },
+        "btts": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.4523202793436591,
+            1.009389753957445
+          ],
+          "raw": 0.4868210181669019,
+          "calibrated": 0.4467810315021688
+        },
+        "total_2_5": {
+          "recipe_id": "strength_h365_plus_friendlies",
+          "goal_rates": [
+            1.4283395496010676,
+            0.9717350575722289
+          ],
+          "raw": 0.43031074566627314,
+          "calibrated": 0.4292158145698655
+        }
+      },
+      "calibration": "frozen_2020_2021_not_proven_current",
+      "one_joint_score_distribution": false,
+      "decision": {
+        "raw_directions": {
+          "1x2": "H",
+          "btts": false,
+          "total_2_5": "under"
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.39316885681776775,
+            "reason": "below_frozen_threshold"
+          },
+          "btts": {
+            "pick": false,
+            "status": "experimental",
+            "probability": 0.5532189684978313,
+            "reason": "passes_frozen_threshold"
+          },
+          "total_2_5": {
+            "pick": "under",
+            "status": "experimental",
+            "probability": 0.5707841854301345,
+            "reason": "passes_frozen_threshold"
+          }
+        },
+        "focus": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.5707841854301345
+        },
+        "focus_policy_id": "max_p55"
+      },
+      "hybrid": {
+        "model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+        "source_main_sha256": "2a08e7292a5f83e66b0c3b9d616b51a97c0538d1fa9bced94abe1cb774d4b2e7",
+        "source_main_focus": "total_2_5",
+        "source_main_targets": {
+          "1x2": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Armenia hanya satu kemenangan dan belum mencetak gol tandang; Latvia punya kandang."
+            ],
+            "abstain_reason": "Armenia hanya satu kemenangan dan belum mencetak gol tandang; Latvia punya kandang."
+          },
+          "btts": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Latvia mencetak gol tiga laga terbaru, sedangkan Armenia dua laga tandang tanpa gol."
+            ],
+            "abstain_reason": "Latvia mencetak gol tiga laga terbaru, sedangkan Armenia dua laga tandang tanpa gol."
+          },
+          "total_2_5": {
+            "pick": "under",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Armenia Under 4/5 dan tidak mencetak gol dalam dua laga tandang UNL.",
+              "Latvia tidak pernah mencetak lebih dari satu gol pada lima laga; Melniks/Ikaunieks tidak masuk skuad yang dilaporkan."
+            ],
+            "contradicting_evidence": [
+              "Tiga laga Latvia terbaru seluruhnya Over 2,5; gol awal bisa membuka pertandingan."
+            ],
+            "abstain_reason": null
+          }
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          },
+          "total_2_5": {
+            "pick": "under",
+            "status": "experimental",
+            "supporting_beta_probability": 0.5707841854301345,
+            "reason": "main_direction_and_numerical_support_agree"
+          }
+        },
+        "focus": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.5707841854301345
+        },
+        "focus_reason": "retain_supported_main_focus",
+        "probabilities_belong_to": "superanalyst-beta-v2.0.0-experimental",
+        "focus_policy_id": "max_p55"
+      },
+      "quality_issues": [],
+      "last5_diagnostic": {
+        "full": {
+          "rates": [
+            1.0,
+            1.2222222222222223
+          ],
+          "probabilities": {
+            "1x2": {
+              "H": 0.30081757018388117,
+              "D": 0.2872257101094574,
+              "A": 0.4119567197066615
+            },
+            "btts": 0.4459137537403462,
+            "total_2_5": {
+              "over": 0.38323878141612355,
+              "under": 0.6167612185838764
+            }
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": false,
+            "total_2_5": "under"
+          }
+        },
+        "runs": [
+          {
+            "omitted_match_id": "unl-2026-09-25-Armenia-Latvia",
+            "rates": [
+              1.125,
+              1.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3562840305513042,
+                "D": 0.2874319388973915,
+                "A": 0.3562840305513042
+              },
+              "btts": 0.45609428984516487,
+              "total_2_5": {
+                "over": 0.3906607330017219,
+                "under": 0.6093392669982781
+              }
+            },
+            "directions": {
+              "1x2": null,
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-09-28-Armenia-Montenegro",
+            "rates": [
+              0.75,
+              1.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.24352105901193885,
+                "D": 0.3127405111594552,
+                "A": 0.44373842982860584
+              },
+              "btts": 0.356335946745564,
+              "total_2_5": {
+                "over": 0.28953519266372985,
+                "under": 0.7104648073362702
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-09-28-Latvia-Cyprus",
+            "rates": [
+              1.125,
+              1.375
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3068468482901991,
+                "D": 0.2674723066668754,
+                "A": 0.42568084504292564
+              },
+              "btts": 0.5045929354608026,
+              "total_2_5": {
+                "over": 0.4561868841166704,
+                "under": 0.5438131158833296
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-02-Cyprus-Armenia",
+            "rates": [
+              0.875,
+              1.375
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.23884167010661653,
+                "D": 0.27585054742534165,
+                "A": 0.4853077824680417
+              },
+              "btts": 0.43569760907860944,
+              "total_2_5": {
+                "over": 0.3906607330017219,
+                "under": 0.6093392669982781
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-02-Latvia-Montenegro",
+            "rates": [
+              1.0,
+              1.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3197719505440192,
+                "D": 0.29665561918909283,
+                "A": 0.3835724302668882
+              },
+              "btts": 0.42690105973692755,
+              "total_2_5": {
+                "over": 0.35711472550179835,
+                "under": 0.6428852744982017
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-05-Cyprus-Latvia",
+            "rates": [
+              1.0,
+              1.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3197719505440192,
+                "D": 0.29665561918909283,
+                "A": 0.3835724302668882
+              },
+              "btts": 0.42690105973692755,
+              "total_2_5": {
+                "over": 0.35711472550179835,
+                "under": 0.6428852744982017
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-05-Montenegro-Armenia",
+            "rates": [
+              1.125,
+              1.375
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3068468482901991,
+                "D": 0.2674723066668754,
+                "A": 0.42568084504292564
+              },
+              "btts": 0.5045929354608026,
+              "total_2_5": {
+                "over": 0.4561868841166704,
+                "under": 0.5438131158833296
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-11-12-Armenia-Cyprus",
+            "rates": [
+              1.0,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2955945407805737,
+                "D": 0.28450797418519064,
+                "A": 0.4198974850342359
+              },
+              "btts": 0.45101498653023187,
+              "total_2_5": {
+                "over": 0.3906607330017219,
+                "under": 0.6093392669982781
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-11-12-Montenegro-Latvia",
+            "rates": [
+              1.0,
+              1.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3197719505440192,
+                "D": 0.29665561918909283,
+                "A": 0.3835724302668882
+              },
+              "btts": 0.42690105973692755,
+              "total_2_5": {
+                "over": 0.35711472550179835,
+                "under": 0.6428852744982017
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          }
+        ],
+        "unique_matches": 9,
+        "direction_flip_counts": {
+          "1x2": 1,
+          "btts": 2,
+          "total_2_5": 0
+        },
+        "unstable_targets": [
+          "1x2",
+          "btts"
+        ],
+        "method": "leave_one_unique_historical_match_out_no_refill",
+        "diagnostic_only": true,
+        "is_statistical_confidence_interval": false,
+        "historical_scores_removed_from_model": false
+      },
+      "raw_mc_by_recipe": {
+        "strength_h730": {
+          "seed": 15701140571666399122,
+          "samples": 10000,
+          "recipe_id": "strength_h730",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.4779,
+              "D": 0.2607,
+              "A": 0.2614
+            },
+            "btts": 0.4899,
+            "total_2_5": {
+              "over": 0.4485,
+              "under": 0.5515
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1265
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1250
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 949
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 896
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 892
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 800
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 607
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 471
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 471
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 421
+            }
+          ]
+        },
+        "strength_h365_plus_friendlies": {
+          "seed": 15587774279882937339,
+          "samples": 10000,
+          "recipe_id": "strength_h365_plus_friendlies",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.4706,
+              "D": 0.276,
+              "A": 0.2534
+            },
+            "btts": 0.4787,
+            "total_2_5": {
+              "over": 0.4284,
+              "under": 0.5716
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1317
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1272
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 945
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 923
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 915
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 857
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 628
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 451
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 425
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 423
+            }
+          ]
+        }
+      },
+      "result_90m": null
+    },
+    {
+      "match_id": "2047905",
+      "home": "Belarus",
+      "away": "Albania",
+      "kickoff_at": "2026-11-16T00:00:00+07:00",
+      "probabilities": {
+        "1x2": {
+          "H": 0.0920299085443686,
+          "D": 0.39902880976772603,
+          "A": 0.5089412816879053
+        },
+        "btts": 0.364337425163714,
+        "total_2_5": {
+          "over": 0.3152854942297939,
+          "under": 0.6847145057702061
+        }
+      },
+      "by_target": {
+        "1x2": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            0.7329788700764565,
+            0.9920306094413146
+          ],
+          "raw": [
+            0.2616184414946736,
+            0.3332693293231313,
+            0.4051122291821954
+          ],
+          "calibrated": [
+            0.0920299085443686,
+            0.39902880976772603,
+            0.5089412816879053
+          ]
+        },
+        "btts": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            0.7329788700764565,
+            0.9920306094413146
+          ],
+          "raw": 0.32687285149604306,
+          "calibrated": 0.364337425163714
+        },
+        "total_2_5": {
+          "recipe_id": "strength_h365_plus_friendlies",
+          "goal_rates": [
+            0.8864943100988665,
+            0.9130978169242439
+          ],
+          "raw": 0.269269694598969,
+          "calibrated": 0.3152854942297939
+        }
+      },
+      "calibration": "frozen_2020_2021_not_proven_current",
+      "one_joint_score_distribution": false,
+      "decision": {
+        "raw_directions": {
+          "1x2": "A",
+          "btts": false,
+          "total_2_5": "under"
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5089412816879053,
+            "reason": "below_frozen_threshold"
+          },
+          "btts": {
+            "pick": false,
+            "status": "experimental",
+            "probability": 0.6356625748362861,
+            "reason": "passes_frozen_threshold"
+          },
+          "total_2_5": {
+            "pick": "under",
+            "status": "experimental",
+            "probability": 0.6847145057702061,
+            "reason": "passes_frozen_threshold"
+          }
+        },
+        "focus": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.6847145057702061
+        },
+        "focus_policy_id": "max_p55"
+      },
+      "hybrid": {
+        "model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+        "source_main_sha256": "6a209ee9c2e7f48d9f3ab0d597051cdbb7c119c7e27de7de04b4bffe8c542d76",
+        "source_main_focus": "total_2_5",
+        "source_main_targets": {
+          "1x2": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Albania lebih tinggi di klasemen, tetapi cukup seri dan Belarus perlu menang."
+            ],
+            "abstain_reason": "Albania lebih tinggi di klasemen, tetapi cukup seri dan Belarus perlu menang."
+          },
+          "btts": {
+            "pick": false,
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Belarus BTTS Tidak 5/5 dan empat clean sheet; Albania clean sheet 3/5.",
+              "Muci absen menurut pembaruan medis yang dilaporkan."
+            ],
+            "contradicting_evidence": [
+              "Albania mencetak gol pada kelima laga; Belarus bisa mengambil risiko lebih besar."
+            ],
+            "abstain_reason": null
+          },
+          "total_2_5": {
+            "pick": "under",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Belarus Under 4/5 dengan hanya dua kebobolan; Albania hanya tiga kebobolan.",
+              "Venue netral; Albania cukup seri untuk mengunci juara grup."
+            ],
+            "contradicting_evidence": [
+              "Albania Under hanya 2/5; Belarus perlu mengejar kemenangan dan Ramadani absen."
+            ],
+            "abstain_reason": null
+          }
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          },
+          "btts": {
+            "pick": false,
+            "status": "experimental",
+            "supporting_beta_probability": 0.6356625748362861,
+            "reason": "main_direction_and_numerical_support_agree"
+          },
+          "total_2_5": {
+            "pick": "under",
+            "status": "experimental",
+            "supporting_beta_probability": 0.6847145057702061,
+            "reason": "main_direction_and_numerical_support_agree"
+          }
+        },
+        "focus": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.6847145057702061
+        },
+        "focus_reason": "retain_supported_main_focus",
+        "probabilities_belong_to": "superanalyst-beta-v2.0.0-experimental",
+        "focus_policy_id": "max_p55"
+      },
+      "quality_issues": [],
+      "last5_diagnostic": {
+        "full": {
+          "rates": [
+            1.1111111111111112,
+            1.1111111111111112
+          ],
+          "probabilities": {
+            "1x2": {
+              "H": 0.35521406693165025,
+              "D": 0.28957186613669866,
+              "A": 0.35521406693165025
+            },
+            "btts": 0.4499820476060847,
+            "total_2_5": {
+              "over": 0.38323878141612355,
+              "under": 0.6167612185838764
+            }
+          },
+          "directions": {
+            "1x2": null,
+            "btts": false,
+            "total_2_5": "under"
+          }
+        },
+        "runs": [
+          {
+            "omitted_match_id": "unl-2026-09-26-Albania-Belarus",
+            "rates": [
+              1.25,
+              1.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4198974850342359,
+                "D": 0.28450797418519064,
+                "A": 0.2955945407805737
+              },
+              "btts": 0.45101498653023187,
+              "total_2_5": {
+                "over": 0.3906607330017219,
+                "under": 0.6093392669982781
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-09-29-Finland-Belarus",
+            "rates": [
+              1.25,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.36497677919389876,
+                "D": 0.2700464416122028,
+                "A": 0.36497677919389876
+              },
+              "btts": 0.5090754049035185,
+              "total_2_5": {
+                "over": 0.4561868841166704,
+                "under": 0.5438131158833296
+              }
+            },
+            "directions": {
+              "1x2": null,
+              "btts": true,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-09-29-San Marino-Albania",
+            "rates": [
+              1.25,
+              0.875
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.44991705140449834,
+                "D": 0.29043285142916314,
+                "A": 0.2596500971663387
+              },
+              "btts": 0.4160661517280211,
+              "total_2_5": {
+                "over": 0.35711472550179835,
+                "under": 0.6428852744982017
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-03-Belarus-San Marino",
+            "rates": [
+              0.75,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.22303307973496672,
+                "D": 0.29523493229901904,
+                "A": 0.4817319879660142
+              },
+              "btts": 0.37646393363540787,
+              "total_2_5": {
+                "over": 0.3233235838169365,
+                "under": 0.6766764161830635
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-03-Finland-Albania",
+            "rates": [
+              1.0,
+              1.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3197719505440192,
+                "D": 0.29665561918909283,
+                "A": 0.3835724302668882
+              },
+              "btts": 0.42690105973692755,
+              "total_2_5": {
+                "over": 0.35711472550179835,
+                "under": 0.6428852744982017
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-06-Albania-San Marino",
+            "rates": [
+              1.125,
+              1.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3835724302668882,
+                "D": 0.29665561918909283,
+                "A": 0.3197719505440192
+              },
+              "btts": 0.42690105973692755,
+              "total_2_5": {
+                "over": 0.35711472550179835,
+                "under": 0.6428852744982017
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-06-Belarus-Finland",
+            "rates": [
+              1.125,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3307384350702737,
+                "D": 0.2776546667101791,
+                "A": 0.3916068982195475
+              },
+              "btts": 0.48185722499212363,
+              "total_2_5": {
+                "over": 0.42374617231206135,
+                "under": 0.5762538276879386
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-11-12-Albania-Finland",
+            "rates": [
+              1.25,
+              1.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4198974850342359,
+                "D": 0.28450797418519064,
+                "A": 0.2955945407805737
+              },
+              "btts": 0.45101498653023187,
+              "total_2_5": {
+                "over": 0.3906607330017219,
+                "under": 0.6093392669982781
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-11-12-San Marino-Belarus",
+            "rates": [
+              1.0,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2955945407805737,
+                "D": 0.28450797418519064,
+                "A": 0.4198974850342359
+              },
+              "btts": 0.45101498653023187,
+              "total_2_5": {
+                "over": 0.3906607330017219,
+                "under": 0.6093392669982781
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          }
+        ],
+        "unique_matches": 9,
+        "direction_flip_counts": {
+          "1x2": 8,
+          "btts": 1,
+          "total_2_5": 0
+        },
+        "unstable_targets": [
+          "1x2",
+          "btts"
+        ],
+        "method": "leave_one_unique_historical_match_out_no_refill",
+        "diagnostic_only": true,
+        "is_statistical_confidence_interval": false,
+        "historical_scores_removed_from_model": false
+      },
+      "raw_mc_by_recipe": {
+        "strength_h730": {
+          "seed": 8640291627277330911,
+          "samples": 10000,
+          "recipe_id": "strength_h730",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.2581,
+              "D": 0.3446,
+              "A": 0.3973
+            },
+            "btts": 0.3231,
+            "total_2_5": {
+              "over": 0.2446,
+              "under": 0.7554
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 1898
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 1694
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1290
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1274
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 2,
+              "count": 911
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 648
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 487
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 431
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 3,
+              "count": 273
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 237
+            }
+          ]
+        },
+        "strength_h365_plus_friendlies": {
+          "seed": 4182005616848933824,
+          "samples": 10000,
+          "recipe_id": "strength_h365_plus_friendlies",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.3279,
+              "D": 0.3246,
+              "A": 0.3475
+            },
+            "btts": 0.354,
+            "total_2_5": {
+              "over": 0.2718,
+              "under": 0.7282
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 1623
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 1514
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1436
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1348
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 2,
+              "count": 684
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 677
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 644
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 568
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 254
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 211
+            }
+          ]
+        }
+      },
+      "result_90m": null
+    },
+    {
+      "match_id": "2047901",
+      "home": "Finlandia",
+      "away": "San Marino",
+      "kickoff_at": "2026-11-16T00:00:00+07:00",
+      "probabilities": {
+        "1x2": {
+          "H": 0.9477560536131057,
+          "D": 0.04333540087836216,
+          "A": 0.008908545508532154
+        },
+        "btts": 0.4310171328536923,
+        "total_2_5": {
+          "over": 0.5908161904858698,
+          "under": 0.40918380951413025
+        }
+      },
+      "by_target": {
+        "1x2": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            2.9746084921354696,
+            0.6543177232917433
+          ],
+          "raw": [
+            0.8370607136399733,
+            0.10950134337966282,
+            0.05343794298036352
+          ],
+          "calibrated": [
+            0.9477560536131057,
+            0.04333540087836216,
+            0.008908545508532154
+          ]
+        },
+        "btts": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            2.9746084921354696,
+            0.6543177232917433
+          ],
+          "raw": 0.455680662246423,
+          "calibrated": 0.4310171328536923
+        },
+        "total_2_5": {
+          "recipe_id": "strength_h365_plus_friendlies",
+          "goal_rates": [
+            2.7117345730502174,
+            0.699508354492227
+          ],
+          "raw": 0.6624238242874454,
+          "calibrated": 0.5908161904858698
+        }
+      },
+      "calibration": "frozen_2020_2021_not_proven_current",
+      "one_joint_score_distribution": false,
+      "decision": {
+        "raw_directions": {
+          "1x2": "H",
+          "btts": false,
+          "total_2_5": "over"
+        },
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "status": "experimental",
+            "probability": 0.9477560536131057,
+            "reason": "passes_frozen_threshold"
+          },
+          "btts": {
+            "pick": false,
+            "status": "experimental",
+            "probability": 0.5689828671463077,
+            "reason": "passes_frozen_threshold"
+          },
+          "total_2_5": {
+            "pick": "over",
+            "status": "experimental",
+            "probability": 0.5908161904858698,
+            "reason": "passes_frozen_threshold"
+          }
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.9477560536131057
+        },
+        "focus_policy_id": "max_p55"
+      },
+      "hybrid": {
+        "model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+        "source_main_sha256": "a364516dee339c705d7567acac5c5906beb2ed9da089fa0358ec296e690d4a6f",
+        "source_main_focus": "1x2",
+        "source_main_targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "relatively_strong",
+            "status": "provisional",
+            "supporting_evidence": [
+              "San Marino kalah 5/5, gol 1–18; Finlandia menang 7–0 dalam pertemuan pertama.",
+              "Kesenjangan lawan dan kandang tetap mendukung Finlandia meski hasil terakhir turun."
+            ],
+            "contradicting_evidence": [
+              "Banyak pemain Finlandia absen dan posisi ketiga sudah pasti; gagal mencetak gol 3/5."
+            ],
+            "abstain_reason": null
+          },
+          "btts": {
+            "pick": false,
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "San Marino gagal mencetak gol 4/5; Finlandia BTTS Tidak 4/5."
+            ],
+            "contradicting_evidence": [
+              "Absensi bek/gelandang Finlandia dapat memperlemah perlindungan pertahanan."
+            ],
+            "abstain_reason": null
+          },
+          "total_2_5": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Tujuh dari sembilan gol Finlandia berasal dari satu laga; banyak absensi dan potensi rotasi membuat jumlah gol rapuh."
+            ],
+            "abstain_reason": "Tujuh dari sembilan gol Finlandia berasal dari satu laga; banyak absensi dan potensi rotasi membuat jumlah gol rapuh."
+          }
+        },
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "status": "experimental",
+            "supporting_beta_probability": 0.9477560536131057,
+            "reason": "main_direction_and_numerical_support_agree"
+          },
+          "btts": {
+            "pick": false,
+            "status": "experimental",
+            "supporting_beta_probability": 0.5689828671463077,
+            "reason": "main_direction_and_numerical_support_agree"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          }
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.9477560536131057
+        },
+        "focus_reason": "retain_supported_main_focus",
+        "probabilities_belong_to": "superanalyst-beta-v2.0.0-experimental",
+        "focus_policy_id": "max_p55"
+      },
+      "quality_issues": [],
+      "last5_diagnostic": {
+        "full": {
+          "rates": [
+            2.2222222222222223,
+            0.5555555555555556
+          ],
+          "probabilities": {
+            "1x2": {
+              "H": 0.7561692891355892,
+              "D": 0.16614284874525292,
+              "A": 0.07768786211915799
+            },
+            "btts": 0.3800550800627877,
+            "total_2_5": {
+              "over": 0.5252323443496427,
+              "under": 0.4747676556503573
+            }
+          },
+          "directions": {
+            "1x2": "H",
+            "btts": false,
+            "total_2_5": "over"
+          }
+        },
+        "runs": [
+          {
+            "omitted_match_id": "unl-2026-09-26-San Marino-Finland",
+            "rates": [
+              1.625,
+              0.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.6166864922802717,
+                "D": 0.24289496234636573,
+                "A": 0.14041854537336296
+              },
+              "btts": 0.37322612083868006,
+              "total_2_5": {
+                "over": 0.3906607330017219,
+                "under": 0.6093392669982781
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-09-29-Finland-Belarus",
+            "rates": [
+              2.5,
+              0.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.7831109108806533,
+                "D": 0.14454544410381778,
+                "A": 0.07234364501552908
+              },
+              "btts": 0.4265905064805184,
+              "total_2_5": {
+                "over": 0.6042243400954004,
+                "under": 0.3957756599045996
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-09-29-San Marino-Albania",
+            "rates": [
+              2.125,
+              0.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.7221939764977607,
+                "D": 0.18154736583120254,
+                "A": 0.0962586576710367
+              },
+              "btts": 0.40923346442099773,
+              "total_2_5": {
+                "over": 0.5185432952869836,
+                "under": 0.4814567047130164
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-03-Belarus-San Marino",
+            "rates": [
+              2.0,
+              0.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.6986350808130698,
+                "D": 0.19553928038802026,
+                "A": 0.10582563879891027
+              },
+              "btts": 0.40184304527864856,
+              "total_2_5": {
+                "over": 0.487828280343769,
+                "under": 0.512171719656231
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-03-Finland-Albania",
+            "rates": [
+              2.25,
+              0.5
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.7741394902915876,
+                "D": 0.15878831050533937,
+                "A": 0.06707219920307286
+              },
+              "btts": 0.35199797693220986,
+              "total_2_5": {
+                "over": 0.5185432952869836,
+                "under": 0.4814567047130164
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-06-Albania-San Marino",
+            "rates": [
+              2.25,
+              0.5
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.7741394902915876,
+                "D": 0.15878831050533937,
+                "A": 0.06707219920307286
+              },
+              "btts": 0.35199797693220986,
+              "total_2_5": {
+                "over": 0.5185432952869836,
+                "under": 0.4814567047130164
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-06-Belarus-Finland",
+            "rates": [
+              2.5,
+              0.5
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.8107099625707198,
+                "D": 0.1343920509931882,
+                "A": 0.054897986436092165
+              },
+              "btts": 0.36117141003133174,
+              "total_2_5": {
+                "over": 0.5768099188731565,
+                "under": 0.42319008112684353
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-11-12-Albania-Finland",
+            "rates": [
+              2.5,
+              0.375
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.8381335218154821,
+                "D": 0.12307223015781685,
+                "A": 0.03879424802670125
+              },
+              "btts": 0.28704186208890636,
+              "total_2_5": {
+                "over": 0.548230132879908,
+                "under": 0.45176986712009204
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-11-12-San Marino-Belarus",
+            "rates": [
+              2.25,
+              0.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.7440573681769991,
+                "D": 0.16840606817201628,
+                "A": 0.08753656365098461
+              },
+              "btts": 0.41575548642292276,
+              "total_2_5": {
+                "over": 0.548230132879908,
+                "under": 0.45176986712009204
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "over"
+            }
+          }
+        ],
+        "unique_matches": 9,
+        "direction_flip_counts": {
+          "1x2": 0,
+          "btts": 0,
+          "total_2_5": 2
+        },
+        "unstable_targets": [
+          "total_2_5"
+        ],
+        "method": "leave_one_unique_historical_match_out_no_refill",
+        "diagnostic_only": true,
+        "is_statistical_confidence_interval": false,
+        "historical_scores_removed_from_model": false
+      },
+      "raw_mc_by_recipe": {
+        "strength_h730": {
+          "seed": 14975117857043959494,
+          "samples": 10000,
+          "recipe_id": "strength_h730",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.8376,
+              "D": 0.1078,
+              "A": 0.0546
+            },
+            "btts": 0.4538,
+            "total_2_5": {
+              "over": 0.7047,
+              "under": 0.2953
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 1166
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 1162
+            },
+            {
+              "home_goals": 4,
+              "away_goals": 0,
+              "count": 865
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 803
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 801
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 745
+            },
+            {
+              "home_goals": 4,
+              "away_goals": 1,
+              "count": 550
+            },
+            {
+              "home_goals": 5,
+              "away_goals": 0,
+              "count": 534
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 494
+            },
+            {
+              "home_goals": 5,
+              "away_goals": 1,
+              "count": 329
+            }
+          ]
+        },
+        "strength_h365_plus_friendlies": {
+          "seed": 11169598162977215151,
+          "samples": 10000,
+          "recipe_id": "strength_h365_plus_friendlies",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.7943,
+              "D": 0.1298,
+              "A": 0.0759
+            },
+            "btts": 0.4706,
+            "total_2_5": {
+              "over": 0.6621,
+              "under": 0.3379
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 1181
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 1120
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 947
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 843
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 764
+            },
+            {
+              "home_goals": 4,
+              "away_goals": 0,
+              "count": 715
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 594
+            },
+            {
+              "home_goals": 4,
+              "away_goals": 1,
+              "count": 524
+            },
+            {
+              "home_goals": 5,
+              "away_goals": 0,
+              "count": 379
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 343
+            }
+          ]
+        }
+      },
+      "result_90m": null
+    },
+    {
+      "match_id": "2047900",
+      "home": "Belgia",
+      "away": "Italia",
+      "kickoff_at": "2026-11-16T02:45:00+07:00",
+      "probabilities": {
+        "1x2": {
+          "H": 0.5150675659251572,
+          "D": 0.25460284927020355,
+          "A": 0.23032958480463925
+        },
+        "btts": 0.487829742667632,
+        "total_2_5": {
+          "over": 0.5182627367011483,
+          "under": 0.4817372632988517
+        }
+      },
+      "by_target": {
+        "1x2": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.8174623807969725,
+            1.1298648747103148
+          ],
+          "raw": [
+            0.5346302948676275,
+            0.2299547870745672,
+            0.23541491805780573
+          ],
+          "calibrated": [
+            0.5150675659251572,
+            0.25460284927020355,
+            0.23032958480463925
+          ]
+        },
+        "btts": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.8174623807969725,
+            1.1298648747103148
+          ],
+          "raw": 0.5669654416723585,
+          "calibrated": 0.487829742667632
+        },
+        "total_2_5": {
+          "recipe_id": "strength_h365_plus_friendlies",
+          "goal_rates": [
+            1.863215902372077,
+            1.0651767868468485
+          ],
+          "raw": 0.56057702750274,
+          "calibrated": 0.5182627367011483
+        }
+      },
+      "calibration": "frozen_2020_2021_not_proven_current",
+      "one_joint_score_distribution": false,
+      "decision": {
+        "raw_directions": {
+          "1x2": "H",
+          "btts": false,
+          "total_2_5": "over"
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5150675659251572,
+            "reason": "below_frozen_threshold"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.512170257332368,
+            "reason": "below_frozen_threshold"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5182627367011483,
+            "reason": "below_frozen_threshold"
+          }
+        },
+        "focus": null,
+        "focus_policy_id": "max_p55"
+      },
+      "hybrid": {
+        "model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+        "source_main_sha256": "2b7821888e5dbfe898452a2842ff474c44e37c4c38334d160ce68c2758678912",
+        "source_main_focus": "btts",
+        "source_main_targets": {
+          "1x2": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Italia membaik tetapi Belgia punya kandang dan menang 2–0 di pertemuan pertama."
+            ],
+            "abstain_reason": "Italia membaik tetapi Belgia punya kandang dan menang 2–0 di pertemuan pertama."
+          },
+          "btts": {
+            "pick": true,
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Italia BTTS 4/5 dan mencetak 11 gol dalam empat laga terbaru; Belgia mencetak gol 4/5.",
+              "Belgia perlu mencari kemenangan; kedua tim punya opsi menyerang yang produktif."
+            ],
+            "contradicting_evidence": [
+              "Belgia mempunyai dua clean sheet; Frattesi absen dan Italia cukup seri."
+            ],
+            "abstain_reason": null
+          },
+          "total_2_5": {
+            "pick": "over",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Tiga dari lima laga masing-masing tim Over; Belgia perlu menang dan Italia meningkat dalam serangan."
+            ],
+            "contradicting_evidence": [
+              "Italia dapat mengendalikan risiko dengan hasil seri; 1–1 tetap skenario penting."
+            ],
+            "abstain_reason": null
+          }
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": 0.487829742667632,
+            "reason": "numerical_direction_disagrees"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": 0.5182627367011483,
+            "reason": "below_frozen_threshold"
+          }
+        },
+        "focus": null,
+        "focus_reason": "no_supported_main_pick",
+        "probabilities_belong_to": "superanalyst-beta-v2.0.0-experimental",
+        "focus_policy_id": "max_p55"
+      },
+      "quality_issues": [],
+      "last5_diagnostic": {
+        "full": {
+          "rates": [
+            1.3333333333333333,
+            1.8888888888888888
+          ],
+          "probabilities": {
+            "1x2": {
+              "H": 0.27090681707506026,
+              "D": 0.22426429485996774,
+              "A": 0.5048288880649722
+            },
+            "btts": 0.6250294700175024,
+            "total_2_5": {
+              "over": 0.6247147473383918,
+              "under": 0.37528525266160817
+            }
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          }
+        },
+        "runs": [
+          {
+            "omitted_match_id": "unl-2026-09-25-Italy-Belgium",
+            "rates": [
+              1.25,
+              2.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.21919310112287416,
+                "D": 0.2065779562407693,
+                "A": 0.5742289426363567
+              },
+              "btts": 0.6282803531847563,
+              "total_2_5": {
+                "over": 0.6554128554395506,
+                "under": 0.34458714456044937
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-09-28-Belgium-France",
+            "rates": [
+              1.5,
+              2.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.29025461976588823,
+                "D": 0.21618296334093237,
+                "A": 0.49356241689317953
+              },
+              "btts": 0.671731940037276,
+              "total_2_5": {
+                "over": 0.6791528011378659,
+                "under": 0.3208471988621341
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-09-28-Türkiye-Italy",
+            "rates": [
+              1.375,
+              1.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3246772796003849,
+                "D": 0.24095613149605138,
+                "A": 0.4343665889035637
+              },
+              "btts": 0.6000357973589234,
+              "total_2_5": {
+                "over": 0.5768099188731565,
+                "under": 0.42319008112684353
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-02-Belgium-Türkiye",
+            "rates": [
+              1.125,
+              2.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.1935202564778816,
+                "D": 0.20400741412614182,
+                "A": 0.6024723293959766
+              },
+              "btts": 0.5946887722066526,
+              "total_2_5": {
+                "over": 0.6304333316038996,
+                "under": 0.3695666683961004
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-02-France-Italy",
+            "rates": [
+              1.375,
+              2.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.26319758359872913,
+                "D": 0.21658056185950153,
+                "A": 0.5202218545417696
+              },
+              "btts": 0.6460432392703068,
+              "total_2_5": {
+                "over": 0.6554128554395506,
+                "under": 0.34458714456044937
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-05-France-Belgium",
+            "rates": [
+              1.375,
+              1.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3246772796003849,
+                "D": 0.24095613149605138,
+                "A": 0.4343665889035637
+              },
+              "btts": 0.6000357973589234,
+              "total_2_5": {
+                "over": 0.5768099188731565,
+                "under": 0.42319008112684353
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-05-Italy-Türkiye",
+            "rates": [
+              1.375,
+              1.75
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3029185691119483,
+                "D": 0.23308391468721024,
+                "A": 0.46399751620084145
+              },
+              "btts": 0.6173233943682158,
+              "total_2_5": {
+                "over": 0.6042243400954004,
+                "under": 0.3957756599045996
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-11-12-Italy-France",
+            "rates": [
+              1.375,
+              1.75
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3029185691119483,
+                "D": 0.23308391468721024,
+                "A": 0.46399751620084145
+              },
+              "btts": 0.6173233943682158,
+              "total_2_5": {
+                "over": 0.6042243400954004,
+                "under": 0.3957756599045996
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-11-12-Türkiye-Belgium",
+            "rates": [
+              1.25,
+              2.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.23614876153926845,
+                "D": 0.21603523903263547,
+                "A": 0.5478159994280966
+              },
+              "btts": 0.6169341277349192,
+              "total_2_5": {
+                "over": 0.6304333316038996,
+                "under": 0.3695666683961004
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          }
+        ],
+        "unique_matches": 9,
+        "direction_flip_counts": {
+          "1x2": 0,
+          "btts": 0,
+          "total_2_5": 0
+        },
+        "unstable_targets": [],
+        "method": "leave_one_unique_historical_match_out_no_refill",
+        "diagnostic_only": true,
+        "is_statistical_confidence_interval": false,
+        "historical_scores_removed_from_model": false
+      },
+      "raw_mc_by_recipe": {
+        "strength_h730": {
+          "seed": 8078902635365346004,
+          "samples": 10000,
+          "recipe_id": "strength_h730",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.5398,
+              "D": 0.2274,
+              "A": 0.2328
+            },
+            "btts": 0.5613,
+            "total_2_5": {
+              "over": 0.5625,
+              "under": 0.4375
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1070
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 982
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 970
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 891
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 612
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 586
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 575
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 561
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 546
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 500
+            }
+          ]
+        },
+        "strength_h365_plus_friendlies": {
+          "seed": 3806301642120078679,
+          "samples": 10000,
+          "recipe_id": "strength_h365_plus_friendlies",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.5658,
+              "D": 0.2268,
+              "A": 0.2074
+            },
+            "btts": 0.5587,
+            "total_2_5": {
+              "over": 0.5573,
+              "under": 0.4427
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1089
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 1014
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 999
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 948
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 609
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 557
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 548
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 540
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 536
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 518
+            }
+          ]
+        }
+      },
+      "result_90m": null
+    },
+    {
+      "match_id": "2047898",
+      "home": "Prancis",
+      "away": "Turki",
+      "kickoff_at": "2026-11-16T02:45:00+07:00",
+      "probabilities": {
+        "1x2": {
+          "H": 0.7936167665722117,
+          "D": 0.1393844928719563,
+          "A": 0.06699874055583188
+        },
+        "btts": 0.4777455913002966,
+        "total_2_5": {
+          "over": 0.5697849598100093,
+          "under": 0.4302150401899907
+        }
+      },
+      "by_target": {
+        "1x2": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            2.352226555608156,
+            0.9290923522582037
+          ],
+          "raw": [
+            0.6907477757744931,
+            0.17709678199365517,
+            0.13215544223185163
+          ],
+          "calibrated": [
+            0.7936167665722117,
+            0.1393844928719563,
+            0.06699874055583188
+          ]
+        },
+        "btts": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            2.352226555608156,
+            0.9290923522582037
+          ],
+          "raw": 0.5475096188939874,
+          "calibrated": 0.4777455913002966
+        },
+        "total_2_5": {
+          "recipe_id": "strength_h365_plus_friendlies",
+          "goal_rates": [
+            2.3181399593908263,
+            0.947410135445408
+          ],
+          "raw": 0.633608094768539,
+          "calibrated": 0.5697849598100093
+        }
+      },
+      "calibration": "frozen_2020_2021_not_proven_current",
+      "one_joint_score_distribution": false,
+      "decision": {
+        "raw_directions": {
+          "1x2": "H",
+          "btts": false,
+          "total_2_5": "over"
+        },
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "status": "experimental",
+            "probability": 0.7936167665722117,
+            "reason": "passes_frozen_threshold"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5222544086997034,
+            "reason": "below_frozen_threshold"
+          },
+          "total_2_5": {
+            "pick": "over",
+            "status": "experimental",
+            "probability": 0.5697849598100093,
+            "reason": "passes_frozen_threshold"
+          }
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.7936167665722117
+        },
+        "focus_policy_id": "max_p55"
+      },
+      "hybrid": {
+        "model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+        "source_main_sha256": "0f94757152c2e464a025dbf15a69267b1c69c696d021109527a1002435b7bc6a",
+        "source_main_focus": "1x2",
+        "source_main_targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "relatively_strong",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Prancis 3 menang, 1 seri, 1 kalah melawan Turki yang kalah 5/5 dengan gol 3–13.",
+              "Kandang, peluang juara grup, dan Mbappe dinyatakan tersedia oleh Zidane mendukung Prancis."
+            ],
+            "contradicting_evidence": [
+              "Prancis cukup seri; Turki memakai pelatih baru dan dapat mengancam lewat Guler."
+            ],
+            "abstain_reason": null
+          },
+          "btts": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Prancis kebobolan tiga laga terbaru tetapi Turki hanya tiga gol dalam lima; starter/menit Mbappe belum pasti."
+            ],
+            "abstain_reason": "Prancis kebobolan tiga laga terbaru tetapi Turki hanya tiga gol dalam lima; starter/menit Mbappe belum pasti."
+          },
+          "total_2_5": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Prancis Under 3/5 berhadapan dengan Turki Over 4/5; menit pemain kembali dan perubahan Turki belum jelas."
+            ],
+            "abstain_reason": "Prancis Under 3/5 berhadapan dengan Turki Over 4/5; menit pemain kembali dan perubahan Turki belum jelas."
+          }
+        },
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "status": "experimental",
+            "supporting_beta_probability": 0.7936167665722117,
+            "reason": "main_direction_and_numerical_support_agree"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          }
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.7936167665722117
+        },
+        "focus_reason": "retain_supported_main_focus",
+        "probabilities_belong_to": "superanalyst-beta-v2.0.0-experimental",
+        "focus_policy_id": "max_p55"
+      },
+      "quality_issues": [],
+      "last5_diagnostic": {
+        "full": {
+          "rates": [
+            2.2222222222222223,
+            0.8888888888888888
+          ],
+          "probabilities": {
+            "1x2": {
+              "H": 0.6763908534442699,
+              "D": 0.18682647902032626,
+              "A": 0.1367826675354038
+            },
+            "btts": 0.5250711125154064,
+            "total_2_5": {
+              "over": 0.6012372342314194,
+              "under": 0.3987627657685806
+            }
+          },
+          "directions": {
+            "1x2": "H",
+            "btts": true,
+            "total_2_5": "over"
+          }
+        },
+        "runs": [
+          {
+            "omitted_match_id": "unl-2026-09-25-Türkiye-France",
+            "rates": [
+              2.375,
+              1.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.6787787306064696,
+                "D": 0.1785545625664278,
+                "A": 0.14266670682710259
+              },
+              "btts": 0.5733241879295602,
+              "total_2_5": {
+                "over": 0.6554128554395506,
+                "under": 0.34458714456044937
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-09-28-Belgium-France",
+            "rates": [
+              2.375,
+              1.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.6787787306064696,
+                "D": 0.1785545625664278,
+                "A": 0.14266670682710259
+              },
+              "btts": 0.5733241879295602,
+              "total_2_5": {
+                "over": 0.6554128554395506,
+                "under": 0.34458714456044937
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-09-28-Türkiye-Italy",
+            "rates": [
+              2.0,
+              0.875
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.6359206408758261,
+                "D": 0.20772290493448528,
+                "A": 0.15635645418968855
+              },
+              "btts": 0.5042188365886562,
+              "total_2_5": {
+                "over": 0.548230132879908,
+                "under": 0.45176986712009204
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-02-Belgium-Türkiye",
+            "rates": [
+              2.125,
+              1.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.6314511932103198,
+                "D": 0.20031063447956837,
+                "A": 0.1682381723101118
+              },
+              "btts": 0.5566245241852454,
+              "total_2_5": {
+                "over": 0.6042243400954004,
+                "under": 0.3957756599045996
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-02-France-Italy",
+            "rates": [
+              2.375,
+              0.875
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.7070234403891581,
+                "D": 0.17224678012825143,
+                "A": 0.12072977948259048
+              },
+              "btts": 0.5288976989425501,
+              "total_2_5": {
+                "over": 0.6304333316038996,
+                "under": 0.3695666683961004
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-05-France-Belgium",
+            "rates": [
+              2.0,
+              0.875
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.6359206408758261,
+                "D": 0.20772290493448528,
+                "A": 0.15635645418968855
+              },
+              "btts": 0.5042188365886562,
+              "total_2_5": {
+                "over": 0.548230132879908,
+                "under": 0.45176986712009204
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-05-Italy-Türkiye",
+            "rates": [
+              2.125,
+              0.875
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.6611104840435891,
+                "D": 0.1953961823850965,
+                "A": 0.14349333357131416
+              },
+              "btts": 0.5134920804226358,
+              "total_2_5": {
+                "over": 0.5768099188731565,
+                "under": 0.42319008112684353
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-11-12-Italy-France",
+            "rates": [
+              2.375,
+              0.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.764329604277791,
+                "D": 0.15608336854201954,
+                "A": 0.07958702718018972
+              },
+              "btts": 0.42151115063821026,
+              "total_2_5": {
+                "over": 0.5768099188731565,
+                "under": 0.42319008112684353
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-11-12-Türkiye-Belgium",
+            "rates": [
+              2.25,
+              0.875
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.6847904248692238,
+                "D": 0.1835669478926366,
+                "A": 0.13164262723813963
+              },
+              "btts": 0.5216756893830347,
+              "total_2_5": {
+                "over": 0.6042243400954004,
+                "under": 0.3957756599045996
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          }
+        ],
+        "unique_matches": 9,
+        "direction_flip_counts": {
+          "1x2": 0,
+          "btts": 1,
+          "total_2_5": 0
+        },
+        "unstable_targets": [
+          "btts"
+        ],
+        "method": "leave_one_unique_historical_match_out_no_refill",
+        "diagnostic_only": true,
+        "is_statistical_confidence_interval": false,
+        "historical_scores_removed_from_model": false
+      },
+      "raw_mc_by_recipe": {
+        "strength_h730": {
+          "seed": 18326661158913904601,
+          "samples": 10000,
+          "recipe_id": "strength_h730",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.6831,
+              "D": 0.1794,
+              "A": 0.1375
+            },
+            "btts": 0.5565,
+            "total_2_5": {
+              "over": 0.6385,
+              "under": 0.36150000000000004
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 1011
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 972
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 875
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 843
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 769
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 741
+            },
+            {
+              "home_goals": 4,
+              "away_goals": 1,
+              "count": 475
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 467
+            },
+            {
+              "home_goals": 4,
+              "away_goals": 0,
+              "count": 464
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 403
+            }
+          ]
+        },
+        "strength_h365_plus_friendlies": {
+          "seed": 7622348908417582057,
+          "samples": 10000,
+          "recipe_id": "strength_h365_plus_friendlies",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.6778,
+              "D": 0.1856,
+              "A": 0.1366
+            },
+            "btts": 0.5532,
+            "total_2_5": {
+              "over": 0.6319,
+              "under": 0.3681
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 1010
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 1001
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 891
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 850
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 802
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 725
+            },
+            {
+              "home_goals": 4,
+              "away_goals": 0,
+              "count": 472
+            },
+            {
+              "home_goals": 4,
+              "away_goals": 1,
+              "count": 458
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 453
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 384
+            }
+          ]
+        }
+      },
+      "result_90m": null
+    },
+    {
+      "match_id": "2047902",
+      "home": "Kroasia",
+      "away": "Ceko",
+      "kickoff_at": "2026-11-16T02:45:00+07:00",
+      "probabilities": {
+        "1x2": {
+          "H": 0.5815760622267289,
+          "D": 0.2549939063608803,
+          "A": 0.16343003141239082
+        },
+        "btts": 0.45991643366555135,
+        "total_2_5": {
+          "over": 0.5153487374746735,
+          "under": 0.48465126252532653
+        }
+      },
+      "by_target": {
+        "1x2": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.790270554329899,
+            0.9555918843441558
+          ],
+          "raw": [
+            0.5700767700107031,
+            0.23093212203679445,
+            0.19899110795250274
+          ],
+          "calibrated": [
+            0.5815760622267289,
+            0.2549939063608803,
+            0.16343003141239082
+          ]
+        },
+        "btts": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.790270554329899,
+            0.9555918843441558
+          ],
+          "raw": 0.5126934629708019,
+          "calibrated": 0.45991643366555135
+        },
+        "total_2_5": {
+          "recipe_id": "strength_h365_plus_friendlies",
+          "goal_rates": [
+            1.796538995859371,
+            1.1135450237178548
+          ],
+          "raw": 0.5563663112687584,
+          "calibrated": 0.5153487374746735
+        }
+      },
+      "calibration": "frozen_2020_2021_not_proven_current",
+      "one_joint_score_distribution": false,
+      "decision": {
+        "raw_directions": {
+          "1x2": "H",
+          "btts": false,
+          "total_2_5": "over"
+        },
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "status": "experimental",
+            "probability": 0.5815760622267289,
+            "reason": "passes_frozen_threshold"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5400835663344487,
+            "reason": "below_frozen_threshold"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5153487374746735,
+            "reason": "below_frozen_threshold"
+          }
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.5815760622267289
+        },
+        "focus_policy_id": "max_p55"
+      },
+      "hybrid": {
+        "model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+        "source_main_sha256": "681cf867d301a61928e679acfa1fde6c6382d134d26245b130f7a472caf47067",
+        "source_main_focus": "1x2",
+        "source_main_targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Kroasia menang pertemuan pertama dan kini bermain di kandang; empat kekalahan berikutnya melawan Spanyol/Inggris.",
+              "Perisic kembali dan Ceko kehilangan Krejci menurut kabar skuad."
+            ],
+            "contradicting_evidence": [
+              "Kroasia kebobolan 16 gol dan cukup seri; tidak ada dasar keyakinan tinggi."
+            ],
+            "abstain_reason": null
+          },
+          "btts": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Pertahanan Kroasia rapuh, tetapi Ceko gagal mencetak gol 3/5 dan lawan-lawan sebelumnya jauh lebih kuat."
+            ],
+            "abstain_reason": "Pertahanan Kroasia rapuh, tetapi Ceko gagal mencetak gol 3/5 dan lawan-lawan sebelumnya jauh lebih kuat."
+          },
+          "total_2_5": {
+            "pick": "over",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Kroasia Over 5/5, Ceko Over 3/5; Kroasia belum clean sheet."
+            ],
+            "contradicting_evidence": [
+              "Kroasia cukup seri dan Ceko minim gol; 0–7 Inggris tidak mewakili ancaman Ceko."
+            ],
+            "abstain_reason": null
+          }
+        },
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "status": "experimental",
+            "supporting_beta_probability": 0.5815760622267289,
+            "reason": "main_direction_and_numerical_support_agree"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": 0.5153487374746735,
+            "reason": "below_frozen_threshold"
+          }
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.5815760622267289
+        },
+        "focus_reason": "retain_supported_main_focus",
+        "probabilities_belong_to": "superanalyst-beta-v2.0.0-experimental",
+        "focus_policy_id": "max_p55"
+      },
+      "quality_issues": [],
+      "last5_diagnostic": {
+        "full": {
+          "rates": [
+            1.6666666666666667,
+            1.8888888888888888
+          ],
+          "probabilities": {
+            "1x2": {
+              "H": 0.34504155778384044,
+              "D": 0.21957024771380715,
+              "A": 0.43538819450235244
+            },
+            "btts": 0.6884501382564928,
+            "total_2_5": {
+              "over": 0.6893060964050756,
+              "under": 0.31069390359492444
+            }
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          }
+        },
+        "runs": [
+          {
+            "omitted_match_id": "unl-2026-09-26-Czechia-Croatia",
+            "rates": [
+              1.625,
+              2.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3172080225856788,
+                "D": 0.21493796296935283,
+                "A": 0.4678540144449685
+              },
+              "btts": 0.6944021388955487,
+              "total_2_5": {
+                "over": 0.7016550274765827,
+                "under": 0.2983449725234173
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-09-29-Czechia-England",
+            "rates": [
+              1.625,
+              2.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2972603417018888,
+                "D": 0.2084226751225095,
+                "A": 0.4943169831756016
+              },
+              "btts": 0.7071731023850953,
+              "total_2_5": {
+                "over": 0.7229315566338927,
+                "under": 0.27706844336610725
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-09-29-Spain-Croatia",
+            "rates": [
+              1.75,
+              1.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4125872596532244,
+                "D": 0.2269285453399307,
+                "A": 0.36048419500684503
+              },
+              "btts": 0.6635324996570268,
+              "total_2_5": {
+                "over": 0.6554128554395506,
+                "under": 0.34458714456044937
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-03-Croatia-England",
+            "rates": [
+              1.875,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.5202199058260716,
+                "D": 0.22549764153968643,
+                "A": 0.25428245263424204
+              },
+              "btts": 0.6040771699182889,
+              "total_2_5": {
+                "over": 0.6042243400954004,
+                "under": 0.3957756599045996
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-03-Spain-Czechia",
+            "rates": [
+              1.5,
+              2.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.29025461976588823,
+                "D": 0.21618296334093237,
+                "A": 0.49356241689317953
+              },
+              "btts": 0.671731940037276,
+              "total_2_5": {
+                "over": 0.6791528011378659,
+                "under": 0.3208471988621341
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-06-Croatia-Spain",
+            "rates": [
+              1.75,
+              1.875
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.36573003814460064,
+                "D": 0.2181087938858037,
+                "A": 0.4161611679695953
+              },
+              "btts": 0.6995201870409818,
+              "total_2_5": {
+                "over": 0.7016550274765827,
+                "under": 0.2983449725234173
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-06-England-Czechia",
+            "rates": [
+              1.5,
+              2.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.27118170040222184,
+                "D": 0.20869879730291324,
+                "A": 0.5201195022948648
+              },
+              "btts": 0.684085968921206,
+              "total_2_5": {
+                "over": 0.7016550274765827,
+                "under": 0.2983449725234173
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-11-12-Czechia-Spain",
+            "rates": [
+              1.625,
+              2.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2972603417018888,
+                "D": 0.2084226751225095,
+                "A": 0.4943169831756016
+              },
+              "btts": 0.7071731023850953,
+              "total_2_5": {
+                "over": 0.7229315566338927,
+                "under": 0.27706844336610725
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-11-12-England-Croatia",
+            "rates": [
+              1.75,
+              1.875
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.36573003814460064,
+                "D": 0.2181087938858037,
+                "A": 0.4161611679695953
+              },
+              "btts": 0.6995201870409818,
+              "total_2_5": {
+                "over": 0.7016550274765827,
+                "under": 0.2983449725234173
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          }
+        ],
+        "unique_matches": 9,
+        "direction_flip_counts": {
+          "1x2": 2,
+          "btts": 0,
+          "total_2_5": 0
+        },
+        "unstable_targets": [
+          "1x2"
+        ],
+        "method": "leave_one_unique_historical_match_out_no_refill",
+        "diagnostic_only": true,
+        "is_statistical_confidence_interval": false,
+        "historical_scores_removed_from_model": false
+      },
+      "raw_mc_by_recipe": {
+        "strength_h730": {
+          "seed": 1427534092030360347,
+          "samples": 10000,
+          "recipe_id": "strength_h730",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.5756,
+              "D": 0.2315,
+              "A": 0.1929
+            },
+            "btts": 0.5185,
+            "total_2_5": {
+              "over": 0.5215,
+              "under": 0.47850000000000004
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1134
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1129
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 1007
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 978
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 629
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 627
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 618
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 598
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 484
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 461
+            }
+          ]
+        },
+        "strength_h365_plus_friendlies": {
+          "seed": 9971167615508400473,
+          "samples": 10000,
+          "recipe_id": "strength_h365_plus_friendlies",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.5298,
+              "D": 0.2359,
+              "A": 0.2343
+            },
+            "btts": 0.5658,
+            "total_2_5": {
+              "over": 0.5605,
+              "under": 0.4395
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1110
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 979
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 935
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 851
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 603
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 595
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 587
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 572
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 533
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 501
+            }
+          ]
+        }
+      },
+      "result_90m": null
+    },
+    {
+      "match_id": "2047904",
+      "home": "Spanyol",
+      "away": "Inggris",
+      "kickoff_at": "2026-11-16T02:45:00+07:00",
+      "probabilities": {
+        "1x2": {
+          "H": 0.4877470193475258,
+          "D": 0.2619720557406834,
+          "A": 0.25028092491179077
+        },
+        "btts": 0.48779693818167785,
+        "total_2_5": {
+          "over": 0.5029283149886582,
+          "under": 0.4970716850113418
+        }
+      },
+      "by_target": {
+        "1x2": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.7754468935321503,
+            1.1473656770445315
+          ],
+          "raw": [
+            0.5208225439288938,
+            0.2335120565481735,
+            0.24566539952293268
+          ],
+          "calibrated": [
+            0.4877470193475258,
+            0.2619720557406834,
+            0.25028092491179077
+          ]
+        },
+        "btts": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.7754468935321503,
+            1.1473656770445315
+          ],
+          "raw": 0.5669024902275855,
+          "calibrated": 0.48779693818167785
+        },
+        "total_2_5": {
+          "recipe_id": "strength_h365_plus_friendlies",
+          "goal_rates": [
+            1.746756636913496,
+            1.0861301415452396
+          ],
+          "raw": 0.538348645855105,
+          "calibrated": 0.5029283149886582
+        }
+      },
+      "calibration": "frozen_2020_2021_not_proven_current",
+      "one_joint_score_distribution": false,
+      "decision": {
+        "raw_directions": {
+          "1x2": "H",
+          "btts": false,
+          "total_2_5": "over"
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.4877470193475258,
+            "reason": "below_frozen_threshold"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5122030618183222,
+            "reason": "below_frozen_threshold"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5029283149886582,
+            "reason": "below_frozen_threshold"
+          }
+        },
+        "focus": null,
+        "focus_policy_id": "max_p55"
+      },
+      "hybrid": {
+        "model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+        "source_main_sha256": "52462328af1f367a929b21194795b0d7b2f031648b884468df5a6c677036aaf9",
+        "source_main_focus": "total_2_5",
+        "source_main_targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Spanyol menang 5/5 termasuk di Wembley; kandang dan Yamal/Oyarzabal kembali dalam skuad pertandingan."
+            ],
+            "contradicting_evidence": [
+              "Inggris menang empat laga beruntun; kedua tim sudah lolos dan Spanyol cukup seri."
+            ],
+            "abstain_reason": null
+          },
+          "btts": {
+            "pick": true,
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Kedua tim mencetak setidaknya dua gol pada kelima laga UNL; Spanyol kebobolan 4/5.",
+              "Kane/Bellingham memberi ancaman yang berbeda dari Ceko dan Kroasia."
+            ],
+            "contradicting_evidence": [
+              "Inggris mempunyai tiga clean sheet; penguasaan Spanyol dapat membatasi peluang tamu."
+            ],
+            "abstain_reason": null
+          },
+          "total_2_5": {
+            "pick": "over",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Masing-masing tim Over 4/5; pertemuan pertama 3–2.",
+              "Inggris perlu menang untuk juara grup, dan opsi kreatif Spanyol kembali tersedia."
+            ],
+            "contradicting_evidence": [
+              "Spanyol cukup seri dan hasil 7–0 Inggris terhadap Kroasia sangat memengaruhi rerata."
+            ],
+            "abstain_reason": null
+          }
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": 0.4877470193475258,
+            "reason": "below_frozen_threshold"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": 0.48779693818167785,
+            "reason": "numerical_direction_disagrees"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": 0.5029283149886582,
+            "reason": "below_frozen_threshold"
+          }
+        },
+        "focus": null,
+        "focus_reason": "no_supported_main_pick",
+        "probabilities_belong_to": "superanalyst-beta-v2.0.0-experimental",
+        "focus_policy_id": "max_p55"
+      },
+      "quality_issues": [],
+      "last5_diagnostic": {
+        "full": {
+          "rates": [
+            1.6666666666666667,
+            2.111111111111111
+          ],
+          "probabilities": {
+            "1x2": {
+              "H": 0.3081318622449095,
+              "D": 0.20885664687584155,
+              "A": 0.4830114908792492
+            },
+            "btts": 0.7128945296813474,
+            "total_2_5": {
+              "over": 0.7274951402549932,
+              "under": 0.2725048597450068
+            }
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          }
+        },
+        "runs": [
+          {
+            "omitted_match_id": "unl-2026-09-26-England-Spain",
+            "rates": [
+              1.5,
+              2.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.27118170040222184,
+                "D": 0.20869879730291324,
+                "A": 0.5201195022948648
+              },
+              "btts": 0.684085968921206,
+              "total_2_5": {
+                "over": 0.7016550274765827,
+                "under": 0.2983449725234173
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-09-29-Czechia-England",
+            "rates": [
+              1.875,
+              2.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.34907273809931677,
+                "D": 0.2056090151126203,
+                "A": 0.4453182467880624
+              },
+              "btts": 0.7455277037770861,
+              "total_2_5": {
+                "over": 0.7618966944464557,
+                "under": 0.2381033055535443
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-09-29-Spain-Croatia",
+            "rates": [
+              1.375,
+              2.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.22816021029871947,
+                "D": 0.19959200201764368,
+                "A": 0.5722477876836366
+              },
+              "btts": 0.6684102769697446,
+              "total_2_5": {
+                "over": 0.7016550274765827,
+                "under": 0.2983449725234173
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-03-Croatia-England",
+            "rates": [
+              1.875,
+              1.5
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.46608320084693017,
+                "D": 0.2234402866646561,
+                "A": 0.3104765124884134
+              },
+              "btts": 0.6577329913183078,
+              "total_2_5": {
+                "over": 0.6554128554395506,
+                "under": 0.34458714456044937
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-03-Spain-Czechia",
+            "rates": [
+              1.5,
+              2.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2532102955125316,
+                "D": 0.20105905900214446,
+                "A": 0.5457306454853238
+              },
+              "btts": 0.6949883611457149,
+              "total_2_5": {
+                "over": 0.7229315566338927,
+                "under": 0.27706844336610725
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-06-Croatia-Spain",
+            "rates": [
+              1.625,
+              2.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2783889554389097,
+                "D": 0.20166159225571148,
+                "A": 0.519949452305379
+              },
+              "btts": 0.7184434381076413,
+              "total_2_5": {
+                "over": 0.7430029255483275,
+                "under": 0.2569970744516725
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-10-06-England-Czechia",
+            "rates": [
+              1.875,
+              2.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3704141753072611,
+                "D": 0.2102640667397987,
+                "A": 0.4193217579529398
+              },
+              "btts": 0.7320640877921586,
+              "total_2_5": {
+                "over": 0.7430029255483275,
+                "under": 0.2569970744516725
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-11-12-Czechia-Spain",
+            "rates": [
+              1.625,
+              2.375
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.26055434726267734,
+                "D": 0.19472075157647567,
+                "A": 0.5447249011608472
+              },
+              "btts": 0.7283894744738767,
+              "total_2_5": {
+                "over": 0.7618966944464557,
+                "under": 0.2381033055535443
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "unl-2026-11-12-England-Croatia",
+            "rates": [
+              1.75,
+              2.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3232548686353343,
+                "D": 0.20736642486044843,
+                "A": 0.4693787065042173
+              },
+              "btts": 0.7275474261565349,
+              "total_2_5": {
+                "over": 0.7430029255483275,
+                "under": 0.2569970744516725
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          }
+        ],
+        "unique_matches": 9,
+        "direction_flip_counts": {
+          "1x2": 1,
+          "btts": 0,
+          "total_2_5": 0
+        },
+        "unstable_targets": [
+          "1x2"
+        ],
+        "method": "leave_one_unique_historical_match_out_no_refill",
+        "diagnostic_only": true,
+        "is_statistical_confidence_interval": false,
+        "historical_scores_removed_from_model": false
+      },
+      "raw_mc_by_recipe": {
+        "strength_h730": {
+          "seed": 17222666711353996300,
+          "samples": 10000,
+          "recipe_id": "strength_h730",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.5222,
+              "D": 0.2273,
+              "A": 0.2505
+            },
+            "btts": 0.5698,
+            "total_2_5": {
+              "over": 0.568,
+              "under": 0.43200000000000005
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1076
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 961
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 914
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 855
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 642
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 621
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 561
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 557
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 534
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 502
+            }
+          ]
+        },
+        "strength_h365_plus_friendlies": {
+          "seed": 17213717867529646988,
+          "samples": 10000,
+          "recipe_id": "strength_h365_plus_friendlies",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.5339,
+              "D": 0.2352,
+              "A": 0.2309
+            },
+            "btts": 0.546,
+            "total_2_5": {
+              "over": 0.5361,
+              "under": 0.4639
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1111
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1056
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 951
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 947
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 601
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 593
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 587
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 574
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 546
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 535
+            }
+          ]
+        }
+      },
+      "result_90m": null
+    }
+  ],
+  "created_at": "2026-11-17T12:08:20.748294+00:00",
+  "reconstructed_at": "2026-11-17T12:08:20.748294+00:00",
+  "point_in_time_verified": false,
+  "reconstruction_notes": "Created after all outcomes were known. Original frozen pre-match five-game histories retained. Historical completeness assertions come from those archives, not fresh pre-match verification. Scores filtered by the original three-day fit guard. Not blind validation.",
+  "snapshot_id": "8346d6104e4c7dc5da854b9f592d5646"
+}

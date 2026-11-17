@@ -1,0 +1,38 @@
+{
+  "frozen_at": "2026-11-14T13:26:50.308072+00:00",
+  "selection_sha256": "8af5b103dd05e2115833c411f981a4b1af793e9fa994711c57b165ff44820760",
+  "primary_n": 479,
+  "calibrators": {
+    "1x2": {
+      "target": "1x2",
+      "n": 479,
+      "parameters": {
+        "inverse_temperature": 2.0,
+        "home_bias": -0.8356649812587378,
+        "draw_bias": 0.14712732538845824
+      },
+      "optimization_success": true
+    },
+    "btts": {
+      "target": "btts",
+      "n": 479,
+      "parameters": {
+        "intercept": -0.18668459868515405,
+        "slope": 0.5120733787171865
+      },
+      "optimization_success": true
+    },
+    "over_2_5": {
+      "target": "over_2_5",
+      "n": 479,
+      "parameters": {
+        "intercept": -0.09331491001125138,
+        "slope": 0.6833490165856756
+      },
+      "optimization_success": true
+    }
+  },
+  "primary_test_version": "selected_recipe_plus_calibration",
+  "warning": "Calibration fitting is not independent evaluation.",
+  "final_test_inspected": false
+}

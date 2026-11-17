@@ -1,0 +1,85 @@
+{
+  "experiment_id": "unl-beta-v2-2026-11-17",
+  "model_version": "superanalyst-beta-v2.0.0-experimental",
+  "hybrid_model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+  "locked_at": "2026-11-17T11:54:48.082921+00:00",
+  "status": "experimental_only_main_unchanged",
+  "operational_main_method": "qualitative_superanalyst_national_team_pilot_v1",
+  "main_replacement": false,
+  "scope": "senior_men_competitive_90m_plus_stoppage",
+  "base_research": "national-team-upgrade-v1",
+  "base_research_already_reviewed": true,
+  "interpretation": "Historical reanalysis of an existing study, not a newly blind final test. November 2026 outcomes are diagnosis only.",
+  "fixed_probability_recipes": {
+    "1x2": "strength_h730",
+    "btts": "strength_h730",
+    "total_2_5": "strength_h365_plus_friendlies"
+  },
+  "calibration_source": "Frozen 2020-2021 national-team research calibrators, unchanged.",
+  "focus_selection_period": [
+    "2022-01-01",
+    "2023-12-31"
+  ],
+  "focus_evaluation_period": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "focus_selection_cohort": "both_UEFA_competitive",
+  "focus_candidates": [
+    {
+      "id": "max_p50",
+      "min_probability": 0.5,
+      "winner_priority": null
+    },
+    {
+      "id": "max_p55",
+      "min_probability": 0.55,
+      "winner_priority": null
+    },
+    {
+      "id": "max_p60",
+      "min_probability": 0.6,
+      "winner_priority": null
+    },
+    {
+      "id": "winner_p55",
+      "min_probability": 0.55,
+      "winner_priority": 0.55
+    },
+    {
+      "id": "winner_p60",
+      "min_probability": 0.55,
+      "winner_priority": 0.6
+    }
+  ],
+  "focus_selection_rule": "Among policies with >=70% fixture focus coverage, highest focus accuracy; ties favor higher coverage then alphabetical ID. Retain all candidate scores.",
+  "minimum_focus_coverage": 0.7,
+  "ties": "Within 1e-12 means no directional pick; focus probability ties use 1x2, btts, total_2_5.",
+  "hybrid_rule": "Only retain main published directions supported by the calibrated numerical model and the selected threshold. Preserve original main focus when eligible; otherwise apply the frozen focus policy to eligible main picks. Never introduce a main observation as a new main pick.",
+  "quality_gates": [
+    "Reject future or conflicting history, non-90m scores, invalid probabilities, duplicate fixture IDs and unknown team/competition.",
+    "A live forecast requires explicit pre-cutoff current-history completeness audit per team; absent audit means observation.",
+    "Calibrated target marginals are not one joint score distribution. MC scenarios are raw and labeled per recipe.",
+    "Results stay outside forecast input; live recording refuses a past kickoff or existing output."
+  ],
+  "sensitivity": "Report raw last-five leave-one-unique-match-out direction flips and range, including extreme scores; do not delete the score, fit new coefficients, or claim a statistical confidence interval.",
+  "samples_per_recipe": 10000,
+  "mc_role": "Diagnostics only. Choices come from calibrated analytical probabilities, not simulation noise.",
+  "mc_seed": "First 16 hex digits of SHA256(model_version + colon + match_id + colon + recipe_id).",
+  "bootstrap": {
+    "unit": "calendar_month",
+    "replicates": 2000,
+    "seed": 20261117
+  },
+  "prospective_rule": "Keep main and beta-v1 original scores; beta-v2 and hybrid get separate snapshots and denominators. No promotion from a posthoc score or synthetic test.",
+  "sources": [
+    "https://github.com/martj42/international_results",
+    "https://arxiv.org/abs/1705.09575",
+    "https://otexts.com/fpp3/toolbox.html#time-series-cross-validation",
+    "https://scikit-learn.org/stable/modules/calibration.html"
+  ],
+  "vendor_sha256": {
+    "national_models.py": "517723f9fe0ebac48e9d6ebcf13ecceed8625a8781b8dabb6700002bc1d541dc",
+    "portable.py": "b77bef785dd916b6e1727412d0c3a1bb5ad657518001ead64be4ca48d909fce4"
+  }
+}

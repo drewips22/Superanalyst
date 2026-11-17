@@ -1,0 +1,175 @@
+{
+  "experiment_id": "unl-beta-v2-2026-11-17",
+  "frozen_at": "2026-11-17T12:03:46.981698+00:00",
+  "selection_period": [
+    "2022-01-01",
+    "2023-12-31"
+  ],
+  "historical_reanalysis_not_blind": true,
+  "n": 410,
+  "selected_policy": {
+    "id": "max_p55",
+    "min_probability": 0.55,
+    "winner_priority": null
+  },
+  "all_candidates": [
+    {
+      "policy": {
+        "id": "max_p50",
+        "min_probability": 0.5,
+        "winner_priority": null
+      },
+      "metrics": {
+        "considered": 410,
+        "issued": 410,
+        "correct": 256,
+        "coverage": 1.0,
+        "accuracy": 0.624390243902439,
+        "correct_per_considered_fixture": 0.624390243902439,
+        "by_target": {
+          "1x2": {
+            "issued": 212,
+            "correct": 155
+          },
+          "btts": {
+            "issued": 55,
+            "correct": 25
+          },
+          "total_2_5": {
+            "issued": 143,
+            "correct": 76
+          }
+        }
+      }
+    },
+    {
+      "policy": {
+        "id": "max_p55",
+        "min_probability": 0.55,
+        "winner_priority": null
+      },
+      "metrics": {
+        "considered": 410,
+        "issued": 364,
+        "correct": 238,
+        "coverage": 0.8878048780487805,
+        "accuracy": 0.6538461538461539,
+        "correct_per_considered_fixture": 0.5804878048780487,
+        "by_target": {
+          "1x2": {
+            "issued": 211,
+            "correct": 155
+          },
+          "btts": {
+            "issued": 32,
+            "correct": 17
+          },
+          "total_2_5": {
+            "issued": 121,
+            "correct": 66
+          }
+        }
+      }
+    },
+    {
+      "policy": {
+        "id": "max_p60",
+        "min_probability": 0.6,
+        "winner_priority": null
+      },
+      "metrics": {
+        "considered": 410,
+        "issued": 263,
+        "correct": 184,
+        "coverage": 0.6414634146341464,
+        "accuracy": 0.6996197718631179,
+        "correct_per_considered_fixture": 0.44878048780487806,
+        "by_target": {
+          "1x2": {
+            "issued": 187,
+            "correct": 141
+          },
+          "btts": {
+            "issued": 7,
+            "correct": 3
+          },
+          "total_2_5": {
+            "issued": 69,
+            "correct": 40
+          }
+        }
+      }
+    },
+    {
+      "policy": {
+        "id": "winner_p55",
+        "min_probability": 0.55,
+        "winner_priority": 0.55
+      },
+      "metrics": {
+        "considered": 410,
+        "issued": 364,
+        "correct": 238,
+        "coverage": 0.8878048780487805,
+        "accuracy": 0.6538461538461539,
+        "correct_per_considered_fixture": 0.5804878048780487,
+        "by_target": {
+          "1x2": {
+            "issued": 225,
+            "correct": 162
+          },
+          "btts": {
+            "issued": 28,
+            "correct": 16
+          },
+          "total_2_5": {
+            "issued": 111,
+            "correct": 60
+          }
+        }
+      }
+    },
+    {
+      "policy": {
+        "id": "winner_p60",
+        "min_probability": 0.55,
+        "winner_priority": 0.6
+      },
+      "metrics": {
+        "considered": 410,
+        "issued": 364,
+        "correct": 238,
+        "coverage": 0.8878048780487805,
+        "accuracy": 0.6538461538461539,
+        "correct_per_considered_fixture": 0.5804878048780487,
+        "by_target": {
+          "1x2": {
+            "issued": 215,
+            "correct": 157
+          },
+          "btts": {
+            "issued": 31,
+            "correct": 17
+          },
+          "total_2_5": {
+            "issued": 118,
+            "correct": 64
+          }
+        }
+      }
+    }
+  ],
+  "source_predictions_sha256": "ea937dc4158230be44ccb9f3ad3253808846f4155a0bea814a6d55d5181abc65",
+  "source_calibration_sha256": "12c60ab7b36915efee981214c32755defc4a7dfc62e449f42c9cf3d5344fc4ab",
+  "code_sha256": {
+    "beta_engine.py": "8f94ed45e6968f50ec836b28ff5826ec33314e596cae52b9103b6d402a09c0ec",
+    "predict.py": "f42f864af17f8dc10d6310672cd324249540b21e8a59bf5cf0ddcadef2d00787",
+    "protocol.json": "02e73bbf7f9276cd2c172a86ae38d66cb2b9f7eee1d256219d06f49aa660e59b",
+    "research.py": "fab6faed02bc6f89d93066cba54b72fd87125bccc9f3466d2819f8b7e87ce707",
+    "train.py": "d4ca79a6b16489c4eba22cb301259edbdbcbc237c26a416ed30c9be0f66bab4e",
+    "vendor\\national_models.py": "517723f9fe0ebac48e9d6ebcf13ecceed8625a8781b8dabb6700002bc1d541dc",
+    "vendor\\portable.py": "b77bef785dd916b6e1727412d0c3a1bb5ad657518001ead64be4ca48d909fce4"
+  },
+  "november_2026_used_for_selection": false,
+  "later_block_used_for_focus_selection": false
+}

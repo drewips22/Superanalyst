@@ -1,0 +1,3957 @@
+{
+  "schema_version": "superanalyst-experimental-forecast-v1",
+  "model_version": "superanalyst-beta-v2.0.0-experimental",
+  "mode": "retrospective_reconstruction",
+  "synthetic": false,
+  "as_of": "2026-11-14T12:29:08.076Z",
+  "model_package_sha256": "f13f2a36f3dde3787096d906f7cce32211a365047372f5e213301beba7d36b44",
+  "input_sha256": "d5443c5b9f46b72b56ff2def1dc1d704f385303bd36a385497335414bb2ac0e1",
+  "focus_policy": {
+    "id": "max_p55",
+    "min_probability": 0.55,
+    "winner_priority": null
+  },
+  "scope": "90m",
+  "main_operational_model_changed": false,
+  "history_audit_source": "supplied_provenance_not_independent_machine_verification",
+  "rows": [
+    {
+      "match_id": "2047893",
+      "home": "Norwegia",
+      "away": "Wales",
+      "kickoff_at": "2026-11-15T00:00:00+07:00",
+      "probabilities": {
+        "1x2": {
+          "H": 0.6772689560765683,
+          "D": 0.20021010708277737,
+          "A": 0.12252093684065433
+        },
+        "btts": 0.47769325627356346,
+        "total_2_5": {
+          "over": 0.5137082264239253,
+          "under": 0.48629177357607467
+        }
+      },
+      "by_target": {
+        "1x2": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            2.0554635624521604,
+            0.9882855699616909
+          ],
+          "raw": [
+            0.6200820512505675,
+            0.2062533147866641,
+            0.1736646339627688
+          ],
+          "calibrated": [
+            0.6772689560765683,
+            0.20021010708277737,
+            0.12252093684065433
+          ]
+        },
+        "btts": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            2.0554635624521604,
+            0.9882855699616909
+          ],
+          "raw": 0.5474081359567623,
+          "calibrated": 0.47769325627356346
+        },
+        "total_2_5": {
+          "recipe_id": "strength_h365_plus_friendlies",
+          "goal_rates": [
+            2.006002312267754,
+            0.893807757738203
+          ],
+          "raw": 0.5539928555435252,
+          "calibrated": 0.5137082264239253
+        }
+      },
+      "calibration": "frozen_2020_2021_not_proven_current",
+      "one_joint_score_distribution": false,
+      "decision": {
+        "raw_directions": {
+          "1x2": "H",
+          "btts": false,
+          "total_2_5": "over"
+        },
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "status": "experimental",
+            "probability": 0.6772689560765683,
+            "reason": "passes_frozen_threshold"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5223067437264366,
+            "reason": "below_frozen_threshold"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5137082264239253,
+            "reason": "below_frozen_threshold"
+          }
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.6772689560765683
+        },
+        "focus_policy_id": "max_p55"
+      },
+      "hybrid": {
+        "model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+        "source_main_sha256": "744e2d8d0f6d0f42cfd6dc28a0d4e1a4647ee351a626d5315d4dbdf69d65965e",
+        "source_main_focus": "1x2",
+        "source_main_targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Norwegia kembali di kandang; mengalahkan Denmark 3–2 dan menciptakan 20 tembakan saat kalah 1–2 dari Portugal di Oslo.",
+              "Wales kehilangan Cabango dan Sorba Thomas karena skorsing; kekalahan Norwegia di Cardiff dipengaruhi kartu merah menit 46."
+            ],
+            "contradicting_evidence": [
+              "Norwegia kalah tiga laga UNL berturut-turut dan kebobolan pada kelima laga kompetitif.",
+              "Harry Wilson dan Joe Rodon kembali; Haaland/Ødegaard belum dikonfirmasi dalam XI resmi."
+            ],
+            "abstain_reason": null
+          },
+          "btts": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Norwegia BTTS 5/5 berhadapan dengan Wales gagal mencetak gol 3/4 UNL; kembalinya Wilson belum memastikan gol tandang."
+            ],
+            "abstain_reason": "Norwegia BTTS 5/5 berhadapan dengan Wales gagal mencetak gol 3/4 UNL; kembalinya Wilson belum memastikan gol tandang."
+          },
+          "total_2_5": {
+            "pick": "over",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Empat laga UNL Norwegia semuanya menghasilkan sedikitnya tiga gol.",
+              "Tuan rumah mencetak gol pada lima laga kompetitif dan pertahanan Wales kehilangan Cabango."
+            ],
+            "contradicting_evidence": [
+              "Tiga dari empat laga UNL Wales berakhir Under; 2–0 tetap skenario penting.",
+              "Kualitas peluang xG tidak tersedia dan kebugaran/menit penyerang belum resmi."
+            ],
+            "abstain_reason": null
+          }
+        },
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "status": "experimental",
+            "supporting_beta_probability": 0.6772689560765683,
+            "reason": "main_direction_and_numerical_support_agree"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": 0.5137082264239253,
+            "reason": "below_frozen_threshold"
+          }
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.6772689560765683
+        },
+        "focus_reason": "retain_supported_main_focus",
+        "probabilities_belong_to": "superanalyst-beta-v2.0.0-experimental",
+        "focus_policy_id": "max_p55"
+      },
+      "quality_issues": [],
+      "last5_diagnostic": {
+        "full": {
+          "rates": [
+            1.3333333333333333,
+            1.1111111111111112
+          ],
+          "probabilities": {
+            "1x2": {
+              "H": 0.4175849857211535,
+              "D": 0.2715497133966622,
+              "A": 0.3108653008821842
+            },
+            "btts": 0.4939842035502969,
+            "total_2_5": {
+              "over": 0.4418589425195415,
+              "under": 0.5581410574804585
+            }
+          },
+          "directions": {
+            "1x2": "H",
+            "btts": false,
+            "total_2_5": "under"
+          }
+        },
+        "runs": [
+          {
+            "omitted_match_id": "2047924",
+            "rates": [
+              1.375,
+              1.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4546927794380491,
+                "D": 0.27220020636111236,
+                "A": 0.2731070142008386
+              },
+              "btts": 0.47229545223447467,
+              "total_2_5": {
+                "over": 0.42374617231206135,
+                "under": 0.5762538276879386
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047930",
+            "rates": [
+              1.375,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.39822504519335944,
+                "D": 0.26183762332589194,
+                "A": 0.33993733148074884
+              },
+              "btts": 0.5330953643693148,
+              "total_2_5": {
+                "over": 0.487828280343769,
+                "under": 0.512171719656231
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047950",
+            "rates": [
+              1.375,
+              1.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4546927794380491,
+                "D": 0.27220020636111236,
+                "A": 0.2731070142008386
+              },
+              "btts": 0.47229545223447467,
+              "total_2_5": {
+                "over": 0.42374617231206135,
+                "under": 0.5762538276879386
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047977",
+            "rates": [
+              1.25,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.36497677919389876,
+                "D": 0.2700464416122028,
+                "A": 0.36497677919389876
+              },
+              "btts": 0.5090754049035185,
+              "total_2_5": {
+                "over": 0.4561868841166704,
+                "under": 0.5438131158833296
+              }
+            },
+            "directions": {
+              "1x2": null,
+              "btts": true,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047978",
+            "rates": [
+              1.375,
+              1.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4546927794380491,
+                "D": 0.27220020636111236,
+                "A": 0.2731070142008386
+              },
+              "btts": 0.47229545223447467,
+              "total_2_5": {
+                "over": 0.42374617231206135,
+                "under": 0.5762538276879386
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2048002",
+            "rates": [
+              1.375,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.39822504519335944,
+                "D": 0.26183762332589194,
+                "A": 0.33993733148074884
+              },
+              "btts": 0.5330953643693148,
+              "total_2_5": {
+                "over": 0.487828280343769,
+                "under": 0.512171719656231
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2048005",
+            "rates": [
+              1.125,
+              1.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3835724302668882,
+                "D": 0.29665561918909283,
+                "A": 0.3197719505440192
+              },
+              "btts": 0.42690105973692755,
+              "total_2_5": {
+                "over": 0.35711472550179835,
+                "under": 0.6428852744982017
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "nor-eng",
+            "rates": [
+              1.375,
+              1.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.42568084504292564,
+                "D": 0.2674723066668754,
+                "A": 0.3068468482901991
+              },
+              "btts": 0.5045929354608026,
+              "total_2_5": {
+                "over": 0.4561868841166704,
+                "under": 0.5438131158833296
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "wal-bih",
+            "rates": [
+              1.375,
+              1.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.42568084504292564,
+                "D": 0.2674723066668754,
+                "A": 0.3068468482901991
+              },
+              "btts": 0.5045929354608026,
+              "total_2_5": {
+                "over": 0.4561868841166704,
+                "under": 0.5438131158833296
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "under"
+            }
+          }
+        ],
+        "unique_matches": 9,
+        "direction_flip_counts": {
+          "1x2": 1,
+          "btts": 5,
+          "total_2_5": 0
+        },
+        "unstable_targets": [
+          "1x2",
+          "btts"
+        ],
+        "method": "leave_one_unique_historical_match_out_no_refill",
+        "diagnostic_only": true,
+        "is_statistical_confidence_interval": false,
+        "historical_scores_removed_from_model": false
+      },
+      "raw_mc_by_recipe": {
+        "strength_h730": {
+          "seed": 11686325737582538044,
+          "samples": 10000,
+          "recipe_id": "strength_h730",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.615,
+              "D": 0.2081,
+              "A": 0.1769
+            },
+            "btts": 0.5605,
+            "total_2_5": {
+              "over": 0.5919,
+              "under": 0.4081
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 1040
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1003
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 990
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 946
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 707
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 643
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 505
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 502
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 475
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 456
+            }
+          ]
+        },
+        "strength_h365_plus_friendlies": {
+          "seed": 17059731549426376344,
+          "samples": 10000,
+          "recipe_id": "strength_h365_plus_friendlies",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.6363,
+              "D": 0.2075,
+              "A": 0.1562
+            },
+            "btts": 0.5106,
+            "total_2_5": {
+              "over": 0.5541,
+              "under": 0.44589999999999996
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 1111
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1075
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 992
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 984
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 735
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 701
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 570
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 506
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 427
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 420
+            }
+          ]
+        }
+      },
+      "result_90m": null
+    },
+    {
+      "match_id": "2047892",
+      "home": "Portugal",
+      "away": "Denmark",
+      "kickoff_at": "2026-11-15T02:45:00+07:00",
+      "probabilities": {
+        "1x2": {
+          "H": 0.6154196697965857,
+          "D": 0.23258766323194746,
+          "A": 0.15199266697146696
+        },
+        "btts": 0.4706158190956455,
+        "total_2_5": {
+          "over": 0.5010170703662497,
+          "under": 0.49898292963375035
+        }
+      },
+      "by_target": {
+        "1x2": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.9000162842838202,
+            0.9875007220995665
+          ],
+          "raw": [
+            0.5870845418256816,
+            0.22079928302970603,
+            0.19211617514461252
+          ],
+          "calibrated": [
+            0.6154196697965857,
+            0.23258766323194746,
+            0.15199266697146696
+          ]
+        },
+        "btts": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.9000162842838202,
+            0.9875007220995665
+          ],
+          "raw": 0.5336416699226074,
+          "calibrated": 0.4706158190956455
+        },
+        "total_2_5": {
+          "recipe_id": "strength_h365_plus_friendlies",
+          "goal_rates": [
+            1.8447845425039875,
+            0.976341603726434
+          ],
+          "raw": 0.5355670081986742,
+          "calibrated": 0.5010170703662497
+        }
+      },
+      "calibration": "frozen_2020_2021_not_proven_current",
+      "one_joint_score_distribution": false,
+      "decision": {
+        "raw_directions": {
+          "1x2": "H",
+          "btts": false,
+          "total_2_5": "over"
+        },
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "status": "experimental",
+            "probability": 0.6154196697965857,
+            "reason": "passes_frozen_threshold"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5293841809043545,
+            "reason": "below_frozen_threshold"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5010170703662497,
+            "reason": "below_frozen_threshold"
+          }
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.6154196697965857
+        },
+        "focus_policy_id": "max_p55"
+      },
+      "hybrid": {
+        "model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+        "source_main_sha256": "50d7618235fbb2885144a41591815400d1c4c413aa0367aca5da36a6b9147c7d",
+        "source_main_focus": "1x2",
+        "source_main_targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Portugal menang empat dari empat laga UNL, termasuk 4–2 di Denmark.",
+              "Dua laga kandang fase ini dimenangi; inti kreasi Bruno/Vitinha tetap diperkirakan tersedia."
+            ],
+            "contradicting_evidence": [
+              "Portugal sudah lolos dan seri cukup mengunci juara grup.",
+              "Cancelo/Conceição diskors; masalah bek kiri dan absennya beberapa pemain meningkatkan risiko rotasi."
+            ],
+            "abstain_reason": null
+          },
+          "btts": {
+            "pick": true,
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Portugal kebobolan pada tiga laga UNL terakhir; Denmark mencetak gol pada keempat laga UNL.",
+              "Pertemuan terbaru 4–2; bek sayap Portugal tidak lengkap."
+            ],
+            "contradicting_evidence": [
+              "Portugal menahan Wales tanpa gol; Denmark belum tentu memperoleh volume peluang serupa di Braga.",
+              "XI dan xG belum tersedia."
+            ],
+            "abstain_reason": null
+          },
+          "total_2_5": {
+            "pick": "over",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Tiga laga UNL Portugal terakhir Over; Denmark mencetak gol di keempat pertandingan.",
+              "Kedua tim memiliki beberapa skenario gol tanpa mengandalkan Ronaldo."
+            ],
+            "contradicting_evidence": [
+              "Portugal cukup seri dan Denmark masih perlu menjaga posisi kedua.",
+              "Dua kemenangan Denmark atas Wales berakhir Under; pertemuan 4–2 bukan ambang universal."
+            ],
+            "abstain_reason": null
+          }
+        },
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "status": "experimental",
+            "supporting_beta_probability": 0.6154196697965857,
+            "reason": "main_direction_and_numerical_support_agree"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": 0.4706158190956455,
+            "reason": "numerical_direction_disagrees"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": 0.5010170703662497,
+            "reason": "below_frozen_threshold"
+          }
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.6154196697965857
+        },
+        "focus_reason": "retain_supported_main_focus",
+        "probabilities_belong_to": "superanalyst-beta-v2.0.0-experimental",
+        "focus_policy_id": "max_p55"
+      },
+      "quality_issues": [],
+      "last5_diagnostic": {
+        "full": {
+          "rates": [
+            1.4444444444444444,
+            1.2222222222222223
+          ],
+          "probabilities": {
+            "1x2": {
+              "H": 0.4222968704043769,
+              "D": 0.2581713781868264,
+              "A": 0.3195317514087968
+            },
+            "btts": 0.5390315399269943,
+            "total_2_5": {
+              "over": 0.49817507450198895,
+              "under": 0.501824925498011
+            }
+          },
+          "directions": {
+            "1x2": "H",
+            "btts": true,
+            "total_2_5": "under"
+          }
+        },
+        "runs": [
+          {
+            "omitted_match_id": "2047924",
+            "rates": [
+              1.375,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.39822504519335944,
+                "D": 0.26183762332589194,
+                "A": 0.33993733148074884
+              },
+              "btts": 0.5330953643693148,
+              "total_2_5": {
+                "over": 0.487828280343769,
+                "under": 0.512171719656231
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047930",
+            "rates": [
+              1.625,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.46150199621192894,
+                "D": 0.24414898332801072,
+                "A": 0.2943490204600606
+              },
+              "btts": 0.5729996674393931,
+              "total_2_5": {
+                "over": 0.548230132879908,
+                "under": 0.45176986712009204
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "2047957",
+            "rates": [
+              1.125,
+              1.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3562840305513042,
+                "D": 0.2874319388973915,
+                "A": 0.3562840305513042
+              },
+              "btts": 0.45609428984516487,
+              "total_2_5": {
+                "over": 0.3906607330017219,
+                "under": 0.6093392669982781
+              }
+            },
+            "directions": {
+              "1x2": null,
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047977",
+            "rates": [
+              1.625,
+              1.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4899276269835573,
+                "D": 0.24639281178137026,
+                "A": 0.2636795612350726
+              },
+              "btts": 0.5423637186441638,
+              "total_2_5": {
+                "over": 0.5185432952869836,
+                "under": 0.4814567047130164
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "2047978",
+            "rates": [
+              1.375,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.39822504519335944,
+                "D": 0.26183762332589194,
+                "A": 0.33993733148074884
+              },
+              "btts": 0.5330953643693148,
+              "total_2_5": {
+                "over": 0.487828280343769,
+                "under": 0.512171719656231
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2048002",
+            "rates": [
+              1.5,
+              1.375
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.40377429815970445,
+                "D": 0.24844837963087074,
+                "A": 0.3477773222094247
+              },
+              "btts": 0.5804463835506011,
+              "total_2_5": {
+                "over": 0.548230132879908,
+                "under": 0.45176986712009204
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "2048005",
+            "rates": [
+              1.25,
+              1.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3916068982195475,
+                "D": 0.2776546667101791,
+                "A": 0.3307384350702737
+              },
+              "btts": 0.48185722499212363,
+              "total_2_5": {
+                "over": 0.42374617231206135,
+                "under": 0.5762538276879386
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "cze-den",
+            "rates": [
+              1.5,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4304168793398486,
+                "D": 0.2531649321017332,
+                "A": 0.3164181885584182
+              },
+              "btts": 0.5542929041980876,
+              "total_2_5": {
+                "over": 0.5185432952869836,
+                "under": 0.4814567047130164
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "por-esp",
+            "rates": [
+              1.625,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.46150199621192894,
+                "D": 0.24414898332801072,
+                "A": 0.2943490204600606
+              },
+              "btts": 0.5729996674393931,
+              "total_2_5": {
+                "over": 0.548230132879908,
+                "under": 0.45176986712009204
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          }
+        ],
+        "unique_matches": 9,
+        "direction_flip_counts": {
+          "1x2": 1,
+          "btts": 2,
+          "total_2_5": 5
+        },
+        "unstable_targets": [
+          "1x2",
+          "btts",
+          "total_2_5"
+        ],
+        "method": "leave_one_unique_historical_match_out_no_refill",
+        "diagnostic_only": true,
+        "is_statistical_confidence_interval": false,
+        "historical_scores_removed_from_model": false
+      },
+      "raw_mc_by_recipe": {
+        "strength_h730": {
+          "seed": 17085692855229762789,
+          "samples": 10000,
+          "recipe_id": "strength_h730",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.5861,
+              "D": 0.2254,
+              "A": 0.1885
+            },
+            "btts": 0.5359,
+            "total_2_5": {
+              "over": 0.5456,
+              "under": 0.4544
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1126
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1041
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 1018
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 991
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 633
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 625
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 558
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 534
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 487
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 480
+            }
+          ]
+        },
+        "strength_h365_plus_friendlies": {
+          "seed": 105863577705104017,
+          "samples": 10000,
+          "recipe_id": "strength_h365_plus_friendlies",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.5674,
+              "D": 0.2321,
+              "A": 0.2005
+            },
+            "btts": 0.5272,
+            "total_2_5": {
+              "over": 0.5377,
+              "under": 0.46230000000000004
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1089
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1037
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 997
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 992
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 650
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 643
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 592
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 589
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 571
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 487
+            }
+          ]
+        }
+      },
+      "result_90m": null
+    },
+    {
+      "match_id": "2047895",
+      "home": "Georgia",
+      "away": "Hungaria",
+      "kickoff_at": "2026-11-15T00:00:00+07:00",
+      "probabilities": {
+        "1x2": {
+          "H": 0.3197667922821534,
+          "D": 0.34890275454075703,
+          "A": 0.33133045317708965
+        },
+        "btts": 0.4381530545236407,
+        "total_2_5": {
+          "over": 0.3928260136598261,
+          "under": 0.6071739863401739
+        }
+      },
+      "by_target": {
+        "1x2": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.3181662056737975,
+            1.0256782805511244
+          ],
+          "raw": [
+            0.43303011063970315,
+            0.2767215470810564,
+            0.2902483422792407
+          ],
+          "calibrated": [
+            0.3197667922821534,
+            0.34890275454075703,
+            0.33133045317708965
+          ]
+        },
+        "btts": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.3181662056737975,
+            1.0256782805511244
+          ],
+          "raw": 0.4697792130448107,
+          "calibrated": 0.4381530545236407
+        },
+        "total_2_5": {
+          "recipe_id": "strength_h365_plus_friendlies",
+          "goal_rates": [
+            1.2708879180322186,
+            0.9294720635056557
+          ],
+          "raw": 0.3773827751844553,
+          "calibrated": 0.3928260136598261
+        }
+      },
+      "calibration": "frozen_2020_2021_not_proven_current",
+      "one_joint_score_distribution": false,
+      "decision": {
+        "raw_directions": {
+          "1x2": "D",
+          "btts": false,
+          "total_2_5": "under"
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.34890275454075703,
+            "reason": "below_frozen_threshold"
+          },
+          "btts": {
+            "pick": false,
+            "status": "experimental",
+            "probability": 0.5618469454763593,
+            "reason": "passes_frozen_threshold"
+          },
+          "total_2_5": {
+            "pick": "under",
+            "status": "experimental",
+            "probability": 0.6071739863401739,
+            "reason": "passes_frozen_threshold"
+          }
+        },
+        "focus": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.6071739863401739
+        },
+        "focus_policy_id": "max_p55"
+      },
+      "hybrid": {
+        "model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+        "source_main_sha256": "2a00110c443d8eabb267f0d54ef70bc977236d30f1eca631da239ac20c619cc4",
+        "source_main_focus": "total_2_5",
+        "source_main_targets": {
+          "1x2": {
+            "pick": "A",
+            "confidence": "low",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Hungaria menang dua laga UNL terbaru dan mengalahkan Georgia 1–0.",
+              "Kvaratskhelia absen; Rossi menyatakan Szoboszlai, Kerkez dan Bolla siap bermain."
+            ],
+            "contradicting_evidence": [
+              "Georgia bermain di kandang dan dua laga mereka berakhir 0–0; seri tetap besar secara kualitatif.",
+              "Hungaria baru mencetak tiga gol dalam empat UNL; keunggulan tipis."
+            ],
+            "abstain_reason": null
+          },
+          "btts": {
+            "pick": false,
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Georgia belum mencetak gol dalam empat laga UNL; semua berakhir BTTS Tidak.",
+              "Hungaria dua clean sheet dalam empat UNL dan Georgia kehilangan Kvaratskhelia."
+            ],
+            "contradicting_evidence": [
+              "Georgia masih memiliki Mikautadze, Chakvetadze dan Davitashvili.",
+              "Dua kemenangan Hungaria terbaru tidak membuktikan clean sheet berikutnya; xG tidak tersedia."
+            ],
+            "abstain_reason": null
+          },
+          "total_2_5": {
+            "pick": "under",
+            "confidence": "relatively_strong",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Empat laga UNL Georgia Under, total hanya dua gol dalam empat pertandingan.",
+              "Tiga dari empat UNL Hungaria Under dan pertemuan pertama 1–0.",
+              "Absennya Kvaratskhelia menambah keterbatasan serangan Georgia."
+            ],
+            "contradicting_evidence": [
+              "Hungaria menyambut kembali Varga/Sallai dan Szoboszlai dinyatakan siap.",
+              "Georgia membutuhkan poin; gol awal, penalti atau kartu merah dapat membuka laga."
+            ],
+            "abstain_reason": null
+          }
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": 0.33133045317708965,
+            "reason": "numerical_direction_disagrees"
+          },
+          "btts": {
+            "pick": false,
+            "status": "experimental",
+            "supporting_beta_probability": 0.5618469454763593,
+            "reason": "main_direction_and_numerical_support_agree"
+          },
+          "total_2_5": {
+            "pick": "under",
+            "status": "experimental",
+            "supporting_beta_probability": 0.6071739863401739,
+            "reason": "main_direction_and_numerical_support_agree"
+          }
+        },
+        "focus": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.6071739863401739
+        },
+        "focus_reason": "retain_supported_main_focus",
+        "probabilities_belong_to": "superanalyst-beta-v2.0.0-experimental",
+        "focus_policy_id": "max_p55"
+      },
+      "quality_issues": [],
+      "last5_diagnostic": {
+        "full": {
+          "rates": [
+            0.6666666666666666,
+            0.8888888888888888
+          ],
+          "probabilities": {
+            "1x2": {
+              "H": 0.25792153887828323,
+              "D": 0.35594856005291187,
+              "A": 0.3861299010688048
+            },
+            "btts": 0.28654267825131075,
+            "total_2_5": {
+              "over": 0.20522238547799365,
+              "under": 0.7947776145220063
+            }
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": false,
+            "total_2_5": "under"
+          }
+        },
+        "runs": [
+          {
+            "omitted_match_id": "2047932",
+            "rates": [
+              0.625,
+              0.75
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2691939851533371,
+                "D": 0.3859920253952228,
+                "A": 0.3448139894514402
+              },
+              "btts": 0.24521161454474155,
+              "total_2_5": {
+                "over": 0.16049352955455276,
+                "under": 0.8395064704454472
+              }
+            },
+            "directions": {
+              "1x2": "D",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047934",
+            "rates": [
+              0.75,
+              1.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2657949305660784,
+                "D": 0.33067615640478887,
+                "A": 0.4035289130291328
+              },
+              "btts": 0.3335279495379881,
+              "total_2_5": {
+                "over": 0.25603030460278176,
+                "under": 0.7439696953972182
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047962",
+            "rates": [
+              0.75,
+              0.875
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.28999795087701563,
+                "D": 0.3489466421461869,
+                "A": 0.36105540697679744
+              },
+              "btts": 0.3076831027846709,
+              "total_2_5": {
+                "over": 0.2231219064209531,
+                "under": 0.7768780935790469
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047986",
+            "rates": [
+              0.75,
+              1.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2657949305660784,
+                "D": 0.33067615640478887,
+                "A": 0.4035289130291328
+              },
+              "btts": 0.3335279495379881,
+              "total_2_5": {
+                "over": 0.25603030460278176,
+                "under": 0.7439696953972182
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047991",
+            "rates": [
+              0.75,
+              1.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2657949305660784,
+                "D": 0.33067615640478887,
+                "A": 0.4035289130291328
+              },
+              "btts": 0.3335279495379881,
+              "total_2_5": {
+                "over": 0.25603030460278176,
+                "under": 0.7439696953972182
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2048012",
+            "rates": [
+              0.625,
+              1.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2238301970633764,
+                "D": 0.34060001155752834,
+                "A": 0.4355697913790955
+              },
+              "btts": 0.2937708055137615,
+              "total_2_5": {
+                "over": 0.2231219064209531,
+                "under": 0.7768780935790469
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2048014",
+            "rates": [
+              0.75,
+              0.875
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.28999795087701563,
+                "D": 0.3489466421461869,
+                "A": 0.36105540697679744
+              },
+              "btts": 0.3076831027846709,
+              "total_2_5": {
+                "over": 0.2231219064209531,
+                "under": 0.7768780935790469
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "bul-geo",
+            "rates": [
+              0.625,
+              0.75
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2691939851533371,
+                "D": 0.3859920253952228,
+                "A": 0.3448139894514402
+              },
+              "btts": 0.24521161454474155,
+              "total_2_5": {
+                "over": 0.16049352955455276,
+                "under": 0.8395064704454472
+              }
+            },
+            "directions": {
+              "1x2": "D",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "hun-irl",
+            "rates": [
+              0.375,
+              0.75
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.16809550757784694,
+                "D": 0.4225852988740613,
+                "A": 0.40931919354809193
+              },
+              "btts": 0.16499663582636284,
+              "total_2_5": {
+                "over": 0.10466936736330112,
+                "under": 0.8953306326366989
+              }
+            },
+            "directions": {
+              "1x2": "D",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          }
+        ],
+        "unique_matches": 9,
+        "direction_flip_counts": {
+          "1x2": 3,
+          "btts": 0,
+          "total_2_5": 0
+        },
+        "unstable_targets": [
+          "1x2"
+        ],
+        "method": "leave_one_unique_historical_match_out_no_refill",
+        "diagnostic_only": true,
+        "is_statistical_confidence_interval": false,
+        "historical_scores_removed_from_model": false
+      },
+      "raw_mc_by_recipe": {
+        "strength_h730": {
+          "seed": 14061221178501974172,
+          "samples": 10000,
+          "recipe_id": "strength_h730",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.4274,
+              "D": 0.2778,
+              "A": 0.2948
+            },
+            "btts": 0.4675,
+            "total_2_5": {
+              "over": 0.4131,
+              "under": 0.5869
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1279
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1229
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 981
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 972
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 881
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 843
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 675
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 2,
+              "count": 527
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 462
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 362
+            }
+          ]
+        },
+        "strength_h365_plus_friendlies": {
+          "seed": 9023231343504702565,
+          "samples": 10000,
+          "recipe_id": "strength_h365_plus_friendlies",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.4519,
+              "D": 0.2772,
+              "A": 0.2709
+            },
+            "btts": 0.4392,
+            "total_2_5": {
+              "over": 0.3818,
+              "under": 0.6182000000000001
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1470
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1289
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 1027
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 1005
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 880
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 850
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 591
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 2,
+              "count": 511
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 397
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 391
+            }
+          ]
+        }
+      },
+      "result_90m": null
+    },
+    {
+      "match_id": "2047894",
+      "home": "Austria",
+      "away": "Republik Irlandia",
+      "kickoff_at": "2026-11-15T02:45:00+07:00",
+      "probabilities": {
+        "1x2": {
+          "H": 0.5582738594211628,
+          "D": 0.2688979514252788,
+          "A": 0.17282818915355838
+        },
+        "btts": 0.4546915258710038,
+        "total_2_5": {
+          "over": 0.46210080382691054,
+          "under": 0.5378991961730895
+        }
+      },
+      "by_target": {
+        "1x2": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.728026479943498,
+            0.9440273072830478
+          ],
+          "raw": [
+            0.5583625348599028,
+            0.2370695267316087,
+            0.20456793840848847
+          ],
+          "calibrated": [
+            0.5582738594211628,
+            0.2688979514252788,
+            0.17282818915355838
+          ]
+        },
+        "btts": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.728026479943498,
+            0.9440273072830478
+          ],
+          "raw": 0.5024176915300108,
+          "calibrated": 0.4546915258710038
+        },
+        "total_2_5": {
+          "recipe_id": "strength_h365_plus_friendlies",
+          "goal_rates": [
+            1.652776983476227,
+            0.9353447554769423
+          ],
+          "raw": 0.4785843797490602,
+          "calibrated": 0.46210080382691054
+        }
+      },
+      "calibration": "frozen_2020_2021_not_proven_current",
+      "one_joint_score_distribution": false,
+      "decision": {
+        "raw_directions": {
+          "1x2": "H",
+          "btts": false,
+          "total_2_5": "under"
+        },
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "status": "experimental",
+            "probability": 0.5582738594211628,
+            "reason": "passes_frozen_threshold"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5453084741289962,
+            "reason": "below_frozen_threshold"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5378991961730895,
+            "reason": "below_frozen_threshold"
+          }
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.5582738594211628
+        },
+        "focus_policy_id": "max_p55"
+      },
+      "hybrid": {
+        "model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+        "source_main_sha256": "4d2316c43c1292ad1c4f6715a7d763053b1af462b80b6c9910e52d1c9c1109bf",
+        "source_main_focus": "btts",
+        "source_main_targets": {
+          "1x2": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Rekor kandang Austria mendukung tuan rumah, tetapi absennya Xaver Schlager/Prass dan ketahanan hasil Irlandia membuat arah pemenang belum cukup kuat."
+            ],
+            "abstain_reason": "Rekor kandang Austria mendukung tuan rumah, tetapi absennya Xaver Schlager/Prass dan ketahanan hasil Irlandia membuat arah pemenang belum cukup kuat."
+          },
+          "btts": {
+            "pick": true,
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Keempat laga UNL Austria BTTS Ya; mereka mencetak sembilan dan kebobolan lima.",
+              "Irlandia mencetak gol dalam tiga UNL terbaru; Parrott mencetak dua gol pada H2H 2–2.",
+              "Austria belum clean sheet dalam delapan pertandingan menurut FAI."
+            ],
+            "contradicting_evidence": [
+              "Collins kembali memperkuat pertahanan Irlandia.",
+              "Austria kehilangan sejumlah pemain, termasuk Prass dan Xaver Schlager; fluida serang dan susunan pengganti belum resmi."
+            ],
+            "abstain_reason": null
+          },
+          "total_2_5": {
+            "pick": "over",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Tiga dari empat UNL Austria Over; dua laga kandang berakhir 3–1.",
+              "Pertemuan pertama 2–2; ancaman Parrott dan fase akhir Austria mendukung lebih dari dua gol."
+            ],
+            "contradicting_evidence": [
+              "Irlandia dua dari empat UNL Under; hasil 1–1 cukup masuk akal.",
+              "Absennya pemain Austria bisa mengurangi produksi serangan."
+            ],
+            "abstain_reason": null
+          }
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": 0.4546915258710038,
+            "reason": "numerical_direction_disagrees"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": 0.46210080382691054,
+            "reason": "numerical_direction_disagrees"
+          }
+        },
+        "focus": null,
+        "focus_reason": "no_supported_main_pick",
+        "probabilities_belong_to": "superanalyst-beta-v2.0.0-experimental",
+        "focus_policy_id": "max_p55"
+      },
+      "quality_issues": [],
+      "last5_diagnostic": {
+        "full": {
+          "rates": [
+            1.4444444444444444,
+            1.5555555555555556
+          ],
+          "probabilities": {
+            "1x2": {
+              "H": 0.35427911965447917,
+              "D": 0.2425955974861257,
+              "A": 0.4031252828593952
+            },
+            "btts": 0.6028378975910738,
+            "total_2_5": {
+              "over": 0.5768099188731565,
+              "under": 0.42319008112684353
+            }
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          }
+        },
+        "runs": [
+          {
+            "omitted_match_id": "2047927",
+            "rates": [
+              1.5,
+              1.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.354553930874324,
+                "D": 0.2369439893914514,
+                "A": 0.40850207973422475
+              },
+              "btts": 0.6238950982707836,
+              "total_2_5": {
+                "over": 0.6042243400954004,
+                "under": 0.3957756599045996
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "2047929",
+            "rates": [
+              1.5,
+              1.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.354553930874324,
+                "D": 0.2369439893914514,
+                "A": 0.40850207973422475
+              },
+              "btts": 0.6238950982707836,
+              "total_2_5": {
+                "over": 0.6042243400954004,
+                "under": 0.3957756599045996
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "2047953",
+            "rates": [
+              1.375,
+              1.5
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3477773222094247,
+                "D": 0.24844837963087074,
+                "A": 0.40377429815970445
+              },
+              "btts": 0.5804463835506011,
+              "total_2_5": {
+                "over": 0.548230132879908,
+                "under": 0.45176986712009204
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "2047979",
+            "rates": [
+              1.25,
+              1.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2943490204600606,
+                "D": 0.24414898332801072,
+                "A": 0.46150199621192894
+              },
+              "btts": 0.5729996674393931,
+              "total_2_5": {
+                "over": 0.548230132879908,
+                "under": 0.45176986712009204
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "2047982",
+            "rates": [
+              1.625,
+              1.375
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4343665889035637,
+                "D": 0.24095613149605138,
+                "A": 0.3246772796003849
+              },
+              "btts": 0.6000357973589234,
+              "total_2_5": {
+                "over": 0.5768099188731565,
+                "under": 0.42319008112684353
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "2048006",
+            "rates": [
+              1.25,
+              1.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2943490204600606,
+                "D": 0.24414898332801072,
+                "A": 0.46150199621192894
+              },
+              "btts": 0.5729996674393931,
+              "total_2_5": {
+                "over": 0.548230132879908,
+                "under": 0.45176986712009204
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "2048007",
+            "rates": [
+              1.5,
+              1.75
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3318943035161438,
+                "D": 0.23039057135505733,
+                "A": 0.4377151251287989
+              },
+              "btts": 0.6418701042328471,
+              "total_2_5": {
+                "over": 0.6304333316038996,
+                "under": 0.3695666683961004
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "cze-irl",
+            "rates": [
+              1.375,
+              1.5
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3477773222094247,
+                "D": 0.24844837963087074,
+                "A": 0.40377429815970445
+              },
+              "btts": 0.5804463835506011,
+              "total_2_5": {
+                "over": 0.548230132879908,
+                "under": 0.45176986712009204
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "esp-aut",
+            "rates": [
+              1.625,
+              1.375
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4343665889035637,
+                "D": 0.24095613149605138,
+                "A": 0.3246772796003849
+              },
+              "btts": 0.6000357973589234,
+              "total_2_5": {
+                "over": 0.5768099188731565,
+                "under": 0.42319008112684353
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          }
+        ],
+        "unique_matches": 9,
+        "direction_flip_counts": {
+          "1x2": 2,
+          "btts": 0,
+          "total_2_5": 0
+        },
+        "unstable_targets": [
+          "1x2"
+        ],
+        "method": "leave_one_unique_historical_match_out_no_refill",
+        "diagnostic_only": true,
+        "is_statistical_confidence_interval": false,
+        "historical_scores_removed_from_model": false
+      },
+      "raw_mc_by_recipe": {
+        "strength_h730": {
+          "seed": 15081178447257076615,
+          "samples": 10000,
+          "recipe_id": "strength_h730",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.5617,
+              "D": 0.236,
+              "A": 0.2023
+            },
+            "btts": 0.4981,
+            "total_2_5": {
+              "over": 0.4965,
+              "under": 0.5035000000000001
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1225
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1098
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 1068
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 1019
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 685
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 647
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 608
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 549
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 522
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 486
+            }
+          ]
+        },
+        "strength_h365_plus_friendlies": {
+          "seed": 2192923400483133198,
+          "samples": 10000,
+          "recipe_id": "strength_h365_plus_friendlies",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.544,
+              "D": 0.2398,
+              "A": 0.2162
+            },
+            "btts": 0.4959,
+            "total_2_5": {
+              "over": 0.4815,
+              "under": 0.5185
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1233
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1160
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 1034
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 1021
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 747
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 705
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 587
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 537
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 533
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 400
+            }
+          ]
+        }
+      },
+      "result_90m": null
+    },
+    {
+      "match_id": "2047897",
+      "home": "Irlandia Utara",
+      "away": "Ukraina",
+      "kickoff_at": "2026-11-15T02:45:00+07:00",
+      "probabilities": {
+        "1x2": {
+          "H": 0.33337912238271017,
+          "D": 0.377867133866786,
+          "A": 0.2887537437505039
+        },
+        "btts": 0.41791815475651717,
+        "total_2_5": {
+          "over": 0.3942784210967499,
+          "under": 0.6057215789032502
+        }
+      },
+      "by_target": {
+        "1x2": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.2577349057665814,
+            0.9177898269027815
+          ],
+          "raw": [
+            0.4416703565355848,
+            0.2876656288954902,
+            0.270664014568925
+          ],
+          "calibrated": [
+            0.33337912238271017,
+            0.377867133866786,
+            0.2887537437505039
+          ]
+        },
+        "btts": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.2577349057665814,
+            0.9177898269027815
+          ],
+          "raw": 0.4298504863635176,
+          "calibrated": 0.41791815475651717
+        },
+        "total_2_5": {
+          "recipe_id": "strength_h365_plus_friendlies",
+          "goal_rates": [
+            1.3061473942541055,
+            0.9020275762645532
+          ],
+          "raw": 0.37947749196975,
+          "calibrated": 0.3942784210967499
+        }
+      },
+      "calibration": "frozen_2020_2021_not_proven_current",
+      "one_joint_score_distribution": false,
+      "decision": {
+        "raw_directions": {
+          "1x2": "D",
+          "btts": false,
+          "total_2_5": "under"
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.377867133866786,
+            "reason": "below_frozen_threshold"
+          },
+          "btts": {
+            "pick": false,
+            "status": "experimental",
+            "probability": 0.5820818452434828,
+            "reason": "passes_frozen_threshold"
+          },
+          "total_2_5": {
+            "pick": "under",
+            "status": "experimental",
+            "probability": 0.6057215789032502,
+            "reason": "passes_frozen_threshold"
+          }
+        },
+        "focus": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.6057215789032502
+        },
+        "focus_policy_id": "max_p55"
+      },
+      "hybrid": {
+        "model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+        "source_main_sha256": "e5cc304fdb2a5e94122c135e21556ba157dab1bbfd353564fde6cf3be74add85",
+        "source_main_focus": "total_2_5",
+        "source_main_targets": {
+          "1x2": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Irlandia Utara belum mencetak gol pada dua laga kandang fase ini; Ukraina mendapat kembali Mykolenko. Keunggulan hasil belum cukup untuk memilih pemenang."
+            ],
+            "abstain_reason": "Irlandia Utara belum mencetak gol pada dua laga kandang fase ini; Ukraina mendapat kembali Mykolenko. Keunggulan hasil belum cukup untuk memilih pemenang."
+          },
+          "btts": {
+            "pick": false,
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Irlandia Utara clean sheet pada seluruh empat UNL; kedua laga kandang 0–0.",
+              "Ukraina gagal mencetak gol pada dua dari empat UNL dan hanya membukukan dua gol."
+            ],
+            "contradicting_evidence": [
+              "Mykolenko kembali; Ukraina perlu bereaksi dan masih memiliki Dovbyk/Krasnopir.",
+              "Clean sheet 4/4 adalah frekuensi historis, bukan probabilitas 100% untuk laga ini."
+            ],
+            "abstain_reason": null
+          },
+          "total_2_5": {
+            "pick": "under",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Tiga dari empat UNL Irlandia Utara Under; dua laga Belfast 0–0.",
+              "Ukraina hanya mencetak dua gol pada empat UNL dan serangan Irlandia Utara di kandang belum efektif."
+            ],
+            "contradicting_evidence": [
+              "Pertemuan pertama justru 3–0; Under tidak didukung H2H terakhir.",
+              "Tuan rumah menciptakan peluang menurut O’Neill dan diminta lebih efektif; Ukraina dapat bermain lebih terbuka."
+            ],
+            "abstain_reason": null
+          }
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          },
+          "btts": {
+            "pick": false,
+            "status": "experimental",
+            "supporting_beta_probability": 0.5820818452434828,
+            "reason": "main_direction_and_numerical_support_agree"
+          },
+          "total_2_5": {
+            "pick": "under",
+            "status": "experimental",
+            "supporting_beta_probability": 0.6057215789032502,
+            "reason": "main_direction_and_numerical_support_agree"
+          }
+        },
+        "focus": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.6057215789032502
+        },
+        "focus_reason": "retain_supported_main_focus",
+        "probabilities_belong_to": "superanalyst-beta-v2.0.0-experimental",
+        "focus_policy_id": "max_p55"
+      },
+      "quality_issues": [],
+      "last5_diagnostic": {
+        "full": {
+          "rates": [
+            1.0,
+            0.5555555555555556
+          ],
+          "probabilities": {
+            "1x2": {
+              "H": 0.4543385834128308,
+              "D": 0.34566181557765263,
+              "A": 0.19999960100951647
+            },
+            "btts": 0.26943922588221514,
+            "total_2_5": {
+              "over": 0.20522238547799365,
+              "under": 0.7947776145220063
+            }
+          },
+          "directions": {
+            "1x2": "H",
+            "btts": false,
+            "total_2_5": "under"
+          }
+        },
+        "runs": [
+          {
+            "omitted_match_id": "2047932",
+            "rates": [
+              0.875,
+              0.5
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4245357971383067,
+                "D": 0.37616019001874873,
+                "A": 0.1993040128429446
+              },
+              "btts": 0.22944691641360468,
+              "total_2_5": {
+                "over": 0.16049352955455276,
+                "under": 0.8395064704454472
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047934",
+            "rates": [
+              1.125,
+              0.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4767973154206149,
+                "D": 0.319190351096093,
+                "A": 0.20401233348329234
+              },
+              "btts": 0.31386004757310515,
+              "total_2_5": {
+                "over": 0.25603030460278176,
+                "under": 0.7439696953972182
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047959",
+            "rates": [
+              0.75,
+              0.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3448139894514402,
+                "D": 0.3859920253952228,
+                "A": 0.2691939851533371
+              },
+              "btts": 0.24521161454474155,
+              "total_2_5": {
+                "over": 0.16049352955455276,
+                "under": 0.8395064704454472
+              }
+            },
+            "directions": {
+              "1x2": "D",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047986",
+            "rates": [
+              1.125,
+              0.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4767973154206149,
+                "D": 0.319190351096093,
+                "A": 0.20401233348329234
+              },
+              "btts": 0.31386004757310515,
+              "total_2_5": {
+                "over": 0.25603030460278176,
+                "under": 0.7439696953972182
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047991",
+            "rates": [
+              1.125,
+              0.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4767973154206149,
+                "D": 0.319190351096093,
+                "A": 0.20401233348329234
+              },
+              "btts": 0.31386004757310515,
+              "total_2_5": {
+                "over": 0.25603030460278176,
+                "under": 0.7439696953972182
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2048012",
+            "rates": [
+              1.125,
+              0.5
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.5119600008646991,
+                "D": 0.32425902189577394,
+                "A": 0.16378097723952706
+              },
+              "btts": 0.26572854813321095,
+              "total_2_5": {
+                "over": 0.2231219064209531,
+                "under": 0.7768780935790469
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2048014",
+            "rates": [
+              1.0,
+              0.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4355697913790955,
+                "D": 0.34060001155752834,
+                "A": 0.2238301970633764
+              },
+              "btts": 0.2937708055137615,
+              "total_2_5": {
+                "over": 0.2231219064209531,
+                "under": 0.7768780935790469
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "ita-nir",
+            "rates": [
+              1.125,
+              0.375
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.5493142128874953,
+                "D": 0.3276691497877064,
+                "A": 0.12301663732479848
+              },
+              "btts": 0.2111884139991079,
+              "total_2_5": {
+                "over": 0.19115316946194194,
+                "under": 0.8088468305380581
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "ukr-swe",
+            "rates": [
+              0.75,
+              0.5
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3757643160322056,
+                "D": 0.4044462001641765,
+                "A": 0.21978948380361793
+              },
+              "btts": 0.207607584406542,
+              "total_2_5": {
+                "over": 0.13153233451754875,
+                "under": 0.8684676654824512
+              }
+            },
+            "directions": {
+              "1x2": "D",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          }
+        ],
+        "unique_matches": 9,
+        "direction_flip_counts": {
+          "1x2": 2,
+          "btts": 0,
+          "total_2_5": 0
+        },
+        "unstable_targets": [
+          "1x2"
+        ],
+        "method": "leave_one_unique_historical_match_out_no_refill",
+        "diagnostic_only": true,
+        "is_statistical_confidence_interval": false,
+        "historical_scores_removed_from_model": false
+      },
+      "raw_mc_by_recipe": {
+        "strength_h730": {
+          "seed": 58641551124753175,
+          "samples": 10000,
+          "recipe_id": "strength_h730",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.4421,
+              "D": 0.2854,
+              "A": 0.2725
+            },
+            "btts": 0.4286,
+            "total_2_5": {
+              "over": 0.3676,
+              "under": 0.6324000000000001
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1480
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1309
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 1117
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 1095
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 883
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 849
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 606
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 2,
+              "count": 440
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 376
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 349
+            }
+          ]
+        },
+        "strength_h365_plus_friendlies": {
+          "seed": 12307072907416773689,
+          "samples": 10000,
+          "recipe_id": "strength_h365_plus_friendlies",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.4641,
+              "D": 0.2823,
+              "A": 0.2536
+            },
+            "btts": 0.4334,
+            "total_2_5": {
+              "over": 0.3871,
+              "under": 0.6129
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1418
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1263
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 1086
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 974
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 939
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 874
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 542
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 2,
+              "count": 449
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 440
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 417
+            }
+          ]
+        }
+      },
+      "result_90m": null
+    },
+    {
+      "match_id": "2047891",
+      "home": "Rumania",
+      "away": "Polandia",
+      "kickoff_at": "2026-11-15T02:45:00+07:00",
+      "probabilities": {
+        "1x2": {
+          "H": 0.3043769880909766,
+          "D": 0.2949179778659164,
+          "A": 0.40070503404310703
+        },
+        "btts": 0.4782280128951035,
+        "total_2_5": {
+          "over": 0.46790303623469903,
+          "under": 0.532096963765301
+        }
+      },
+      "by_target": {
+        "1x2": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.4708788235497876,
+            1.2448308216772137
+          ],
+          "raw": [
+            0.4241408082592735,
+            0.2554136703028442,
+            0.3204455214378823
+          ],
+          "calibrated": [
+            0.3043769880909766,
+            0.2949179778659164,
+            0.40070503404310703
+          ]
+        },
+        "btts": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.4708788235497876,
+            1.2448308216772137
+          ],
+          "raw": 0.5484448520140759,
+          "calibrated": 0.4782280128951035
+        },
+        "total_2_5": {
+          "recipe_id": "strength_h365_plus_friendlies",
+          "goal_rates": [
+            1.3787787421844055,
+            1.2433318816946937
+          ],
+          "raw": 0.48710690897220743,
+          "calibrated": 0.46790303623469903
+        }
+      },
+      "calibration": "frozen_2020_2021_not_proven_current",
+      "one_joint_score_distribution": false,
+      "decision": {
+        "raw_directions": {
+          "1x2": "A",
+          "btts": false,
+          "total_2_5": "under"
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.40070503404310703,
+            "reason": "below_frozen_threshold"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5217719871048965,
+            "reason": "below_frozen_threshold"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.532096963765301,
+            "reason": "below_frozen_threshold"
+          }
+        },
+        "focus": null,
+        "focus_policy_id": "max_p55"
+      },
+      "hybrid": {
+        "model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+        "source_main_sha256": "0485ac6bf8d04f4587fe7a9c4ab4b82154c2f8a96cc93d30417f3d7037994d83",
+        "source_main_focus": null,
+        "source_main_targets": {
+          "1x2": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Polandia lemah di tandang, enam dari tujuh gol UNL berasal dari laga melawan sepuluh pemain Rumania; Zieliński dilaporkan tidak masuk skuad hari ini. Rumania juga sangat buruk, sehingga belum ada sisi yang cukup kuat."
+            ],
+            "abstain_reason": "Polandia lemah di tandang, enam dari tujuh gol UNL berasal dari laga melawan sepuluh pemain Rumania; Zieliński dilaporkan tidak masuk skuad hari ini. Rumania juga sangat buruk, sehingga belum ada sisi yang cukup kuat."
+          },
+          "btts": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Rumania gagal mencetak gol pada dua UNL terbaru, sementara Polandia kehilangan kreator utama dan pemain bertahan. Bukti serangan dan pertahanan berlawanan."
+            ],
+            "abstain_reason": "Rumania gagal mencetak gol pada dua UNL terbaru, sementara Polandia kehilangan kreator utama dan pemain bertahan. Bukti serangan dan pertahanan berlawanan."
+          },
+          "total_2_5": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Kekalahan 0–6 dipengaruhi kartu merah menit 22; dua laga Rumania yang lain menghasilkan 6 dan 3 gol, tetapi pertemuan terbaru mereka hanya 0–1. Tidak ada pola total yang cukup stabil setelah konteks pemain."
+            ],
+            "abstain_reason": "Kekalahan 0–6 dipengaruhi kartu merah menit 22; dua laga Rumania yang lain menghasilkan 6 dan 3 gol, tetapi pertemuan terbaru mereka hanya 0–1. Tidak ada pola total yang cukup stabil setelah konteks pemain."
+          }
+        },
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          }
+        },
+        "focus": null,
+        "focus_reason": "no_supported_main_pick",
+        "probabilities_belong_to": "superanalyst-beta-v2.0.0-experimental",
+        "focus_policy_id": "max_p55"
+      },
+      "quality_issues": [],
+      "last5_diagnostic": {
+        "full": {
+          "rates": [
+            1.1111111111111112,
+            1.8888888888888888
+          ],
+          "probabilities": {
+            "1x2": {
+              "H": 0.22106920930607324,
+              "D": 0.22371574361110305,
+              "A": 0.5552150470828231
+            },
+            "btts": 0.5693543208694626,
+            "total_2_5": {
+              "over": 0.5768099188731565,
+              "under": 0.42319008112684353
+            }
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          }
+        },
+        "runs": [
+          {
+            "omitted_match_id": "2047933",
+            "rates": [
+              1.25,
+              2.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.23614876153926845,
+                "D": 0.21603523903263547,
+                "A": 0.5478159994280966
+              },
+              "btts": 0.6169341277349192,
+              "total_2_5": {
+                "over": 0.6304333316038996,
+                "under": 0.3695666683961004
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "2047939",
+            "rates": [
+              1.125,
+              2.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.1935202564778816,
+                "D": 0.20400741412614182,
+                "A": 0.6024723293959766
+              },
+              "btts": 0.5946887722066526,
+              "total_2_5": {
+                "over": 0.6304333316038996,
+                "under": 0.3695666683961004
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "2047963",
+            "rates": [
+              1.25,
+              1.375
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.33993733148074884,
+                "D": 0.26183762332589194,
+                "A": 0.39822504519335944
+              },
+              "btts": 0.5330953643693148,
+              "total_2_5": {
+                "over": 0.487828280343769,
+                "under": 0.512171719656231
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047984",
+            "rates": [
+              1.0,
+              1.625
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2327962049810055,
+                "D": 0.24754696607610382,
+                "A": 0.5196568289428908
+              },
+              "btts": 0.507648640658615,
+              "total_2_5": {
+                "over": 0.487828280343769,
+                "under": 0.512171719656231
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047985",
+            "rates": [
+              0.875,
+              2.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.15635645418968855,
+                "D": 0.20772290493448528,
+                "A": 0.6359206408758261
+              },
+              "btts": 0.5042188365886562,
+              "total_2_5": {
+                "over": 0.548230132879908,
+                "under": 0.45176986712009204
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "2048013",
+            "rates": [
+              1.25,
+              2.125
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.21919310112287416,
+                "D": 0.2065779562407693,
+                "A": 0.5742289426363567
+              },
+              "btts": 0.6282803531847563,
+              "total_2_5": {
+                "over": 0.6554128554395506,
+                "under": 0.34458714456044937
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "2048015",
+            "rates": [
+              1.125,
+              1.875
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.22611295544893,
+                "D": 0.22503257155868206,
+                "A": 0.5488544729923875
+              },
+              "btts": 0.5717796341645858,
+              "total_2_5": {
+                "over": 0.5768099188731565,
+                "under": 0.42319008112684353
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "swe-pol",
+            "rates": [
+              0.875,
+              1.875
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.17031169116217082,
+                "D": 0.22052851611109092,
+                "A": 0.6091597927267381
+              },
+              "btts": 0.4937108746832707,
+              "total_2_5": {
+                "over": 0.5185432952869836,
+                "under": 0.4814567047130164
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "tur-rou",
+            "rates": [
+              1.25,
+              2.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.23614876153926845,
+                "D": 0.21603523903263547,
+                "A": 0.5478159994280966
+              },
+              "btts": 0.6169341277349192,
+              "total_2_5": {
+                "over": 0.6304333316038996,
+                "under": 0.3695666683961004
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "over"
+            }
+          }
+        ],
+        "unique_matches": 9,
+        "direction_flip_counts": {
+          "1x2": 0,
+          "btts": 1,
+          "total_2_5": 2
+        },
+        "unstable_targets": [
+          "btts",
+          "total_2_5"
+        ],
+        "method": "leave_one_unique_historical_match_out_no_refill",
+        "diagnostic_only": true,
+        "is_statistical_confidence_interval": false,
+        "historical_scores_removed_from_model": false
+      },
+      "raw_mc_by_recipe": {
+        "strength_h730": {
+          "seed": 9085048962071115441,
+          "samples": 10000,
+          "recipe_id": "strength_h730",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.4315,
+              "D": 0.2574,
+              "A": 0.3111
+            },
+            "btts": 0.5398,
+            "total_2_5": {
+              "over": 0.5027,
+              "under": 0.49729999999999996
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1214
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1004
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 872
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 791
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 771
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 722
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 678
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 530
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 2,
+              "count": 515
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 408
+            }
+          ]
+        },
+        "strength_h365_plus_friendlies": {
+          "seed": 10644150714422111725,
+          "samples": 10000,
+          "recipe_id": "strength_h365_plus_friendlies",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.4113,
+              "D": 0.2553,
+              "A": 0.3334
+            },
+            "btts": 0.5349,
+            "total_2_5": {
+              "over": 0.4923,
+              "under": 0.5077
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1239
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 991
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 932
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 876
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 754
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 690
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 668
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 2,
+              "count": 613
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 532
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 444
+            }
+          ]
+        }
+      },
+      "result_90m": null
+    },
+    {
+      "match_id": "2047890",
+      "home": "Swedia",
+      "away": "Bosnia & Herzegovina",
+      "kickoff_at": "2026-11-15T02:45:00+07:00",
+      "probabilities": {
+        "1x2": {
+          "H": 0.5572547731272817,
+          "D": 0.2603231210853479,
+          "A": 0.18242210578737045
+        },
+        "btts": 0.4651367094988169,
+        "total_2_5": {
+          "over": 0.4919209261810953,
+          "under": 0.5080790738189047
+        }
+      },
+      "by_target": {
+        "1x2": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.7744293335191148,
+            0.9934964647461761
+          ],
+          "raw": [
+            0.5571390826471381,
+            0.232960591139866,
+            0.20990032621299592
+          ],
+          "calibrated": [
+            0.5572547731272817,
+            0.2603231210853479,
+            0.18242210578737045
+          ]
+        },
+        "btts": {
+          "recipe_id": "strength_h730",
+          "goal_rates": [
+            1.7744293335191148,
+            0.9934964647461761
+          ],
+          "raw": 0.5229321627562821,
+          "calibrated": 0.4651367094988169
+        },
+        "total_2_5": {
+          "recipe_id": "strength_h365_plus_friendlies",
+          "goal_rates": [
+            1.7022084035109968,
+            1.0633667997726302
+          ],
+          "raw": 0.5223002209072849,
+          "calibrated": 0.4919209261810953
+        }
+      },
+      "calibration": "frozen_2020_2021_not_proven_current",
+      "one_joint_score_distribution": false,
+      "decision": {
+        "raw_directions": {
+          "1x2": "H",
+          "btts": false,
+          "total_2_5": "under"
+        },
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "status": "experimental",
+            "probability": 0.5572547731272817,
+            "reason": "passes_frozen_threshold"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5348632905011831,
+            "reason": "below_frozen_threshold"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5080790738189047,
+            "reason": "below_frozen_threshold"
+          }
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.5572547731272817
+        },
+        "focus_policy_id": "max_p55"
+      },
+      "hybrid": {
+        "model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+        "source_main_sha256": "7f0c268dcc3e04a4ec1a25dae2f4e1bd9f4a0001a19e1def2cabe20c7b6f0b79",
+        "source_main_focus": "1x2",
+        "source_main_targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Swedia memimpin dengan 10 poin dan memenangi kedua laga kandang, 2–1 dan 3–1.",
+              "Kulusevski/Elanga kembali; Muharemović diskors untuk Bosnia."
+            ],
+            "contradicting_evidence": [
+              "Bosnia belum kalah dalam empat UNL, memiliki delapan poin dan menahan Swedia 1–1.",
+              "Kembalinya Kulusevski dari cedera panjang belum menjamin 90 menit; XI belum resmi."
+            ],
+            "abstain_reason": null
+          },
+          "btts": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Swedia BTTS 3/4 UNL, tetapi Bosnia mempunyai dua clean sheet dan dua laga terbarunya hanya 1–1 serta 1–0; detail peluang dan XI belum cukup."
+            ],
+            "abstain_reason": "Swedia BTTS 3/4 UNL, tetapi Bosnia mempunyai dua clean sheet dan dua laga terbarunya hanya 1–1 serta 1–0; detail peluang dan XI belum cukup."
+          },
+          "total_2_5": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Swedia dua Over dari empat UNL, Bosnia satu dari empat; kembalinya pemain kreatif Swedia dan absennya bek Bosnia berlawanan dengan pola Under. Tidak dipaksakan dari skenario 2–1."
+            ],
+            "abstain_reason": "Swedia dua Over dari empat UNL, Bosnia satu dari empat; kembalinya pemain kreatif Swedia dan absennya bek Bosnia berlawanan dengan pola Under. Tidak dipaksakan dari skenario 2–1."
+          }
+        },
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "status": "experimental",
+            "supporting_beta_probability": 0.5572547731272817,
+            "reason": "main_direction_and_numerical_support_agree"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          }
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.5572547731272817
+        },
+        "focus_reason": "retain_supported_main_focus",
+        "probabilities_belong_to": "superanalyst-beta-v2.0.0-experimental",
+        "focus_policy_id": "max_p55"
+      },
+      "quality_issues": [],
+      "last5_diagnostic": {
+        "full": {
+          "rates": [
+            1.2222222222222223,
+            1.2222222222222223
+          ],
+          "probabilities": {
+            "1x2": {
+              "H": 0.36317908060376247,
+              "D": 0.27364183879247506,
+              "A": 0.36317908060376247
+            },
+            "btts": 0.4976246728537146,
+            "total_2_5": {
+              "over": 0.4418589425195415,
+              "under": 0.5581410574804585
+            }
+          },
+          "directions": {
+            "1x2": null,
+            "btts": false,
+            "total_2_5": "under"
+          }
+        },
+        "runs": [
+          {
+            "omitted_match_id": "2047933",
+            "rates": [
+              1.25,
+              1.375
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.33993733148074884,
+                "D": 0.26183762332589194,
+                "A": 0.39822504519335944
+              },
+              "btts": 0.5330953643693148,
+              "total_2_5": {
+                "over": 0.487828280343769,
+                "under": 0.512171719656231
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047939",
+            "rates": [
+              1.375,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.39822504519335944,
+                "D": 0.26183762332589194,
+                "A": 0.33993733148074884
+              },
+              "btts": 0.5330953643693148,
+              "total_2_5": {
+                "over": 0.487828280343769,
+                "under": 0.512171719656231
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": true,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047964",
+            "rates": [
+              1.25,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.36497677919389876,
+                "D": 0.2700464416122028,
+                "A": 0.36497677919389876
+              },
+              "btts": 0.5090754049035185,
+              "total_2_5": {
+                "over": 0.4561868841166704,
+                "under": 0.5438131158833296
+              }
+            },
+            "directions": {
+              "1x2": null,
+              "btts": true,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047984",
+            "rates": [
+              1.125,
+              0.875
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4126936700354996,
+                "D": 0.30515610333916277,
+                "A": 0.2821502266253377
+              },
+              "btts": 0.3938207961997545,
+              "total_2_5": {
+                "over": 0.3233235838169365,
+                "under": 0.6766764161830635
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2047985",
+            "rates": [
+              1.0,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2955945407805737,
+                "D": 0.28450797418519064,
+                "A": 0.4198974850342359
+              },
+              "btts": 0.45101498653023187,
+              "total_2_5": {
+                "over": 0.3906607330017219,
+                "under": 0.6093392669982781
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "2048013",
+            "rates": [
+              1.375,
+              1.375
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3722749107432238,
+                "D": 0.2554501785135524,
+                "A": 0.3722749107432238
+              },
+              "btts": 0.5582486695972146,
+              "total_2_5": {
+                "over": 0.5185432952869836,
+                "under": 0.4814567047130164
+              }
+            },
+            "directions": {
+              "1x2": null,
+              "btts": true,
+              "total_2_5": "over"
+            }
+          },
+          {
+            "omitted_match_id": "2048015",
+            "rates": [
+              1.125,
+              1.25
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3307384350702737,
+                "D": 0.2776546667101791,
+                "A": 0.3916068982195475
+              },
+              "btts": 0.48185722499212363,
+              "total_2_5": {
+                "over": 0.42374617231206135,
+                "under": 0.5762538276879386
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "fra-swe",
+            "rates": [
+              1.375,
+              1.0
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.4546927794380491,
+                "D": 0.27220020636111236,
+                "A": 0.2731070142008386
+              },
+              "btts": 0.47229545223447467,
+              "total_2_5": {
+                "over": 0.42374617231206135,
+                "under": 0.5762538276879386
+              }
+            },
+            "directions": {
+              "1x2": "H",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "usa-bih",
+            "rates": [
+              1.125,
+              1.375
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3068468482901991,
+                "D": 0.2674723066668754,
+                "A": 0.42568084504292564
+              },
+              "btts": 0.5045929354608026,
+              "total_2_5": {
+                "over": 0.4561868841166704,
+                "under": 0.5438131158833296
+              }
+            },
+            "directions": {
+              "1x2": "A",
+              "btts": true,
+              "total_2_5": "under"
+            }
+          }
+        ],
+        "unique_matches": 9,
+        "direction_flip_counts": {
+          "1x2": 7,
+          "btts": 5,
+          "total_2_5": 1
+        },
+        "unstable_targets": [
+          "1x2",
+          "btts",
+          "total_2_5"
+        ],
+        "method": "leave_one_unique_historical_match_out_no_refill",
+        "diagnostic_only": true,
+        "is_statistical_confidence_interval": false,
+        "historical_scores_removed_from_model": false
+      },
+      "raw_mc_by_recipe": {
+        "strength_h730": {
+          "seed": 7162983580762366517,
+          "samples": 10000,
+          "recipe_id": "strength_h730",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.5664,
+              "D": 0.2231,
+              "A": 0.2105
+            },
+            "btts": 0.5202,
+            "total_2_5": {
+              "over": 0.528,
+              "under": 0.472
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1134
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1065
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 990
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 987
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 645
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 604
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 600
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 598
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 539
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 484
+            }
+          ]
+        },
+        "strength_h365_plus_friendlies": {
+          "seed": 5613274700365404383,
+          "samples": 10000,
+          "recipe_id": "strength_h365_plus_friendlies",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.5183,
+              "D": 0.2414,
+              "A": 0.2403
+            },
+            "btts": 0.5415,
+            "total_2_5": {
+              "over": 0.5229,
+              "under": 0.47709999999999997
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 1189
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1046
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 971
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 914
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 1,
+              "count": 663
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 2,
+              "count": 636
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 609
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 540
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 505
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 500
+            }
+          ]
+        }
+      },
+      "result_90m": null
+    }
+  ],
+  "created_at": "2026-11-17T12:08:20.755294+00:00",
+  "reconstructed_at": "2026-11-17T12:08:20.755294+00:00",
+  "point_in_time_verified": false,
+  "reconstruction_notes": "Created after all outcomes were known. Original frozen pre-match five-game histories retained. Historical completeness assertions come from those archives, not fresh pre-match verification. Scores filtered by the original three-day fit guard. Not blind validation.",
+  "snapshot_id": "f04a708e06fed4888b95c3cb4e80bfcc"
+}

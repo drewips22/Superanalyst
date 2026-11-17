@@ -1,0 +1,114 @@
+{
+  "primary_match_ids": [
+    "2047890",
+    "2047892",
+    "2047893",
+    "2047894",
+    "2047895",
+    "2047897"
+  ],
+  "rows": [
+    {
+      "match_id": "2047893",
+      "result_90m": [
+        3,
+        1
+      ],
+      "main_focus": {
+        "target": "1x2",
+        "pick": "H"
+      },
+      "beta_v1_focus": {
+        "target": "total_2_5",
+        "pick": "under"
+      }
+    },
+    {
+      "match_id": "2047892",
+      "result_90m": [
+        1,
+        4
+      ],
+      "main_focus": {
+        "target": "1x2",
+        "pick": "H"
+      },
+      "beta_v1_focus": {
+        "target": "btts",
+        "pick": true
+      }
+    },
+    {
+      "match_id": "2047895",
+      "result_90m": [
+        0,
+        2
+      ],
+      "main_focus": {
+        "target": "total_2_5",
+        "pick": "under"
+      },
+      "beta_v1_focus": {
+        "target": "total_2_5",
+        "pick": "under"
+      }
+    },
+    {
+      "match_id": "2047894",
+      "result_90m": [
+        1,
+        0
+      ],
+      "main_focus": {
+        "target": "btts",
+        "pick": true
+      },
+      "beta_v1_focus": {
+        "target": "btts",
+        "pick": true
+      }
+    },
+    {
+      "match_id": "2047897",
+      "result_90m": [
+        1,
+        0
+      ],
+      "main_focus": {
+        "target": "total_2_5",
+        "pick": "under"
+      },
+      "beta_v1_focus": {
+        "target": "total_2_5",
+        "pick": "under"
+      }
+    },
+    {
+      "match_id": "2047891",
+      "result_90m": [
+        2,
+        1
+      ],
+      "main_focus": null,
+      "beta_v1_focus": {
+        "target": "total_2_5",
+        "pick": "over"
+      }
+    },
+    {
+      "match_id": "2047890",
+      "result_90m": [
+        3,
+        2
+      ],
+      "main_focus": {
+        "target": "1x2",
+        "pick": "H"
+      },
+      "beta_v1_focus": {
+        "target": "total_2_5",
+        "pick": "under"
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-11-17T12:07:36.418631+00:00",
+  "source_files_sha256": {
+    "local-source/a3ce90876c7b/espn-summary-401861145.json": "01775c5c536c22b3d298a680a171d7d6ec3dbb73d4b1730f693c782b81cec087",
+    "local-source/389590c57ed6/espn-summary-401861146.json": "2516bc0a1c449b899704eef498b9b8c0936f16a90d9fa99ff2bd8353a00c2719",
+    "local-source/e1a30185395b/espn-summary-401861147.json": "6c2b46bd60f45ff5233784cf0824bcac387c49fc3013c25b304802b61947962b",
+    "local-source/189ed938aa07/espn-summary-401861148.json": "19af140bd29e4564b8f14e40dbfa4ec25f143b923d67eebe8e774ca5ac73ea57",
+    "local-source/4ca2e8548d70/espn-summary-401861149.json": "52951495a8f37a21c1e5c9a3b1fb5a37601403dcaf6ef33dbb5d4458f0d381a3",
+    "local-source/59df63b20705/espn-summary-401861150.json": "6348435b89a387c81fb0304995535eaacfe194ed25cc6951f74c832ac73ec209",
+    "local-source/40b987e28eb4/espn-summary-401861151.json": "26d119817a2c57e43c4436404c2193aacbf0688ec3104adb117db75e443ee8cf",
+    "local-source/15a9c5bbb155/espn-summary-401861152.json": "ac252100f4c26b60faa75ce738c1695a8e75f4f27432059a78bbe732283cce7f",
+    "local-source/4f5be93b27d8/outcomes-and-postmatch-context.json": "57c28700438b28f56f4209fb9610572b43a2e347e22b05600be7d536a3c9863b",
+    "local-source/e6320d1fbfb3/401861162-summary.json": "5197e77dd69a42ed1b897deeae1bb1443dad610a7ef85716e4acfd12d37b2138",
+    "local-source/4876726abc98/401861155-summary.json": "4c3c797eacd3204ded8d319a38beaa0e4bc4a6a9f2aba62844215c6b19e30b94",
+    "local-source/a539003b062d/401861157-summary.json": "f95022434628152d99cba00ddff694c4c40408ffe2f9294fe03fb63d766d0240",
+    "local-source/8be624f35b02/401861153-summary.json": "b0762176bddc4e4b112cd73085f8a2f6a460a1e8bc1b0c104759a637059dbcd1",
+    "local-source/43ac0c3f426c/401861154-summary.json": "93a58a666add7520f5b13bf52d651c53fa891139b87f53b59e1967d5ab015933",
+    "local-source/1afa1e393d63/401861159-summary.json": "c512882d915f327ce329c8cf5bbbb21fd7dd8edcbe37060c67c24c28647e3b6b",
+    "local-source/8c1506d8248b/401861161-summary.json": "ca38a7c49dcc6c53fc8ebc7d82b8f234cd5cbd0709bf916e4aea16ed36e56e8e",
+    "local-source/aff3d11fbf0b/401861158-summary.json": "87c0cba61cd9b4b1309eb3b09b72f56affb9380b8023778a2290a1b71d2b2a4a",
+    "local-source/70e8f8bfaf8d/401861160-summary.json": "7c3d5c7c48aaae743737582fdc60b53971d13699ca60e185a637575dbb2b5653",
+    "local-source/cc74d8b2195b/401861156-summary.json": "a83367bec2a35e68c76d92e0e1bdb67df09b52423425ad1d774b6b45c0c1039d",
+    "local-source/83a33463050b/forecast-v1.json": "e775d24260ca983797295244aa5b4085b968becfbfb88ea856242cff815689e6",
+    "local-source/325266bbfc9e/baseline-forecast.json": "139576e67f921826e779d87a3e2d30eac41c07e9c7dcdd8daa273a5770ccb6b4",
+    "local-source/bbc051360e4a/Evaluasi-UNL-15-November-2026.json": "fd03d06c884dbeb03a91024b05442d2c911f7bd7459e0d41e92138571ed2541a",
+    "local-source/7c70dcb519ca/beta-forecast-v1.json": "0581eb63784b45d255d5e9bf58297a75a06aaf89bcacc09b2b56caf4aac72810",
+    "local-source/919410a1843d/main-forecast-v1.json": "571fd937dbc5e72967fd703900bdb07a08319ea982c102f7a3787a7ec6e79268",
+    "local-source/8be63607f6b8/Evaluasi-UNL-15-16-November-2026.json": "4bc66abb017747d77626864eae80ea5c2764a32f823dc523d6d72a9ece5011e5",
+    "local-source/d1c1840552ce/inputs-v1.json": "64640f72d1caa47212065d5b53f3e611c4b4c45eeaf9a4c7f402e86ba0b9c510",
+    "local-source/b9d975e0d410/beta-forecast-v1.json": "4a74428dd12c4a1eb914635bf0c6ddc61de160af3573cc67175603f0b0525109",
+    "local-source/6ff243469781/main-forecast-v1.json": "bec36604c457f620bd3c9fe30d3570fad3743f5eb331ef135c7f7a4260384383",
+    "local-source/12d64028c58f/Evaluasi-UNL-16-17-November-2026.json": "30ae3a9eee6585133725535103001b6400da219c1df4761c2aa04b277857440a",
+    "local-source/6d675dac05f8/inputs-v1.json": "2884a634699debcbc6fdae57f09e8c950fa46bf7f860470f3391e732a0adafac"
+  },
+  "update_scope": "Verified UEFA Nations League November 12-16; global non-UEFA updates not asserted complete.",
+  "new_training_updates": 41,
+  "updates_by_date": {
+    "2026-11-12": 8,
+    "2026-11-13": 10,
+    "2026-11-14": 7,
+    "2026-11-15": 8,
+    "2026-11-16": 8
+  },
+  "updates_sha256": "bb5ee765e6f0212296256dc0e87747ff3369d4f4f22d1658d70d4f657e53f212",
+  "cases": [
+    {
+      "day": "2026-11-14",
+      "inputs": "local-source/dc8606bf4b9e/november-inputs-2026-11-14.json",
+      "primary_n": 6,
+      "all_n": 7
+    },
+    {
+      "day": "2026-11-15",
+      "inputs": "local-source/7bf80b92884f/november-inputs-2026-11-15.json",
+      "primary_n": 8,
+      "all_n": 8
+    },
+    {
+      "day": "2026-11-16",
+      "inputs": "local-source/1476e6166119/november-inputs-2026-11-16.json",
+      "primary_n": 8,
+      "all_n": 8
+    }
+  ],
+  "main_modified": false
+}

@@ -1,0 +1,21 @@
+{
+  "recorded_at": "2026-11-17T12:16:50.751111+00:00",
+  "packaged_experimental_tests": {
+    "passed": 18,
+    "exit_code": 0
+  },
+  "existing_system_tests": {
+    "passed": 95,
+    "observed_pass_in_this_session": true
+  },
+  "old_national_replay": {
+    "guarded_feature_rows": 47660,
+    "model_match_pairs": 12204,
+    "passed": true
+  },
+  "synthetic_cli": {
+    "exit_code": 0,
+    "stdout": "Saved forecast: 487832a5df71c2f6c84d714ac7edf882 (1 fixtures)"
+  },
+  "test_examples_prove_real_match_accuracy": false
+}

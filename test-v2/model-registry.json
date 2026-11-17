@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-11-17T12:16:46.680195+00:00",
+  "operational_main": "qualitative_superanalyst_national_team_pilot_v1",
+  "main_configuration_changed": false,
+  "old_beta_control": "last5-poisson-montecarlo-prospective-v1",
+  "experimental_beta": "superanalyst-beta-v2.0.0-experimental",
+  "experimental_hybrid": "superanalyst-hybrid-beta-v1.0.0-experimental",
+  "status": "explicit_shadow_use_only_no_operational_replacement",
+  "package": "model-package.json",
+  "focus_selection": "focus-selection.json",
+  "automatic_monitoring_enabled": false,
+  "published_to_github": false
+}

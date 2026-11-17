@@ -1,0 +1,17 @@
+{
+  "local_verification": {
+    "status": "passed",
+    "bundle_files_checked": 80,
+    "historical_rows_replayed": 848,
+    "historical_goal_rate_pairs": 2544,
+    "selection_rows": 410,
+    "evaluation_rows": 438,
+    "november_reconstructions_replayed": 23,
+    "raw_mc_samples_archived": 460000,
+    "protected_original_files_checked": 407,
+    "interpretation": "Reproducibility and arithmetic checks, not new real-match accuracy evidence."
+  },
+  "private_original_path_manifest_published": false,
+  "original_path_manifest_sha256": "f1c2b1e83ca32b1954a7fb2d18c753188a0a7690fa5acb3bcb4bb51031f268d7",
+  "note": "407 original files were verified locally; their absolute machine paths are omitted from this public copy."
+}

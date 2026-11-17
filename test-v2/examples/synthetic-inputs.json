@@ -1,0 +1,125 @@
+{
+  "synthetic": true,
+  "as_of": "2026-11-17T12:16:46.937181+00:00",
+  "fixtures": [
+    {
+      "match_id": "synthetic-test",
+      "home_key": "A",
+      "away_key": "B",
+      "competition_key": "Test",
+      "neutral": false,
+      "kickoff_at": "2026-11-18T12:16:46.937181+00:00",
+      "history": {
+        "home": [
+          {
+            "id": "home-0",
+            "date": "2026-11-07",
+            "gf": 1,
+            "ga": 0,
+            "scope": "90m"
+          },
+          {
+            "id": "home-1",
+            "date": "2026-11-06",
+            "gf": 1,
+            "ga": 1,
+            "scope": "90m"
+          },
+          {
+            "id": "home-2",
+            "date": "2026-11-05",
+            "gf": 1,
+            "ga": 0,
+            "scope": "90m"
+          },
+          {
+            "id": "home-3",
+            "date": "2026-11-04",
+            "gf": 1,
+            "ga": 1,
+            "scope": "90m"
+          },
+          {
+            "id": "home-4",
+            "date": "2026-11-03",
+            "gf": 1,
+            "ga": 0,
+            "scope": "90m"
+          }
+        ],
+        "away": [
+          {
+            "id": "away-0",
+            "date": "2026-11-07",
+            "gf": 1,
+            "ga": 0,
+            "scope": "90m"
+          },
+          {
+            "id": "away-1",
+            "date": "2026-11-06",
+            "gf": 1,
+            "ga": 1,
+            "scope": "90m"
+          },
+          {
+            "id": "away-2",
+            "date": "2026-11-05",
+            "gf": 1,
+            "ga": 0,
+            "scope": "90m"
+          },
+          {
+            "id": "away-3",
+            "date": "2026-11-04",
+            "gf": 1,
+            "ga": 1,
+            "scope": "90m"
+          },
+          {
+            "id": "away-4",
+            "date": "2026-11-03",
+            "gf": 1,
+            "ga": 0,
+            "scope": "90m"
+          }
+        ]
+      },
+      "main": {
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "low"
+          },
+          "btts": {
+            "pick": null,
+            "confidence": null
+          },
+          "total_2_5": {
+            "pick": "under",
+            "confidence": "medium"
+          }
+        },
+        "focus_target": "total_2_5"
+      }
+    }
+  ],
+  "history_audit": {
+    "A": {
+      "complete": true,
+      "source_urls": [
+        "https://example.invalid/synthetic"
+      ],
+      "checked_at": "2026-11-17T12:16:45.937181+00:00",
+      "latest_match_id": "home-0"
+    },
+    "B": {
+      "complete": true,
+      "source_urls": [
+        "https://example.invalid/synthetic"
+      ],
+      "checked_at": "2026-11-17T12:16:45.937181+00:00",
+      "latest_match_id": "away-0"
+    }
+  }
+}

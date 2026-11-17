@@ -1,0 +1,2322 @@
+{
+  "as_of": "2026-11-15T13:47:09.850488+00:00",
+  "fixtures": [
+    {
+      "match_id": "2047903",
+      "home": "Siprus",
+      "away": "Montenegro",
+      "home_key": "Cyprus",
+      "away_key": "Montenegro",
+      "competition_key": "UEFA Nations League",
+      "neutral": false,
+      "kickoff_at": "2026-11-15T21:00:00+07:00",
+      "scope": "90m",
+      "history": {
+        "home": [
+          {
+            "id": "unl-2026-09-25-Montenegro-Cyprus",
+            "date": "2026-09-25",
+            "team": "Cyprus",
+            "opponent": "Montenegro",
+            "venue": "away",
+            "gf": 1,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 11.0,
+            "shots_on_target": 4.0,
+            "possession_pct": 35.8,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861056",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-09-28-Latvia-Cyprus",
+            "date": "2026-09-28",
+            "team": "Cyprus",
+            "opponent": "Latvia",
+            "venue": "away",
+            "gf": 0,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 18.0,
+            "shots_on_target": 5.0,
+            "possession_pct": 67.0,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861082",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-02-Cyprus-Armenia",
+            "date": "2026-10-02",
+            "team": "Cyprus",
+            "opponent": "Armenia",
+            "venue": "home",
+            "gf": 2,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 8.0,
+            "shots_on_target": 4.0,
+            "possession_pct": 32.3,
+            "red_cards": 1.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861104",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-05-Cyprus-Latvia",
+            "date": "2026-10-05",
+            "team": "Cyprus",
+            "opponent": "Latvia",
+            "venue": "home",
+            "gf": 2,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 19.0,
+            "shots_on_target": 7.0,
+            "possession_pct": 60.7,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861127",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-11-12-Armenia-Cyprus",
+            "date": "2026-11-12",
+            "team": "Cyprus",
+            "opponent": "Armenia",
+            "venue": "away",
+            "gf": 1,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": null,
+            "shots_on_target": null,
+            "possession_pct": null,
+            "red_cards": null,
+            "statistics_provider": null,
+            "statistics_source": null,
+            "xg": null,
+            "xga": null
+          }
+        ],
+        "away": [
+          {
+            "id": "unl-2026-09-25-Montenegro-Cyprus",
+            "date": "2026-09-25",
+            "team": "Montenegro",
+            "opponent": "Cyprus",
+            "venue": "home",
+            "gf": 2,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 19.0,
+            "shots_on_target": 4.0,
+            "possession_pct": 64.2,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861056",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-09-28-Armenia-Montenegro",
+            "date": "2026-09-28",
+            "team": "Montenegro",
+            "opponent": "Armenia",
+            "venue": "away",
+            "gf": 3,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 12.0,
+            "shots_on_target": 4.0,
+            "possession_pct": 45.5,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861076",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-02-Latvia-Montenegro",
+            "date": "2026-10-02",
+            "team": "Montenegro",
+            "opponent": "Latvia",
+            "venue": "away",
+            "gf": 2,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 14.0,
+            "shots_on_target": 6.0,
+            "possession_pct": 49.1,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861105",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-05-Montenegro-Armenia",
+            "date": "2026-10-05",
+            "team": "Montenegro",
+            "opponent": "Armenia",
+            "venue": "home",
+            "gf": 0,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 8.0,
+            "shots_on_target": 5.0,
+            "possession_pct": 64.4,
+            "red_cards": 1.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861130",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-11-12-Montenegro-Latvia",
+            "date": "2026-11-12",
+            "team": "Montenegro",
+            "opponent": "Latvia",
+            "venue": "home",
+            "gf": 2,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": null,
+            "shots_on_target": null,
+            "possession_pct": null,
+            "red_cards": null,
+            "statistics_provider": null,
+            "statistics_source": null,
+            "xg": null,
+            "xga": null
+          }
+        ]
+      },
+      "main": {
+        "match_id": "2047903",
+        "home": "Siprus",
+        "away": "Montenegro",
+        "kickoff_at": "2026-11-15T21:00:00+07:00",
+        "venue": "Alphamega Stadium, Limassol",
+        "neutral": false,
+        "group": "C2",
+        "competition": "UEFA Nations League 2026/27",
+        "synthetic": false,
+        "scope": "90m",
+        "analysis_method": "qualitative_superanalyst_national_team_pilot_v1",
+        "probabilities": null,
+        "result_90m": null,
+        "lineup_status": "reported_by_provider",
+        "source_ids": [
+          "uefa_preview",
+          "fscg_preview",
+          "fscg_last",
+          "fscg_dresaj",
+          "fotmob_cyp"
+        ],
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Montenegro lebih konsisten tetapi Siprus menang dua laga kandang; posisi grup sudah pasti."
+            ],
+            "abstain_reason": "Montenegro lebih konsisten tetapi Siprus menang dua laga kandang; posisi grup sudah pasti."
+          },
+          "btts": {
+            "pick": true,
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Montenegro BTTS 4/5; Siprus mencetak gol 4/5.",
+              "Savic absen; kedua lini depan masih mempunyai opsi utama menurut daftar XI FotMob."
+            ],
+            "contradicting_evidence": [
+              "Siprus kebobolan hanya dua gol dalam empat laga terbaru; risiko tempo rendah/rotasi tetap ada."
+            ],
+            "abstain_reason": null
+          },
+          "total_2_5": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Pola Siprus Under 3/5 berhadapan dengan Montenegro Over 4/5; belum cukup konsisten."
+            ],
+            "abstain_reason": "Pola Siprus Under 3/5 berhadapan dengan Montenegro Over 4/5; belum cukup konsisten."
+          }
+        },
+        "focus_target": "btts",
+        "score_scenario": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "match_id": "2047899",
+      "home": "Latvia",
+      "away": "Armenia",
+      "home_key": "Latvia",
+      "away_key": "Armenia",
+      "competition_key": "UEFA Nations League",
+      "neutral": false,
+      "kickoff_at": "2026-11-15T21:00:00+07:00",
+      "scope": "90m",
+      "history": {
+        "home": [
+          {
+            "id": "unl-2026-09-25-Armenia-Latvia",
+            "date": "2026-09-25",
+            "team": "Latvia",
+            "opponent": "Armenia",
+            "venue": "away",
+            "gf": 0,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 5.0,
+            "shots_on_target": 1.0,
+            "possession_pct": 43.7,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861050",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-09-28-Latvia-Cyprus",
+            "date": "2026-09-28",
+            "team": "Latvia",
+            "opponent": "Cyprus",
+            "venue": "home",
+            "gf": 0,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 8.0,
+            "shots_on_target": 0.0,
+            "possession_pct": 33.0,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861082",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-02-Latvia-Montenegro",
+            "date": "2026-10-02",
+            "team": "Latvia",
+            "opponent": "Montenegro",
+            "venue": "home",
+            "gf": 1,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 14.0,
+            "shots_on_target": 2.0,
+            "possession_pct": 50.9,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861105",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-05-Cyprus-Latvia",
+            "date": "2026-10-05",
+            "team": "Latvia",
+            "opponent": "Cyprus",
+            "venue": "away",
+            "gf": 1,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 12.0,
+            "shots_on_target": 1.0,
+            "possession_pct": 39.3,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861127",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-11-12-Montenegro-Latvia",
+            "date": "2026-11-12",
+            "team": "Latvia",
+            "opponent": "Montenegro",
+            "venue": "away",
+            "gf": 1,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": null,
+            "shots_on_target": null,
+            "possession_pct": null,
+            "red_cards": null,
+            "statistics_provider": null,
+            "statistics_source": null,
+            "xg": null,
+            "xga": null
+          }
+        ],
+        "away": [
+          {
+            "id": "unl-2026-09-25-Armenia-Latvia",
+            "date": "2026-09-25",
+            "team": "Armenia",
+            "opponent": "Latvia",
+            "venue": "home",
+            "gf": 2,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 14.0,
+            "shots_on_target": 4.0,
+            "possession_pct": 56.3,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861050",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-09-28-Armenia-Montenegro",
+            "date": "2026-09-28",
+            "team": "Armenia",
+            "opponent": "Montenegro",
+            "venue": "home",
+            "gf": 2,
+            "ga": 3,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 10.0,
+            "shots_on_target": 4.0,
+            "possession_pct": 54.5,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861076",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-02-Cyprus-Armenia",
+            "date": "2026-10-02",
+            "team": "Armenia",
+            "opponent": "Cyprus",
+            "venue": "away",
+            "gf": 0,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 17.0,
+            "shots_on_target": 5.0,
+            "possession_pct": 67.7,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861104",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-05-Montenegro-Armenia",
+            "date": "2026-10-05",
+            "team": "Armenia",
+            "opponent": "Montenegro",
+            "venue": "away",
+            "gf": 0,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 9.0,
+            "shots_on_target": 2.0,
+            "possession_pct": 35.6,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861130",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-11-12-Armenia-Cyprus",
+            "date": "2026-11-12",
+            "team": "Armenia",
+            "opponent": "Cyprus",
+            "venue": "home",
+            "gf": 1,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": null,
+            "shots_on_target": null,
+            "possession_pct": null,
+            "red_cards": null,
+            "statistics_provider": null,
+            "statistics_source": null,
+            "xg": null,
+            "xga": null
+          }
+        ]
+      },
+      "main": {
+        "match_id": "2047899",
+        "home": "Latvia",
+        "away": "Armenia",
+        "kickoff_at": "2026-11-15T21:00:00+07:00",
+        "venue": "Skonto Stadium, Riga",
+        "neutral": false,
+        "group": "C2",
+        "competition": "UEFA Nations League 2026/27",
+        "synthetic": false,
+        "scope": "90m",
+        "analysis_method": "qualitative_superanalyst_national_team_pilot_v1",
+        "probabilities": null,
+        "result_90m": null,
+        "lineup_status": "official_reported_by_two_providers",
+        "source_ids": [
+          "uefa_results",
+          "lff_match",
+          "sportaran_lat_xi",
+          "sportaran_absences",
+          "sportaran_sevikyan",
+          "fotmob_lat"
+        ],
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Armenia hanya satu kemenangan dan belum mencetak gol tandang; Latvia punya kandang."
+            ],
+            "abstain_reason": "Armenia hanya satu kemenangan dan belum mencetak gol tandang; Latvia punya kandang."
+          },
+          "btts": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Latvia mencetak gol tiga laga terbaru, sedangkan Armenia dua laga tandang tanpa gol."
+            ],
+            "abstain_reason": "Latvia mencetak gol tiga laga terbaru, sedangkan Armenia dua laga tandang tanpa gol."
+          },
+          "total_2_5": {
+            "pick": "under",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Armenia Under 4/5 dan tidak mencetak gol dalam dua laga tandang UNL.",
+              "Latvia tidak pernah mencetak lebih dari satu gol pada lima laga; Melniks/Ikaunieks tidak masuk skuad yang dilaporkan."
+            ],
+            "contradicting_evidence": [
+              "Tiga laga Latvia terbaru seluruhnya Over 2,5; gol awal bisa membuka pertandingan."
+            ],
+            "abstain_reason": null
+          }
+        },
+        "focus_target": "total_2_5",
+        "score_scenario": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "match_id": "2047905",
+      "home": "Belarus",
+      "away": "Albania",
+      "home_key": "Belarus",
+      "away_key": "Albania",
+      "competition_key": "UEFA Nations League",
+      "neutral": true,
+      "kickoff_at": "2026-11-16T00:00:00+07:00",
+      "scope": "90m",
+      "history": {
+        "home": [
+          {
+            "id": "unl-2026-09-26-Albania-Belarus",
+            "date": "2026-09-26",
+            "team": "Belarus",
+            "opponent": "Albania",
+            "venue": "away",
+            "gf": 0,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 8.0,
+            "shots_on_target": 2.0,
+            "possession_pct": 46.0,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861062",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-09-29-Finland-Belarus",
+            "date": "2026-09-29",
+            "team": "Belarus",
+            "opponent": "Finland",
+            "venue": "away",
+            "gf": 0,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 9.0,
+            "shots_on_target": 3.0,
+            "possession_pct": 39.2,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861089",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-03-Belarus-San Marino",
+            "date": "2026-10-03",
+            "team": "Belarus",
+            "opponent": "San Marino",
+            "venue": "home",
+            "gf": 4,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 15.0,
+            "shots_on_target": 5.0,
+            "possession_pct": 59.6,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861114",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-06-Belarus-Finland",
+            "date": "2026-10-06",
+            "team": "Belarus",
+            "opponent": "Finland",
+            "venue": "home",
+            "gf": 1,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 6.0,
+            "shots_on_target": 2.0,
+            "possession_pct": 26.4,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861138",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-11-12-San Marino-Belarus",
+            "date": "2026-11-12",
+            "team": "Belarus",
+            "opponent": "San Marino",
+            "venue": "away",
+            "gf": 2,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": null,
+            "shots_on_target": null,
+            "possession_pct": null,
+            "red_cards": null,
+            "statistics_provider": null,
+            "statistics_source": null,
+            "xg": null,
+            "xga": null
+          }
+        ],
+        "away": [
+          {
+            "id": "unl-2026-09-26-Albania-Belarus",
+            "date": "2026-09-26",
+            "team": "Albania",
+            "opponent": "Belarus",
+            "venue": "home",
+            "gf": 2,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 20.0,
+            "shots_on_target": 3.0,
+            "possession_pct": 54.0,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861062",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-09-29-San Marino-Albania",
+            "date": "2026-09-29",
+            "team": "Albania",
+            "opponent": "San Marino",
+            "venue": "away",
+            "gf": 3,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 14.0,
+            "shots_on_target": 8.0,
+            "possession_pct": 71.6,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861088",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-03-Finland-Albania",
+            "date": "2026-10-03",
+            "team": "Albania",
+            "opponent": "Finland",
+            "venue": "away",
+            "gf": 1,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 14.0,
+            "shots_on_target": 5.0,
+            "possession_pct": 39.6,
+            "red_cards": 1.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861111",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-06-Albania-San Marino",
+            "date": "2026-10-06",
+            "team": "Albania",
+            "opponent": "San Marino",
+            "venue": "home",
+            "gf": 2,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 26.0,
+            "shots_on_target": 7.0,
+            "possession_pct": 69.6,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861140",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-11-12-Albania-Finland",
+            "date": "2026-11-12",
+            "team": "Albania",
+            "opponent": "Finland",
+            "venue": "home",
+            "gf": 2,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": null,
+            "shots_on_target": null,
+            "possession_pct": null,
+            "red_cards": null,
+            "statistics_provider": null,
+            "statistics_source": null,
+            "xg": null,
+            "xga": null
+          }
+        ]
+      },
+      "main": {
+        "match_id": "2047905",
+        "home": "Belarus",
+        "away": "Albania",
+        "kickoff_at": "2026-11-16T00:00:00+07:00",
+        "venue": "Illovszky Rudolf Stadion, Budapest",
+        "neutral": true,
+        "group": "C1",
+        "competition": "UEFA Nations League 2026/27",
+        "synthetic": false,
+        "scope": "90m",
+        "analysis_method": "qualitative_superanalyst_national_team_pilot_v1",
+        "probabilities": null,
+        "result_90m": null,
+        "lineup_status": "projected",
+        "source_ids": [
+          "uefa_preview",
+          "uefa_results",
+          "albania_preview",
+          "uefa_blr_venue"
+        ],
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Albania lebih tinggi di klasemen, tetapi cukup seri dan Belarus perlu menang."
+            ],
+            "abstain_reason": "Albania lebih tinggi di klasemen, tetapi cukup seri dan Belarus perlu menang."
+          },
+          "btts": {
+            "pick": false,
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Belarus BTTS Tidak 5/5 dan empat clean sheet; Albania clean sheet 3/5.",
+              "Muci absen menurut pembaruan medis yang dilaporkan."
+            ],
+            "contradicting_evidence": [
+              "Albania mencetak gol pada kelima laga; Belarus bisa mengambil risiko lebih besar."
+            ],
+            "abstain_reason": null
+          },
+          "total_2_5": {
+            "pick": "under",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Belarus Under 4/5 dengan hanya dua kebobolan; Albania hanya tiga kebobolan.",
+              "Venue netral; Albania cukup seri untuk mengunci juara grup."
+            ],
+            "contradicting_evidence": [
+              "Albania Under hanya 2/5; Belarus perlu mengejar kemenangan dan Ramadani absen."
+            ],
+            "abstain_reason": null
+          }
+        },
+        "focus_target": "total_2_5",
+        "score_scenario": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "match_id": "2047901",
+      "home": "Finlandia",
+      "away": "San Marino",
+      "home_key": "Finland",
+      "away_key": "San Marino",
+      "competition_key": "UEFA Nations League",
+      "neutral": false,
+      "kickoff_at": "2026-11-16T00:00:00+07:00",
+      "scope": "90m",
+      "history": {
+        "home": [
+          {
+            "id": "unl-2026-09-26-San Marino-Finland",
+            "date": "2026-09-26",
+            "team": "Finland",
+            "opponent": "San Marino",
+            "venue": "away",
+            "gf": 7,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 23.0,
+            "shots_on_target": 11.0,
+            "possession_pct": 75.3,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861059",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-09-29-Finland-Belarus",
+            "date": "2026-09-29",
+            "team": "Finland",
+            "opponent": "Belarus",
+            "venue": "home",
+            "gf": 0,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 9.0,
+            "shots_on_target": 2.0,
+            "possession_pct": 60.8,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861089",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-03-Finland-Albania",
+            "date": "2026-10-03",
+            "team": "Finland",
+            "opponent": "Albania",
+            "venue": "home",
+            "gf": 2,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 11.0,
+            "shots_on_target": 3.0,
+            "possession_pct": 60.4,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861111",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-06-Belarus-Finland",
+            "date": "2026-10-06",
+            "team": "Finland",
+            "opponent": "Belarus",
+            "venue": "away",
+            "gf": 0,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 14.0,
+            "shots_on_target": 2.0,
+            "possession_pct": 73.6,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861138",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-11-12-Albania-Finland",
+            "date": "2026-11-12",
+            "team": "Finland",
+            "opponent": "Albania",
+            "venue": "away",
+            "gf": 0,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": null,
+            "shots_on_target": null,
+            "possession_pct": null,
+            "red_cards": null,
+            "statistics_provider": null,
+            "statistics_source": null,
+            "xg": null,
+            "xga": null
+          }
+        ],
+        "away": [
+          {
+            "id": "unl-2026-09-26-San Marino-Finland",
+            "date": "2026-09-26",
+            "team": "San Marino",
+            "opponent": "Finland",
+            "venue": "home",
+            "gf": 0,
+            "ga": 7,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 1.0,
+            "shots_on_target": 0.0,
+            "possession_pct": 24.7,
+            "red_cards": 1.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861059",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-09-29-San Marino-Albania",
+            "date": "2026-09-29",
+            "team": "San Marino",
+            "opponent": "Albania",
+            "venue": "home",
+            "gf": 0,
+            "ga": 3,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 6.0,
+            "shots_on_target": 1.0,
+            "possession_pct": 28.4,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861088",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-03-Belarus-San Marino",
+            "date": "2026-10-03",
+            "team": "San Marino",
+            "opponent": "Belarus",
+            "venue": "away",
+            "gf": 0,
+            "ga": 4,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 10.0,
+            "shots_on_target": 4.0,
+            "possession_pct": 40.4,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861114",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-06-Albania-San Marino",
+            "date": "2026-10-06",
+            "team": "San Marino",
+            "opponent": "Albania",
+            "venue": "away",
+            "gf": 1,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 8.0,
+            "shots_on_target": 3.0,
+            "possession_pct": 30.4,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861140",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-11-12-San Marino-Belarus",
+            "date": "2026-11-12",
+            "team": "San Marino",
+            "opponent": "Belarus",
+            "venue": "home",
+            "gf": 0,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": null,
+            "shots_on_target": null,
+            "possession_pct": null,
+            "red_cards": null,
+            "statistics_provider": null,
+            "statistics_source": null,
+            "xg": null,
+            "xga": null
+          }
+        ]
+      },
+      "main": {
+        "match_id": "2047901",
+        "home": "Finlandia",
+        "away": "San Marino",
+        "kickoff_at": "2026-11-16T00:00:00+07:00",
+        "venue": "Bolt Arena, Helsinki",
+        "neutral": false,
+        "group": "C1",
+        "competition": "UEFA Nations League 2026/27",
+        "synthetic": false,
+        "scope": "90m",
+        "analysis_method": "qualitative_superanalyst_national_team_pilot_v1",
+        "probabilities": null,
+        "result_90m": null,
+        "lineup_status": "projected",
+        "source_ids": [
+          "palloliitto",
+          "uefa_results",
+          "uefa_preview"
+        ],
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "relatively_strong",
+            "status": "provisional",
+            "supporting_evidence": [
+              "San Marino kalah 5/5, gol 1–18; Finlandia menang 7–0 dalam pertemuan pertama.",
+              "Kesenjangan lawan dan kandang tetap mendukung Finlandia meski hasil terakhir turun."
+            ],
+            "contradicting_evidence": [
+              "Banyak pemain Finlandia absen dan posisi ketiga sudah pasti; gagal mencetak gol 3/5."
+            ],
+            "abstain_reason": null
+          },
+          "btts": {
+            "pick": false,
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "San Marino gagal mencetak gol 4/5; Finlandia BTTS Tidak 4/5."
+            ],
+            "contradicting_evidence": [
+              "Absensi bek/gelandang Finlandia dapat memperlemah perlindungan pertahanan."
+            ],
+            "abstain_reason": null
+          },
+          "total_2_5": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Tujuh dari sembilan gol Finlandia berasal dari satu laga; banyak absensi dan potensi rotasi membuat jumlah gol rapuh."
+            ],
+            "abstain_reason": "Tujuh dari sembilan gol Finlandia berasal dari satu laga; banyak absensi dan potensi rotasi membuat jumlah gol rapuh."
+          }
+        },
+        "focus_target": "1x2",
+        "score_scenario": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "match_id": "2047900",
+      "home": "Belgia",
+      "away": "Italia",
+      "home_key": "Belgium",
+      "away_key": "Italy",
+      "competition_key": "UEFA Nations League",
+      "neutral": false,
+      "kickoff_at": "2026-11-16T02:45:00+07:00",
+      "scope": "90m",
+      "history": {
+        "home": [
+          {
+            "id": "unl-2026-09-25-Italy-Belgium",
+            "date": "2026-09-25",
+            "team": "Belgium",
+            "opponent": "Italy",
+            "venue": "away",
+            "gf": 2,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 19.0,
+            "shots_on_target": 8.0,
+            "possession_pct": 44.1,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861052",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-09-28-Belgium-France",
+            "date": "2026-09-28",
+            "team": "Belgium",
+            "opponent": "France",
+            "venue": "home",
+            "gf": 0,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 12.0,
+            "shots_on_target": 2.0,
+            "possession_pct": 35.4,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861081",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-02-Belgium-Türkiye",
+            "date": "2026-10-02",
+            "team": "Belgium",
+            "opponent": "Türkiye",
+            "venue": "home",
+            "gf": 3,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 17.0,
+            "shots_on_target": 10.0,
+            "possession_pct": 53.9,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861109",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-05-France-Belgium",
+            "date": "2026-10-05",
+            "team": "Belgium",
+            "opponent": "France",
+            "venue": "away",
+            "gf": 1,
+            "ga": 4,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 5.0,
+            "shots_on_target": 2.0,
+            "possession_pct": 34.4,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861129",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-11-12-Türkiye-Belgium",
+            "date": "2026-11-12",
+            "team": "Belgium",
+            "opponent": "Türkiye",
+            "venue": "away",
+            "gf": 2,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 12,
+            "shots_on_target": 6,
+            "possession_pct": 49,
+            "red_cards": 0,
+            "statistics_provider": "UEFA",
+            "statistics_source": "https://www.uefa.com/newsfiles/UNL/2027/2047873_FR.pdf",
+            "xg": null,
+            "xga": null
+          }
+        ],
+        "away": [
+          {
+            "id": "unl-2026-09-25-Italy-Belgium",
+            "date": "2026-09-25",
+            "team": "Italy",
+            "opponent": "Belgium",
+            "venue": "home",
+            "gf": 0,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 21.0,
+            "shots_on_target": 6.0,
+            "possession_pct": 55.9,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861052",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-09-28-Türkiye-Italy",
+            "date": "2026-09-28",
+            "team": "Italy",
+            "opponent": "Türkiye",
+            "venue": "away",
+            "gf": 4,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 14.0,
+            "shots_on_target": 8.0,
+            "possession_pct": 46.2,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861077",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-02-France-Italy",
+            "date": "2026-10-02",
+            "team": "Italy",
+            "opponent": "France",
+            "venue": "away",
+            "gf": 1,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 14.0,
+            "shots_on_target": 2.0,
+            "possession_pct": 35.4,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861103",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-05-Italy-Türkiye",
+            "date": "2026-10-05",
+            "team": "Italy",
+            "opponent": "Türkiye",
+            "venue": "home",
+            "gf": 3,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 15.0,
+            "shots_on_target": 6.0,
+            "possession_pct": 44.7,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861131",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-11-12-Italy-France",
+            "date": "2026-11-12",
+            "team": "Italy",
+            "opponent": "France",
+            "venue": "home",
+            "gf": 3,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": null,
+            "shots_on_target": null,
+            "possession_pct": null,
+            "red_cards": null,
+            "statistics_provider": null,
+            "statistics_source": null,
+            "xg": null,
+            "xga": null
+          }
+        ]
+      },
+      "main": {
+        "match_id": "2047900",
+        "home": "Belgia",
+        "away": "Italia",
+        "kickoff_at": "2026-11-16T02:45:00+07:00",
+        "venue": "King Baudouin Stadium, Brussels",
+        "neutral": false,
+        "group": "A1",
+        "competition": "UEFA Nations League 2026/27",
+        "synthetic": false,
+        "scope": "90m",
+        "analysis_method": "qualitative_superanalyst_national_team_pilot_v1",
+        "probabilities": null,
+        "result_90m": null,
+        "lineup_status": "projected",
+        "source_ids": [
+          "uefa_preview",
+          "uefa_results",
+          "uefa_bel_venue",
+          "sm_bel",
+          "rai_italy"
+        ],
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Italia membaik tetapi Belgia punya kandang dan menang 2–0 di pertemuan pertama."
+            ],
+            "abstain_reason": "Italia membaik tetapi Belgia punya kandang dan menang 2–0 di pertemuan pertama."
+          },
+          "btts": {
+            "pick": true,
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Italia BTTS 4/5 dan mencetak 11 gol dalam empat laga terbaru; Belgia mencetak gol 4/5.",
+              "Belgia perlu mencari kemenangan; kedua tim punya opsi menyerang yang produktif."
+            ],
+            "contradicting_evidence": [
+              "Belgia mempunyai dua clean sheet; Frattesi absen dan Italia cukup seri."
+            ],
+            "abstain_reason": null
+          },
+          "total_2_5": {
+            "pick": "over",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Tiga dari lima laga masing-masing tim Over; Belgia perlu menang dan Italia meningkat dalam serangan."
+            ],
+            "contradicting_evidence": [
+              "Italia dapat mengendalikan risiko dengan hasil seri; 1–1 tetap skenario penting."
+            ],
+            "abstain_reason": null
+          }
+        },
+        "focus_target": "btts",
+        "score_scenario": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "match_id": "2047898",
+      "home": "Prancis",
+      "away": "Turki",
+      "home_key": "France",
+      "away_key": "Turkey",
+      "competition_key": "UEFA Nations League",
+      "neutral": false,
+      "kickoff_at": "2026-11-16T02:45:00+07:00",
+      "scope": "90m",
+      "history": {
+        "home": [
+          {
+            "id": "unl-2026-09-25-Türkiye-France",
+            "date": "2026-09-25",
+            "team": "France",
+            "opponent": "Türkiye",
+            "venue": "away",
+            "gf": 1,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 12.0,
+            "shots_on_target": 4.0,
+            "possession_pct": 63.8,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861053",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-09-28-Belgium-France",
+            "date": "2026-09-28",
+            "team": "France",
+            "opponent": "Belgium",
+            "venue": "away",
+            "gf": 1,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 18.0,
+            "shots_on_target": 7.0,
+            "possession_pct": 64.6,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861081",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-02-France-Italy",
+            "date": "2026-10-02",
+            "team": "France",
+            "opponent": "Italy",
+            "venue": "home",
+            "gf": 1,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 18.0,
+            "shots_on_target": 8.0,
+            "possession_pct": 64.6,
+            "red_cards": 1.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861103",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-05-France-Belgium",
+            "date": "2026-10-05",
+            "team": "France",
+            "opponent": "Belgium",
+            "venue": "home",
+            "gf": 4,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 23.0,
+            "shots_on_target": 8.0,
+            "possession_pct": 65.6,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861129",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-11-12-Italy-France",
+            "date": "2026-11-12",
+            "team": "France",
+            "opponent": "Italy",
+            "venue": "away",
+            "gf": 1,
+            "ga": 3,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": null,
+            "shots_on_target": null,
+            "possession_pct": null,
+            "red_cards": null,
+            "statistics_provider": null,
+            "statistics_source": null,
+            "xg": null,
+            "xga": null
+          }
+        ],
+        "away": [
+          {
+            "id": "unl-2026-09-25-Türkiye-France",
+            "date": "2026-09-25",
+            "team": "Türkiye",
+            "opponent": "France",
+            "venue": "home",
+            "gf": 0,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 12.0,
+            "shots_on_target": 3.0,
+            "possession_pct": 36.2,
+            "red_cards": 1.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861053",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-09-28-Türkiye-Italy",
+            "date": "2026-09-28",
+            "team": "Türkiye",
+            "opponent": "Italy",
+            "venue": "home",
+            "gf": 1,
+            "ga": 4,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 15.0,
+            "shots_on_target": 3.0,
+            "possession_pct": 53.8,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861077",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-02-Belgium-Türkiye",
+            "date": "2026-10-02",
+            "team": "Türkiye",
+            "opponent": "Belgium",
+            "venue": "away",
+            "gf": 0,
+            "ga": 3,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 23.0,
+            "shots_on_target": 8.0,
+            "possession_pct": 46.1,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861109",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-05-Italy-Türkiye",
+            "date": "2026-10-05",
+            "team": "Türkiye",
+            "opponent": "Italy",
+            "venue": "away",
+            "gf": 1,
+            "ga": 3,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 14.0,
+            "shots_on_target": 5.0,
+            "possession_pct": 55.3,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861131",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-11-12-Türkiye-Belgium",
+            "date": "2026-11-12",
+            "team": "Türkiye",
+            "opponent": "Belgium",
+            "venue": "home",
+            "gf": 1,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 11,
+            "shots_on_target": 7,
+            "possession_pct": 51,
+            "red_cards": 0,
+            "statistics_provider": "UEFA",
+            "statistics_source": "https://www.uefa.com/newsfiles/UNL/2027/2047873_FR.pdf",
+            "xg": null,
+            "xga": null
+          }
+        ]
+      },
+      "main": {
+        "match_id": "2047898",
+        "home": "Prancis",
+        "away": "Turki",
+        "kickoff_at": "2026-11-16T02:45:00+07:00",
+        "venue": "Stade Atlantique Bordeaux Metropole, Bordeaux",
+        "neutral": false,
+        "group": "A1",
+        "competition": "UEFA Nations League 2026/27",
+        "synthetic": false,
+        "scope": "90m",
+        "analysis_method": "qualitative_superanalyst_national_team_pilot_v1",
+        "probabilities": null,
+        "result_90m": null,
+        "lineup_status": "projected",
+        "source_ids": [
+          "uefa_preview",
+          "uefa_results",
+          "tf1_mbappe",
+          "orange_doue"
+        ],
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "relatively_strong",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Prancis 3 menang, 1 seri, 1 kalah melawan Turki yang kalah 5/5 dengan gol 3–13.",
+              "Kandang, peluang juara grup, dan Mbappe dinyatakan tersedia oleh Zidane mendukung Prancis."
+            ],
+            "contradicting_evidence": [
+              "Prancis cukup seri; Turki memakai pelatih baru dan dapat mengancam lewat Guler."
+            ],
+            "abstain_reason": null
+          },
+          "btts": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Prancis kebobolan tiga laga terbaru tetapi Turki hanya tiga gol dalam lima; starter/menit Mbappe belum pasti."
+            ],
+            "abstain_reason": "Prancis kebobolan tiga laga terbaru tetapi Turki hanya tiga gol dalam lima; starter/menit Mbappe belum pasti."
+          },
+          "total_2_5": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Prancis Under 3/5 berhadapan dengan Turki Over 4/5; menit pemain kembali dan perubahan Turki belum jelas."
+            ],
+            "abstain_reason": "Prancis Under 3/5 berhadapan dengan Turki Over 4/5; menit pemain kembali dan perubahan Turki belum jelas."
+          }
+        },
+        "focus_target": "1x2",
+        "score_scenario": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "match_id": "2047902",
+      "home": "Kroasia",
+      "away": "Ceko",
+      "home_key": "Croatia",
+      "away_key": "Czech Republic",
+      "competition_key": "UEFA Nations League",
+      "neutral": false,
+      "kickoff_at": "2026-11-16T02:45:00+07:00",
+      "scope": "90m",
+      "history": {
+        "home": [
+          {
+            "id": "unl-2026-09-26-Czechia-Croatia",
+            "date": "2026-09-26",
+            "team": "Croatia",
+            "opponent": "Czechia",
+            "venue": "away",
+            "gf": 2,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 16.0,
+            "shots_on_target": 5.0,
+            "possession_pct": 56.4,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861063",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-09-29-Spain-Croatia",
+            "date": "2026-09-29",
+            "team": "Croatia",
+            "opponent": "Spain",
+            "venue": "away",
+            "gf": 1,
+            "ga": 4,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 5.0,
+            "shots_on_target": 2.0,
+            "possession_pct": 36.3,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861084",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-03-Croatia-England",
+            "date": "2026-10-03",
+            "team": "Croatia",
+            "opponent": "England",
+            "venue": "home",
+            "gf": 0,
+            "ga": 7,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 12.0,
+            "shots_on_target": 1.0,
+            "possession_pct": 36.3,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861113",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-06-Croatia-Spain",
+            "date": "2026-10-06",
+            "team": "Croatia",
+            "opponent": "Spain",
+            "venue": "home",
+            "gf": 1,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 10.0,
+            "shots_on_target": 5.0,
+            "possession_pct": 27.9,
+            "red_cards": 1.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861137",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-11-12-England-Croatia",
+            "date": "2026-11-12",
+            "team": "Croatia",
+            "opponent": "England",
+            "venue": "away",
+            "gf": 1,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": null,
+            "shots_on_target": null,
+            "possession_pct": null,
+            "red_cards": null,
+            "statistics_provider": null,
+            "statistics_source": null,
+            "xg": null,
+            "xga": null
+          }
+        ],
+        "away": [
+          {
+            "id": "unl-2026-09-26-Czechia-Croatia",
+            "date": "2026-09-26",
+            "team": "Czechia",
+            "opponent": "Croatia",
+            "venue": "home",
+            "gf": 1,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 5.0,
+            "shots_on_target": 2.0,
+            "possession_pct": 43.6,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861063",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-09-29-Czechia-England",
+            "date": "2026-09-29",
+            "team": "Czechia",
+            "opponent": "England",
+            "venue": "home",
+            "gf": 0,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 6.0,
+            "shots_on_target": 2.0,
+            "possession_pct": 33.7,
+            "red_cards": 1.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861092",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-03-Spain-Czechia",
+            "date": "2026-10-03",
+            "team": "Czechia",
+            "opponent": "Spain",
+            "venue": "away",
+            "gf": 1,
+            "ga": 3,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 5.0,
+            "shots_on_target": 2.0,
+            "possession_pct": 31.0,
+            "red_cards": 1.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861118",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-06-England-Czechia",
+            "date": "2026-10-06",
+            "team": "Czechia",
+            "opponent": "England",
+            "venue": "away",
+            "gf": 0,
+            "ga": 3,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 5.0,
+            "shots_on_target": 0.0,
+            "possession_pct": 35.6,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861142",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-11-12-Czechia-Spain",
+            "date": "2026-11-12",
+            "team": "Czechia",
+            "opponent": "Spain",
+            "venue": "home",
+            "gf": 0,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": null,
+            "shots_on_target": null,
+            "possession_pct": null,
+            "red_cards": null,
+            "statistics_provider": null,
+            "statistics_source": null,
+            "xg": null,
+            "xga": null
+          }
+        ]
+      },
+      "main": {
+        "match_id": "2047902",
+        "home": "Kroasia",
+        "away": "Ceko",
+        "kickoff_at": "2026-11-16T02:45:00+07:00",
+        "venue": "Opus Arena, Osijek",
+        "neutral": false,
+        "group": "A3",
+        "competition": "UEFA Nations League 2026/27",
+        "synthetic": false,
+        "scope": "90m",
+        "analysis_method": "qualitative_superanalyst_national_team_pilot_v1",
+        "probabilities": null,
+        "result_90m": null,
+        "lineup_status": "projected",
+        "source_ids": [
+          "uefa_preview",
+          "uefa_results",
+          "sm_cro",
+          "uefa_cro_venue"
+        ],
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Kroasia menang pertemuan pertama dan kini bermain di kandang; empat kekalahan berikutnya melawan Spanyol/Inggris.",
+              "Perisic kembali dan Ceko kehilangan Krejci menurut kabar skuad."
+            ],
+            "contradicting_evidence": [
+              "Kroasia kebobolan 16 gol dan cukup seri; tidak ada dasar keyakinan tinggi."
+            ],
+            "abstain_reason": null
+          },
+          "btts": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "supporting_evidence": [],
+            "contradicting_evidence": [
+              "Pertahanan Kroasia rapuh, tetapi Ceko gagal mencetak gol 3/5 dan lawan-lawan sebelumnya jauh lebih kuat."
+            ],
+            "abstain_reason": "Pertahanan Kroasia rapuh, tetapi Ceko gagal mencetak gol 3/5 dan lawan-lawan sebelumnya jauh lebih kuat."
+          },
+          "total_2_5": {
+            "pick": "over",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Kroasia Over 5/5, Ceko Over 3/5; Kroasia belum clean sheet."
+            ],
+            "contradicting_evidence": [
+              "Kroasia cukup seri dan Ceko minim gol; 0–7 Inggris tidak mewakili ancaman Ceko."
+            ],
+            "abstain_reason": null
+          }
+        },
+        "focus_target": "1x2",
+        "score_scenario": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "match_id": "2047904",
+      "home": "Spanyol",
+      "away": "Inggris",
+      "home_key": "Spain",
+      "away_key": "England",
+      "competition_key": "UEFA Nations League",
+      "neutral": false,
+      "kickoff_at": "2026-11-16T02:45:00+07:00",
+      "scope": "90m",
+      "history": {
+        "home": [
+          {
+            "id": "unl-2026-09-26-England-Spain",
+            "date": "2026-09-26",
+            "team": "Spain",
+            "opponent": "England",
+            "venue": "away",
+            "gf": 3,
+            "ga": 2,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 15.0,
+            "shots_on_target": 5.0,
+            "possession_pct": 52.6,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861066",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-09-29-Spain-Croatia",
+            "date": "2026-09-29",
+            "team": "Spain",
+            "opponent": "Croatia",
+            "venue": "home",
+            "gf": 4,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 16.0,
+            "shots_on_target": 7.0,
+            "possession_pct": 63.7,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861084",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-03-Spain-Czechia",
+            "date": "2026-10-03",
+            "team": "Spain",
+            "opponent": "Czechia",
+            "venue": "home",
+            "gf": 3,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 18.0,
+            "shots_on_target": 10.0,
+            "possession_pct": 69.0,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861118",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-06-Croatia-Spain",
+            "date": "2026-10-06",
+            "team": "Spain",
+            "opponent": "Croatia",
+            "venue": "away",
+            "gf": 2,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 10.0,
+            "shots_on_target": 3.0,
+            "possession_pct": 72.1,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861137",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-11-12-Czechia-Spain",
+            "date": "2026-11-12",
+            "team": "Spain",
+            "opponent": "Czechia",
+            "venue": "away",
+            "gf": 2,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": null,
+            "shots_on_target": null,
+            "possession_pct": null,
+            "red_cards": null,
+            "statistics_provider": null,
+            "statistics_source": null,
+            "xg": null,
+            "xga": null
+          }
+        ],
+        "away": [
+          {
+            "id": "unl-2026-09-26-England-Spain",
+            "date": "2026-09-26",
+            "team": "England",
+            "opponent": "Spain",
+            "venue": "home",
+            "gf": 2,
+            "ga": 3,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 13.0,
+            "shots_on_target": 5.0,
+            "possession_pct": 47.4,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861066",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-09-29-Czechia-England",
+            "date": "2026-09-29",
+            "team": "England",
+            "opponent": "Czechia",
+            "venue": "away",
+            "gf": 2,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 22.0,
+            "shots_on_target": 7.0,
+            "possession_pct": 66.3,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861092",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-03-Croatia-England",
+            "date": "2026-10-03",
+            "team": "England",
+            "opponent": "Croatia",
+            "venue": "away",
+            "gf": 7,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 19.0,
+            "shots_on_target": 10.0,
+            "possession_pct": 63.7,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861113",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-10-06-England-Czechia",
+            "date": "2026-10-06",
+            "team": "England",
+            "opponent": "Czechia",
+            "venue": "home",
+            "gf": 3,
+            "ga": 0,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": 17.0,
+            "shots_on_target": 3.0,
+            "possession_pct": 64.4,
+            "red_cards": 0.0,
+            "statistics_provider": "ESPN",
+            "statistics_source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/summary?event=401861142",
+            "xg": null,
+            "xga": null
+          },
+          {
+            "id": "unl-2026-11-12-England-Croatia",
+            "date": "2026-11-12",
+            "team": "England",
+            "opponent": "Croatia",
+            "venue": "home",
+            "gf": 2,
+            "ga": 1,
+            "scope": "90m",
+            "result_source": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/",
+            "shots": null,
+            "shots_on_target": null,
+            "possession_pct": null,
+            "red_cards": null,
+            "statistics_provider": null,
+            "statistics_source": null,
+            "xg": null,
+            "xga": null
+          }
+        ]
+      },
+      "main": {
+        "match_id": "2047904",
+        "home": "Spanyol",
+        "away": "Inggris",
+        "kickoff_at": "2026-11-16T02:45:00+07:00",
+        "venue": "Riyadh Air Metropolitano, Madrid",
+        "neutral": false,
+        "group": "A3",
+        "competition": "UEFA Nations League 2026/27",
+        "synthetic": false,
+        "scope": "90m",
+        "analysis_method": "qualitative_superanalyst_national_team_pilot_v1",
+        "probabilities": null,
+        "result_90m": null,
+        "lineup_status": "projected",
+        "source_ids": [
+          "uefa_preview",
+          "uefa_results",
+          "rfef_squad",
+          "england_tuchel"
+        ],
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Spanyol menang 5/5 termasuk di Wembley; kandang dan Yamal/Oyarzabal kembali dalam skuad pertandingan."
+            ],
+            "contradicting_evidence": [
+              "Inggris menang empat laga beruntun; kedua tim sudah lolos dan Spanyol cukup seri."
+            ],
+            "abstain_reason": null
+          },
+          "btts": {
+            "pick": true,
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Kedua tim mencetak setidaknya dua gol pada kelima laga UNL; Spanyol kebobolan 4/5.",
+              "Kane/Bellingham memberi ancaman yang berbeda dari Ceko dan Kroasia."
+            ],
+            "contradicting_evidence": [
+              "Inggris mempunyai tiga clean sheet; penguasaan Spanyol dapat membatasi peluang tamu."
+            ],
+            "abstain_reason": null
+          },
+          "total_2_5": {
+            "pick": "over",
+            "confidence": "medium",
+            "status": "provisional",
+            "supporting_evidence": [
+              "Masing-masing tim Over 4/5; pertemuan pertama 3–2.",
+              "Inggris perlu menang untuk juara grup, dan opsi kreatif Spanyol kembali tersedia."
+            ],
+            "contradicting_evidence": [
+              "Spanyol cukup seri dan hasil 7–0 Inggris terhadap Kroasia sangat memengaruhi rerata."
+            ],
+            "abstain_reason": null
+          }
+        },
+        "focus_target": "total_2_5",
+        "score_scenario": [
+          2,
+          1
+        ]
+      }
+    }
+  ],
+  "history_audit": {
+    "Cyprus": {
+      "complete": true,
+      "checked_at": "2026-11-15T13:47:09.850488+00:00",
+      "latest_match_id": "unl-2026-11-12-Armenia-Cyprus",
+      "source_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/"
+      ],
+      "verification_mode": "reuse_frozen_history_completeness_not_independently_reverified"
+    },
+    "Montenegro": {
+      "complete": true,
+      "checked_at": "2026-11-15T13:47:09.850488+00:00",
+      "latest_match_id": "unl-2026-11-12-Montenegro-Latvia",
+      "source_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/"
+      ],
+      "verification_mode": "reuse_frozen_history_completeness_not_independently_reverified"
+    },
+    "Latvia": {
+      "complete": true,
+      "checked_at": "2026-11-15T13:47:09.850488+00:00",
+      "latest_match_id": "unl-2026-11-12-Montenegro-Latvia",
+      "source_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/"
+      ],
+      "verification_mode": "reuse_frozen_history_completeness_not_independently_reverified"
+    },
+    "Armenia": {
+      "complete": true,
+      "checked_at": "2026-11-15T13:47:09.850488+00:00",
+      "latest_match_id": "unl-2026-11-12-Armenia-Cyprus",
+      "source_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/"
+      ],
+      "verification_mode": "reuse_frozen_history_completeness_not_independently_reverified"
+    },
+    "Belarus": {
+      "complete": true,
+      "checked_at": "2026-11-15T13:47:09.850488+00:00",
+      "latest_match_id": "unl-2026-11-12-San Marino-Belarus",
+      "source_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/"
+      ],
+      "verification_mode": "reuse_frozen_history_completeness_not_independently_reverified"
+    },
+    "Albania": {
+      "complete": true,
+      "checked_at": "2026-11-15T13:47:09.850488+00:00",
+      "latest_match_id": "unl-2026-11-12-Albania-Finland",
+      "source_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/"
+      ],
+      "verification_mode": "reuse_frozen_history_completeness_not_independently_reverified"
+    },
+    "Finland": {
+      "complete": true,
+      "checked_at": "2026-11-15T13:47:09.850488+00:00",
+      "latest_match_id": "unl-2026-11-12-Albania-Finland",
+      "source_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/"
+      ],
+      "verification_mode": "reuse_frozen_history_completeness_not_independently_reverified"
+    },
+    "San Marino": {
+      "complete": true,
+      "checked_at": "2026-11-15T13:47:09.850488+00:00",
+      "latest_match_id": "unl-2026-11-12-San Marino-Belarus",
+      "source_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/"
+      ],
+      "verification_mode": "reuse_frozen_history_completeness_not_independently_reverified"
+    },
+    "Belgium": {
+      "complete": true,
+      "checked_at": "2026-11-15T13:47:09.850488+00:00",
+      "latest_match_id": "unl-2026-11-12-Türkiye-Belgium",
+      "source_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/"
+      ],
+      "verification_mode": "reuse_frozen_history_completeness_not_independently_reverified"
+    },
+    "Italy": {
+      "complete": true,
+      "checked_at": "2026-11-15T13:47:09.850488+00:00",
+      "latest_match_id": "unl-2026-11-12-Italy-France",
+      "source_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/"
+      ],
+      "verification_mode": "reuse_frozen_history_completeness_not_independently_reverified"
+    },
+    "France": {
+      "complete": true,
+      "checked_at": "2026-11-15T13:47:09.850488+00:00",
+      "latest_match_id": "unl-2026-11-12-Italy-France",
+      "source_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/"
+      ],
+      "verification_mode": "reuse_frozen_history_completeness_not_independently_reverified"
+    },
+    "Turkey": {
+      "complete": true,
+      "checked_at": "2026-11-15T13:47:09.850488+00:00",
+      "latest_match_id": "unl-2026-11-12-Türkiye-Belgium",
+      "source_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/"
+      ],
+      "verification_mode": "reuse_frozen_history_completeness_not_independently_reverified"
+    },
+    "Croatia": {
+      "complete": true,
+      "checked_at": "2026-11-15T13:47:09.850488+00:00",
+      "latest_match_id": "unl-2026-11-12-England-Croatia",
+      "source_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/"
+      ],
+      "verification_mode": "reuse_frozen_history_completeness_not_independently_reverified"
+    },
+    "Czech Republic": {
+      "complete": true,
+      "checked_at": "2026-11-15T13:47:09.850488+00:00",
+      "latest_match_id": "unl-2026-11-12-Czechia-Spain",
+      "source_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/"
+      ],
+      "verification_mode": "reuse_frozen_history_completeness_not_independently_reverified"
+    },
+    "Spain": {
+      "complete": true,
+      "checked_at": "2026-11-15T13:47:09.850488+00:00",
+      "latest_match_id": "unl-2026-11-12-Czechia-Spain",
+      "source_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/"
+      ],
+      "verification_mode": "reuse_frozen_history_completeness_not_independently_reverified"
+    },
+    "England": {
+      "complete": true,
+      "checked_at": "2026-11-15T13:47:09.850488+00:00",
+      "latest_match_id": "unl-2026-11-12-England-Croatia",
+      "source_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-f/"
+      ],
+      "verification_mode": "reuse_frozen_history_completeness_not_independently_reverified"
+    }
+  },
+  "synthetic": false,
+  "reconstruction_notes": "Created after all outcomes were known. Original frozen pre-match five-game histories retained. Historical completeness assertions come from those archives, not fresh pre-match verification. Scores filtered by the original three-day fit guard. Not blind validation."
+}

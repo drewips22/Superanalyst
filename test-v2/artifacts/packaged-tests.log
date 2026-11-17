@@ -1,0 +1,23 @@
+test_distribution_identities_known_cases (test_beta.Decisions.test_distribution_identities_known_cases) ... ok
+test_hybrid_never_mutates_main_or_creates_main_observation_pick (test_beta.Decisions.test_hybrid_never_mutates_main_or_creates_main_observation_pick) ... ok
+test_hybrid_preserves_supported_original_focus (test_beta.Decisions.test_hybrid_preserves_supported_original_focus) ... ok
+test_invalid_probabilities_rejected (test_beta.Decisions.test_invalid_probabilities_rejected) ... ok
+test_mc_raw_labels_reproducible_and_decisions_independent_of_samples (test_beta.Decisions.test_mc_raw_labels_reproducible_and_decisions_independent_of_samples) ... ok
+test_null_observation_at_all_exact_ties (test_beta.Decisions.test_null_observation_at_all_exact_ties) ... ok
+test_opponent_strength_and_home_advantage_change_rates (test_beta.Decisions.test_opponent_strength_and_home_advantage_change_rates) ... ok
+test_weak_events_are_diagnostics_not_active_picks (test_beta.Decisions.test_weak_events_are_diagnostics_not_active_picks) ... ok
+test_winner_priority_is_explicit_and_cannot_promote_weak_winner (test_beta.Decisions.test_winner_priority_is_explicit_and_cannot_promote_weak_winner) ... ok
+test_future_audit_or_history_is_rejected (test_beta.Recording.test_future_audit_or_history_is_rejected) ... ok
+test_immutable_file_and_timezone_boundaries (test_beta.Recording.test_immutable_file_and_timezone_boundaries) ... ok
+test_missing_completeness_audit_forces_observation (test_beta.Recording.test_missing_completeness_audit_forces_observation) ... ok
+test_rejects_post_kickoff_forecast_and_outcome_input (test_beta.Recording.test_rejects_post_kickoff_forecast_and_outcome_input) ... ok
+test_shared_reverse_game_is_counted_once_and_conflict_rejected (test_beta.Recording.test_shared_reverse_game_is_counted_once_and_conflict_rejected) ... ok
+test_stale_fit_or_missing_eligible_score_forces_observation (test_beta.Recording.test_stale_fit_or_missing_eligible_score_forces_observation) ... ok
+test_success_is_synthetic_and_results_are_empty (test_beta.Recording.test_success_is_synthetic_and_results_are_empty) ... ok
+test_duplicate_and_conflicting_archives (test_training.Training.test_duplicate_and_conflicting_archives) ... ok
+test_later_labels_cannot_change_a_prior_fit (test_training.Training.test_later_labels_cannot_change_a_prior_fit) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.100s
+
+OK

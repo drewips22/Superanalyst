@@ -1,0 +1,137 @@
+{
+  "version": "national-team-upgrade-v1",
+  "locked_at": "2026-11-14T13:10:07.680Z",
+  "mode": "retrospective_reconstruction_not_blind_prospective_validation",
+  "source_commit": "b0948cb558c927c357db4067eac5b37b96d0e4bb",
+  "source_max_date": "2026-10-06",
+  "scope": "90m_plus_stoppage_no_extra_time_no_shootouts",
+  "objective": "Compare last-5/10/20/30 competitive score baselines with recency-weighted national-team attack/defence models; select and calibrate before final evaluation.",
+  "history_start": "1990-01-01",
+  "training_lookback_years": 6,
+  "history_guard_days": 3,
+  "refit": "quarterly_before_first_evaluation_date_using_only_earlier_scores",
+  "periods": {
+    "selection": [
+      "2018-01-01",
+      "2019-12-31"
+    ],
+    "calibration": [
+      "2020-01-01",
+      "2021-12-31"
+    ],
+    "final_test": [
+      "2022-01-01",
+      "2025-12-31"
+    ]
+  },
+  "primary_cohort": "Both teams UEFA members, competitive senior men; auxiliary covered global competitive cohort and UNL league phase reported separately.",
+  "primary_metrics": {
+    "1x2": "log_loss",
+    "btts": "brier",
+    "over_2_5": "brier"
+  },
+  "secondary_metrics": [
+    "top_choice_accuracy",
+    "reliability_bins",
+    "calibration_intercept_slope",
+    "coverage",
+    "per_year",
+    "UNL_league_phase"
+  ],
+  "minimum_history": 5,
+  "window_baselines": [
+    5,
+    10,
+    20,
+    30
+  ],
+  "rate_bounds": [
+    0.05,
+    12
+  ],
+  "strength_models": [
+    {
+      "id": "strength_h90",
+      "half_life_days": 90,
+      "form_window": null,
+      "include_friendlies": false
+    },
+    {
+      "id": "strength_h180",
+      "half_life_days": 180,
+      "form_window": null,
+      "include_friendlies": false
+    },
+    {
+      "id": "strength_h365",
+      "half_life_days": 365,
+      "form_window": null,
+      "include_friendlies": false
+    },
+    {
+      "id": "strength_h730",
+      "half_life_days": 730,
+      "form_window": null,
+      "include_friendlies": false
+    },
+    {
+      "id": "strength_h365_form5",
+      "half_life_days": 365,
+      "form_window": 5,
+      "include_friendlies": false
+    },
+    {
+      "id": "strength_h365_form10",
+      "half_life_days": 365,
+      "form_window": 10,
+      "include_friendlies": false
+    },
+    {
+      "id": "strength_h365_form20",
+      "half_life_days": 365,
+      "form_window": 20,
+      "include_friendlies": false
+    },
+    {
+      "id": "strength_h365_plus_friendlies",
+      "half_life_days": 365,
+      "form_window": null,
+      "include_friendlies": true
+    }
+  ],
+  "fixed_regularization": {
+    "team": 20,
+    "competition": 20,
+    "form": 20
+  },
+  "feature_definition": "Attack-side log((GF recent+0.5)/(GF last30+0.5)) and opponent-side log((GA recent+0.5)/(GA last30+0.5)); windows use competitive matches only and three-day guard.",
+  "selection": "Best primary selection-period metric per target, same match coverage. Record all 12 candidates; fixed alphabetical tie-break. No selection using final-test results.",
+  "calibration": "Fit one multinomial temperature plus home/draw biases for 1X2, or sigmoid intercept/slope for each binary target, on primary 2020-2021 predictions. Calibrated version fixed as primary before reading final-test scores. Raw version secondary diagnostic only.",
+  "bootstrap": {
+    "unit": "calendar_month",
+    "replicates": 2000,
+    "seed": 20261114,
+    "interval": "paired_loss_difference_95_percent_percentile_not_forecast_probability_interval"
+  },
+  "promotion_gate": "Research candidate per target only if calibrated final-test primary loss improves vs pooled5 overall and in each two-year block, paired monthly bootstrap interval excludes no improvement, and UNL league-phase loss also improves. No automatic operational replacement; no claim all targets improve. Prospective confirmation still required.",
+  "normal_time_policy": [
+    "Use goal-event counts at minute<=90 only when per-team event totals reconcile with full-time score and all minutes parse.",
+    "A full-time 0-0 remains 0-0 at 90 minutes.",
+    "Known UEFA round-robin league/qualification formats and ordinary Friendly matches cannot have extra time; retain full-time score with format provenance.",
+    "Exclude other goal-bearing matches without reconciled minute coverage; never silently mix 120-minute scores.",
+    "Log duplicate conflicts, missing/invalid scores, unknown minutes and all exclusions before model performance inspection."
+  ],
+  "data_limitations": [
+    "Source downloaded now; historical availability uses date-only conservative guard, not archived T-24 exact timestamps.",
+    "Retrospective outcome knowledge and source revisions prevent a claim of blind prospective validation.",
+    "Player form, squad continuity, coaching changes, injuries, xG and current market are unavailable in this corpus and not assigned invented coefficients.",
+    "Friendly training is a separately tested candidate; last-N competitive form remains separate.",
+    "No profitability or market-edge claims without comparable historical prices."
+  ],
+  "references": [
+    "https://github.com/martj42/international_results",
+    "https://arxiv.org/abs/1705.09575",
+    "https://otexts.com/fpp3/toolbox.html#time-series-cross-validation",
+    "https://scikit-learn.org/stable/modules/calibration.html"
+  ]
+}

@@ -1,0 +1,5905 @@
+{
+  "experiment_id": "unl-beta-v2-2026-11-17",
+  "evaluated_at": "2026-11-17T12:09:12.808094+00:00",
+  "mode": "posthoc_diagnostic_not_prospective_accuracy",
+  "warning": "All November outcomes were known before this experiment was designed. These reconstructions cannot replace original forecasts or prove an improvement.",
+  "groups": {
+    "primary_original_22": {
+      "considered": 22,
+      "focus": {
+        "main": {
+          "considered": 22,
+          "issued": 22,
+          "correct": 18,
+          "coverage": 1.0,
+          "accuracy": 0.8181818181818182,
+          "correct_per_considered_fixture": 0.8181818181818182,
+          "by_target": {
+            "1x2": {
+              "issued": 11,
+              "correct": 10
+            },
+            "btts": {
+              "issued": 4,
+              "correct": 2
+            },
+            "total_2_5": {
+              "issued": 7,
+              "correct": 6
+            }
+          }
+        },
+        "beta_v1": {
+          "considered": 22,
+          "issued": 22,
+          "correct": 13,
+          "coverage": 1.0,
+          "accuracy": 0.5909090909090909,
+          "correct_per_considered_fixture": 0.5909090909090909,
+          "by_target": {
+            "1x2": {
+              "issued": 2,
+              "correct": 2
+            },
+            "btts": {
+              "issued": 8,
+              "correct": 4
+            },
+            "total_2_5": {
+              "issued": 12,
+              "correct": 7
+            }
+          }
+        },
+        "beta_v2": {
+          "considered": 22,
+          "issued": 19,
+          "correct": 14,
+          "coverage": 0.8636363636363636,
+          "accuracy": 0.7368421052631579,
+          "correct_per_considered_fixture": 0.6363636363636364,
+          "by_target": {
+            "1x2": {
+              "issued": 11,
+              "correct": 9
+            },
+            "btts": {
+              "issued": 2,
+              "correct": 1
+            },
+            "total_2_5": {
+              "issued": 6,
+              "correct": 4
+            }
+          }
+        },
+        "hybrid": {
+          "considered": 22,
+          "issued": 16,
+          "correct": 14,
+          "coverage": 0.7272727272727273,
+          "accuracy": 0.875,
+          "correct_per_considered_fixture": 0.6363636363636364,
+          "by_target": {
+            "1x2": {
+              "issued": 9,
+              "correct": 8
+            },
+            "btts": {
+              "issued": 1,
+              "correct": 1
+            },
+            "total_2_5": {
+              "issued": 6,
+              "correct": 5
+            }
+          }
+        }
+      },
+      "same_active_fixtures": {
+        "beta_v2": {
+          "main": {
+            "considered": 19,
+            "issued": 19,
+            "correct": 16,
+            "coverage": 1.0,
+            "accuracy": 0.8421052631578947,
+            "correct_per_considered_fixture": 0.8421052631578947,
+            "by_target": {
+              "1x2": {
+                "issued": 11,
+                "correct": 10
+              },
+              "btts": {
+                "issued": 2,
+                "correct": 1
+              },
+              "total_2_5": {
+                "issued": 6,
+                "correct": 5
+              }
+            }
+          },
+          "beta_v1": {
+            "considered": 19,
+            "issued": 19,
+            "correct": 11,
+            "coverage": 1.0,
+            "accuracy": 0.5789473684210527,
+            "correct_per_considered_fixture": 0.5789473684210527,
+            "by_target": {
+              "1x2": {
+                "issued": 2,
+                "correct": 2
+              },
+              "btts": {
+                "issued": 6,
+                "correct": 3
+              },
+              "total_2_5": {
+                "issued": 11,
+                "correct": 6
+              }
+            }
+          },
+          "beta_v2": {
+            "considered": 19,
+            "issued": 19,
+            "correct": 14,
+            "coverage": 1.0,
+            "accuracy": 0.7368421052631579,
+            "correct_per_considered_fixture": 0.7368421052631579,
+            "by_target": {
+              "1x2": {
+                "issued": 11,
+                "correct": 9
+              },
+              "btts": {
+                "issued": 2,
+                "correct": 1
+              },
+              "total_2_5": {
+                "issued": 6,
+                "correct": 4
+              }
+            }
+          }
+        },
+        "hybrid": {
+          "main": {
+            "considered": 16,
+            "issued": 16,
+            "correct": 14,
+            "coverage": 1.0,
+            "accuracy": 0.875,
+            "correct_per_considered_fixture": 0.875,
+            "by_target": {
+              "1x2": {
+                "issued": 10,
+                "correct": 9
+              },
+              "btts": {
+                "issued": 0,
+                "correct": 0
+              },
+              "total_2_5": {
+                "issued": 6,
+                "correct": 5
+              }
+            }
+          },
+          "beta_v1": {
+            "considered": 16,
+            "issued": 16,
+            "correct": 11,
+            "coverage": 1.0,
+            "accuracy": 0.6875,
+            "correct_per_considered_fixture": 0.6875,
+            "by_target": {
+              "1x2": {
+                "issued": 2,
+                "correct": 2
+              },
+              "btts": {
+                "issued": 4,
+                "correct": 3
+              },
+              "total_2_5": {
+                "issued": 10,
+                "correct": 6
+              }
+            }
+          },
+          "hybrid": {
+            "considered": 16,
+            "issued": 16,
+            "correct": 14,
+            "coverage": 1.0,
+            "accuracy": 0.875,
+            "correct_per_considered_fixture": 0.875,
+            "by_target": {
+              "1x2": {
+                "issued": 9,
+                "correct": 8
+              },
+              "btts": {
+                "issued": 1,
+                "correct": 1
+              },
+              "total_2_5": {
+                "issued": 6,
+                "correct": 5
+              }
+            }
+          }
+        }
+      },
+      "targets": {
+        "beta_v2": {
+          "1x2": {
+            "considered": 22,
+            "issued": 11,
+            "correct": 9,
+            "accuracy": 0.8181818181818182
+          },
+          "btts": {
+            "considered": 22,
+            "issued": 13,
+            "correct": 8,
+            "accuracy": 0.6153846153846154
+          },
+          "total_2_5": {
+            "considered": 22,
+            "issued": 10,
+            "correct": 7,
+            "accuracy": 0.7
+          }
+        },
+        "hybrid": {
+          "1x2": {
+            "considered": 22,
+            "issued": 10,
+            "correct": 8,
+            "accuracy": 0.8
+          },
+          "btts": {
+            "considered": 22,
+            "issued": 9,
+            "correct": 5,
+            "accuracy": 0.5555555555555556
+          },
+          "total_2_5": {
+            "considered": 22,
+            "issued": 7,
+            "correct": 5,
+            "accuracy": 0.7142857142857143
+          }
+        }
+      },
+      "beta_v2_probability_metrics_all_fixtures": {
+        "1x2": {
+          "n": 22,
+          "log_loss": 0.7822861510996376,
+          "brier": 0.45168597627656015,
+          "unthresholded_direction_issued": 22,
+          "unthresholded_direction_accuracy": 0.6818181818181818,
+          "reliability": {
+            "H": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 1,
+                "mean_probability": 0.0920299085443686,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 2,
+                "mean_probability": 0.1624359195186113,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 1,
+                "mean_probability": 0.2557232128105225,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 4,
+                "mean_probability": 0.35269146669380136,
+                "frequency": 0.5
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 3,
+                "mean_probability": 0.44220160428584593,
+                "frequency": 0.6666666666666666
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 4,
+                "mean_probability": 0.5530430651750826,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 4,
+                "mean_probability": 0.6514940098159636,
+                "frequency": 0.75
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 2,
+                "mean_probability": 0.7695495833166415,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 1,
+                "mean_probability": 0.9477560536131057,
+                "frequency": 1.0
+              }
+            ],
+            "D": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 1,
+                "mean_probability": 0.04333540087836216,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 2,
+                "mean_probability": 0.15959477537938038,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 11,
+                "mean_probability": 0.25041669037022046,
+                "frequency": 0.09090909090909091
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 8,
+                "mean_probability": 0.357125220203055,
+                "frequency": 0.125
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ],
+            "A": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 4,
+                "mean_probability": 0.056468717994241836,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 6,
+                "mean_probability": 0.1520615505333873,
+                "frequency": 0.16666666666666666
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 6,
+                "mean_probability": 0.25390295503871446,
+                "frequency": 0.16666666666666666
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 2,
+                "mean_probability": 0.3604564691780779,
+                "frequency": 0.5
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 2,
+                "mean_probability": 0.41670779147658743,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 2,
+                "mean_probability": 0.5474500528558365,
+                "frequency": 0.5
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ]
+          }
+        },
+        "btts": {
+          "n": 22,
+          "log_loss": 0.691681814529522,
+          "brier": 0.24937252714873645,
+          "unthresholded_direction_issued": 22,
+          "unthresholded_direction_accuracy": 0.4090909090909091,
+          "reliability": {
+            "yes": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 1,
+                "mean_probability": 0.364337425163714,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 20,
+                "mean_probability": 0.44807821836553846,
+                "frequency": 0.6
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 1,
+                "mean_probability": 0.5231759853451878,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ]
+          }
+        },
+        "total_2_5": {
+          "n": 22,
+          "log_loss": 0.6597280948107478,
+          "brier": 0.23352376115418624,
+          "unthresholded_direction_issued": 22,
+          "unthresholded_direction_accuracy": 0.6818181818181818,
+          "reliability": {
+            "yes": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 4,
+                "mean_probability": 0.3639505151578076,
+                "frequency": 0.25
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 10,
+                "mean_probability": 0.4499158251084472,
+                "frequency": 0.6
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 8,
+                "mean_probability": 0.5325063628520535,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    "all_23_extra_Romania_separate": {
+      "considered": 23,
+      "focus": {
+        "main": {
+          "considered": 23,
+          "issued": 22,
+          "correct": 18,
+          "coverage": 0.9565217391304348,
+          "accuracy": 0.8181818181818182,
+          "correct_per_considered_fixture": 0.782608695652174,
+          "by_target": {
+            "1x2": {
+              "issued": 11,
+              "correct": 10
+            },
+            "btts": {
+              "issued": 4,
+              "correct": 2
+            },
+            "total_2_5": {
+              "issued": 7,
+              "correct": 6
+            }
+          }
+        },
+        "beta_v1": {
+          "considered": 23,
+          "issued": 23,
+          "correct": 14,
+          "coverage": 1.0,
+          "accuracy": 0.6086956521739131,
+          "correct_per_considered_fixture": 0.6086956521739131,
+          "by_target": {
+            "1x2": {
+              "issued": 2,
+              "correct": 2
+            },
+            "btts": {
+              "issued": 8,
+              "correct": 4
+            },
+            "total_2_5": {
+              "issued": 13,
+              "correct": 8
+            }
+          }
+        },
+        "beta_v2": {
+          "considered": 23,
+          "issued": 19,
+          "correct": 14,
+          "coverage": 0.8260869565217391,
+          "accuracy": 0.7368421052631579,
+          "correct_per_considered_fixture": 0.6086956521739131,
+          "by_target": {
+            "1x2": {
+              "issued": 11,
+              "correct": 9
+            },
+            "btts": {
+              "issued": 2,
+              "correct": 1
+            },
+            "total_2_5": {
+              "issued": 6,
+              "correct": 4
+            }
+          }
+        },
+        "hybrid": {
+          "considered": 23,
+          "issued": 16,
+          "correct": 14,
+          "coverage": 0.6956521739130435,
+          "accuracy": 0.875,
+          "correct_per_considered_fixture": 0.6086956521739131,
+          "by_target": {
+            "1x2": {
+              "issued": 9,
+              "correct": 8
+            },
+            "btts": {
+              "issued": 1,
+              "correct": 1
+            },
+            "total_2_5": {
+              "issued": 6,
+              "correct": 5
+            }
+          }
+        }
+      },
+      "same_active_fixtures": {
+        "beta_v2": {
+          "main": {
+            "considered": 19,
+            "issued": 19,
+            "correct": 16,
+            "coverage": 1.0,
+            "accuracy": 0.8421052631578947,
+            "correct_per_considered_fixture": 0.8421052631578947,
+            "by_target": {
+              "1x2": {
+                "issued": 11,
+                "correct": 10
+              },
+              "btts": {
+                "issued": 2,
+                "correct": 1
+              },
+              "total_2_5": {
+                "issued": 6,
+                "correct": 5
+              }
+            }
+          },
+          "beta_v1": {
+            "considered": 19,
+            "issued": 19,
+            "correct": 11,
+            "coverage": 1.0,
+            "accuracy": 0.5789473684210527,
+            "correct_per_considered_fixture": 0.5789473684210527,
+            "by_target": {
+              "1x2": {
+                "issued": 2,
+                "correct": 2
+              },
+              "btts": {
+                "issued": 6,
+                "correct": 3
+              },
+              "total_2_5": {
+                "issued": 11,
+                "correct": 6
+              }
+            }
+          },
+          "beta_v2": {
+            "considered": 19,
+            "issued": 19,
+            "correct": 14,
+            "coverage": 1.0,
+            "accuracy": 0.7368421052631579,
+            "correct_per_considered_fixture": 0.7368421052631579,
+            "by_target": {
+              "1x2": {
+                "issued": 11,
+                "correct": 9
+              },
+              "btts": {
+                "issued": 2,
+                "correct": 1
+              },
+              "total_2_5": {
+                "issued": 6,
+                "correct": 4
+              }
+            }
+          }
+        },
+        "hybrid": {
+          "main": {
+            "considered": 16,
+            "issued": 16,
+            "correct": 14,
+            "coverage": 1.0,
+            "accuracy": 0.875,
+            "correct_per_considered_fixture": 0.875,
+            "by_target": {
+              "1x2": {
+                "issued": 10,
+                "correct": 9
+              },
+              "btts": {
+                "issued": 0,
+                "correct": 0
+              },
+              "total_2_5": {
+                "issued": 6,
+                "correct": 5
+              }
+            }
+          },
+          "beta_v1": {
+            "considered": 16,
+            "issued": 16,
+            "correct": 11,
+            "coverage": 1.0,
+            "accuracy": 0.6875,
+            "correct_per_considered_fixture": 0.6875,
+            "by_target": {
+              "1x2": {
+                "issued": 2,
+                "correct": 2
+              },
+              "btts": {
+                "issued": 4,
+                "correct": 3
+              },
+              "total_2_5": {
+                "issued": 10,
+                "correct": 6
+              }
+            }
+          },
+          "hybrid": {
+            "considered": 16,
+            "issued": 16,
+            "correct": 14,
+            "coverage": 1.0,
+            "accuracy": 0.875,
+            "correct_per_considered_fixture": 0.875,
+            "by_target": {
+              "1x2": {
+                "issued": 9,
+                "correct": 8
+              },
+              "btts": {
+                "issued": 1,
+                "correct": 1
+              },
+              "total_2_5": {
+                "issued": 6,
+                "correct": 5
+              }
+            }
+          }
+        }
+      },
+      "targets": {
+        "beta_v2": {
+          "1x2": {
+            "considered": 23,
+            "issued": 11,
+            "correct": 9,
+            "accuracy": 0.8181818181818182
+          },
+          "btts": {
+            "considered": 23,
+            "issued": 13,
+            "correct": 8,
+            "accuracy": 0.6153846153846154
+          },
+          "total_2_5": {
+            "considered": 23,
+            "issued": 10,
+            "correct": 7,
+            "accuracy": 0.7
+          }
+        },
+        "hybrid": {
+          "1x2": {
+            "considered": 23,
+            "issued": 10,
+            "correct": 8,
+            "accuracy": 0.8
+          },
+          "btts": {
+            "considered": 23,
+            "issued": 9,
+            "correct": 5,
+            "accuracy": 0.5555555555555556
+          },
+          "total_2_5": {
+            "considered": 23,
+            "issued": 7,
+            "correct": 5,
+            "accuracy": 0.7142857142857143
+          }
+        }
+      },
+      "beta_v2_probability_metrics_all_fixtures": {
+        "1x2": {
+          "n": 23,
+          "log_loss": 0.7999905903323005,
+          "brier": 0.4638488691633788,
+          "unthresholded_direction_issued": 23,
+          "unthresholded_direction_accuracy": 0.6521739130434783,
+          "reliability": {
+            "H": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 1,
+                "mean_probability": 0.0920299085443686,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 2,
+                "mean_probability": 0.1624359195186113,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 1,
+                "mean_probability": 0.2557232128105225,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 5,
+                "mean_probability": 0.3430285709732364,
+                "frequency": 0.6
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 3,
+                "mean_probability": 0.44220160428584593,
+                "frequency": 0.6666666666666666
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 4,
+                "mean_probability": 0.5530430651750826,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 4,
+                "mean_probability": 0.6514940098159636,
+                "frequency": 0.75
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 2,
+                "mean_probability": 0.7695495833166415,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 1,
+                "mean_probability": 0.9477560536131057,
+                "frequency": 1.0
+              }
+            ],
+            "D": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 1,
+                "mean_probability": 0.04333540087836216,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 2,
+                "mean_probability": 0.15959477537938038,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 12,
+                "mean_probability": 0.2541251309948618,
+                "frequency": 0.08333333333333333
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 8,
+                "mean_probability": 0.357125220203055,
+                "frequency": 0.125
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ],
+            "A": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 4,
+                "mean_probability": 0.056468717994241836,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 6,
+                "mean_probability": 0.1520615505333873,
+                "frequency": 0.16666666666666666
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 6,
+                "mean_probability": 0.25390295503871446,
+                "frequency": 0.16666666666666666
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 2,
+                "mean_probability": 0.3604564691780779,
+                "frequency": 0.5
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 3,
+                "mean_probability": 0.41137353899876067,
+                "frequency": 0.6666666666666666
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 2,
+                "mean_probability": 0.5474500528558365,
+                "frequency": 0.5
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ]
+          }
+        },
+        "btts": {
+          "n": 23,
+          "log_loss": 0.6936811984978468,
+          "brier": 0.2503670262521563,
+          "unthresholded_direction_issued": 23,
+          "unthresholded_direction_accuracy": 0.391304347826087,
+          "reliability": {
+            "yes": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 1,
+                "mean_probability": 0.364337425163714,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 21,
+                "mean_probability": 0.4495139228669463,
+                "frequency": 0.6190476190476191
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 1,
+                "mean_probability": 0.5231759853451878,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ]
+          }
+        },
+        "total_2_5": {
+          "n": 23,
+          "log_loss": 0.6640657512130408,
+          "brier": 0.23568043148871085,
+          "unthresholded_direction_issued": 23,
+          "unthresholded_direction_accuracy": 0.6521739130434783,
+          "reliability": {
+            "yes": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 4,
+                "mean_probability": 0.3639505151578076,
+                "frequency": 0.25
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 11,
+                "mean_probability": 0.45155102611992465,
+                "frequency": 0.6363636363636364
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 8,
+                "mean_probability": 0.5325063628520535,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    "2026-11-14": {
+      "considered": 6,
+      "focus": {
+        "main": {
+          "considered": 6,
+          "issued": 6,
+          "correct": 4,
+          "coverage": 1.0,
+          "accuracy": 0.6666666666666666,
+          "correct_per_considered_fixture": 0.6666666666666666,
+          "by_target": {
+            "1x2": {
+              "issued": 3,
+              "correct": 2
+            },
+            "btts": {
+              "issued": 1,
+              "correct": 0
+            },
+            "total_2_5": {
+              "issued": 2,
+              "correct": 2
+            }
+          }
+        },
+        "beta_v1": {
+          "considered": 6,
+          "issued": 6,
+          "correct": 3,
+          "coverage": 1.0,
+          "accuracy": 0.5,
+          "correct_per_considered_fixture": 0.5,
+          "by_target": {
+            "1x2": {
+              "issued": 0,
+              "correct": 0
+            },
+            "btts": {
+              "issued": 2,
+              "correct": 1
+            },
+            "total_2_5": {
+              "issued": 4,
+              "correct": 2
+            }
+          }
+        },
+        "beta_v2": {
+          "considered": 6,
+          "issued": 6,
+          "correct": 5,
+          "coverage": 1.0,
+          "accuracy": 0.8333333333333334,
+          "correct_per_considered_fixture": 0.8333333333333334,
+          "by_target": {
+            "1x2": {
+              "issued": 4,
+              "correct": 3
+            },
+            "btts": {
+              "issued": 0,
+              "correct": 0
+            },
+            "total_2_5": {
+              "issued": 2,
+              "correct": 2
+            }
+          }
+        },
+        "hybrid": {
+          "considered": 6,
+          "issued": 5,
+          "correct": 4,
+          "coverage": 0.8333333333333334,
+          "accuracy": 0.8,
+          "correct_per_considered_fixture": 0.6666666666666666,
+          "by_target": {
+            "1x2": {
+              "issued": 3,
+              "correct": 2
+            },
+            "btts": {
+              "issued": 0,
+              "correct": 0
+            },
+            "total_2_5": {
+              "issued": 2,
+              "correct": 2
+            }
+          }
+        }
+      },
+      "same_active_fixtures": {
+        "beta_v2": {
+          "main": {
+            "considered": 6,
+            "issued": 6,
+            "correct": 4,
+            "coverage": 1.0,
+            "accuracy": 0.6666666666666666,
+            "correct_per_considered_fixture": 0.6666666666666666,
+            "by_target": {
+              "1x2": {
+                "issued": 3,
+                "correct": 2
+              },
+              "btts": {
+                "issued": 1,
+                "correct": 0
+              },
+              "total_2_5": {
+                "issued": 2,
+                "correct": 2
+              }
+            }
+          },
+          "beta_v1": {
+            "considered": 6,
+            "issued": 6,
+            "correct": 3,
+            "coverage": 1.0,
+            "accuracy": 0.5,
+            "correct_per_considered_fixture": 0.5,
+            "by_target": {
+              "1x2": {
+                "issued": 0,
+                "correct": 0
+              },
+              "btts": {
+                "issued": 2,
+                "correct": 1
+              },
+              "total_2_5": {
+                "issued": 4,
+                "correct": 2
+              }
+            }
+          },
+          "beta_v2": {
+            "considered": 6,
+            "issued": 6,
+            "correct": 5,
+            "coverage": 1.0,
+            "accuracy": 0.8333333333333334,
+            "correct_per_considered_fixture": 0.8333333333333334,
+            "by_target": {
+              "1x2": {
+                "issued": 4,
+                "correct": 3
+              },
+              "btts": {
+                "issued": 0,
+                "correct": 0
+              },
+              "total_2_5": {
+                "issued": 2,
+                "correct": 2
+              }
+            }
+          }
+        },
+        "hybrid": {
+          "main": {
+            "considered": 5,
+            "issued": 5,
+            "correct": 4,
+            "coverage": 1.0,
+            "accuracy": 0.8,
+            "correct_per_considered_fixture": 0.8,
+            "by_target": {
+              "1x2": {
+                "issued": 3,
+                "correct": 2
+              },
+              "btts": {
+                "issued": 0,
+                "correct": 0
+              },
+              "total_2_5": {
+                "issued": 2,
+                "correct": 2
+              }
+            }
+          },
+          "beta_v1": {
+            "considered": 5,
+            "issued": 5,
+            "correct": 3,
+            "coverage": 1.0,
+            "accuracy": 0.6,
+            "correct_per_considered_fixture": 0.6,
+            "by_target": {
+              "1x2": {
+                "issued": 0,
+                "correct": 0
+              },
+              "btts": {
+                "issued": 1,
+                "correct": 1
+              },
+              "total_2_5": {
+                "issued": 4,
+                "correct": 2
+              }
+            }
+          },
+          "hybrid": {
+            "considered": 5,
+            "issued": 5,
+            "correct": 4,
+            "coverage": 1.0,
+            "accuracy": 0.8,
+            "correct_per_considered_fixture": 0.8,
+            "by_target": {
+              "1x2": {
+                "issued": 3,
+                "correct": 2
+              },
+              "btts": {
+                "issued": 0,
+                "correct": 0
+              },
+              "total_2_5": {
+                "issued": 2,
+                "correct": 2
+              }
+            }
+          }
+        }
+      },
+      "targets": {
+        "beta_v2": {
+          "1x2": {
+            "considered": 6,
+            "issued": 4,
+            "correct": 3,
+            "accuracy": 0.75
+          },
+          "btts": {
+            "considered": 6,
+            "issued": 2,
+            "correct": 2,
+            "accuracy": 1.0
+          },
+          "total_2_5": {
+            "considered": 6,
+            "issued": 2,
+            "correct": 2,
+            "accuracy": 1.0
+          }
+        },
+        "hybrid": {
+          "1x2": {
+            "considered": 6,
+            "issued": 3,
+            "correct": 2,
+            "accuracy": 0.6666666666666666
+          },
+          "btts": {
+            "considered": 6,
+            "issued": 2,
+            "correct": 2,
+            "accuracy": 1.0
+          },
+          "total_2_5": {
+            "considered": 6,
+            "issued": 2,
+            "correct": 2,
+            "accuracy": 1.0
+          }
+        }
+      },
+      "beta_v2_probability_metrics_all_fixtures": {
+        "1x2": {
+          "n": 6,
+          "log_loss": 0.9407270311504701,
+          "brier": 0.541203528392512,
+          "unthresholded_direction_issued": 6,
+          "unthresholded_direction_accuracy": 0.5,
+          "reliability": {
+            "H": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 2,
+                "mean_probability": 0.32657295733243175,
+                "frequency": 0.5
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 2,
+                "mean_probability": 0.5577643162742223,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 2,
+                "mean_probability": 0.646344312936577,
+                "frequency": 0.5
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ],
+            "D": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 4,
+                "mean_probability": 0.2405047107063379,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 2,
+                "mean_probability": 0.36338494420377154,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ],
+            "A": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 4,
+                "mean_probability": 0.15744097468826254,
+                "frequency": 0.25
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 1,
+                "mean_probability": 0.2887537437505039,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 1,
+                "mean_probability": 0.33133045317708965,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ]
+          }
+        },
+        "btts": {
+          "n": 6,
+          "log_loss": 0.6636662062639737,
+          "brier": 0.2354181253370052,
+          "unthresholded_direction_issued": 6,
+          "unthresholded_direction_accuracy": 0.5,
+          "reliability": {
+            "yes": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 6,
+                "mean_probability": 0.45403475333653126,
+                "frequency": 0.5
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ]
+          }
+        },
+        "total_2_5": {
+          "n": 6,
+          "log_loss": 0.6145018445259237,
+          "brier": 0.21115215026903555,
+          "unthresholded_direction_issued": 6,
+          "unthresholded_direction_accuracy": 0.8333333333333334,
+          "reliability": {
+            "yes": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 2,
+                "mean_probability": 0.393552217378288,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 2,
+                "mean_probability": 0.4770108650040029,
+                "frequency": 0.5
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 2,
+                "mean_probability": 0.5073626483950875,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    "2026-11-15": {
+      "considered": 8,
+      "focus": {
+        "main": {
+          "considered": 8,
+          "issued": 8,
+          "correct": 8,
+          "coverage": 1.0,
+          "accuracy": 1.0,
+          "correct_per_considered_fixture": 1.0,
+          "by_target": {
+            "1x2": {
+              "issued": 3,
+              "correct": 3
+            },
+            "btts": {
+              "issued": 2,
+              "correct": 2
+            },
+            "total_2_5": {
+              "issued": 3,
+              "correct": 3
+            }
+          }
+        },
+        "beta_v1": {
+          "considered": 8,
+          "issued": 8,
+          "correct": 7,
+          "coverage": 1.0,
+          "accuracy": 0.875,
+          "correct_per_considered_fixture": 0.875,
+          "by_target": {
+            "1x2": {
+              "issued": 2,
+              "correct": 2
+            },
+            "btts": {
+              "issued": 1,
+              "correct": 1
+            },
+            "total_2_5": {
+              "issued": 5,
+              "correct": 4
+            }
+          }
+        },
+        "beta_v2": {
+          "considered": 8,
+          "issued": 6,
+          "correct": 5,
+          "coverage": 0.75,
+          "accuracy": 0.8333333333333334,
+          "correct_per_considered_fixture": 0.625,
+          "by_target": {
+            "1x2": {
+              "issued": 3,
+              "correct": 3
+            },
+            "btts": {
+              "issued": 1,
+              "correct": 0
+            },
+            "total_2_5": {
+              "issued": 2,
+              "correct": 2
+            }
+          }
+        },
+        "hybrid": {
+          "considered": 8,
+          "issued": 5,
+          "correct": 5,
+          "coverage": 0.625,
+          "accuracy": 1.0,
+          "correct_per_considered_fixture": 0.625,
+          "by_target": {
+            "1x2": {
+              "issued": 3,
+              "correct": 3
+            },
+            "btts": {
+              "issued": 0,
+              "correct": 0
+            },
+            "total_2_5": {
+              "issued": 2,
+              "correct": 2
+            }
+          }
+        }
+      },
+      "same_active_fixtures": {
+        "beta_v2": {
+          "main": {
+            "considered": 6,
+            "issued": 6,
+            "correct": 6,
+            "coverage": 1.0,
+            "accuracy": 1.0,
+            "correct_per_considered_fixture": 1.0,
+            "by_target": {
+              "1x2": {
+                "issued": 3,
+                "correct": 3
+              },
+              "btts": {
+                "issued": 1,
+                "correct": 1
+              },
+              "total_2_5": {
+                "issued": 2,
+                "correct": 2
+              }
+            }
+          },
+          "beta_v1": {
+            "considered": 6,
+            "issued": 6,
+            "correct": 5,
+            "coverage": 1.0,
+            "accuracy": 0.8333333333333334,
+            "correct_per_considered_fixture": 0.8333333333333334,
+            "by_target": {
+              "1x2": {
+                "issued": 2,
+                "correct": 2
+              },
+              "btts": {
+                "issued": 0,
+                "correct": 0
+              },
+              "total_2_5": {
+                "issued": 4,
+                "correct": 3
+              }
+            }
+          },
+          "beta_v2": {
+            "considered": 6,
+            "issued": 6,
+            "correct": 5,
+            "coverage": 1.0,
+            "accuracy": 0.8333333333333334,
+            "correct_per_considered_fixture": 0.8333333333333334,
+            "by_target": {
+              "1x2": {
+                "issued": 3,
+                "correct": 3
+              },
+              "btts": {
+                "issued": 1,
+                "correct": 0
+              },
+              "total_2_5": {
+                "issued": 2,
+                "correct": 2
+              }
+            }
+          }
+        },
+        "hybrid": {
+          "main": {
+            "considered": 5,
+            "issued": 5,
+            "correct": 5,
+            "coverage": 1.0,
+            "accuracy": 1.0,
+            "correct_per_considered_fixture": 1.0,
+            "by_target": {
+              "1x2": {
+                "issued": 3,
+                "correct": 3
+              },
+              "btts": {
+                "issued": 0,
+                "correct": 0
+              },
+              "total_2_5": {
+                "issued": 2,
+                "correct": 2
+              }
+            }
+          },
+          "beta_v1": {
+            "considered": 5,
+            "issued": 5,
+            "correct": 5,
+            "coverage": 1.0,
+            "accuracy": 1.0,
+            "correct_per_considered_fixture": 1.0,
+            "by_target": {
+              "1x2": {
+                "issued": 2,
+                "correct": 2
+              },
+              "btts": {
+                "issued": 0,
+                "correct": 0
+              },
+              "total_2_5": {
+                "issued": 3,
+                "correct": 3
+              }
+            }
+          },
+          "hybrid": {
+            "considered": 5,
+            "issued": 5,
+            "correct": 5,
+            "coverage": 1.0,
+            "accuracy": 1.0,
+            "correct_per_considered_fixture": 1.0,
+            "by_target": {
+              "1x2": {
+                "issued": 3,
+                "correct": 3
+              },
+              "btts": {
+                "issued": 0,
+                "correct": 0
+              },
+              "total_2_5": {
+                "issued": 2,
+                "correct": 2
+              }
+            }
+          }
+        }
+      },
+      "targets": {
+        "beta_v2": {
+          "1x2": {
+            "considered": 8,
+            "issued": 3,
+            "correct": 3,
+            "accuracy": 1.0
+          },
+          "btts": {
+            "considered": 8,
+            "issued": 4,
+            "correct": 2,
+            "accuracy": 0.5
+          },
+          "total_2_5": {
+            "considered": 8,
+            "issued": 4,
+            "correct": 4,
+            "accuracy": 1.0
+          }
+        },
+        "hybrid": {
+          "1x2": {
+            "considered": 8,
+            "issued": 3,
+            "correct": 3,
+            "accuracy": 1.0
+          },
+          "btts": {
+            "considered": 8,
+            "issued": 2,
+            "correct": 1,
+            "accuracy": 0.5
+          },
+          "total_2_5": {
+            "considered": 8,
+            "issued": 2,
+            "correct": 2,
+            "accuracy": 1.0
+          }
+        }
+      },
+      "beta_v2_probability_metrics_all_fixtures": {
+        "1x2": {
+          "n": 8,
+          "log_loss": 0.6958286820504013,
+          "brier": 0.3980850411681836,
+          "unthresholded_direction_issued": 8,
+          "unthresholded_direction_accuracy": 0.75,
+          "reliability": {
+            "H": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 1,
+                "mean_probability": 0.0920299085443686,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 1,
+                "mean_probability": 0.2557232128105225,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 1,
+                "mean_probability": 0.39316885681776775,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 1,
+                "mean_probability": 0.4877470193475258,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 2,
+                "mean_probability": 0.548321814075943,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 1,
+                "mean_probability": 0.7936167665722117,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 1,
+                "mean_probability": 0.9477560536131057,
+                "frequency": 1.0
+              }
+            ],
+            "D": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 1,
+                "mean_probability": 0.04333540087836216,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 1,
+                "mean_probability": 0.1393844928719563,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 3,
+                "mean_probability": 0.2571896037905891,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 3,
+                "mean_probability": 0.35490954133550323,
+                "frequency": 0.3333333333333333
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ],
+            "A": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 2,
+                "mean_probability": 0.037953643032182016,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 1,
+                "mean_probability": 0.16343003141239082,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 3,
+                "mean_probability": 0.2532094352937155,
+                "frequency": 0.3333333333333333
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 1,
+                "mean_probability": 0.4063903199682095,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 1,
+                "mean_probability": 0.5089412816879053,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ]
+          }
+        },
+        "btts": {
+          "n": 8,
+          "log_loss": 0.7062042754047639,
+          "brier": 0.2567913087193623,
+          "unthresholded_direction_issued": 8,
+          "unthresholded_direction_accuracy": 0.25,
+          "reliability": {
+            "yes": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 1,
+                "mean_probability": 0.364337425163714,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 7,
+                "mean_probability": 0.4621568547857993,
+                "frequency": 0.8571428571428571
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ]
+          }
+        },
+        "total_2_5": {
+          "n": 8,
+          "log_loss": 0.6038746739483842,
+          "brier": 0.2063847533484633,
+          "unthresholded_direction_issued": 8,
+          "unthresholded_direction_accuracy": 0.875,
+          "reliability": {
+            "yes": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 1,
+                "mean_probability": 0.3152854942297939,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 2,
+                "mean_probability": 0.44033951660398796,
+                "frequency": 0.5
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 5,
+                "mean_probability": 0.5394281878920718,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    "2026-11-16": {
+      "considered": 8,
+      "focus": {
+        "main": {
+          "considered": 8,
+          "issued": 8,
+          "correct": 6,
+          "coverage": 1.0,
+          "accuracy": 0.75,
+          "correct_per_considered_fixture": 0.75,
+          "by_target": {
+            "1x2": {
+              "issued": 5,
+              "correct": 5
+            },
+            "btts": {
+              "issued": 1,
+              "correct": 0
+            },
+            "total_2_5": {
+              "issued": 2,
+              "correct": 1
+            }
+          }
+        },
+        "beta_v1": {
+          "considered": 8,
+          "issued": 8,
+          "correct": 3,
+          "coverage": 1.0,
+          "accuracy": 0.375,
+          "correct_per_considered_fixture": 0.375,
+          "by_target": {
+            "1x2": {
+              "issued": 0,
+              "correct": 0
+            },
+            "btts": {
+              "issued": 5,
+              "correct": 2
+            },
+            "total_2_5": {
+              "issued": 3,
+              "correct": 1
+            }
+          }
+        },
+        "beta_v2": {
+          "considered": 8,
+          "issued": 7,
+          "correct": 4,
+          "coverage": 0.875,
+          "accuracy": 0.5714285714285714,
+          "correct_per_considered_fixture": 0.5,
+          "by_target": {
+            "1x2": {
+              "issued": 4,
+              "correct": 3
+            },
+            "btts": {
+              "issued": 1,
+              "correct": 1
+            },
+            "total_2_5": {
+              "issued": 2,
+              "correct": 0
+            }
+          }
+        },
+        "hybrid": {
+          "considered": 8,
+          "issued": 6,
+          "correct": 5,
+          "coverage": 0.75,
+          "accuracy": 0.8333333333333334,
+          "correct_per_considered_fixture": 0.625,
+          "by_target": {
+            "1x2": {
+              "issued": 3,
+              "correct": 3
+            },
+            "btts": {
+              "issued": 1,
+              "correct": 1
+            },
+            "total_2_5": {
+              "issued": 2,
+              "correct": 1
+            }
+          }
+        }
+      },
+      "same_active_fixtures": {
+        "beta_v2": {
+          "main": {
+            "considered": 7,
+            "issued": 7,
+            "correct": 6,
+            "coverage": 1.0,
+            "accuracy": 0.8571428571428571,
+            "correct_per_considered_fixture": 0.8571428571428571,
+            "by_target": {
+              "1x2": {
+                "issued": 5,
+                "correct": 5
+              },
+              "btts": {
+                "issued": 0,
+                "correct": 0
+              },
+              "total_2_5": {
+                "issued": 2,
+                "correct": 1
+              }
+            }
+          },
+          "beta_v1": {
+            "considered": 7,
+            "issued": 7,
+            "correct": 3,
+            "coverage": 1.0,
+            "accuracy": 0.42857142857142855,
+            "correct_per_considered_fixture": 0.42857142857142855,
+            "by_target": {
+              "1x2": {
+                "issued": 0,
+                "correct": 0
+              },
+              "btts": {
+                "issued": 4,
+                "correct": 2
+              },
+              "total_2_5": {
+                "issued": 3,
+                "correct": 1
+              }
+            }
+          },
+          "beta_v2": {
+            "considered": 7,
+            "issued": 7,
+            "correct": 4,
+            "coverage": 1.0,
+            "accuracy": 0.5714285714285714,
+            "correct_per_considered_fixture": 0.5714285714285714,
+            "by_target": {
+              "1x2": {
+                "issued": 4,
+                "correct": 3
+              },
+              "btts": {
+                "issued": 1,
+                "correct": 1
+              },
+              "total_2_5": {
+                "issued": 2,
+                "correct": 0
+              }
+            }
+          }
+        },
+        "hybrid": {
+          "main": {
+            "considered": 6,
+            "issued": 6,
+            "correct": 5,
+            "coverage": 1.0,
+            "accuracy": 0.8333333333333334,
+            "correct_per_considered_fixture": 0.8333333333333334,
+            "by_target": {
+              "1x2": {
+                "issued": 4,
+                "correct": 4
+              },
+              "btts": {
+                "issued": 0,
+                "correct": 0
+              },
+              "total_2_5": {
+                "issued": 2,
+                "correct": 1
+              }
+            }
+          },
+          "beta_v1": {
+            "considered": 6,
+            "issued": 6,
+            "correct": 3,
+            "coverage": 1.0,
+            "accuracy": 0.5,
+            "correct_per_considered_fixture": 0.5,
+            "by_target": {
+              "1x2": {
+                "issued": 0,
+                "correct": 0
+              },
+              "btts": {
+                "issued": 3,
+                "correct": 2
+              },
+              "total_2_5": {
+                "issued": 3,
+                "correct": 1
+              }
+            }
+          },
+          "hybrid": {
+            "considered": 6,
+            "issued": 6,
+            "correct": 5,
+            "coverage": 1.0,
+            "accuracy": 0.8333333333333334,
+            "correct_per_considered_fixture": 0.8333333333333334,
+            "by_target": {
+              "1x2": {
+                "issued": 3,
+                "correct": 3
+              },
+              "btts": {
+                "issued": 1,
+                "correct": 1
+              },
+              "total_2_5": {
+                "issued": 2,
+                "correct": 1
+              }
+            }
+          }
+        }
+      },
+      "targets": {
+        "beta_v2": {
+          "1x2": {
+            "considered": 8,
+            "issued": 4,
+            "correct": 3,
+            "accuracy": 0.75
+          },
+          "btts": {
+            "considered": 8,
+            "issued": 7,
+            "correct": 4,
+            "accuracy": 0.5714285714285714
+          },
+          "total_2_5": {
+            "considered": 8,
+            "issued": 4,
+            "correct": 1,
+            "accuracy": 0.25
+          }
+        },
+        "hybrid": {
+          "1x2": {
+            "considered": 8,
+            "issued": 4,
+            "correct": 3,
+            "accuracy": 0.75
+          },
+          "btts": {
+            "considered": 8,
+            "issued": 5,
+            "correct": 2,
+            "accuracy": 0.4
+          },
+          "total_2_5": {
+            "considered": 8,
+            "issued": 3,
+            "correct": 1,
+            "accuracy": 0.3333333333333333
+          }
+        }
+      },
+      "beta_v2_probability_metrics_all_fixtures": {
+        "1x2": {
+          "n": 8,
+          "log_loss": 0.7499129601107499,
+          "brier": 0.4381487472979728,
+          "unthresholded_direction_issued": 8,
+          "unthresholded_direction_accuracy": 0.75,
+          "reliability": {
+            "H": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 2,
+                "mean_probability": 0.1624359195186113,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 1,
+                "mean_probability": 0.3644510952925741,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 2,
+                "mean_probability": 0.41942889675500594,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 2,
+                "mean_probability": 0.6566437066953503,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 1,
+                "mean_probability": 0.7454824000610711,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ],
+            "D": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 1,
+                "mean_probability": 0.17980505788680443,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 4,
+                "mean_probability": 0.25524898496882653,
+                "frequency": 0.25
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 3,
+                "mean_probability": 0.3551677497367957,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ],
+            "A": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 2,
+                "mean_probability": 0.07498379295630164,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 1,
+                "mean_probability": 0.11917537303488293,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 2,
+                "mean_probability": 0.23751784030031822,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 1,
+                "mean_probability": 0.38958248517906613,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 1,
+                "mean_probability": 0.4270252629849653,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 1,
+                "mean_probability": 0.5859588240237676,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ]
+          }
+        },
+        "btts": {
+          "n": 8,
+          "log_loss": 0.6981710598534414,
+          "brier": 0.25241954693690904,
+          "unthresholded_direction_issued": 8,
+          "unthresholded_direction_accuracy": 0.5,
+          "reliability": {
+            "yes": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 7,
+                "mean_probability": 0.4288939805415695,
+                "frequency": 0.42857142857142855
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 1,
+                "mean_probability": 0.5231759853451878,
+                "frequency": 0.0
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ]
+          }
+        },
+        "total_2_5": {
+          "n": 8,
+          "log_loss": 0.7495012033867294,
+          "brier": 0.2774414771237722,
+          "unthresholded_direction_issued": 8,
+          "unthresholded_direction_accuracy": 0.375,
+          "reliability": {
+            "yes": [
+              {
+                "bin": [
+                  0.0,
+                  0.1
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.1,
+                  0.2
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.2,
+                  0.3
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.3,
+                  0.4
+                ],
+                "n": 1,
+                "mean_probability": 0.35341213164486035,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.4,
+                  0.5
+                ],
+                "n": 6,
+                "mean_probability": 0.44407624797808176,
+                "frequency": 0.6666666666666666
+              },
+              {
+                "bin": [
+                  0.5,
+                  0.6
+                ],
+                "n": 1,
+                "mean_probability": 0.5481846665658945,
+                "frequency": 1.0
+              },
+              {
+                "bin": [
+                  0.6,
+                  0.7
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.7,
+                  0.8
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.8,
+                  0.9
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              },
+              {
+                "bin": [
+                  0.9,
+                  1.0
+                ],
+                "n": 0,
+                "mean_probability": null,
+                "frequency": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rows": [
+    {
+      "match_id": "2047893",
+      "day": "2026-11-14",
+      "home": "Norwegia",
+      "away": "Wales",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        3,
+        1
+      ],
+      "actual": {
+        "1x2": "H",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "focuses": {
+        "main": {
+          "target": "1x2",
+          "pick": "H"
+        },
+        "beta_v1": {
+          "target": "total_2_5",
+          "pick": "under"
+        },
+        "beta_v2": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.6772689560765683
+        },
+        "hybrid": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.6772689560765683
+        }
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "probability": 0.6772689560765683,
+          "reason": "passes_frozen_threshold"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5223067437264366,
+          "reason": "below_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5137082264239253,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "supporting_beta_probability": 0.6772689560765683,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.5137082264239253,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.6772689560765683,
+          "D": 0.20021010708277737,
+          "A": 0.12252093684065433
+        },
+        "btts": 0.47769325627356346,
+        "total_2_5": {
+          "over": 0.5137082264239253,
+          "under": 0.48629177357607467
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "1x2",
+        "btts"
+      ]
+    },
+    {
+      "match_id": "2047892",
+      "day": "2026-11-14",
+      "home": "Portugal",
+      "away": "Denmark",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        1,
+        4
+      ],
+      "actual": {
+        "1x2": "A",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "focuses": {
+        "main": {
+          "target": "1x2",
+          "pick": "H"
+        },
+        "beta_v1": {
+          "target": "btts",
+          "pick": true
+        },
+        "beta_v2": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.6154196697965857
+        },
+        "hybrid": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.6154196697965857
+        }
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "probability": 0.6154196697965857,
+          "reason": "passes_frozen_threshold"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5293841809043545,
+          "reason": "below_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5010170703662497,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "supporting_beta_probability": 0.6154196697965857,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.4706158190956455,
+          "reason": "numerical_direction_disagrees"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.5010170703662497,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.6154196697965857,
+          "D": 0.23258766323194746,
+          "A": 0.15199266697146696
+        },
+        "btts": 0.4706158190956455,
+        "total_2_5": {
+          "over": 0.5010170703662497,
+          "under": 0.49898292963375035
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "1x2",
+        "btts",
+        "total_2_5"
+      ]
+    },
+    {
+      "match_id": "2047895",
+      "day": "2026-11-14",
+      "home": "Georgia",
+      "away": "Hungaria",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        0,
+        2
+      ],
+      "actual": {
+        "1x2": "A",
+        "btts": false,
+        "total_2_5": "under"
+      },
+      "focuses": {
+        "main": {
+          "target": "total_2_5",
+          "pick": "under"
+        },
+        "beta_v1": {
+          "target": "total_2_5",
+          "pick": "under"
+        },
+        "beta_v2": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.6071739863401739
+        },
+        "hybrid": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.6071739863401739
+        }
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.34890275454075703,
+          "reason": "below_frozen_threshold"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "probability": 0.5618469454763593,
+          "reason": "passes_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": "under",
+          "status": "experimental",
+          "probability": 0.6071739863401739,
+          "reason": "passes_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.33133045317708965,
+          "reason": "numerical_direction_disagrees"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "supporting_beta_probability": 0.5618469454763593,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "total_2_5": {
+          "pick": "under",
+          "status": "experimental",
+          "supporting_beta_probability": 0.6071739863401739,
+          "reason": "main_direction_and_numerical_support_agree"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.3197667922821534,
+          "D": 0.34890275454075703,
+          "A": 0.33133045317708965
+        },
+        "btts": 0.4381530545236407,
+        "total_2_5": {
+          "over": 0.3928260136598261,
+          "under": 0.6071739863401739
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "1x2"
+      ]
+    },
+    {
+      "match_id": "2047894",
+      "day": "2026-11-14",
+      "home": "Austria",
+      "away": "Republik Irlandia",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        1,
+        0
+      ],
+      "actual": {
+        "1x2": "H",
+        "btts": false,
+        "total_2_5": "under"
+      },
+      "focuses": {
+        "main": {
+          "target": "btts",
+          "pick": true
+        },
+        "beta_v1": {
+          "target": "btts",
+          "pick": true
+        },
+        "beta_v2": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.5582738594211628
+        },
+        "hybrid": null
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "probability": 0.5582738594211628,
+          "reason": "passes_frozen_threshold"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5453084741289962,
+          "reason": "below_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5378991961730895,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.4546915258710038,
+          "reason": "numerical_direction_disagrees"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.46210080382691054,
+          "reason": "numerical_direction_disagrees"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.5582738594211628,
+          "D": 0.2688979514252788,
+          "A": 0.17282818915355838
+        },
+        "btts": 0.4546915258710038,
+        "total_2_5": {
+          "over": 0.46210080382691054,
+          "under": 0.5378991961730895
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "1x2"
+      ]
+    },
+    {
+      "match_id": "2047897",
+      "day": "2026-11-14",
+      "home": "Irlandia Utara",
+      "away": "Ukraina",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        1,
+        0
+      ],
+      "actual": {
+        "1x2": "H",
+        "btts": false,
+        "total_2_5": "under"
+      },
+      "focuses": {
+        "main": {
+          "target": "total_2_5",
+          "pick": "under"
+        },
+        "beta_v1": {
+          "target": "total_2_5",
+          "pick": "under"
+        },
+        "beta_v2": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.6057215789032502
+        },
+        "hybrid": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.6057215789032502
+        }
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.377867133866786,
+          "reason": "below_frozen_threshold"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "probability": 0.5820818452434828,
+          "reason": "passes_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": "under",
+          "status": "experimental",
+          "probability": 0.6057215789032502,
+          "reason": "passes_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "supporting_beta_probability": 0.5820818452434828,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "total_2_5": {
+          "pick": "under",
+          "status": "experimental",
+          "supporting_beta_probability": 0.6057215789032502,
+          "reason": "main_direction_and_numerical_support_agree"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.33337912238271017,
+          "D": 0.377867133866786,
+          "A": 0.2887537437505039
+        },
+        "btts": 0.41791815475651717,
+        "total_2_5": {
+          "over": 0.3942784210967499,
+          "under": 0.6057215789032502
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "1x2"
+      ]
+    },
+    {
+      "match_id": "2047891",
+      "day": "2026-11-14",
+      "home": "Rumania",
+      "away": "Polandia",
+      "in_original_primary_comparison": false,
+      "result_90m": [
+        2,
+        1
+      ],
+      "actual": {
+        "1x2": "H",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "focuses": {
+        "main": null,
+        "beta_v1": {
+          "target": "total_2_5",
+          "pick": "over"
+        },
+        "beta_v2": null,
+        "hybrid": null
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.40070503404310703,
+          "reason": "below_frozen_threshold"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5217719871048965,
+          "reason": "below_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.532096963765301,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.3043769880909766,
+          "D": 0.2949179778659164,
+          "A": 0.40070503404310703
+        },
+        "btts": 0.4782280128951035,
+        "total_2_5": {
+          "over": 0.46790303623469903,
+          "under": 0.532096963765301
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "btts",
+        "total_2_5"
+      ]
+    },
+    {
+      "match_id": "2047890",
+      "day": "2026-11-14",
+      "home": "Swedia",
+      "away": "Bosnia & Herzegovina",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        3,
+        2
+      ],
+      "actual": {
+        "1x2": "H",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "focuses": {
+        "main": {
+          "target": "1x2",
+          "pick": "H"
+        },
+        "beta_v1": {
+          "target": "total_2_5",
+          "pick": "under"
+        },
+        "beta_v2": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.5572547731272817
+        },
+        "hybrid": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.5572547731272817
+        }
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "probability": 0.5572547731272817,
+          "reason": "passes_frozen_threshold"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5348632905011831,
+          "reason": "below_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5080790738189047,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "supporting_beta_probability": 0.5572547731272817,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.5572547731272817,
+          "D": 0.2603231210853479,
+          "A": 0.18242210578737045
+        },
+        "btts": 0.4651367094988169,
+        "total_2_5": {
+          "over": 0.4919209261810953,
+          "under": 0.5080790738189047
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "1x2",
+        "btts",
+        "total_2_5"
+      ]
+    },
+    {
+      "match_id": "2047903",
+      "day": "2026-11-15",
+      "home": "Siprus",
+      "away": "Montenegro",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        1,
+        4
+      ],
+      "actual": {
+        "1x2": "A",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "focuses": {
+        "main": {
+          "target": "btts",
+          "pick": true
+        },
+        "beta_v1": {
+          "target": "total_2_5",
+          "pick": "under"
+        },
+        "beta_v2": {
+          "target": "btts",
+          "pick": false,
+          "probability": 0.5559888866704235
+        },
+        "hybrid": null
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.4063903199682095,
+          "reason": "below_frozen_threshold"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "probability": 0.5559888866704235,
+          "reason": "passes_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5485367813618897,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.4440111133295766,
+          "reason": "numerical_direction_disagrees"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.2557232128105225,
+          "D": 0.33788646722126797,
+          "A": 0.4063903199682095
+        },
+        "btts": 0.4440111133295766,
+        "total_2_5": {
+          "over": 0.45146321863811034,
+          "under": 0.5485367813618897
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "1x2",
+        "btts"
+      ]
+    },
+    {
+      "match_id": "2047899",
+      "day": "2026-11-15",
+      "home": "Latvia",
+      "away": "Armenia",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        0,
+        0
+      ],
+      "actual": {
+        "1x2": "D",
+        "btts": false,
+        "total_2_5": "under"
+      },
+      "focuses": {
+        "main": {
+          "target": "total_2_5",
+          "pick": "under"
+        },
+        "beta_v1": {
+          "target": "total_2_5",
+          "pick": "under"
+        },
+        "beta_v2": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.5707841854301345
+        },
+        "hybrid": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.5707841854301345
+        }
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.39316885681776775,
+          "reason": "below_frozen_threshold"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "probability": 0.5532189684978313,
+          "reason": "passes_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": "under",
+          "status": "experimental",
+          "probability": 0.5707841854301345,
+          "reason": "passes_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "total_2_5": {
+          "pick": "under",
+          "status": "experimental",
+          "supporting_beta_probability": 0.5707841854301345,
+          "reason": "main_direction_and_numerical_support_agree"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.39316885681776775,
+          "D": 0.32781334701751574,
+          "A": 0.2790177961647165
+        },
+        "btts": 0.4467810315021688,
+        "total_2_5": {
+          "over": 0.4292158145698655,
+          "under": 0.5707841854301345
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "1x2",
+        "btts"
+      ]
+    },
+    {
+      "match_id": "2047905",
+      "day": "2026-11-15",
+      "home": "Belarus",
+      "away": "Albania",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        0,
+        2
+      ],
+      "actual": {
+        "1x2": "A",
+        "btts": false,
+        "total_2_5": "under"
+      },
+      "focuses": {
+        "main": {
+          "target": "total_2_5",
+          "pick": "under"
+        },
+        "beta_v1": {
+          "target": "total_2_5",
+          "pick": "under"
+        },
+        "beta_v2": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.6847145057702061
+        },
+        "hybrid": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.6847145057702061
+        }
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5089412816879053,
+          "reason": "below_frozen_threshold"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "probability": 0.6356625748362861,
+          "reason": "passes_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": "under",
+          "status": "experimental",
+          "probability": 0.6847145057702061,
+          "reason": "passes_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "supporting_beta_probability": 0.6356625748362861,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "total_2_5": {
+          "pick": "under",
+          "status": "experimental",
+          "supporting_beta_probability": 0.6847145057702061,
+          "reason": "main_direction_and_numerical_support_agree"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.0920299085443686,
+          "D": 0.39902880976772603,
+          "A": 0.5089412816879053
+        },
+        "btts": 0.364337425163714,
+        "total_2_5": {
+          "over": 0.3152854942297939,
+          "under": 0.6847145057702061
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "1x2",
+        "btts"
+      ]
+    },
+    {
+      "match_id": "2047901",
+      "day": "2026-11-15",
+      "home": "Finlandia",
+      "away": "San Marino",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        7,
+        2
+      ],
+      "actual": {
+        "1x2": "H",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "focuses": {
+        "main": {
+          "target": "1x2",
+          "pick": "H"
+        },
+        "beta_v1": {
+          "target": "1x2",
+          "pick": "H"
+        },
+        "beta_v2": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.9477560536131057
+        },
+        "hybrid": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.9477560536131057
+        }
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "probability": 0.9477560536131057,
+          "reason": "passes_frozen_threshold"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "probability": 0.5689828671463077,
+          "reason": "passes_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": "over",
+          "status": "experimental",
+          "probability": 0.5908161904858698,
+          "reason": "passes_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "supporting_beta_probability": 0.9477560536131057,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "supporting_beta_probability": 0.5689828671463077,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.9477560536131057,
+          "D": 0.04333540087836216,
+          "A": 0.008908545508532154
+        },
+        "btts": 0.4310171328536923,
+        "total_2_5": {
+          "over": 0.5908161904858698,
+          "under": 0.40918380951413025
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "total_2_5"
+      ]
+    },
+    {
+      "match_id": "2047900",
+      "day": "2026-11-15",
+      "home": "Belgia",
+      "away": "Italia",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        4,
+        1
+      ],
+      "actual": {
+        "1x2": "H",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "focuses": {
+        "main": {
+          "target": "btts",
+          "pick": true
+        },
+        "beta_v1": {
+          "target": "btts",
+          "pick": true
+        },
+        "beta_v2": null,
+        "hybrid": null
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5150675659251572,
+          "reason": "below_frozen_threshold"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.512170257332368,
+          "reason": "below_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5182627367011483,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.487829742667632,
+          "reason": "numerical_direction_disagrees"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.5182627367011483,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.5150675659251572,
+          "D": 0.25460284927020355,
+          "A": 0.23032958480463925
+        },
+        "btts": 0.487829742667632,
+        "total_2_5": {
+          "over": 0.5182627367011483,
+          "under": 0.4817372632988517
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": []
+    },
+    {
+      "match_id": "2047898",
+      "day": "2026-11-15",
+      "home": "Prancis",
+      "away": "Turki",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        2,
+        1
+      ],
+      "actual": {
+        "1x2": "H",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "focuses": {
+        "main": {
+          "target": "1x2",
+          "pick": "H"
+        },
+        "beta_v1": {
+          "target": "1x2",
+          "pick": "H"
+        },
+        "beta_v2": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.7936167665722117
+        },
+        "hybrid": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.7936167665722117
+        }
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "probability": 0.7936167665722117,
+          "reason": "passes_frozen_threshold"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5222544086997034,
+          "reason": "below_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": "over",
+          "status": "experimental",
+          "probability": 0.5697849598100093,
+          "reason": "passes_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "supporting_beta_probability": 0.7936167665722117,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.7936167665722117,
+          "D": 0.1393844928719563,
+          "A": 0.06699874055583188
+        },
+        "btts": 0.4777455913002966,
+        "total_2_5": {
+          "over": 0.5697849598100093,
+          "under": 0.4302150401899907
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "btts"
+      ]
+    },
+    {
+      "match_id": "2047902",
+      "day": "2026-11-15",
+      "home": "Kroasia",
+      "away": "Ceko",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        2,
+        1
+      ],
+      "actual": {
+        "1x2": "H",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "focuses": {
+        "main": {
+          "target": "1x2",
+          "pick": "H"
+        },
+        "beta_v1": {
+          "target": "total_2_5",
+          "pick": "over"
+        },
+        "beta_v2": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.5815760622267289
+        },
+        "hybrid": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.5815760622267289
+        }
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "probability": 0.5815760622267289,
+          "reason": "passes_frozen_threshold"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5400835663344487,
+          "reason": "below_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5153487374746735,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "supporting_beta_probability": 0.5815760622267289,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.5153487374746735,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.5815760622267289,
+          "D": 0.2549939063608803,
+          "A": 0.16343003141239082
+        },
+        "btts": 0.45991643366555135,
+        "total_2_5": {
+          "over": 0.5153487374746735,
+          "under": 0.48465126252532653
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "1x2"
+      ]
+    },
+    {
+      "match_id": "2047904",
+      "day": "2026-11-15",
+      "home": "Spanyol",
+      "away": "Inggris",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        2,
+        3
+      ],
+      "actual": {
+        "1x2": "A",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "focuses": {
+        "main": {
+          "target": "total_2_5",
+          "pick": "over"
+        },
+        "beta_v1": {
+          "target": "total_2_5",
+          "pick": "over"
+        },
+        "beta_v2": null,
+        "hybrid": null
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.4877470193475258,
+          "reason": "below_frozen_threshold"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5122030618183222,
+          "reason": "below_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5029283149886582,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.4877470193475258,
+          "reason": "below_frozen_threshold"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.48779693818167785,
+          "reason": "numerical_direction_disagrees"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.5029283149886582,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.4877470193475258,
+          "D": 0.2619720557406834,
+          "A": 0.25028092491179077
+        },
+        "btts": 0.48779693818167785,
+        "total_2_5": {
+          "over": 0.5029283149886582,
+          "under": 0.4970716850113418
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "1x2"
+      ]
+    },
+    {
+      "match_id": "2047907",
+      "day": "2026-11-16",
+      "home": "Estonia",
+      "away": "Bulgaria",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        2,
+        1
+      ],
+      "actual": {
+        "1x2": "H",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "focuses": {
+        "main": {
+          "target": "total_2_5",
+          "pick": "under"
+        },
+        "beta_v1": {
+          "target": "btts",
+          "pick": false
+        },
+        "beta_v2": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.5808391066215762
+        },
+        "hybrid": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.5808391066215762
+        }
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.40333913580850983,
+          "reason": "below_frozen_threshold"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "probability": 0.5773139708054107,
+          "reason": "passes_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": "under",
+          "status": "experimental",
+          "probability": 0.5808391066215762,
+          "reason": "passes_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "supporting_beta_probability": 0.5773139708054107,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "total_2_5": {
+          "pick": "under",
+          "status": "experimental",
+          "supporting_beta_probability": 0.5808391066215762,
+          "reason": "main_direction_and_numerical_support_agree"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.40333913580850983,
+          "D": 0.3567319361770309,
+          "A": 0.23992892801445917
+        },
+        "btts": 0.42268602919458936,
+        "total_2_5": {
+          "over": 0.41916089337842377,
+          "under": 0.5808391066215762
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": []
+    },
+    {
+      "match_id": "2047906",
+      "day": "2026-11-16",
+      "home": "Islandia",
+      "away": "Luksemburg",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        3,
+        0
+      ],
+      "actual": {
+        "1x2": "H",
+        "btts": false,
+        "total_2_5": "over"
+      },
+      "focuses": {
+        "main": {
+          "target": "1x2",
+          "pick": "H"
+        },
+        "beta_v1": {
+          "target": "btts",
+          "pick": false
+        },
+        "beta_v2": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.7454824000610711
+        },
+        "hybrid": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.7454824000610711
+        }
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "probability": 0.7454824000610711,
+          "reason": "passes_frozen_threshold"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "probability": 0.5532640112902286,
+          "reason": "passes_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5405797920855226,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "supporting_beta_probability": 0.7454824000610711,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "supporting_beta_probability": 0.5532640112902286,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.4594202079144774,
+          "reason": "numerical_direction_disagrees"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.7454824000610711,
+          "D": 0.17980505788680443,
+          "A": 0.07471254205212435
+        },
+        "btts": 0.4467359887097714,
+        "total_2_5": {
+          "over": 0.4594202079144774,
+          "under": 0.5405797920855226
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": []
+    },
+    {
+      "match_id": "2047911",
+      "day": "2026-11-16",
+      "home": "Lituania",
+      "away": "Liechtenstein",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        2,
+        1
+      ],
+      "actual": {
+        "1x2": "H",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "focuses": {
+        "main": {
+          "target": "1x2",
+          "pick": "H"
+        },
+        "beta_v1": {
+          "target": "total_2_5",
+          "pick": "under"
+        },
+        "beta_v2": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.6835530112148924
+        },
+        "hybrid": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.6835530112148924
+        }
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "probability": 0.6835530112148924,
+          "reason": "passes_frozen_threshold"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "probability": 0.5976391581287316,
+          "reason": "passes_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": "under",
+          "status": "experimental",
+          "probability": 0.5686463685568883,
+          "reason": "passes_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "supporting_beta_probability": 0.6835530112148924,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "supporting_beta_probability": 0.5976391581287316,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "total_2_5": {
+          "pick": "under",
+          "status": "experimental",
+          "supporting_beta_probability": 0.5686463685568883,
+          "reason": "main_direction_and_numerical_support_agree"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.6835530112148924,
+          "D": 0.24119194492462864,
+          "A": 0.07525504386047895
+        },
+        "btts": 0.4023608418712684,
+        "total_2_5": {
+          "over": 0.4313536314431116,
+          "under": 0.5686463685568883
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "1x2"
+      ]
+    },
+    {
+      "match_id": "2047909",
+      "day": "2026-11-16",
+      "home": "Jerman",
+      "away": "Belanda",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        5,
+        0
+      ],
+      "actual": {
+        "1x2": "H",
+        "btts": false,
+        "total_2_5": "over"
+      },
+      "focuses": {
+        "main": {
+          "target": "btts",
+          "pick": true
+        },
+        "beta_v1": {
+          "target": "btts",
+          "pick": true
+        },
+        "beta_v2": null,
+        "hybrid": null
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.38958248517906613,
+          "reason": "below_frozen_threshold"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5231759853451878,
+          "reason": "below_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5481846665658945,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.5231759853451878,
+          "reason": "below_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.5481846665658945,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.3644510952925741,
+          "D": 0.2459664195283597,
+          "A": 0.38958248517906613
+        },
+        "btts": 0.5231759853451878,
+        "total_2_5": {
+          "over": 0.5481846665658945,
+          "under": 0.4518153334341055
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "1x2",
+        "btts",
+        "total_2_5"
+      ]
+    },
+    {
+      "match_id": "2047912",
+      "day": "2026-11-16",
+      "home": "Yunani",
+      "away": "Serbia",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        1,
+        0
+      ],
+      "actual": {
+        "1x2": "H",
+        "btts": false,
+        "total_2_5": "under"
+      },
+      "focuses": {
+        "main": {
+          "target": "1x2",
+          "pick": "H"
+        },
+        "beta_v1": {
+          "target": "btts",
+          "pick": true
+        },
+        "beta_v2": {
+          "target": "btts",
+          "pick": false,
+          "probability": 0.5626572903468805
+        },
+        "hybrid": null
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.4355186577015021,
+          "reason": "below_frozen_threshold"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "probability": 0.5626572903468805,
+          "reason": "passes_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5497986492345621,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.4355186577015021,
+          "reason": "below_frozen_threshold"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.4355186577015021,
+          "D": 0.3293745897123207,
+          "A": 0.23510675258617728
+        },
+        "btts": 0.4373427096531195,
+        "total_2_5": {
+          "over": 0.4502013507654379,
+          "under": 0.5497986492345621
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "1x2",
+        "btts",
+        "total_2_5"
+      ]
+    },
+    {
+      "match_id": "2047915",
+      "day": "2026-11-16",
+      "home": "Makedonia Utara",
+      "away": "Slovenia",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        0,
+        3
+      ],
+      "actual": {
+        "1x2": "A",
+        "btts": false,
+        "total_2_5": "over"
+      },
+      "focuses": {
+        "main": {
+          "target": "1x2",
+          "pick": "A"
+        },
+        "beta_v1": {
+          "target": "btts",
+          "pick": false
+        },
+        "beta_v2": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.6465878683551396
+        },
+        "hybrid": {
+          "target": "btts",
+          "pick": false,
+          "probability": 0.5892851441473508
+        }
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.4270252629849653,
+          "reason": "below_frozen_threshold"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "probability": 0.5892851441473508,
+          "reason": "passes_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": "under",
+          "status": "experimental",
+          "probability": 0.6465878683551396,
+          "reason": "passes_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": 0.4270252629849653,
+          "reason": "below_frozen_threshold"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "supporting_beta_probability": 0.5892851441473508,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.19357801369399913,
+          "D": 0.3793967233210356,
+          "A": 0.4270252629849653
+        },
+        "btts": 0.4107148558526492,
+        "total_2_5": {
+          "over": 0.35341213164486035,
+          "under": 0.6465878683551396
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": []
+    },
+    {
+      "match_id": "2047914",
+      "day": "2026-11-16",
+      "home": "Swiss",
+      "away": "Skotlandia",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        4,
+        0
+      ],
+      "actual": {
+        "1x2": "H",
+        "btts": false,
+        "total_2_5": "over"
+      },
+      "focuses": {
+        "main": {
+          "target": "1x2",
+          "pick": "H"
+        },
+        "beta_v1": {
+          "target": "total_2_5",
+          "pick": "under"
+        },
+        "beta_v2": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.6297344021758082
+        },
+        "hybrid": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.6297344021758082
+        }
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "probability": 0.6297344021758082,
+          "reason": "passes_frozen_threshold"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "probability": 0.5644543166504603,
+          "reason": "passes_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "probability": 0.5153332149066792,
+          "reason": "below_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": "H",
+          "status": "experimental",
+          "supporting_beta_probability": 0.6297344021758082,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "btts": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        },
+        "total_2_5": {
+          "pick": null,
+          "status": "observe",
+          "supporting_beta_probability": null,
+          "reason": "main_observation_preserved"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.6297344021758082,
+          "D": 0.25109022478930887,
+          "A": 0.11917537303488293
+        },
+        "btts": 0.43554568334953975,
+        "total_2_5": {
+          "over": 0.4846667850933209,
+          "under": 0.5153332149066792
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": []
+    },
+    {
+      "match_id": "2047908",
+      "day": "2026-11-16",
+      "home": "Gibraltar",
+      "away": "Malta",
+      "in_original_primary_comparison": true,
+      "result_90m": [
+        1,
+        1
+      ],
+      "actual": {
+        "1x2": "D",
+        "btts": true,
+        "total_2_5": "under"
+      },
+      "focuses": {
+        "main": {
+          "target": "total_2_5",
+          "pick": "under"
+        },
+        "beta_v1": {
+          "target": "total_2_5",
+          "pick": "under"
+        },
+        "beta_v2": {
+          "target": "1x2",
+          "pick": "A",
+          "probability": 0.5859588240237676
+        },
+        "hybrid": {
+          "target": "total_2_5",
+          "pick": "under",
+          "probability": 0.5803453807262811
+        }
+      },
+      "beta_v2_targets": {
+        "1x2": {
+          "pick": "A",
+          "status": "experimental",
+          "probability": 0.5859588240237676,
+          "reason": "passes_frozen_threshold"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "probability": 0.5531282448399512,
+          "reason": "passes_frozen_threshold"
+        },
+        "total_2_5": {
+          "pick": "under",
+          "status": "experimental",
+          "probability": 0.5803453807262811,
+          "reason": "passes_frozen_threshold"
+        }
+      },
+      "hybrid_targets": {
+        "1x2": {
+          "pick": "A",
+          "status": "experimental",
+          "supporting_beta_probability": 0.5859588240237676,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "btts": {
+          "pick": false,
+          "status": "experimental",
+          "supporting_beta_probability": 0.5531282448399512,
+          "reason": "main_direction_and_numerical_support_agree"
+        },
+        "total_2_5": {
+          "pick": "under",
+          "status": "experimental",
+          "supporting_beta_probability": 0.5803453807262811,
+          "reason": "main_direction_and_numerical_support_agree"
+        }
+      },
+      "probabilities": {
+        "1x2": {
+          "H": 0.13129382534322348,
+          "D": 0.2827473506330088,
+          "A": 0.5859588240237676
+        },
+        "btts": 0.44687175516004884,
+        "total_2_5": {
+          "over": 0.4196546192737189,
+          "under": 0.5803453807262811
+        }
+      },
+      "quality_issues": [],
+      "last5_unstable_targets": [
+        "1x2"
+      ]
+    }
+  ],
+  "source_files_sha256": {
+    "november-reconstruction-2026-11-14.json": "e39636f16f32edfa52ba5cf6068af91c4055d527bd2da8e9cc803bbac532ba58",
+    "november-outcomes-2026-11-14.json": "a711908073dd13720351d26d67d14ba44b7f9f8fd59aebc202de0bbd25ada603",
+    "november-inputs-2026-11-14.json": "99bf27ed0381bdd94f5f8294d352934bad9930c3f448279c84812f973908d230",
+    "november-reconstruction-2026-11-15.json": "87fb012b67fef6d32cca7801a5bf8ae1f91307262c1ea4302c54a22b546ebba5",
+    "november-outcomes-2026-11-15.json": "d52f578627a1bd932dde18f6c76b12ce0f447d348493211b67372c6a62bbd4be",
+    "november-inputs-2026-11-15.json": "d08af7442400181937a5b7004a8d2c3efe3a277ebfc036e111ee7211ce891d63",
+    "november-reconstruction-2026-11-16.json": "8d825195c5f2e4584406134b3c833136959cdc058a5a86b83b01a1f21c23216c",
+    "november-outcomes-2026-11-16.json": "4ea54dbc7656f248f052e71aae83721ab5132ad403f24921f697a03b7bb0f3b0",
+    "november-inputs-2026-11-16.json": "c4979b262775015cfbcc14ae6bcd80e5cc0c15f1027ecd54707d95c0c6453dbc"
+  },
+  "old_forecasts_edited": false,
+  "november_outcomes_used_for_policy_selection": false
+}

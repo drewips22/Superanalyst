@@ -1,0 +1,511 @@
+{
+  "schema_version": "superanalyst-experimental-forecast-v1",
+  "model_version": "superanalyst-beta-v2.0.0-experimental",
+  "mode": "forecast",
+  "synthetic": true,
+  "as_of": "2026-11-17T12:16:46.937181+00:00",
+  "model_package_sha256": "7bd17c542d280fefa538f6f0c01fc770f7d53f5a9f972d7b65773df794243f5e",
+  "input_sha256": "d46642a73b27a4371e648369f8e2a7cd9eaa33d01cae98ecb78a6d376d701c0a",
+  "focus_policy": {
+    "id": "max_p55",
+    "min_probability": 0.55,
+    "winner_priority": null
+  },
+  "scope": "90m",
+  "main_operational_model_changed": false,
+  "history_audit_source": "supplied_provenance_not_independent_machine_verification",
+  "rows": [
+    {
+      "match_id": "synthetic-test",
+      "home": "A",
+      "away": "B",
+      "kickoff_at": "2026-11-18T12:16:46.937181+00:00",
+      "probabilities": {
+        "1x2": {
+          "H": 0.6925495770381498,
+          "D": 0.18373571983581247,
+          "A": 0.12371470312603779
+        },
+        "btts": 0.4964911638413138,
+        "total_2_5": {
+          "over": 0.5835036720715028,
+          "under": 0.4164963279284972
+        }
+      },
+      "by_target": {
+        "1x2": {
+          "recipe_id": "test",
+          "goal_rates": [
+            2.215127978217524,
+            0.8149000427498897
+          ],
+          "raw": [
+            0.6925495770381497,
+            0.18373571983581247,
+            0.12371470312603777
+          ],
+          "calibrated": [
+            0.6925495770381498,
+            0.18373571983581247,
+            0.12371470312603779
+          ]
+        },
+        "btts": {
+          "recipe_id": "test",
+          "goal_rates": [
+            2.215127978217524,
+            0.8149000427498897
+          ],
+          "raw": 0.49649116384131375,
+          "calibrated": 0.4964911638413138
+        },
+        "total_2_5": {
+          "recipe_id": "test",
+          "goal_rates": [
+            2.215127978217524,
+            0.8149000427498897
+          ],
+          "raw": 0.5835036720715028,
+          "calibrated": 0.5835036720715028
+        }
+      },
+      "calibration": "frozen_2020_2021_not_proven_current",
+      "one_joint_score_distribution": false,
+      "decision": {
+        "raw_directions": {
+          "1x2": "H",
+          "btts": false,
+          "total_2_5": "over"
+        },
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "status": "experimental",
+            "probability": 0.6925495770381498,
+            "reason": "passes_frozen_threshold"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "probability": 0.5035088361586861,
+            "reason": "below_frozen_threshold"
+          },
+          "total_2_5": {
+            "pick": "over",
+            "status": "experimental",
+            "probability": 0.5835036720715028,
+            "reason": "passes_frozen_threshold"
+          }
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.6925495770381498
+        },
+        "focus_policy_id": "max_p55"
+      },
+      "hybrid": {
+        "model_version": "superanalyst-hybrid-beta-v1.0.0-experimental",
+        "source_main_sha256": "8fb6ec3a6d51f5c029e04bfaaca424f6e2a94f5165af6d2565f951e2bbb7a5c7",
+        "source_main_focus": "total_2_5",
+        "source_main_targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "low"
+          },
+          "btts": {
+            "pick": null,
+            "confidence": null
+          },
+          "total_2_5": {
+            "pick": "under",
+            "confidence": "medium"
+          }
+        },
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "status": "experimental",
+            "supporting_beta_probability": 0.6925495770381498,
+            "reason": "main_direction_and_numerical_support_agree"
+          },
+          "btts": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": null,
+            "reason": "main_observation_preserved"
+          },
+          "total_2_5": {
+            "pick": null,
+            "status": "observe",
+            "supporting_beta_probability": 0.4164963279284972,
+            "reason": "numerical_direction_disagrees"
+          }
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "probability": 0.6925495770381498
+        },
+        "focus_reason": "select_from_supported_main_picks",
+        "probabilities_belong_to": "superanalyst-beta-v2.0.0-experimental",
+        "focus_policy_id": "max_p55"
+      },
+      "quality_issues": [],
+      "last5_diagnostic": {
+        "full": {
+          "rates": [
+            0.7,
+            0.7
+          ],
+          "probabilities": {
+            "1x2": {
+              "H": 0.30846874230225646,
+              "D": 0.38306251539548697,
+              "A": 0.30846874230225646
+            },
+            "btts": 0.2534263563587874,
+            "total_2_5": {
+              "over": 0.16650226187737005,
+              "under": 0.83349773812263
+            }
+          },
+          "directions": {
+            "1x2": "D",
+            "btts": false,
+            "total_2_5": "under"
+          }
+        },
+        "runs": [
+          {
+            "omitted_match_id": "away-0",
+            "rates": [
+              0.7777777777777778,
+              0.6666666666666666
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3455268396998157,
+                "D": 0.37498193900451754,
+                "A": 0.2794912212956668
+              },
+              "btts": 0.2630341399171814,
+              "total_2_5": {
+                "over": 0.17734227230295985,
+                "under": 0.8226577276970402
+              }
+            },
+            "directions": {
+              "1x2": "D",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "away-1",
+            "rates": [
+              0.6666666666666666,
+              0.6666666666666666
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3027852181179514,
+                "D": 0.3944295637640974,
+                "A": 0.3027852181179514
+              },
+              "btts": 0.23676290005054274,
+              "total_2_5": {
+                "over": 0.15063144384932492,
+                "under": 0.8493685561506751
+              }
+            },
+            "directions": {
+              "1x2": "D",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "away-2",
+            "rates": [
+              0.7777777777777778,
+              0.6666666666666666
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3455268396998157,
+                "D": 0.37498193900451754,
+                "A": 0.2794912212956668
+              },
+              "btts": 0.2630341399171814,
+              "total_2_5": {
+                "over": 0.17734227230295985,
+                "under": 0.8226577276970402
+              }
+            },
+            "directions": {
+              "1x2": "D",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "away-3",
+            "rates": [
+              0.6666666666666666,
+              0.6666666666666666
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3027852181179514,
+                "D": 0.3944295637640974,
+                "A": 0.3027852181179514
+              },
+              "btts": 0.23676290005054274,
+              "total_2_5": {
+                "over": 0.15063144384932492,
+                "under": 0.8493685561506751
+              }
+            },
+            "directions": {
+              "1x2": "D",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "away-4",
+            "rates": [
+              0.7777777777777778,
+              0.6666666666666666
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3455268396998157,
+                "D": 0.37498193900451754,
+                "A": 0.2794912212956668
+              },
+              "btts": 0.2630341399171814,
+              "total_2_5": {
+                "over": 0.17734227230295985,
+                "under": 0.8226577276970402
+              }
+            },
+            "directions": {
+              "1x2": "D",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "home-0",
+            "rates": [
+              0.6666666666666666,
+              0.7777777777777778
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2794912212956668,
+                "D": 0.37498193900451754,
+                "A": 0.3455268396998157
+              },
+              "btts": 0.2630341399171814,
+              "total_2_5": {
+                "over": 0.17734227230295985,
+                "under": 0.8226577276970402
+              }
+            },
+            "directions": {
+              "1x2": "D",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "home-1",
+            "rates": [
+              0.6666666666666666,
+              0.6666666666666666
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3027852181179514,
+                "D": 0.3944295637640974,
+                "A": 0.3027852181179514
+              },
+              "btts": 0.23676290005054274,
+              "total_2_5": {
+                "over": 0.15063144384932492,
+                "under": 0.8493685561506751
+              }
+            },
+            "directions": {
+              "1x2": "D",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "home-2",
+            "rates": [
+              0.6666666666666666,
+              0.7777777777777778
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2794912212956668,
+                "D": 0.37498193900451754,
+                "A": 0.3455268396998157
+              },
+              "btts": 0.2630341399171814,
+              "total_2_5": {
+                "over": 0.17734227230295985,
+                "under": 0.8226577276970402
+              }
+            },
+            "directions": {
+              "1x2": "D",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "home-3",
+            "rates": [
+              0.6666666666666666,
+              0.6666666666666666
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.3027852181179514,
+                "D": 0.3944295637640974,
+                "A": 0.3027852181179514
+              },
+              "btts": 0.23676290005054274,
+              "total_2_5": {
+                "over": 0.15063144384932492,
+                "under": 0.8493685561506751
+              }
+            },
+            "directions": {
+              "1x2": "D",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          },
+          {
+            "omitted_match_id": "home-4",
+            "rates": [
+              0.6666666666666666,
+              0.7777777777777778
+            ],
+            "probabilities": {
+              "1x2": {
+                "H": 0.2794912212956668,
+                "D": 0.37498193900451754,
+                "A": 0.3455268396998157
+              },
+              "btts": 0.2630341399171814,
+              "total_2_5": {
+                "over": 0.17734227230295985,
+                "under": 0.8226577276970402
+              }
+            },
+            "directions": {
+              "1x2": "D",
+              "btts": false,
+              "total_2_5": "under"
+            }
+          }
+        ],
+        "unique_matches": 10,
+        "direction_flip_counts": {
+          "1x2": 0,
+          "btts": 0,
+          "total_2_5": 0
+        },
+        "unstable_targets": [],
+        "method": "leave_one_unique_historical_match_out_no_refill",
+        "diagnostic_only": true,
+        "is_statistical_confidence_interval": false,
+        "historical_scores_removed_from_model": false
+      },
+      "raw_mc_by_recipe": {
+        "test": {
+          "seed": 15428503452226585358,
+          "samples": 10000,
+          "recipe_id": "test",
+          "raw_uncalibrated_scenarios_only": true,
+          "probabilities": {
+            "1x2": {
+              "H": 0.6871,
+              "D": 0.1871,
+              "A": 0.1258
+            },
+            "btts": 0.5053,
+            "total_2_5": {
+              "over": 0.5869,
+              "under": 0.4131
+            }
+          },
+          "most_frequent_scores": [
+            {
+              "home_goals": 2,
+              "away_goals": 0,
+              "count": 1148
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 0,
+              "count": 1086
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 1,
+              "count": 939
+            },
+            {
+              "home_goals": 1,
+              "away_goals": 1,
+              "count": 903
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 0,
+              "count": 876
+            },
+            {
+              "home_goals": 3,
+              "away_goals": 1,
+              "count": 716
+            },
+            {
+              "home_goals": 4,
+              "away_goals": 0,
+              "count": 483
+            },
+            {
+              "home_goals": 0,
+              "away_goals": 0,
+              "count": 479
+            },
+            {
+              "home_goals": 4,
+              "away_goals": 1,
+              "count": 413
+            },
+            {
+              "home_goals": 2,
+              "away_goals": 2,
+              "count": 412
+            }
+          ]
+        }
+      },
+      "result_90m": null
+    }
+  ],
+  "created_at": "2026-11-17T12:16:47.448145+00:00",
+  "recorded_at": "2026-11-17T12:16:47.448145+00:00",
+  "snapshot_id": "487832a5df71c2f6c84d714ac7edf882"
+}

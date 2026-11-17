@@ -1,0 +1,134 @@
+{
+  "primary_match_ids": [
+    "2047906",
+    "2047907",
+    "2047908",
+    "2047909",
+    "2047911",
+    "2047912",
+    "2047914",
+    "2047915"
+  ],
+  "rows": [
+    {
+      "match_id": "2047907",
+      "result_90m": [
+        2,
+        1
+      ],
+      "main_focus": {
+        "target": "total_2_5",
+        "pick": "under"
+      },
+      "beta_v1_focus": {
+        "target": "btts",
+        "pick": false
+      }
+    },
+    {
+      "match_id": "2047906",
+      "result_90m": [
+        3,
+        0
+      ],
+      "main_focus": {
+        "target": "1x2",
+        "pick": "H"
+      },
+      "beta_v1_focus": {
+        "target": "btts",
+        "pick": false
+      }
+    },
+    {
+      "match_id": "2047911",
+      "result_90m": [
+        2,
+        1
+      ],
+      "main_focus": {
+        "target": "1x2",
+        "pick": "H"
+      },
+      "beta_v1_focus": {
+        "target": "total_2_5",
+        "pick": "under"
+      }
+    },
+    {
+      "match_id": "2047909",
+      "result_90m": [
+        5,
+        0
+      ],
+      "main_focus": {
+        "target": "btts",
+        "pick": true
+      },
+      "beta_v1_focus": {
+        "target": "btts",
+        "pick": true
+      }
+    },
+    {
+      "match_id": "2047912",
+      "result_90m": [
+        1,
+        0
+      ],
+      "main_focus": {
+        "target": "1x2",
+        "pick": "H"
+      },
+      "beta_v1_focus": {
+        "target": "btts",
+        "pick": true
+      }
+    },
+    {
+      "match_id": "2047915",
+      "result_90m": [
+        0,
+        3
+      ],
+      "main_focus": {
+        "target": "1x2",
+        "pick": "A"
+      },
+      "beta_v1_focus": {
+        "target": "btts",
+        "pick": false
+      }
+    },
+    {
+      "match_id": "2047914",
+      "result_90m": [
+        4,
+        0
+      ],
+      "main_focus": {
+        "target": "1x2",
+        "pick": "H"
+      },
+      "beta_v1_focus": {
+        "target": "total_2_5",
+        "pick": "under"
+      }
+    },
+    {
+      "match_id": "2047908",
+      "result_90m": [
+        1,
+        1
+      ],
+      "main_focus": {
+        "target": "total_2_5",
+        "pick": "under"
+      },
+      "beta_v1_focus": {
+        "target": "total_2_5",
+        "pick": "under"
+      }
+    }
+  ]
+}
