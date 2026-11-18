@@ -1,0 +1,116 @@
+{
+  "scope": "90m",
+  "status": "completed",
+  "verified_at": "2026-11-18T11:59:47+00:00",
+  "snapshot_id": "9d9c316e2d92502e1965b8bf5267e862",
+  "sources": [
+    "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+    "https://www.uefa.com/uefanationsleague/news/02ab-22146db70e40-12d581ab82a9-1000--uefa-nations-league-matchday-6-round-up-erling-haaland-tak/"
+  ],
+  "results": [
+    {
+      "match_id": "2047919",
+      "home": "Denmark",
+      "away": "Norwegia",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "home_goals": 2,
+      "away_goals": 3,
+      "scope": "90m",
+      "status": "completed",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+      "match_url": "https://www.uefa.com/uefanationsleague/match/2047919--denmark-vs-norway/",
+      "verified_at": "2026-11-18T11:59:47+00:00"
+    },
+    {
+      "match_id": "2047920",
+      "home": "Wales",
+      "away": "Portugal",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "home_goals": 2,
+      "away_goals": 3,
+      "scope": "90m",
+      "status": "completed",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+      "match_url": "https://www.uefa.com/uefanationsleague/match/2047920--wales-vs-portugal/",
+      "verified_at": "2026-11-18T11:59:47+00:00"
+    },
+    {
+      "match_id": "2047917",
+      "home": "Bosnia & Herzegovina",
+      "away": "Rumania",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "scope": "90m",
+      "status": "completed",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+      "match_url": "https://www.uefa.com/uefanationsleague/match/2047917--bosnia-and-herzegovina-vs-romania/",
+      "verified_at": "2026-11-18T11:59:47+00:00"
+    },
+    {
+      "match_id": "2047921",
+      "home": "Hungaria",
+      "away": "Irlandia Utara",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "scope": "90m",
+      "status": "completed",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+      "match_url": "https://www.uefa.com/uefanationsleague/match/2047921--hungary-vs-northern-ireland/",
+      "verified_at": "2026-11-18T11:59:47+00:00"
+    },
+    {
+      "match_id": "2047923",
+      "home": "Irlandia",
+      "away": "Kosovo",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "home_goals": 3,
+      "away_goals": 0,
+      "scope": "90m",
+      "status": "completed",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+      "match_url": "https://www.uefa.com/uefanationsleague/match/2047923--republic-of-ireland-vs-kosovo/",
+      "verified_at": "2026-11-18T11:59:47+00:00"
+    },
+    {
+      "match_id": "2047916",
+      "home": "Israel",
+      "away": "Austria",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "scope": "90m",
+      "status": "completed",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+      "match_url": "https://www.uefa.com/uefanationsleague/match/2047916--israel-vs-austria/",
+      "verified_at": "2026-11-18T11:59:47+00:00"
+    },
+    {
+      "match_id": "2047922",
+      "home": "Polandia",
+      "away": "Swedia",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "scope": "90m",
+      "status": "completed",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+      "match_url": "https://www.uefa.com/uefanationsleague/match/2047922--poland-vs-sweden/",
+      "verified_at": "2026-11-18T11:59:47+00:00"
+    },
+    {
+      "match_id": "2047918",
+      "home": "Ukraina",
+      "away": "Georgia",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "scope": "90m",
+      "status": "completed",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+      "match_url": "https://www.uefa.com/uefanationsleague/match/2047918--ukraine-vs-georgia/",
+      "verified_at": "2026-11-18T11:59:47+00:00"
+    }
+  ]
+}

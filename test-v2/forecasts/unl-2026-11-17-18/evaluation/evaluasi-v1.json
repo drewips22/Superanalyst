@@ -1,0 +1,1156 @@
+{
+  "scope": "90m",
+  "evaluated_at": "2026-11-18T12:01:44.595740+00:00",
+  "as_of": "2026-11-17T13:21:27.050360+00:00",
+  "experimental_snapshot_id": "9d9c316e2d92502e1965b8bf5267e862",
+  "main_snapshot_id": "b4379cc9c776421ba62e087d115664bd",
+  "recorded_at": "2026-11-17T13:21:27.223026+00:00",
+  "match_count": 8,
+  "accuracy": {
+    "Utama": {
+      "1x2": {
+        "correct": 4,
+        "evaluated": 5,
+        "considered": 8,
+        "accuracy": 0.8,
+        "coverage": 0.625
+      },
+      "btts": {
+        "correct": 4,
+        "evaluated": 5,
+        "considered": 8,
+        "accuracy": 0.8,
+        "coverage": 0.625
+      },
+      "total_2_5": {
+        "correct": 3,
+        "evaluated": 5,
+        "considered": 8,
+        "accuracy": 0.6,
+        "coverage": 0.625
+      },
+      "all_targets": {
+        "correct": 11,
+        "evaluated": 15,
+        "considered": 24,
+        "accuracy": 0.7333333333333333,
+        "coverage": 0.625
+      },
+      "focus": {
+        "correct": 6,
+        "evaluated": 8,
+        "considered": 8,
+        "accuracy": 0.75,
+        "coverage": 1.0
+      }
+    },
+    "Beta V2": {
+      "1x2": {
+        "correct": 1,
+        "evaluated": 2,
+        "considered": 8,
+        "accuracy": 0.5,
+        "coverage": 0.25
+      },
+      "btts": {
+        "correct": 2,
+        "evaluated": 3,
+        "considered": 8,
+        "accuracy": 0.6666666666666666,
+        "coverage": 0.375
+      },
+      "total_2_5": {
+        "correct": 3,
+        "evaluated": 4,
+        "considered": 8,
+        "accuracy": 0.75,
+        "coverage": 0.5
+      },
+      "all_targets": {
+        "correct": 6,
+        "evaluated": 9,
+        "considered": 24,
+        "accuracy": 0.6666666666666666,
+        "coverage": 0.375
+      },
+      "focus": {
+        "correct": 3,
+        "evaluated": 5,
+        "considered": 8,
+        "accuracy": 0.6,
+        "coverage": 0.625
+      }
+    },
+    "Hybrid": {
+      "1x2": {
+        "correct": 1,
+        "evaluated": 2,
+        "considered": 8,
+        "accuracy": 0.5,
+        "coverage": 0.25
+      },
+      "btts": {
+        "correct": 1,
+        "evaluated": 2,
+        "considered": 8,
+        "accuracy": 0.5,
+        "coverage": 0.25
+      },
+      "total_2_5": {
+        "correct": 2,
+        "evaluated": 3,
+        "considered": 8,
+        "accuracy": 0.6666666666666666,
+        "coverage": 0.375
+      },
+      "all_targets": {
+        "correct": 4,
+        "evaluated": 7,
+        "considered": 24,
+        "accuracy": 0.5714285714285714,
+        "coverage": 0.2916666666666667
+      },
+      "focus": {
+        "correct": 3,
+        "evaluated": 5,
+        "considered": 8,
+        "accuracy": 0.6,
+        "coverage": 0.625
+      }
+    }
+  },
+  "paired_all_models_targets": {
+    "Utama": {
+      "correct": 4,
+      "evaluated": 7,
+      "considered": 7,
+      "accuracy": 0.5714285714285714,
+      "coverage": 1.0
+    },
+    "Beta V2": {
+      "correct": 4,
+      "evaluated": 7,
+      "considered": 7,
+      "accuracy": 0.5714285714285714,
+      "coverage": 1.0
+    },
+    "Hybrid": {
+      "correct": 4,
+      "evaluated": 7,
+      "considered": 7,
+      "accuracy": 0.5714285714285714,
+      "coverage": 1.0
+    }
+  },
+  "paired_all_models_foci": {
+    "Utama": {
+      "correct": 3,
+      "evaluated": 5,
+      "considered": 5,
+      "accuracy": 0.6,
+      "coverage": 1.0
+    },
+    "Beta V2": {
+      "correct": 3,
+      "evaluated": 5,
+      "considered": 5,
+      "accuracy": 0.6,
+      "coverage": 1.0
+    },
+    "Hybrid": {
+      "correct": 3,
+      "evaluated": 5,
+      "considered": 5,
+      "accuracy": 0.6,
+      "coverage": 1.0
+    }
+  },
+  "shared_focus_match_ids": [
+    "2047920",
+    "2047921",
+    "2047923",
+    "2047916",
+    "2047918"
+  ],
+  "beta_only_relative_to_hybrid": [
+    [
+      "2047923",
+      "btts",
+      true
+    ],
+    [
+      "2047916",
+      "total_2_5",
+      true
+    ]
+  ],
+  "main_suppressed_by_hybrid": [
+    [
+      "2047919",
+      "btts",
+      true
+    ],
+    [
+      "2047919",
+      "total_2_5",
+      true
+    ],
+    [
+      "2047917",
+      "1x2",
+      true
+    ],
+    [
+      "2047917",
+      "btts",
+      true
+    ],
+    [
+      "2047923",
+      "1x2",
+      true
+    ],
+    [
+      "2047922",
+      "btts",
+      true
+    ],
+    [
+      "2047922",
+      "total_2_5",
+      false
+    ],
+    [
+      "2047918",
+      "1x2",
+      true
+    ]
+  ],
+  "beta_probability_losses_all_matches": {
+    "1x2": {
+      "n": 8,
+      "brier": 0.6902422628430471,
+      "log_loss": 1.1141361999493713
+    },
+    "btts": {
+      "n": 8,
+      "brier": 0.2551306183544505,
+      "log_loss": 0.7034544650977089
+    },
+    "total_2_5": {
+      "n": 8,
+      "brier": 0.233098564975637,
+      "log_loss": 0.6580352825089925
+    }
+  },
+  "rows": [
+    {
+      "match_id": "2047919",
+      "home": "Denmark",
+      "away": "Norwegia",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "home_goals": 2,
+      "away_goals": 3,
+      "scope": "90m",
+      "status": "completed",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+      "match_url": "https://www.uefa.com/uefanationsleague/match/2047919--denmark-vs-norway/",
+      "verified_at": "2026-11-18T11:59:47+00:00",
+      "actual": {
+        "1x2": "A",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "choices": {
+        "Utama": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "btts": {
+              "target": "btts",
+              "pick": true,
+              "probability": null,
+              "correct": true
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": "over",
+              "probability": null,
+              "correct": true
+            }
+          },
+          "focus": {
+            "target": "btts",
+            "pick": true,
+            "probability": null,
+            "correct": true
+          }
+        },
+        "Beta V2": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "btts": {
+              "target": "btts",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            }
+          },
+          "focus": null
+        },
+        "Hybrid": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "btts": {
+              "target": "btts",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            }
+          },
+          "focus": null
+        }
+      },
+      "beta_probabilities": {
+        "1x2": {
+          "H": 0.36271588922000997,
+          "D": 0.24853951678534297,
+          "A": 0.3887445939946471
+        },
+        "btts": 0.5205514432318222,
+        "total_2_5": {
+          "over": 0.5433023959547774,
+          "under": 0.45669760404522264
+        }
+      }
+    },
+    {
+      "match_id": "2047920",
+      "home": "Wales",
+      "away": "Portugal",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "home_goals": 2,
+      "away_goals": 3,
+      "scope": "90m",
+      "status": "completed",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+      "match_url": "https://www.uefa.com/uefanationsleague/match/2047920--wales-vs-portugal/",
+      "verified_at": "2026-11-18T11:59:47+00:00",
+      "actual": {
+        "1x2": "A",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "choices": {
+        "Utama": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": "A",
+              "probability": null,
+              "correct": true
+            },
+            "btts": {
+              "target": "btts",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            }
+          },
+          "focus": {
+            "target": "1x2",
+            "pick": "A",
+            "probability": null,
+            "correct": true
+          }
+        },
+        "Beta V2": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": "A",
+              "probability": 0.6601615523583192,
+              "correct": true
+            },
+            "btts": {
+              "target": "btts",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            }
+          },
+          "focus": {
+            "target": "1x2",
+            "pick": "A",
+            "probability": 0.6601615523583192,
+            "correct": true
+          }
+        },
+        "Hybrid": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": "A",
+              "probability": 0.6601615523583192,
+              "correct": true
+            },
+            "btts": {
+              "target": "btts",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            }
+          },
+          "focus": {
+            "target": "1x2",
+            "pick": "A",
+            "probability": 0.6601615523583192,
+            "correct": true
+          }
+        }
+      },
+      "beta_probabilities": {
+        "1x2": {
+          "H": 0.1072857213886033,
+          "D": 0.23255272625307755,
+          "A": 0.6601615523583192
+        },
+        "btts": 0.46894252189309027,
+        "total_2_5": {
+          "over": 0.4552579204209658,
+          "under": 0.5447420795790342
+        }
+      }
+    },
+    {
+      "match_id": "2047917",
+      "home": "Bosnia & Herzegovina",
+      "away": "Rumania",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "home_goals": 2,
+      "away_goals": 1,
+      "scope": "90m",
+      "status": "completed",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+      "match_url": "https://www.uefa.com/uefanationsleague/match/2047917--bosnia-and-herzegovina-vs-romania/",
+      "verified_at": "2026-11-18T11:59:47+00:00",
+      "actual": {
+        "1x2": "H",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "choices": {
+        "Utama": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": "H",
+              "probability": null,
+              "correct": true
+            },
+            "btts": {
+              "target": "btts",
+              "pick": true,
+              "probability": null,
+              "correct": true
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            }
+          },
+          "focus": {
+            "target": "1x2",
+            "pick": "H",
+            "probability": null,
+            "correct": true
+          }
+        },
+        "Beta V2": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "btts": {
+              "target": "btts",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            }
+          },
+          "focus": null
+        },
+        "Hybrid": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "btts": {
+              "target": "btts",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            }
+          },
+          "focus": null
+        }
+      },
+      "beta_probabilities": {
+        "1x2": {
+          "H": 0.32277734257426444,
+          "D": 0.31635307203478535,
+          "A": 0.36086958539095015
+        },
+        "btts": 0.4615695994021237,
+        "total_2_5": {
+          "over": 0.46893226107381203,
+          "under": 0.531067738926188
+        }
+      }
+    },
+    {
+      "match_id": "2047921",
+      "home": "Hungaria",
+      "away": "Irlandia Utara",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "scope": "90m",
+      "status": "completed",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+      "match_url": "https://www.uefa.com/uefanationsleague/match/2047921--hungary-vs-northern-ireland/",
+      "verified_at": "2026-11-18T11:59:47+00:00",
+      "actual": {
+        "1x2": "D",
+        "btts": true,
+        "total_2_5": "under"
+      },
+      "choices": {
+        "Utama": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "btts": {
+              "target": "btts",
+              "pick": false,
+              "probability": null,
+              "correct": false
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": "under",
+              "probability": null,
+              "correct": true
+            }
+          },
+          "focus": {
+            "target": "total_2_5",
+            "pick": "under",
+            "probability": null,
+            "correct": true
+          }
+        },
+        "Beta V2": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "btts": {
+              "target": "btts",
+              "pick": false,
+              "probability": 0.6016167746718168,
+              "correct": false
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": "under",
+              "probability": 0.6439635834823545,
+              "correct": true
+            }
+          },
+          "focus": {
+            "target": "total_2_5",
+            "pick": "under",
+            "probability": 0.6439635834823545,
+            "correct": true
+          }
+        },
+        "Hybrid": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "btts": {
+              "target": "btts",
+              "pick": false,
+              "probability": 0.6016167746718168,
+              "correct": false
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": "under",
+              "probability": 0.6439635834823545,
+              "correct": true
+            }
+          },
+          "focus": {
+            "target": "total_2_5",
+            "pick": "under",
+            "probability": 0.6439635834823545,
+            "correct": true
+          }
+        }
+      },
+      "beta_probabilities": {
+        "1x2": {
+          "H": 0.30216568494419804,
+          "D": 0.4132587376003533,
+          "A": 0.2845755774554486
+        },
+        "btts": 0.3983832253281831,
+        "total_2_5": {
+          "over": 0.35603641651764545,
+          "under": 0.6439635834823545
+        }
+      }
+    },
+    {
+      "match_id": "2047923",
+      "home": "Irlandia",
+      "away": "Kosovo",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "home_goals": 3,
+      "away_goals": 0,
+      "scope": "90m",
+      "status": "completed",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+      "match_url": "https://www.uefa.com/uefanationsleague/match/2047923--republic-of-ireland-vs-kosovo/",
+      "verified_at": "2026-11-18T11:59:47+00:00",
+      "actual": {
+        "1x2": "H",
+        "btts": false,
+        "total_2_5": "over"
+      },
+      "choices": {
+        "Utama": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": "H",
+              "probability": null,
+              "correct": true
+            },
+            "btts": {
+              "target": "btts",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": "under",
+              "probability": null,
+              "correct": false
+            }
+          },
+          "focus": {
+            "target": "total_2_5",
+            "pick": "under",
+            "probability": null,
+            "correct": false
+          }
+        },
+        "Beta V2": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "btts": {
+              "target": "btts",
+              "pick": false,
+              "probability": 0.5926049793838192,
+              "correct": true
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": "under",
+              "probability": 0.6129497779407636,
+              "correct": false
+            }
+          },
+          "focus": {
+            "target": "total_2_5",
+            "pick": "under",
+            "probability": 0.6129497779407636,
+            "correct": false
+          }
+        },
+        "Hybrid": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "btts": {
+              "target": "btts",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": "under",
+              "probability": 0.6129497779407636,
+              "correct": false
+            }
+          },
+          "focus": {
+            "target": "total_2_5",
+            "pick": "under",
+            "probability": 0.6129497779407636,
+            "correct": false
+          }
+        }
+      },
+      "beta_probabilities": {
+        "1x2": {
+          "H": 0.2911393016222728,
+          "D": 0.39878537674290726,
+          "A": 0.31007532163481993
+        },
+        "btts": 0.4073950206161808,
+        "total_2_5": {
+          "over": 0.3870502220592364,
+          "under": 0.6129497779407636
+        }
+      }
+    },
+    {
+      "match_id": "2047916",
+      "home": "Israel",
+      "away": "Austria",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "scope": "90m",
+      "status": "completed",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+      "match_url": "https://www.uefa.com/uefanationsleague/match/2047916--israel-vs-austria/",
+      "verified_at": "2026-11-18T11:59:47+00:00",
+      "actual": {
+        "1x2": "D",
+        "btts": true,
+        "total_2_5": "under"
+      },
+      "choices": {
+        "Utama": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": "A",
+              "probability": null,
+              "correct": false
+            },
+            "btts": {
+              "target": "btts",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            }
+          },
+          "focus": {
+            "target": "1x2",
+            "pick": "A",
+            "probability": null,
+            "correct": false
+          }
+        },
+        "Beta V2": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": "A",
+              "probability": 0.7151561044843989,
+              "correct": false
+            },
+            "btts": {
+              "target": "btts",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": "under",
+              "probability": 0.5752346868761096,
+              "correct": true
+            }
+          },
+          "focus": {
+            "target": "1x2",
+            "pick": "A",
+            "probability": 0.7151561044843989,
+            "correct": false
+          }
+        },
+        "Hybrid": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": "A",
+              "probability": 0.7151561044843989,
+              "correct": false
+            },
+            "btts": {
+              "target": "btts",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            }
+          },
+          "focus": {
+            "target": "1x2",
+            "pick": "A",
+            "probability": 0.7151561044843989,
+            "correct": false
+          }
+        }
+      },
+      "beta_probabilities": {
+        "1x2": {
+          "H": 0.0758493822530989,
+          "D": 0.20899451326250226,
+          "A": 0.7151561044843989
+        },
+        "btts": 0.45928266910058846,
+        "total_2_5": {
+          "over": 0.42476531312389043,
+          "under": 0.5752346868761096
+        }
+      }
+    },
+    {
+      "match_id": "2047922",
+      "home": "Polandia",
+      "away": "Swedia",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "home_goals": 1,
+      "away_goals": 1,
+      "scope": "90m",
+      "status": "completed",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+      "match_url": "https://www.uefa.com/uefanationsleague/match/2047922--poland-vs-sweden/",
+      "verified_at": "2026-11-18T11:59:47+00:00",
+      "actual": {
+        "1x2": "D",
+        "btts": true,
+        "total_2_5": "under"
+      },
+      "choices": {
+        "Utama": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "btts": {
+              "target": "btts",
+              "pick": true,
+              "probability": null,
+              "correct": true
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": "over",
+              "probability": null,
+              "correct": false
+            }
+          },
+          "focus": {
+            "target": "btts",
+            "pick": true,
+            "probability": null,
+            "correct": true
+          }
+        },
+        "Beta V2": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "btts": {
+              "target": "btts",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            }
+          },
+          "focus": null
+        },
+        "Hybrid": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "btts": {
+              "target": "btts",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            }
+          },
+          "focus": null
+        }
+      },
+      "beta_probabilities": {
+        "1x2": {
+          "H": 0.3683726374960552,
+          "D": 0.2662433177051745,
+          "A": 0.36538404479877024
+        },
+        "btts": 0.5026360822176874,
+        "total_2_5": {
+          "over": 0.5231888605405156,
+          "under": 0.4768111394594844
+        }
+      }
+    },
+    {
+      "match_id": "2047918",
+      "home": "Ukraina",
+      "away": "Georgia",
+      "kickoff_at": "2026-11-17T19:45Z",
+      "home_goals": 1,
+      "away_goals": 0,
+      "scope": "90m",
+      "status": "completed",
+      "source_url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+      "match_url": "https://www.uefa.com/uefanationsleague/match/2047918--ukraine-vs-georgia/",
+      "verified_at": "2026-11-18T11:59:47+00:00",
+      "actual": {
+        "1x2": "H",
+        "btts": false,
+        "total_2_5": "under"
+      },
+      "choices": {
+        "Utama": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": "H",
+              "probability": null,
+              "correct": true
+            },
+            "btts": {
+              "target": "btts",
+              "pick": false,
+              "probability": null,
+              "correct": true
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": "under",
+              "probability": null,
+              "correct": true
+            }
+          },
+          "focus": {
+            "target": "total_2_5",
+            "pick": "under",
+            "probability": null,
+            "correct": true
+          }
+        },
+        "Beta V2": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "btts": {
+              "target": "btts",
+              "pick": false,
+              "probability": 0.5857716307746146,
+              "correct": true
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": "under",
+              "probability": 0.6524119874320937,
+              "correct": true
+            }
+          },
+          "focus": {
+            "target": "total_2_5",
+            "pick": "under",
+            "probability": 0.6524119874320937,
+            "correct": true
+          }
+        },
+        "Hybrid": {
+          "targets": {
+            "1x2": {
+              "target": "1x2",
+              "pick": null,
+              "probability": null,
+              "correct": null
+            },
+            "btts": {
+              "target": "btts",
+              "pick": false,
+              "probability": 0.5857716307746146,
+              "correct": true
+            },
+            "total_2_5": {
+              "target": "total_2_5",
+              "pick": "under",
+              "probability": 0.6524119874320937,
+              "correct": true
+            }
+          },
+          "focus": {
+            "target": "total_2_5",
+            "pick": "under",
+            "probability": 0.6524119874320937,
+            "correct": true
+          }
+        }
+      },
+      "beta_probabilities": {
+        "1x2": {
+          "H": 0.2427393901564205,
+          "D": 0.38497402829382993,
+          "A": 0.37228658154974953
+        },
+        "btts": 0.41422836922538536,
+        "total_2_5": {
+          "over": 0.3475880125679062,
+          "under": 0.6524119874320937
+        }
+      }
+    }
+  ],
+  "forecast_files_sha256": {
+    "experimental-forecast-v1.json": "ce93922d1e53c1ba51845ed2e12a8ef538a0d966f230002460a097221ceb7a84",
+    "main-journal-v1.json": "9f61e8bcc07a8c015013182376ef6d1e4bc435ea2f52845aba8cf821a3ebcf04",
+    "outcomes-pending-v1.json": "113534bed2d148fb94d0d10df801dceb71bf7f6999eb15e69e849b199e52c053"
+  },
+  "results_sources": [
+    "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-results/",
+    "https://www.uefa.com/uefanationsleague/news/02ab-22146db70e40-12d581ab82a9-1000--uefa-nations-league-matchday-6-round-up-erling-haaland-tak/"
+  ],
+  "all_forecast_file_hashes_verified": true
+}

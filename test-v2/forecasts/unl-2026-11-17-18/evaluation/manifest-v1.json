@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-11-18T12:01:44.595740+00:00",
+  "files_sha256": {
+    "Evaluasi-Beta-V2-Hybrid.md": "7275a92dba520c3f71876d89f1188fb14bdc88375975b78a39a574c95ffc84e7",
+    "evaluasi-v1.json": "d09064146159b3ff2cead1fb2834e8bc4bb949d6eb395600bd8dde889444b7f7",
+    "hasil-90-menit-v1.json": "97128ef6dc816035867d8b557f800c257e54127182e9fae91fa986075458cfe5"
+  },
+  "forecast_manifest_sha256": "4e342426e01542b7c51e21dd6f8f520bb0c33c55a69b39f9e6e5158322e895d6"
+}
