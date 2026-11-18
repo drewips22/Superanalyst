@@ -1,0 +1,28 @@
+{
+  "scope": "Public report and posters only; no raw forecast archives or model packages",
+  "published_on": "2026-11-18",
+  "information_cutoff": "2026-11-17T19:16:25+07:00",
+  "kickoff": "2026-11-18T02:45:00+07:00",
+  "files": [
+    {
+      "path": "Superanalyst-UNL-18-November-2026-model-utama.png",
+      "bytes": 261307,
+      "sha256": "3315d513537e2216c1a29c8f968dc44c89a2afcfc84a42c69b8de8225c9a78bb"
+    },
+    {
+      "path": "Superanalyst-UNL-18-November-2026-model-beta.png",
+      "bytes": 299013,
+      "sha256": "66ecfa28e9f800c6fdf1a8eed0d2c9aa6fc302e1fc0d9c6199807680970412bf"
+    },
+    {
+      "path": "Superanalyst-UNL-18-November-2026-lengkap.html",
+      "bytes": 98077,
+      "sha256": "0175c883b58180bb27bcedaaf405475e0867af2022913ae608a91490b5ba30bb"
+    },
+    {
+      "path": "Superanalyst-UNL-18-November-2026-lengkap.md",
+      "bytes": 82625,
+      "sha256": "ee5546dcec639284caa0d0be948bfc50c5f4834d46620e59237f384bc56fd288"
+    }
+  ]
+}
