@@ -1,5 +1,7 @@
 # Superanalyst — [Kandang] vs [Tandang]
 
+Model · [Model Utama atau nama varian yang diminta]
+
 Kompetisi/kategori: [isi] · Venue: [isi, netral jika relevan]
 
 Kickoff: [tanggal, waktu, zona waktu] · Batas informasi: [as_of]

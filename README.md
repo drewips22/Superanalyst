@@ -4,7 +4,7 @@
 
 Superanalyst adalah repo skill untuk Codex. Isinya mengubah rancangan analisis menjadi prosedur yang bisa diulang, diperiksa sumbernya, dan dievaluasi setelah pertandingan. Bahasa utama: Indonesia.
 
-**Status: BETA TEST (v0.4.3).** Repo publik [drewips22/Superanalyst](https://github.com/drewips22/Superanalyst) dibuka untuk pengujian, reproduksi penelitian, dan masukan. Acuan UNL serta model penelitian UCL tetap dipertahankan. Contoh dalam `examples/` bersifat sintetis; studi nyata berada di `backtests/`. Hasil rekonstruksi membaik terhadap baseline lima laga, dengan batas sumber dan kebutuhan konfirmasi pada prediksi yang benar-benar direkam sebelum kickoff.
+**Status · Model Utama sebagai default (v0.4.4).** Superanalyst menggunakan [Model Utama](skills/superanalyst/references/unl-baseline.md), pendekatan kualitatif untuk laga klub dan tim nasional. Repo publik [drewips22/Superanalyst](https://github.com/drewips22/Superanalyst) terbuka untuk pengujian, reproduksi penelitian, dan masukan. Contoh dalam `examples/` bersifat sintetis. Studi nyata tersedia di `backtests/`.
 
 ## Beta test
 
@@ -33,11 +33,11 @@ Gunakan berkas keluaran baru untuk pengulangan contoh. Ini pemeriksaan proses da
 
 [Protokol keputusan v1.1](skills/superanalyst/references/decision-quality.md) memisahkan keyakinan dan status setiap target, membuat observasi 1X2 eksplisit, serta mencatat konflik pemain dan sumber. Metode kualitatif, jendela lima laga, bobot dan seluruh arsip lama dipertahankan. Enam tes baru memeriksa cutoff, observasi, tipe target dan penilaian tanpa mengubah input. Peningkatan akurasi belum diklaim; perlu prediksi baru.
 
-## Acuan UNL yang dipertahankan
+## Model Utama
 
-Pengguna menetapkan metode `qualitative_superanalyst_national_team_pilot_v1` sebagai [acuan kerja UNL](skills/superanalyst/references/unl-baseline.md) pada 13 November 2026. Prediksi prospektif delapan laga sesi pertama menghasilkan 1X2 7/8, BTTS 5/6, total 2,5 gol 5/6, dan skenario skor tepat 5/8. Semua kekeliruan tetap dihitung. Ini hasil satu sesi, bukan akurasi jangka panjang, kalibrasi probabilitas atau bukti keunggulan terhadap pasar.
+Pada 21 November 2026, pengguna menetapkan [Model Utama](skills/superanalyst/references/unl-baseline.md) sebagai pilihan default untuk laga klub dan tim nasional. Pendekatan ini berasal dari sesi UEFA Nations League 13 November 2026. Prediksi prospektif delapan laga sesi pertama menghasilkan 1X2 7/8, BTTS 5/6, total 2,5 gol 5/6, dan skenario skor tepat 5/8. Semua kekeliruan tetap dihitung. Ini hasil satu sesi, bukan akurasi jangka panjang, kalibrasi probabilitas atau bukti keunggulan terhadap pasar.
 
-Urutan data → pola → keputusan dan keenam kelompok analisis tetap berlaku. Usulan pengembangan dicatat terpisah; tidak ada bobot baru yang diaktifkan berdasarkan satu matchday. [Spesifikasi acuan](skills/superanalyst/assets/unl-baseline-policy.json).
+Gunakan urutan data → pola → keputusan, dengan keyakinan dan status per target. Pilih Beta V2, Hybrid, atau model riset sesuai permintaan dan cakupan validasinya. [Spesifikasi Model Utama](skills/superanalyst/assets/unl-baseline-policy.json)
 
 ## Plugin untuk akun ChatGPT
 

@@ -1,6 +1,11 @@
 {
   "policy_version": "unl-working-baseline-v1",
   "method_id": "qualitative_superanalyst_national_team_pilot_v1",
+  "display_name": "Model Utama",
+  "default_for": [
+    "club_matches",
+    "national_team_matches"
+  ],
   "adopted_date_wib": "2026-11-13",
   "status": "user_adopted_working_baseline_not_calibrated",
   "workflow": [

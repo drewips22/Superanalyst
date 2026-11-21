@@ -9,7 +9,7 @@ Susun analisis dalam urutan **data → pola → keputusan**. Jawab dalam bahasa 
 
 ## Pilih pekerjaan
 
-- **Prediksi UNL:** pertahankan [acuan operasional UNL v1](references/unl-baseline.md), yaitu metode kualitatif sesi 13 November 2026 WIB. Jangan mengaktifkan usulan pascaevaluasi atau bobot UCL secara otomatis.
+- **Prediksi:** gunakan [Model Utama](references/unl-baseline.md) sebagai pilihan default untuk laga klub dan tim nasional. Tampilkan nama **Model Utama** pada laporan, tabel, dan gambar baru. Jalankan varian eksperimen hanya jika pengguna memintanya.
 - **Pertandingan persahabatan:** tambahkan [pemeriksaan konteks persahabatan](references/friendly-context.md). Lima laga kompetitif tetap ditampilkan, dengan uji coba terbaru dan relevansi skuad/pelatih dibaca terpisah; belum ada bobot numerik baru.
 - **Menerbitkan atau memperbarui prediksi:** ikuti [jurnal keputusan v1.2](references/decision-journal.md), yang melengkapi protokol v1.1. Gunakan kembali keputusan tersimpan untuk input dan cutoff yang sama; revisi memerlukan alasan serta snapshot baru. Metode dan bobot acuan tetap.
 - **Pemakaian sebagai plugin ChatGPT:** baca [lingkungan plugin](references/plugin-runtime.md) bila perlu menjalankan alat atau membuka arsip dari paket, bukan dari checkout lokal.

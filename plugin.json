@@ -1,20 +1,28 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "superanalyst",
-  "version": "0.4.3",
-  "description": "Analisis prapertandingan sepak bola berbahasa Indonesia: data, pola, keputusan, BTTS dan evaluasi prediksi. Acuan UNL kualitatif dipertahankan; sumber dan ketidakpastian dinyatakan.",
-  "author": {"name": "drewips22"},
+  "version": "0.4.4",
+  "description": "Analisis prapertandingan sepak bola berbahasa Indonesia dengan Model Utama sebagai pilihan default. Cakupan meliputi 1X2, BTTS, total gol, dan evaluasi prediksi.",
+  "author": {
+    "name": "drewips22"
+  },
   "repository": "https://github.com/drewips22/Superanalyst",
-  "keywords": ["football", "soccer", "UNL", "prediction", "Indonesia"],
+  "keywords": [
+    "football",
+    "soccer",
+    "UNL",
+    "prediction",
+    "Indonesia"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "Superanalyst",
         "shortDescription": "Analisis sepak bola",
-        "longDescription": "Gunakan lima laga kompetitif terakhir, H2H, kabar pemain, konteks klasemen dan BTTS. Pisahkan fakta, inferensi dan informasi yang belum tersedia. Metode acuan UNL tetap kualitatif dan prediksi disimpan untuk evaluasi tanpa mengubah arsip lama.",
+        "longDescription": "Analisis sepak bola dengan Model Utama, pendekatan kualitatif untuk laga klub dan tim nasional. Gunakan lima laga kompetitif terakhir, H2H, kabar pemain, klasemen dan BTTS. Catat keputusan sebelum kickoff untuk evaluasi.",
         "developerName": "drewips22",
         "defaultPrompt": [
-          "Gunakan Superanalyst untuk memprediksi pertandingan mendatang dengan sumber terbaru dan acuan UNL v1.",
+          "Gunakan Superanalyst untuk memprediksi pertandingan mendatang dengan sumber terbaru dan Model Utama.",
           "Gunakan Superanalyst untuk mengevaluasi arsip prediksi berdasarkan hasil 90 menit."
         ]
       }

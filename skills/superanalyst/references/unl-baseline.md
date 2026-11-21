@@ -1,18 +1,18 @@
-# Acuan operasional UNL v1
+# Model Utama Superanalyst
 
-Ditetapkan pengguna pada 13 November 2026. ID metode: `qualitative_superanalyst_national_team_pilot_v1`. Statusnya **acuan kerja kualitatif**, belum model probabilitas tim nasional terkalibrasi. Spesifikasi mesin ada di [kebijakan acuan](../assets/unl-baseline-policy.json).
+**Model Utama** adalah pilihan default Superanalyst untuk laga klub dan tim nasional sejak 21 November 2026. Metode ini berasal dari acuan kualitatif yang disetujui pada 13 November 2026. Gunakan label **Model Utama** pada analisis baru. Jurnal memakai ID metode `qualitative_superanalyst_national_team_pilot_v1` agar prediksi dapat dinilai bersama arsip dengan metode yang sama. [Spesifikasi metode](../assets/unl-baseline-policy.json)
 
 Pertahankan keseluruhan pendekatan sesi UNL 13 November 2026 WIB, termasuk kesalahan yang terjadi. Keberhasilan tujuh laga tidak dipakai untuk memilih ulang aturan hanya dari tujuh pemenang tersebut.
 
 ## Yang menjadi acuan
 
 1. Urutan data → pola → keputusan dan keenam kelompok analisis pada SKILL.md tetap berlaku.
-2. Gunakan lima laga kompetitif terakhir, urut kronologis; pisahkan persahabatan. Bandingkan dengan empat laga UNL terbaru pada fase grup bila tersedia. Perbarui datanya untuk setiap pertandingan baru, bukan menggunakan rating lama.
+2. Gunakan lima laga kompetitif terakhir secara kronologis dan bahas laga persahabatan secara terpisah. Perbarui data setiap pertandingan. Untuk klub, gunakan klasemen dan catatan kandang atau tandang liga sebagai pembanding. Untuk tim nasional, gunakan konteks fase kompetisi. Pada UEFA Nations League, bandingkan dengan empat laga fase grup terbaru bila tersedia.
 3. Tampilkan gol, rata-rata kebobolan, hasil dan poin per laga, tembakan/tepat sasaran, clean sheet/BTTS historis, H2H relevan dan gol menit akhir. xG/xGA yang belum diperoleh tetap N/A dengan cakupan yang jelas.
 4. Periksa kualitas lawan, skor ekstrem, usia data, venue netral, serta konteks kartu merah. Konteks membantu membaca data; tidak berarti pertandingan boleh dihapus tanpa aturan yang ditetapkan sebelumnya.
 5. Gunakan berita primer terbaru untuk cedera, skorsing, ketersediaan, pelatih dan motivasi klasemen. XI perkiraan tetap berlabel perkiraan. Tidak mengarang rute perjalanan atau menit pemulihan klub.
 6. Pisahkan arah 1X2, BTTS, total gol dan skenario skor. Keyakinan arah pemenang bukan probabilitas terkalibrasi untuk semua target. Bila bukti belum cukup, pertahankan observasi yang dijelaskan, seperti BTTS/total pada Ceko–Spanyol dalam pilot.
-7. Tetap kualitatif sampai ada model timnas yang layak diuji. Koefisien 22%, 35%, 18%, probabilitas clean sheet contoh dan bobot UCL tidak aktif pada acuan ini.
+7. Gunakan keyakinan kualitatif per target. Jalankan model terlatih dan varian eksperimen hanya atas permintaan pengguna dengan cakupan validasi yang sesuai. Model Utama menggunakan aturan dan koefisien yang tercantum pada spesifikasi metode.
 8. Verifikasi pasar bila data tersedia; jika tiga pembanding independen, waktu, kontrak, spread dan likuiditas belum dapat disamakan, nyatakan pemeriksaan belum lengkap. Jangan menyimpulkan anomali atau informasi internal.
 9. Catat prediksi sebelum kickoff, pertahankan snapshot awal, dan simpan revisi/penilaian terpisah. Seluruh kesalahan tetap dihitung; unlucky hanya diagnosis sesudah pertandingan.
 
