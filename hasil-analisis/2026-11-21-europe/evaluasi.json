@@ -1,0 +1,593 @@
+{
+  "matchday_wib": "2026-11-21",
+  "evaluation_status": "provisional",
+  "outcome_scope": "90m_plus_stoppage",
+  "sources": {
+    "completed_scores": "Tiga screenshot hasil yang diberikan pengguna",
+    "nice_psg_status": "https://www.fotmob.com/matches/nice-vs-paris-saint-germain/37a71k"
+  },
+  "metrics": {
+    "model_utama": {
+      "1x2": {
+        "correct": 9,
+        "evaluated": 13,
+        "accuracy_percent": 69.23
+      },
+      "btts": {
+        "correct": 4,
+        "evaluated": 11,
+        "accuracy_percent": 36.36
+      },
+      "total_2_5": {
+        "correct": 2,
+        "evaluated": 9,
+        "accuracy_percent": 22.22
+      },
+      "focus": {
+        "correct": 9,
+        "evaluated": 18,
+        "accuracy_percent": 50.0
+      },
+      "exact_score": {
+        "correct": 2,
+        "evaluated": 18,
+        "accuracy_percent": 11.11
+      }
+    },
+    "poisson": {
+      "1x2": {
+        "correct": 6,
+        "evaluated": 9,
+        "accuracy_percent": 66.67
+      },
+      "btts": {
+        "correct": 1,
+        "evaluated": 4,
+        "accuracy_percent": 25.0
+      },
+      "total_2_5": {
+        "correct": 2,
+        "evaluated": 6,
+        "accuracy_percent": 33.33
+      },
+      "focus": {
+        "correct": 6,
+        "evaluated": 12,
+        "accuracy_percent": 50.0
+      },
+      "exact_score": {
+        "correct": 1,
+        "evaluated": 18,
+        "accuracy_percent": 5.56
+      }
+    }
+  },
+  "common_focus_matches": {
+    "evaluation_main": {
+      "correct": 7,
+      "evaluated": 12,
+      "accuracy_percent": 58.33
+    },
+    "evaluation_poisson": {
+      "correct": 6,
+      "evaluated": 12,
+      "accuracy_percent": 50.0
+    }
+  },
+  "fixtures": [
+    {
+      "match_id": "2026-11-21-wib-Bayern München-Köln",
+      "home": "Bayern München",
+      "away": "Köln",
+      "kickoff_at": "2026-11-21T02:30:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        1,
+        1
+      ],
+      "focus_main": "1x2",
+      "focus_poisson": "1x2",
+      "evaluation_main": {
+        "1x2": false,
+        "btts": null,
+        "total_2_5": false,
+        "focus": false,
+        "exact_score": false
+      },
+      "evaluation_poisson": {
+        "1x2": false,
+        "btts": null,
+        "total_2_5": false,
+        "focus": false,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Troyes-Le Havre",
+      "home": "Troyes",
+      "away": "Le Havre",
+      "kickoff_at": "2026-11-21T02:45:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        3,
+        1
+      ],
+      "focus_main": "1x2",
+      "focus_poisson": null,
+      "evaluation_main": {
+        "1x2": true,
+        "btts": null,
+        "total_2_5": false,
+        "focus": true,
+        "exact_score": false
+      },
+      "evaluation_poisson": {
+        "1x2": null,
+        "btts": null,
+        "total_2_5": null,
+        "focus": null,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Athletic Club-Espanyol",
+      "home": "Athletic Club",
+      "away": "Espanyol",
+      "kickoff_at": "2026-11-21T03:00:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        0,
+        1
+      ],
+      "focus_main": "1x2",
+      "focus_poisson": "1x2",
+      "evaluation_main": {
+        "1x2": false,
+        "btts": true,
+        "total_2_5": null,
+        "focus": false,
+        "exact_score": false
+      },
+      "evaluation_poisson": {
+        "1x2": false,
+        "btts": null,
+        "total_2_5": null,
+        "focus": false,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Manchester City-Fulham",
+      "home": "Manchester City",
+      "away": "Fulham",
+      "kickoff_at": "2026-11-21T19:30:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        1,
+        1
+      ],
+      "focus_main": "1x2",
+      "focus_poisson": "1x2",
+      "evaluation_main": {
+        "1x2": false,
+        "btts": true,
+        "total_2_5": null,
+        "focus": false,
+        "exact_score": false
+      },
+      "evaluation_poisson": {
+        "1x2": false,
+        "btts": null,
+        "total_2_5": null,
+        "focus": false,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Alavés-Deportivo La Coruña",
+      "home": "Alavés",
+      "away": "Deportivo La Coruña",
+      "kickoff_at": "2026-11-21T20:00:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        3,
+        1
+      ],
+      "focus_main": "total_2_5",
+      "focus_poisson": null,
+      "evaluation_main": {
+        "1x2": null,
+        "btts": null,
+        "total_2_5": false,
+        "focus": false,
+        "exact_score": false
+      },
+      "evaluation_poisson": {
+        "1x2": null,
+        "btts": null,
+        "total_2_5": null,
+        "focus": null,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Como-Cagliari",
+      "home": "Como",
+      "away": "Cagliari",
+      "kickoff_at": "2026-11-21T21:00:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        2,
+        0
+      ],
+      "focus_main": "1x2",
+      "focus_poisson": "1x2",
+      "evaluation_main": {
+        "1x2": true,
+        "btts": true,
+        "total_2_5": null,
+        "focus": true,
+        "exact_score": true
+      },
+      "evaluation_poisson": {
+        "1x2": true,
+        "btts": null,
+        "total_2_5": null,
+        "focus": true,
+        "exact_score": true
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Lazio-Lecce",
+      "home": "Lazio",
+      "away": "Lecce",
+      "kickoff_at": "2026-11-21T21:00:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        3,
+        0
+      ],
+      "focus_main": "1x2",
+      "focus_poisson": "1x2",
+      "evaluation_main": {
+        "1x2": true,
+        "btts": false,
+        "total_2_5": true,
+        "focus": true,
+        "exact_score": false
+      },
+      "evaluation_poisson": {
+        "1x2": true,
+        "btts": null,
+        "total_2_5": null,
+        "focus": true,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Borussia Mönchengladbach-Borussia Dortmund",
+      "home": "Borussia Mönchengladbach",
+      "away": "Borussia Dortmund",
+      "kickoff_at": "2026-11-21T21:30:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        0,
+        1
+      ],
+      "focus_main": "1x2",
+      "focus_poisson": "total_2_5",
+      "evaluation_main": {
+        "1x2": true,
+        "btts": false,
+        "total_2_5": false,
+        "focus": true,
+        "exact_score": false
+      },
+      "evaluation_poisson": {
+        "1x2": true,
+        "btts": false,
+        "total_2_5": false,
+        "focus": false,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Bayer Leverkusen-Paderborn",
+      "home": "Bayer Leverkusen",
+      "away": "Paderborn",
+      "kickoff_at": "2026-11-21T21:30:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        4,
+        0
+      ],
+      "focus_main": "1x2",
+      "focus_poisson": "1x2",
+      "evaluation_main": {
+        "1x2": true,
+        "btts": null,
+        "total_2_5": null,
+        "focus": true,
+        "exact_score": false
+      },
+      "evaluation_poisson": {
+        "1x2": true,
+        "btts": null,
+        "total_2_5": true,
+        "focus": true,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Eintracht Frankfurt-Hoffenheim",
+      "home": "Eintracht Frankfurt",
+      "away": "Hoffenheim",
+      "kickoff_at": "2026-11-21T21:30:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        1,
+        0
+      ],
+      "focus_main": "btts",
+      "focus_poisson": "total_2_5",
+      "evaluation_main": {
+        "1x2": null,
+        "btts": false,
+        "total_2_5": false,
+        "focus": false,
+        "exact_score": false
+      },
+      "evaluation_poisson": {
+        "1x2": null,
+        "btts": false,
+        "total_2_5": false,
+        "focus": false,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Elversberg-Freiburg",
+      "home": "Elversberg",
+      "away": "Freiburg",
+      "kickoff_at": "2026-11-21T21:30:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        0,
+        1
+      ],
+      "focus_main": "1x2",
+      "focus_poisson": "btts",
+      "evaluation_main": {
+        "1x2": true,
+        "btts": null,
+        "total_2_5": false,
+        "focus": true,
+        "exact_score": false
+      },
+      "evaluation_poisson": {
+        "1x2": null,
+        "btts": false,
+        "total_2_5": false,
+        "focus": false,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Union Berlin-RB Leipzig",
+      "home": "Union Berlin",
+      "away": "RB Leipzig",
+      "kickoff_at": "2026-11-21T21:30:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        1,
+        5
+      ],
+      "focus_main": "1x2",
+      "focus_poisson": "total_2_5",
+      "evaluation_main": {
+        "1x2": true,
+        "btts": false,
+        "total_2_5": null,
+        "focus": true,
+        "exact_score": false
+      },
+      "evaluation_poisson": {
+        "1x2": true,
+        "btts": null,
+        "total_2_5": true,
+        "focus": true,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Aston Villa-Sunderland",
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "kickoff_at": "2026-11-21T22:00:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        0,
+        0
+      ],
+      "focus_main": "1x2",
+      "focus_poisson": null,
+      "evaluation_main": {
+        "1x2": false,
+        "btts": null,
+        "total_2_5": null,
+        "focus": false,
+        "exact_score": false
+      },
+      "evaluation_poisson": {
+        "1x2": null,
+        "btts": null,
+        "total_2_5": null,
+        "focus": null,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Bournemouth-Nottingham Forest",
+      "home": "Bournemouth",
+      "away": "Nottingham Forest",
+      "kickoff_at": "2026-11-21T22:00:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        2,
+        0
+      ],
+      "focus_main": "1x2",
+      "focus_poisson": "1x2",
+      "evaluation_main": {
+        "1x2": true,
+        "btts": true,
+        "total_2_5": null,
+        "focus": true,
+        "exact_score": true
+      },
+      "evaluation_poisson": {
+        "1x2": true,
+        "btts": null,
+        "total_2_5": null,
+        "focus": true,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Chelsea-Leeds United",
+      "home": "Chelsea",
+      "away": "Leeds United",
+      "kickoff_at": "2026-11-21T22:00:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        1,
+        4
+      ],
+      "focus_main": "total_2_5",
+      "focus_poisson": "btts",
+      "evaluation_main": {
+        "1x2": null,
+        "btts": false,
+        "total_2_5": false,
+        "focus": false,
+        "exact_score": false
+      },
+      "evaluation_poisson": {
+        "1x2": null,
+        "btts": true,
+        "total_2_5": null,
+        "focus": true,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Coventry City-Crystal Palace",
+      "home": "Coventry City",
+      "away": "Crystal Palace",
+      "kickoff_at": "2026-11-21T22:00:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        3,
+        2
+      ],
+      "focus_main": "btts",
+      "focus_poisson": null,
+      "evaluation_main": {
+        "1x2": null,
+        "btts": false,
+        "total_2_5": null,
+        "focus": false,
+        "exact_score": false
+      },
+      "evaluation_poisson": {
+        "1x2": null,
+        "btts": null,
+        "total_2_5": null,
+        "focus": null,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Tottenham Hotspur-Ipswich Town",
+      "home": "Tottenham Hotspur",
+      "away": "Ipswich Town",
+      "kickoff_at": "2026-11-21T22:00:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        2,
+        0
+      ],
+      "focus_main": "btts",
+      "focus_poisson": null,
+      "evaluation_main": {
+        "1x2": true,
+        "btts": false,
+        "total_2_5": null,
+        "focus": false,
+        "exact_score": false
+      },
+      "evaluation_poisson": {
+        "1x2": null,
+        "btts": null,
+        "total_2_5": null,
+        "focus": null,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Rayo Vallecano-Valencia",
+      "home": "Rayo Vallecano",
+      "away": "Valencia",
+      "kickoff_at": "2026-11-21T22:15:00+07:00",
+      "status": "completed",
+      "score_90m": [
+        0,
+        1
+      ],
+      "focus_main": "total_2_5",
+      "focus_poisson": null,
+      "evaluation_main": {
+        "1x2": null,
+        "btts": null,
+        "total_2_5": true,
+        "focus": true,
+        "exact_score": false
+      },
+      "evaluation_poisson": {
+        "1x2": null,
+        "btts": null,
+        "total_2_5": null,
+        "focus": null,
+        "exact_score": false
+      }
+    },
+    {
+      "match_id": "2026-11-21-wib-Nice-Paris Saint-Germain",
+      "home": "Nice",
+      "away": "Paris Saint-Germain",
+      "kickoff_at": "2026-11-21T23:15:00+07:00",
+      "status": "pending_final_verification",
+      "score_90m": null,
+      "score_at_halftime": [
+        1,
+        2
+      ],
+      "focus_main": "1x2",
+      "focus_poisson": "1x2",
+      "evaluation_main": {
+        "1x2": null,
+        "btts": null,
+        "total_2_5": null,
+        "focus": null,
+        "exact_score": null
+      },
+      "evaluation_poisson": {
+        "1x2": null,
+        "btts": null,
+        "total_2_5": null,
+        "focus": null,
+        "exact_score": null
+      }
+    }
+  ]
+}
