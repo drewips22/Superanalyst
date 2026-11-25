@@ -1,0 +1,1273 @@
+{
+  "competition": "UEFA Champions League 2026/27",
+  "matchday": 5,
+  "date_wib": "2026-11-25",
+  "evaluated_at": "2026-11-25T05:40:02.001334+07:00",
+  "scope": "90m",
+  "results_url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-f/",
+  "snapshots": [
+    {
+      "id": "d31c143eaaf34e018627f742449e45d5",
+      "recorded_at": "2026-11-22T22:04:57.967287+00:00",
+      "sha256": "6e682bc429f5acb94d325f9e28f3107908fff3dd62c24455a144014e2ad468c9"
+    },
+    {
+      "id": "f663d15154374ca98dfb705e37673235",
+      "recorded_at": "2026-11-24T17:19:04.542678+00:00",
+      "sha256": "b693e0b15c7725d870e8784a7484e3ba1cc20a0e253e2df916946ced7f75159e"
+    },
+    {
+      "id": "de708691a8254ba184b4b5d25034be66",
+      "recorded_at": "2026-11-24T19:13:32.788056+00:00",
+      "sha256": "6e2eca74de797d88100f3f755d1051580c638ffd72b245061b87e32c62707929"
+    }
+  ],
+  "numeric_snapshot": {
+    "recorded_at": "2026-11-24T08:32:45+00:00",
+    "sha256": "d93c25fb3f23fda911bddcea194c33cbfaea7b586f7f3fbc8d023833212abf93",
+    "penalty_l2": 4.0,
+    "dixon_coles_rho": 0.132177921932279
+  },
+  "metrics": {
+    "initial": {
+      "focus": {
+        "correct": 4,
+        "evaluated": 9,
+        "accuracy": 0.4444444444444444
+      },
+      "1x2": {
+        "correct": 6,
+        "evaluated": 8,
+        "accuracy": 0.75
+      },
+      "btts": {
+        "correct": 2,
+        "evaluated": 5,
+        "accuracy": 0.4
+      },
+      "total_2_5": {
+        "correct": 3,
+        "evaluated": 6,
+        "accuracy": 0.5
+      },
+      "score_scenario": {
+        "correct": 1,
+        "evaluated": 9,
+        "accuracy": 0.1111111111111111
+      }
+    },
+    "xi": {
+      "focus": {
+        "correct": 4,
+        "evaluated": 8,
+        "accuracy": 0.5
+      },
+      "1x2": {
+        "correct": 6,
+        "evaluated": 8,
+        "accuracy": 0.75
+      },
+      "btts": {
+        "correct": 2,
+        "evaluated": 4,
+        "accuracy": 0.5
+      },
+      "total_2_5": {
+        "correct": 3,
+        "evaluated": 7,
+        "accuracy": 0.42857142857142855
+      },
+      "score_scenario": {
+        "correct": 0,
+        "evaluated": 9,
+        "accuracy": 0.0
+      }
+    }
+  },
+  "paired": {
+    "focus": {
+      "evaluated": 8,
+      "initial_correct": 4,
+      "xi_correct": 4,
+      "incorrect_to_correct": 0,
+      "correct_to_incorrect": 0,
+      "added_correct": 0,
+      "added_incorrect": 0,
+      "removed_correct": 0,
+      "removed_incorrect": 1
+    },
+    "1x2": {
+      "evaluated": 8,
+      "initial_correct": 6,
+      "xi_correct": 6,
+      "incorrect_to_correct": 0,
+      "correct_to_incorrect": 0,
+      "added_correct": 0,
+      "added_incorrect": 0,
+      "removed_correct": 0,
+      "removed_incorrect": 0
+    },
+    "btts": {
+      "evaluated": 4,
+      "initial_correct": 2,
+      "xi_correct": 2,
+      "incorrect_to_correct": 0,
+      "correct_to_incorrect": 0,
+      "added_correct": 0,
+      "added_incorrect": 0,
+      "removed_correct": 0,
+      "removed_incorrect": 1
+    },
+    "total_2_5": {
+      "evaluated": 6,
+      "initial_correct": 3,
+      "xi_correct": 3,
+      "incorrect_to_correct": 0,
+      "correct_to_incorrect": 0,
+      "added_correct": 0,
+      "added_incorrect": 1,
+      "removed_correct": 0,
+      "removed_incorrect": 0
+    },
+    "score_scenario": {
+      "evaluated": 9,
+      "initial_correct": 1,
+      "xi_correct": 0,
+      "incorrect_to_correct": 0,
+      "correct_to_incorrect": 1,
+      "added_correct": 0,
+      "added_incorrect": 0,
+      "removed_correct": 0,
+      "removed_incorrect": 0
+    }
+  },
+  "numeric_metrics": {
+    "balanced": {
+      "1x2_log_loss": 1.0424857976927406,
+      "btts": 0.23969970123579498,
+      "over_0_5": 0.0013098935954406776,
+      "over_1_5": 0.3156644497315486,
+      "over_2_5": 0.30798056995818296,
+      "over_3_5": 0.20313296393334138
+    },
+    "adjusted": {
+      "1x2_log_loss": 1.0268639500029964,
+      "btts": 0.2469014852369663,
+      "over_0_5": 0.0013979352062637818,
+      "over_1_5": 0.31039475398585736,
+      "over_2_5": 0.30879723148311106,
+      "over_3_5": 0.20610916458433723
+    },
+    "dixon_coles": {
+      "1x2_log_loss": 1.0292433703969177,
+      "btts": 0.24220515957542904,
+      "over_0_5": 0.0006964115741150571,
+      "over_1_5": 0.3025636583146455,
+      "over_2_5": 0.30879723148311106,
+      "over_3_5": 0.20610916458433723
+    }
+  },
+  "matches": [
+    {
+      "match_id": "ucl-2026-11-24-bodo-lask",
+      "home": "Bodø/Glimt",
+      "away": "LASK",
+      "kickoff": "2026-11-25T00:45:00+07:00",
+      "outcome": {
+        "match_id": "ucl-2026-11-24-bodo-lask",
+        "home_goals": 1,
+        "away_goals": 0,
+        "scope": "90m",
+        "status": "completed",
+        "source_url": "https://www.uefa.com/uefachampionsleague/match/2049629--bodo-glimt-vs-lask/",
+        "score": [
+          1,
+          0
+        ],
+        "targets": {
+          "1x2": "H",
+          "btts": false,
+          "total_2_5": "under"
+        }
+      },
+      "initial": {
+        "1x2": {
+          "pick": "H",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": true
+        },
+        "btts": {
+          "pick": true,
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": false
+        },
+        "total_2_5": {
+          "pick": "over",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": false
+        },
+        "focus": {
+          "target": "btts",
+          "pick": true,
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": false
+        },
+        "score_scenario": {
+          "pick": [
+            2,
+            1
+          ],
+          "correct": false
+        }
+      },
+      "xi": {
+        "1x2": {
+          "pick": "H",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": true
+        },
+        "btts": {
+          "pick": true,
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": false
+        },
+        "total_2_5": {
+          "pick": "over",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": false
+        },
+        "focus": {
+          "target": "btts",
+          "pick": true,
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": false
+        },
+        "score_scenario": {
+          "pick": [
+            2,
+            1
+          ],
+          "correct": false
+        }
+      },
+      "numeric_probabilities": {
+        "balanced": {
+          "home": 0.3675861636572105,
+          "draw": 0.23190364018111864,
+          "away": 0.40051019616167083,
+          "btts": 0.645245708687643,
+          "over_0_5": 0.9613705904661923,
+          "over_1_5": 0.8356804818877739,
+          "over_2_5": 0.6311989277414627,
+          "over_3_5": 0.40942222916641813
+        },
+        "adjusted": {
+          "home": 0.4245351117845403,
+          "draw": 0.23423903214004568,
+          "away": 0.34122585607541406,
+          "btts": 0.630663496793906,
+          "over_0_5": 0.9581233283946656,
+          "over_1_5": 0.8252475450737837,
+          "over_2_5": 0.614438362821476,
+          "over_3_5": 0.3914706646640307
+        },
+        "dixon_coles": {
+          "home": 0.43841490978816267,
+          "draw": 0.20647943613280095,
+          "away": 0.35510565407903644,
+          "btts": 0.6167836987902836,
+          "over_0_5": 0.972003126398288,
+          "over_1_5": 0.8113677470701613,
+          "over_2_5": 0.614438362821476,
+          "over_3_5": 0.3914706646640307
+        }
+      }
+    },
+    {
+      "match_id": "ucl-2026-11-24-galatasaray-villa",
+      "home": "Galatasaray",
+      "away": "Aston Villa",
+      "kickoff": "2026-11-25T00:45:00+07:00",
+      "outcome": {
+        "match_id": "ucl-2026-11-24-galatasaray-villa",
+        "home_goals": 1,
+        "away_goals": 0,
+        "scope": "90m",
+        "status": "completed",
+        "source_url": "https://www.uefa.com/uefachampionsleague/match/2049631--galatasaray-vs-aston-villa/",
+        "score": [
+          1,
+          0
+        ],
+        "targets": {
+          "1x2": "H",
+          "btts": false,
+          "total_2_5": "under"
+        }
+      },
+      "initial": {
+        "1x2": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "correct": null
+        },
+        "btts": {
+          "pick": true,
+          "confidence": "low",
+          "status": "provisional",
+          "correct": false
+        },
+        "total_2_5": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "correct": null
+        },
+        "focus": {
+          "target": "btts",
+          "pick": true,
+          "confidence": "low",
+          "status": "provisional",
+          "correct": false
+        },
+        "score_scenario": {
+          "pick": [
+            1,
+            1
+          ],
+          "correct": false
+        }
+      },
+      "xi": {
+        "1x2": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "correct": null
+        },
+        "btts": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "correct": null
+        },
+        "total_2_5": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "correct": null
+        },
+        "focus": null,
+        "score_scenario": {
+          "pick": [
+            1,
+            1
+          ],
+          "correct": false
+        }
+      },
+      "numeric_probabilities": {
+        "balanced": {
+          "home": 0.15921274705816757,
+          "draw": 0.17640592443765032,
+          "away": 0.6643813285041822,
+          "btts": 0.6272013973157367,
+          "over_0_5": 0.9736591850222212,
+          "over_1_5": 0.8778672384227049,
+          "over_2_5": 0.7036870347907079,
+          "over_3_5": 0.492543722544616
+        },
+        "adjusted": {
+          "home": 0.18312719090971422,
+          "draw": 0.189146721240689,
+          "away": 0.6277260878495968,
+          "btts": 0.6310627148245112,
+          "over_0_5": 0.9708979764456083,
+          "over_1_5": 0.8679656449740427,
+          "over_2_5": 0.6859325151751812,
+          "over_3_5": 0.47131863651890515
+        },
+        "dixon_coles": {
+          "home": 0.1939097137244089,
+          "draw": 0.16758167561129958,
+          "away": 0.6385086106642915,
+          "btts": 0.6202801920098164,
+          "over_0_5": 0.981680499260303,
+          "over_1_5": 0.857183122159348,
+          "over_2_5": 0.6859325151751812,
+          "over_3_5": 0.47131863651890515
+        }
+      }
+    },
+    {
+      "match_id": "ucl-2026-11-24-arsenal-dortmund",
+      "home": "Arsenal",
+      "away": "Borussia Dortmund",
+      "kickoff": "2026-11-25T03:00:00+07:00",
+      "outcome": {
+        "match_id": "ucl-2026-11-24-arsenal-dortmund",
+        "home_goals": 1,
+        "away_goals": 1,
+        "scope": "90m",
+        "status": "completed",
+        "source_url": "https://www.uefa.com/uefachampionsleague/match/2049627--arsenal-vs-b-dortmund/",
+        "score": [
+          1,
+          1
+        ],
+        "targets": {
+          "1x2": "D",
+          "btts": true,
+          "total_2_5": "under"
+        }
+      },
+      "initial": {
+        "1x2": {
+          "pick": "H",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": false
+        },
+        "btts": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "correct": null
+        },
+        "total_2_5": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "correct": null
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": false
+        },
+        "score_scenario": {
+          "pick": [
+            2,
+            1
+          ],
+          "correct": false
+        }
+      },
+      "xi": {
+        "1x2": {
+          "pick": "H",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": false
+        },
+        "btts": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "correct": null
+        },
+        "total_2_5": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "correct": null
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": false
+        },
+        "score_scenario": {
+          "pick": [
+            2,
+            1
+          ],
+          "correct": false
+        }
+      },
+      "numeric_probabilities": {
+        "balanced": {
+          "home": 0.3528536864836224,
+          "draw": 0.22433022048666806,
+          "away": 0.4228160930297095,
+          "btts": 0.6720108263096598,
+          "over_0_5": 0.9677966148880199,
+          "over_1_5": 0.8571559694369076,
+          "over_2_5": 0.6670928381345284,
+          "over_3_5": 0.4494272371360405
+        },
+        "adjusted": {
+          "home": 0.39548976929351365,
+          "draw": 0.22137436129018698,
+          "away": 0.3831358694162994,
+          "btts": 0.6883143213244162,
+          "over_0_5": 0.9709879050316272,
+          "over_1_5": 0.868283856755926,
+          "over_2_5": 0.6864955104866113,
+          "over_3_5": 0.47198268848878644
+        },
+        "dixon_coles": {
+          "home": 0.4075030935263963,
+          "draw": 0.19734771282442168,
+          "away": 0.39514919364918205,
+          "btts": 0.6763009970915335,
+          "over_0_5": 0.9830012292645098,
+          "over_1_5": 0.8562705325230433,
+          "over_2_5": 0.6864955104866113,
+          "over_3_5": 0.47198268848878644
+        }
+      }
+    },
+    {
+      "match_id": "ucl-2026-11-24-como-aek",
+      "home": "Como",
+      "away": "AEK Athens",
+      "kickoff": "2026-11-25T03:00:00+07:00",
+      "outcome": {
+        "match_id": "ucl-2026-11-24-como-aek",
+        "home_goals": 1,
+        "away_goals": 0,
+        "scope": "90m",
+        "status": "completed",
+        "source_url": "https://www.uefa.com/uefachampionsleague/match/2049633--como-vs-aek-athens/",
+        "score": [
+          1,
+          0
+        ],
+        "targets": {
+          "1x2": "H",
+          "btts": false,
+          "total_2_5": "under"
+        }
+      },
+      "initial": {
+        "1x2": {
+          "pick": "H",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": true
+        },
+        "btts": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "correct": null
+        },
+        "total_2_5": {
+          "pick": "over",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": false
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": true
+        },
+        "score_scenario": {
+          "pick": [
+            3,
+            1
+          ],
+          "correct": false
+        }
+      },
+      "xi": {
+        "1x2": {
+          "pick": "H",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": true
+        },
+        "btts": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "correct": null
+        },
+        "total_2_5": {
+          "pick": "over",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": false
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": true
+        },
+        "score_scenario": {
+          "pick": [
+            3,
+            1
+          ],
+          "correct": false
+        }
+      },
+      "numeric_probabilities": {
+        "balanced": {
+          "home": 0.6991341776888282,
+          "draw": 0.16660040815715135,
+          "away": 0.1342654141540204,
+          "btts": 0.5966932383134109,
+          "over_0_5": 0.9723872230528101,
+          "over_1_5": 0.8732718041167423,
+          "over_2_5": 0.6953855616417355,
+          "over_3_5": 0.4825460552591956
+        },
+        "adjusted": {
+          "home": 0.6529475285213701,
+          "draw": 0.1808943061364562,
+          "away": 0.16615816534217379,
+          "btts": 0.6260856440303685,
+          "over_0_5": 0.9723732039522482,
+          "over_1_5": 0.8732214864403645,
+          "over_2_5": 0.6952952609641303,
+          "over_3_5": 0.4824380188397035
+        },
+        "dixon_coles": {
+          "home": 0.6632379339710871,
+          "draw": 0.16031349523702207,
+          "away": 0.17644857079189086,
+          "btts": 0.6157952385806514,
+          "over_0_5": 0.9826636094019653,
+          "over_1_5": 0.8629310809906474,
+          "over_2_5": 0.6952952609641303,
+          "over_3_5": 0.4824380188397035
+        }
+      }
+    },
+    {
+      "match_id": "ucl-2026-11-24-feyenoord-porto",
+      "home": "Feyenoord",
+      "away": "FC Porto",
+      "kickoff": "2026-11-25T03:00:00+07:00",
+      "outcome": {
+        "match_id": "ucl-2026-11-24-feyenoord-porto",
+        "home_goals": 0,
+        "away_goals": 1,
+        "scope": "90m",
+        "status": "completed",
+        "source_url": "https://www.uefa.com/uefachampionsleague/match/2049628--feyenoord-vs-porto/",
+        "score": [
+          0,
+          1
+        ],
+        "targets": {
+          "1x2": "A",
+          "btts": false,
+          "total_2_5": "under"
+        }
+      },
+      "initial": {
+        "1x2": {
+          "pick": "A",
+          "confidence": "low",
+          "status": "provisional",
+          "correct": true
+        },
+        "btts": {
+          "pick": true,
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": false
+        },
+        "total_2_5": {
+          "pick": "over",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": false
+        },
+        "focus": {
+          "target": "total_2_5",
+          "pick": "over",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": false
+        },
+        "score_scenario": {
+          "pick": [
+            1,
+            2
+          ],
+          "correct": false
+        }
+      },
+      "xi": {
+        "1x2": {
+          "pick": "A",
+          "confidence": "low",
+          "status": "provisional",
+          "correct": true
+        },
+        "btts": {
+          "pick": true,
+          "confidence": "low",
+          "status": "provisional",
+          "correct": false
+        },
+        "total_2_5": {
+          "pick": "over",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": false
+        },
+        "focus": {
+          "target": "total_2_5",
+          "pick": "over",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": false
+        },
+        "score_scenario": {
+          "pick": [
+            1,
+            2
+          ],
+          "correct": false
+        }
+      },
+      "numeric_probabilities": {
+        "balanced": {
+          "home": 0.28155177610330373,
+          "draw": 0.2578764881895261,
+          "away": 0.4605717357071702,
+          "btts": 0.5200079376832901,
+          "over_0_5": 0.9260603616501218,
+          "over_1_5": 0.7334841139135844,
+          "over_2_5": 0.48270109671246386,
+          "over_3_5": 0.2649791209385186
+        },
+        "adjusted": {
+          "home": 0.3218155523672683,
+          "draw": 0.2645101294507267,
+          "away": 0.41367431818200495,
+          "btts": 0.5195239340892304,
+          "over_0_5": 0.9230559429307539,
+          "over_1_5": 0.7257193161974987,
+          "over_2_5": 0.47266699654002176,
+          "over_3_5": 0.25633453782354876
+        },
+        "dixon_coles": {
+          "home": 0.3384426425515815,
+          "draw": 0.23125594908210026,
+          "away": 0.4303014083663182,
+          "btts": 0.5028968439049172,
+          "over_0_5": 0.9396830331150671,
+          "over_1_5": 0.7090922260131856,
+          "over_2_5": 0.47266699654002176,
+          "over_3_5": 0.25633453782354876
+        }
+      }
+    },
+    {
+      "match_id": "ucl-2026-11-24-man-city-napoli",
+      "home": "Manchester City",
+      "away": "Napoli",
+      "kickoff": "2026-11-25T03:00:00+07:00",
+      "outcome": {
+        "match_id": "ucl-2026-11-24-man-city-napoli",
+        "home_goals": 2,
+        "away_goals": 2,
+        "scope": "90m",
+        "status": "completed",
+        "source_url": "https://www.uefa.com/uefachampionsleague/match/2049626--man-city-vs-napoli/",
+        "score": [
+          2,
+          2
+        ],
+        "targets": {
+          "1x2": "D",
+          "btts": true,
+          "total_2_5": "over"
+        }
+      },
+      "initial": {
+        "1x2": {
+          "pick": "H",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": false
+        },
+        "btts": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "correct": null
+        },
+        "total_2_5": {
+          "pick": "over",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": true
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": false
+        },
+        "score_scenario": {
+          "pick": [
+            3,
+            0
+          ],
+          "correct": false
+        }
+      },
+      "xi": {
+        "1x2": {
+          "pick": "H",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": false
+        },
+        "btts": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "correct": null
+        },
+        "total_2_5": {
+          "pick": "over",
+          "confidence": "low",
+          "status": "provisional",
+          "correct": true
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": false
+        },
+        "score_scenario": {
+          "pick": [
+            2,
+            0
+          ],
+          "correct": false
+        }
+      },
+      "numeric_probabilities": {
+        "balanced": {
+          "home": 0.7686361512913041,
+          "draw": 0.1321309192052142,
+          "away": 0.09923292950348164,
+          "btts": 0.621616524502085,
+          "over_0_5": 0.9833300773892802,
+          "over_1_5": 0.9150809266574843,
+          "over_2_5": 0.775369822881391,
+          "over_3_5": 0.5847037871476971
+        },
+        "adjusted": {
+          "home": 0.791121625080293,
+          "draw": 0.12081708377158405,
+          "away": 0.08806129114812285,
+          "btts": 0.6259241857610718,
+          "over_0_5": 0.9859721488847926,
+          "over_1_5": 0.9261193683951598,
+          "over_2_5": 0.7984321231100799,
+          "over_3_5": 0.6168306171581415
+        },
+        "dixon_coles": {
+          "home": 0.7974091076089828,
+          "draw": 0.10824211871420453,
+          "away": 0.0943487736768126,
+          "btts": 0.6196367032323821,
+          "over_0_5": 0.9922596314134823,
+          "over_1_5": 0.9198318858664701,
+          "over_2_5": 0.7984321231100799,
+          "over_3_5": 0.6168306171581415
+        }
+      }
+    },
+    {
+      "match_id": "ucl-2026-11-24-leipzig-lens",
+      "home": "RB Leipzig",
+      "away": "Lens",
+      "kickoff": "2026-11-25T03:00:00+07:00",
+      "outcome": {
+        "match_id": "ucl-2026-11-24-leipzig-lens",
+        "home_goals": 3,
+        "away_goals": 1,
+        "scope": "90m",
+        "status": "completed",
+        "source_url": "https://www.uefa.com/uefachampionsleague/match/2049630--leipzig-vs-lens/",
+        "score": [
+          3,
+          1
+        ],
+        "targets": {
+          "1x2": "H",
+          "btts": true,
+          "total_2_5": "over"
+        }
+      },
+      "initial": {
+        "1x2": {
+          "pick": "H",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": true
+        },
+        "btts": {
+          "pick": true,
+          "confidence": "low",
+          "status": "provisional",
+          "correct": true
+        },
+        "total_2_5": {
+          "pick": "over",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": true
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": true
+        },
+        "score_scenario": {
+          "pick": [
+            2,
+            1
+          ],
+          "correct": false
+        }
+      },
+      "xi": {
+        "1x2": {
+          "pick": "H",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": true
+        },
+        "btts": {
+          "pick": true,
+          "confidence": "low",
+          "status": "provisional",
+          "correct": true
+        },
+        "total_2_5": {
+          "pick": "over",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": true
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": true
+        },
+        "score_scenario": {
+          "pick": [
+            2,
+            1
+          ],
+          "correct": false
+        }
+      },
+      "numeric_probabilities": {
+        "balanced": {
+          "home": 0.375179179600986,
+          "draw": 0.20836095466209925,
+          "away": 0.41645986573691474,
+          "btts": 0.7405551482361588,
+          "over_0_5": 0.9806188704186862,
+          "over_1_5": 0.9041902505401352,
+          "over_2_5": 0.7534938241003699,
+          "over_3_5": 0.5554056124871283
+        },
+        "adjusted": {
+          "home": 0.43016935278289636,
+          "draw": 0.21374225793366716,
+          "away": 0.35608838928343645,
+          "btts": 0.7149177135629947,
+          "over_0_5": 0.9763820593902238,
+          "over_1_5": 0.8879151899892005,
+          "over_2_5": 0.7222278612138422,
+          "over_3_5": 0.5153534979440437
+        },
+        "dixon_coles": {
+          "home": 0.4410923041077232,
+          "draw": 0.19189635528401344,
+          "away": 0.3670113406082633,
+          "btts": 0.7039947622381678,
+          "over_0_5": 0.9873050107150507,
+          "over_1_5": 0.8769922386643736,
+          "over_2_5": 0.7222278612138422,
+          "over_3_5": 0.5153534979440437
+        }
+      }
+    },
+    {
+      "match_id": "ucl-2026-11-24-real-madrid-psv",
+      "home": "Real Madrid",
+      "away": "PSV Eindhoven",
+      "kickoff": "2026-11-25T03:00:00+07:00",
+      "outcome": {
+        "match_id": "ucl-2026-11-24-real-madrid-psv",
+        "home_goals": 5,
+        "away_goals": 1,
+        "scope": "90m",
+        "status": "completed",
+        "source_url": "https://www.uefa.com/uefachampionsleague/match/2049625--real-madrid-vs-psv/",
+        "score": [
+          5,
+          1
+        ],
+        "targets": {
+          "1x2": "H",
+          "btts": true,
+          "total_2_5": "over"
+        }
+      },
+      "initial": {
+        "1x2": {
+          "pick": "H",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": true
+        },
+        "btts": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "correct": null
+        },
+        "total_2_5": {
+          "pick": "over",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": true
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": true
+        },
+        "score_scenario": {
+          "pick": [
+            3,
+            1
+          ],
+          "correct": false
+        }
+      },
+      "xi": {
+        "1x2": {
+          "pick": "H",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": true
+        },
+        "btts": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "correct": null
+        },
+        "total_2_5": {
+          "pick": "over",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": true
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "H",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": true
+        },
+        "score_scenario": {
+          "pick": [
+            3,
+            1
+          ],
+          "correct": false
+        }
+      },
+      "numeric_probabilities": {
+        "balanced": {
+          "home": 0.516135349691385,
+          "draw": 0.2145911640337045,
+          "away": 0.26927348627491055,
+          "btts": 0.6595879701583529,
+          "over_0_5": 0.9683925676752496,
+          "over_1_5": 0.8592090233734773,
+          "over_2_5": 0.6706292263210882,
+          "over_3_5": 0.45348820271268664
+        },
+        "adjusted": {
+          "home": 0.5251218061159855,
+          "draw": 0.2152130962351277,
+          "away": 0.259665097648887,
+          "btts": 0.6475230161601871,
+          "over_0_5": 0.9663833856149829,
+          "over_1_5": 0.8523311261668125,
+          "over_2_5": 0.6588565880076341,
+          "over_3_5": 0.4400539847272311
+        },
+        "dixon_coles": {
+          "home": 0.5374423475280076,
+          "draw": 0.19057201341108357,
+          "away": 0.27198563906090906,
+          "btts": 0.635202474748165,
+          "over_0_5": 0.978703927027005,
+          "over_1_5": 0.8400105847547904,
+          "over_2_5": 0.6588565880076341,
+          "over_3_5": 0.4400539847272311
+        }
+      }
+    },
+    {
+      "match_id": "ucl-2026-11-24-slovan-betis",
+      "home": "Slovan Bratislava",
+      "away": "Real Betis",
+      "kickoff": "2026-11-25T03:00:00+07:00",
+      "outcome": {
+        "match_id": "ucl-2026-11-24-slovan-betis",
+        "home_goals": 0,
+        "away_goals": 2,
+        "scope": "90m",
+        "status": "completed",
+        "source_url": "https://www.uefa.com/uefachampionsleague/match/2049632--s-bratislava-vs-real-betis/",
+        "score": [
+          0,
+          2
+        ],
+        "targets": {
+          "1x2": "A",
+          "btts": false,
+          "total_2_5": "under"
+        }
+      },
+      "initial": {
+        "1x2": {
+          "pick": "A",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": true
+        },
+        "btts": {
+          "pick": false,
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": true
+        },
+        "total_2_5": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi",
+          "correct": null
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "A",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": true
+        },
+        "score_scenario": {
+          "pick": [
+            0,
+            2
+          ],
+          "correct": true
+        }
+      },
+      "xi": {
+        "1x2": {
+          "pick": "A",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": true
+        },
+        "btts": {
+          "pick": false,
+          "confidence": "medium",
+          "status": "provisional",
+          "correct": true
+        },
+        "total_2_5": {
+          "pick": "over",
+          "confidence": "low",
+          "status": "analisis_layak",
+          "correct": false
+        },
+        "focus": {
+          "target": "1x2",
+          "pick": "A",
+          "confidence": "relatively_strong",
+          "status": "provisional",
+          "correct": true
+        },
+        "score_scenario": {
+          "pick": [
+            0,
+            3
+          ],
+          "correct": false
+        }
+      },
+      "numeric_probabilities": {
+        "balanced": {
+          "home": 0.08580218025196042,
+          "draw": 0.13580619516633816,
+          "away": 0.7783916245817015,
+          "btts": 0.5358914853674435,
+          "over_0_5": 0.9738497671183101,
+          "over_1_5": 0.8785610071885069,
+          "over_2_5": 0.7049497852533231,
+          "over_3_5": 0.4940759710767667
+        },
+        "adjusted": {
+          "home": 0.09611144460496862,
+          "draw": 0.14007142206700327,
+          "away": 0.763817133328028,
+          "btts": 0.5671470778231044,
+          "over_0_5": 0.9761077515538823,
+          "over_1_5": 0.8868892886054702,
+          "over_2_5": 0.7203094426602763,
+          "over_3_5": 0.512961888816184
+        },
+        "dixon_coles": {
+          "home": 0.10431831114120652,
+          "draw": 0.12365768899452748,
+          "away": 0.772023999864266,
+          "btts": 0.5589402112868664,
+          "over_0_5": 0.9843146180901202,
+          "over_1_5": 0.8786824220692323,
+          "over_2_5": 0.7203094426602763,
+          "over_3_5": 0.512961888816184
+        }
+      }
+    }
+  ]
+}
