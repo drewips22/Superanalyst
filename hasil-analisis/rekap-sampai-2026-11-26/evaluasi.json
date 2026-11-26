@@ -1,0 +1,2182 @@
+{
+  "schema_version": "superanalyst-cumulative-evaluation-v1",
+  "project": "Superanalyst",
+  "through_date_wib": "2026-11-26",
+  "timezone": "Asia/Jakarta",
+  "outcome_scope": "90 menit dan injury time",
+  "based_on_commit": "69d78d9870d636944b9b9aac1ba2a5ad0100b54d",
+  "definitions": {
+    "accuracy": "correct dibagi evaluated, dalam satuan proporsi. Nilai null saat evaluated nol.",
+    "direction_1x2": {
+      "H": "tuan rumah menang",
+      "D": "seri",
+      "A": "tim tamu menang"
+    },
+    "focus": "Pilihan yang disebut secara eksplisit di arsip atau sebagai prioritas dalam chat.",
+    "active_targets": "Pilihan aktif untuk 1X2, BTTS, Over/Under 2,5. Fokus dan skor tepat mempunyai penyebut tersendiri.",
+    "deduplication": "Model Utama memakai satu snapshot awal per laga. Versi XI, prediksi live, eksperimen, dan model lain memiliki penilaian tersendiri.",
+    "evidence": "Cakupan mengikuti prediksi yang berhasil dipulihkan dari chat, poster, arsip lokal dan GitHub."
+  },
+  "model_utama": {
+    "total": {
+      "fixtures": 111,
+      "metrics": {
+        "1x2": {
+          "correct": 57,
+          "evaluated": 83,
+          "accuracy": 0.6867469879518072
+        },
+        "btts": {
+          "correct": 46,
+          "evaluated": 79,
+          "accuracy": 0.5822784810126582
+        },
+        "total_2_5": {
+          "correct": 47,
+          "evaluated": 72,
+          "accuracy": 0.6527777777777778
+        },
+        "focus": {
+          "correct": 65,
+          "evaluated": 97,
+          "accuracy": 0.6701030927835051
+        },
+        "exact_score": {
+          "correct": 16,
+          "evaluated": 111,
+          "accuracy": 0.14414414414414414
+        }
+      },
+      "explicit_chat_priority": {
+        "correct": 1,
+        "evaluated": 1,
+        "accuracy": 1
+      },
+      "focus_with_explicit_chat_priority": {
+        "correct": 66,
+        "evaluated": 98,
+        "accuracy": 0.673469387755102
+      },
+      "all_active_targets": {
+        "correct": 150,
+        "evaluated": 234,
+        "accuracy": 0.6410256410256411
+      }
+    },
+    "matchdays": [
+      {
+        "id": "unl-2026-11-13-pilot",
+        "label": "UNL 13 Nov · pilot awal",
+        "date_wib": "2026-11-13",
+        "fixtures": 8,
+        "source": "unl_13_pilot",
+        "metrics": {
+          "1x2": {
+            "correct": 7,
+            "evaluated": 8,
+            "accuracy": 0.875
+          },
+          "btts": {
+            "correct": 5,
+            "evaluated": 6,
+            "accuracy": 0.8333333333333334
+          },
+          "total_2_5": {
+            "correct": 5,
+            "evaluated": 6,
+            "accuracy": 0.8333333333333334
+          },
+          "focus": {
+            "correct": 0,
+            "evaluated": 0,
+            "accuracy": null
+          },
+          "exact_score": {
+            "correct": 5,
+            "evaluated": 8,
+            "accuracy": 0.625
+          }
+        },
+        "explicit_chat_priority": {
+          "correct": 0,
+          "evaluated": 0,
+          "accuracy": null
+        },
+        "all_active_targets": {
+          "correct": 17,
+          "evaluated": 20,
+          "accuracy": 0.85
+        }
+      },
+      {
+        "id": "unl-2026-11-14-poster",
+        "label": "UNL 14 Nov · poster awal",
+        "date_wib": "2026-11-14",
+        "fixtures": 10,
+        "source": "unl_14_poster",
+        "metrics": {
+          "1x2": {
+            "correct": 5,
+            "evaluated": 7,
+            "accuracy": 0.7142857142857143
+          },
+          "btts": {
+            "correct": 6,
+            "evaluated": 8,
+            "accuracy": 0.75
+          },
+          "total_2_5": {
+            "correct": 3,
+            "evaluated": 5,
+            "accuracy": 0.6
+          },
+          "focus": {
+            "correct": 8,
+            "evaluated": 10,
+            "accuracy": 0.8
+          },
+          "exact_score": {
+            "correct": 1,
+            "evaluated": 10,
+            "accuracy": 0.1
+          }
+        },
+        "explicit_chat_priority": {
+          "correct": 0,
+          "evaluated": 0,
+          "accuracy": null
+        },
+        "all_active_targets": {
+          "correct": 14,
+          "evaluated": 20,
+          "accuracy": 0.7
+        }
+      },
+      {
+        "id": "friendlies-2026-11-14",
+        "label": "Persahabatan 14 Nov",
+        "date_wib": "2026-11-14",
+        "fixtures": 4,
+        "source": "friendly_14",
+        "metrics": {
+          "1x2": {
+            "correct": 3,
+            "evaluated": 4,
+            "accuracy": 0.75
+          },
+          "btts": {
+            "correct": 3,
+            "evaluated": 3,
+            "accuracy": 1
+          },
+          "total_2_5": {
+            "correct": 2,
+            "evaluated": 3,
+            "accuracy": 0.6666666666666666
+          },
+          "focus": {
+            "correct": 0,
+            "evaluated": 0,
+            "accuracy": null
+          },
+          "exact_score": {
+            "correct": 1,
+            "evaluated": 4,
+            "accuracy": 0.25
+          }
+        },
+        "explicit_chat_priority": {
+          "correct": 1,
+          "evaluated": 1,
+          "accuracy": 1
+        },
+        "all_active_targets": {
+          "correct": 8,
+          "evaluated": 10,
+          "accuracy": 0.8
+        }
+      },
+      {
+        "id": "unl-2026-11-15-early",
+        "label": "UNL 15 Nov · dini hari",
+        "date_wib": "2026-11-15",
+        "fixtures": 7,
+        "source": "unl_november_original",
+        "metrics": {
+          "1x2": {
+            "correct": 3,
+            "evaluated": 4,
+            "accuracy": 0.75
+          },
+          "btts": {
+            "correct": 3,
+            "evaluated": 4,
+            "accuracy": 0.75
+          },
+          "total_2_5": {
+            "correct": 4,
+            "evaluated": 5,
+            "accuracy": 0.8
+          },
+          "focus": {
+            "correct": 4,
+            "evaluated": 6,
+            "accuracy": 0.6666666666666666
+          },
+          "exact_score": {
+            "correct": 1,
+            "evaluated": 7,
+            "accuracy": 0.14285714285714285
+          }
+        },
+        "explicit_chat_priority": {
+          "correct": 0,
+          "evaluated": 0,
+          "accuracy": null
+        },
+        "all_active_targets": {
+          "correct": 10,
+          "evaluated": 13,
+          "accuracy": 0.7692307692307693
+        }
+      },
+      {
+        "id": "unl-2026-11-15-16",
+        "label": "UNL 15–16 Nov",
+        "date_wib": "2026-11-15",
+        "fixtures": 8,
+        "source": "unl_november_original",
+        "metrics": {
+          "1x2": {
+            "correct": 3,
+            "evaluated": 4,
+            "accuracy": 0.75
+          },
+          "btts": {
+            "correct": 4,
+            "evaluated": 5,
+            "accuracy": 0.8
+          },
+          "total_2_5": {
+            "correct": 6,
+            "evaluated": 6,
+            "accuracy": 1
+          },
+          "focus": {
+            "correct": 8,
+            "evaluated": 8,
+            "accuracy": 1
+          },
+          "exact_score": {
+            "correct": 0,
+            "evaluated": 8,
+            "accuracy": 0
+          }
+        },
+        "explicit_chat_priority": {
+          "correct": 0,
+          "evaluated": 0,
+          "accuracy": null
+        },
+        "all_active_targets": {
+          "correct": 13,
+          "evaluated": 15,
+          "accuracy": 0.8666666666666667
+        }
+      },
+      {
+        "id": "unl-2026-11-17",
+        "label": "UNL 17 Nov",
+        "date_wib": "2026-11-17",
+        "fixtures": 8,
+        "source": "unl_november_original",
+        "metrics": {
+          "1x2": {
+            "correct": 5,
+            "evaluated": 6,
+            "accuracy": 0.8333333333333334
+          },
+          "btts": {
+            "correct": 2,
+            "evaluated": 6,
+            "accuracy": 0.3333333333333333
+          },
+          "total_2_5": {
+            "correct": 3,
+            "evaluated": 5,
+            "accuracy": 0.6
+          },
+          "focus": {
+            "correct": 6,
+            "evaluated": 8,
+            "accuracy": 0.75
+          },
+          "exact_score": {
+            "correct": 1,
+            "evaluated": 8,
+            "accuracy": 0.125
+          }
+        },
+        "explicit_chat_priority": {
+          "correct": 0,
+          "evaluated": 0,
+          "accuracy": null
+        },
+        "all_active_targets": {
+          "correct": 10,
+          "evaluated": 17,
+          "accuracy": 0.5882352941176471
+        }
+      },
+      {
+        "id": "unl-2026-11-18-original",
+        "label": "UNL 18 Nov · snapshot awal",
+        "date_wib": "2026-11-18",
+        "fixtures": 8,
+        "source": "unl_18_original",
+        "metrics": {
+          "1x2": {
+            "correct": 2,
+            "evaluated": 4,
+            "accuracy": 0.5
+          },
+          "btts": {
+            "correct": 4,
+            "evaluated": 5,
+            "accuracy": 0.8
+          },
+          "total_2_5": {
+            "correct": 4,
+            "evaluated": 6,
+            "accuracy": 0.6666666666666666
+          },
+          "focus": {
+            "correct": 5,
+            "evaluated": 7,
+            "accuracy": 0.7142857142857143
+          },
+          "exact_score": {
+            "correct": 2,
+            "evaluated": 8,
+            "accuracy": 0.25
+          }
+        },
+        "explicit_chat_priority": {
+          "correct": 0,
+          "evaluated": 0,
+          "accuracy": null
+        },
+        "all_active_targets": {
+          "correct": 10,
+          "evaluated": 15,
+          "accuracy": 0.6666666666666666
+        }
+      },
+      {
+        "id": "europe-2026-11-21",
+        "label": "Liga Eropa 21 Nov",
+        "date_wib": "2026-11-21",
+        "fixtures": 19,
+        "source": "domestic_21",
+        "metrics": {
+          "1x2": {
+            "correct": 10,
+            "evaluated": 14,
+            "accuracy": 0.7142857142857143
+          },
+          "btts": {
+            "correct": 5,
+            "evaluated": 12,
+            "accuracy": 0.4166666666666667
+          },
+          "total_2_5": {
+            "correct": 3,
+            "evaluated": 10,
+            "accuracy": 0.3
+          },
+          "focus": {
+            "correct": 10,
+            "evaluated": 19,
+            "accuracy": 0.5263157894736842
+          },
+          "exact_score": {
+            "correct": 2,
+            "evaluated": 19,
+            "accuracy": 0.10526315789473684
+          }
+        },
+        "explicit_chat_priority": {
+          "correct": 0,
+          "evaluated": 0,
+          "accuracy": null
+        },
+        "all_active_targets": {
+          "correct": 18,
+          "evaluated": 36,
+          "accuracy": 0.5
+        }
+      },
+      {
+        "id": "europe-2026-11-22",
+        "label": "Liga Eropa 22 Nov",
+        "date_wib": "2026-11-22",
+        "fixtures": 21,
+        "source": "domestic_22",
+        "metrics": {
+          "1x2": {
+            "correct": 9,
+            "evaluated": 17,
+            "accuracy": 0.5294117647058824
+          },
+          "btts": {
+            "correct": 10,
+            "evaluated": 18,
+            "accuracy": 0.5555555555555556
+          },
+          "total_2_5": {
+            "correct": 10,
+            "evaluated": 15,
+            "accuracy": 0.6666666666666666
+          },
+          "focus": {
+            "correct": 14,
+            "evaluated": 21,
+            "accuracy": 0.6666666666666666
+          },
+          "exact_score": {
+            "correct": 1,
+            "evaluated": 21,
+            "accuracy": 0.047619047619047616
+          }
+        },
+        "explicit_chat_priority": {
+          "correct": 0,
+          "evaluated": 0,
+          "accuracy": null
+        },
+        "all_active_targets": {
+          "correct": 29,
+          "evaluated": 50,
+          "accuracy": 0.58
+        }
+      },
+      {
+        "id": "ucl-2026-11-25",
+        "label": "UCL 25 Nov",
+        "date_wib": "2026-11-25",
+        "fixtures": 9,
+        "source": "ucl_25",
+        "metrics": {
+          "1x2": {
+            "correct": 6,
+            "evaluated": 8,
+            "accuracy": 0.75
+          },
+          "btts": {
+            "correct": 2,
+            "evaluated": 5,
+            "accuracy": 0.4
+          },
+          "total_2_5": {
+            "correct": 3,
+            "evaluated": 6,
+            "accuracy": 0.5
+          },
+          "focus": {
+            "correct": 4,
+            "evaluated": 9,
+            "accuracy": 0.4444444444444444
+          },
+          "exact_score": {
+            "correct": 1,
+            "evaluated": 9,
+            "accuracy": 0.1111111111111111
+          }
+        },
+        "explicit_chat_priority": {
+          "correct": 0,
+          "evaluated": 0,
+          "accuracy": null
+        },
+        "all_active_targets": {
+          "correct": 11,
+          "evaluated": 19,
+          "accuracy": 0.5789473684210527
+        }
+      },
+      {
+        "id": "ucl-2026-11-26",
+        "label": "UCL 26 Nov",
+        "date_wib": "2026-11-26",
+        "fixtures": 9,
+        "source": "ucl_26",
+        "metrics": {
+          "1x2": {
+            "correct": 4,
+            "evaluated": 7,
+            "accuracy": 0.5714285714285714
+          },
+          "btts": {
+            "correct": 2,
+            "evaluated": 7,
+            "accuracy": 0.2857142857142857
+          },
+          "total_2_5": {
+            "correct": 4,
+            "evaluated": 5,
+            "accuracy": 0.8
+          },
+          "focus": {
+            "correct": 6,
+            "evaluated": 9,
+            "accuracy": 0.6666666666666666
+          },
+          "exact_score": {
+            "correct": 1,
+            "evaluated": 9,
+            "accuracy": 0.1111111111111111
+          }
+        },
+        "explicit_chat_priority": {
+          "correct": 0,
+          "evaluated": 0,
+          "accuracy": null
+        },
+        "all_active_targets": {
+          "correct": 10,
+          "evaluated": 19,
+          "accuracy": 0.5263157894736842
+        }
+      }
+    ],
+    "timing_exception": {
+      "included_in_full_audit": true,
+      "matchday_id": "friendlies-2026-11-14",
+      "fixture": "Argentina – Uruguay",
+      "final_score": [
+        1,
+        2
+      ],
+      "scenario": [
+        1,
+        0
+      ],
+      "selections": [
+        {
+          "target": "1x2",
+          "pick": "H",
+          "correct": false
+        },
+        {
+          "target": "total_2_5",
+          "pick": "under",
+          "correct": false
+        }
+      ],
+      "reason": "Waktu publikasi sebelum kickoff belum terverifikasi untuk dua pilihan ini.",
+      "without_flagged_choices": {
+        "correct": 150,
+        "evaluated": 232,
+        "accuracy": 0.646551724137931
+      }
+    }
+  },
+  "standalone_chat": {
+    "summary": {
+      "1x2": {
+        "correct": 29,
+        "evaluated": 46,
+        "accuracy": 0.6304347826086957
+      },
+      "exact_score": {
+        "correct": 7,
+        "evaluated": 46,
+        "accuracy": 0.15217391304347827
+      }
+    },
+    "sessions": [
+      {
+        "id": "standalone-ucl-oct20",
+        "label": "UCL 20–21 Okt",
+        "date_wib": "2026-10-21",
+        "direction_basis": "score_direction",
+        "source": "standalone_chat",
+        "result_source": "ucl",
+        "metrics": {
+          "1x2": {
+            "correct": 4,
+            "evaluated": 9,
+            "accuracy": 0.4444444444444444
+          },
+          "exact_score": {
+            "correct": 1,
+            "evaluated": 9,
+            "accuracy": 0.1111111111111111
+          }
+        },
+        "fixtures": [
+          {
+            "home": "Fenerbahçe",
+            "away": "Slavia Praha",
+            "forecast_score": [
+              2,
+              1
+            ],
+            "final_score": [
+              2,
+              2
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Sabah",
+            "away": "Borussia Dortmund",
+            "forecast_score": [
+              1,
+              2
+            ],
+            "final_score": [
+              1,
+              2
+            ],
+            "direction_1x2": "A"
+          },
+          {
+            "home": "Roma",
+            "away": "Slovan Bratislava",
+            "forecast_score": [
+              2,
+              0
+            ],
+            "final_score": [
+              4,
+              0
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Porto",
+            "away": "PSV",
+            "forecast_score": [
+              2,
+              1
+            ],
+            "final_score": [
+              0,
+              1
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Liverpool",
+            "away": "Villarreal",
+            "forecast_score": [
+              2,
+              1
+            ],
+            "final_score": [
+              4,
+              3
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Manchester City",
+            "away": "AEK",
+            "forecast_score": [
+              3,
+              0
+            ],
+            "final_score": [
+              5,
+              1
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "PSG",
+            "away": "Barcelona",
+            "forecast_score": [
+              2,
+              2
+            ],
+            "final_score": [
+              4,
+              2
+            ],
+            "direction_1x2": "D"
+          },
+          {
+            "home": "Napoli",
+            "away": "Bodø/Glimt",
+            "forecast_score": [
+              1,
+              1
+            ],
+            "final_score": [
+              4,
+              3
+            ],
+            "direction_1x2": "D"
+          },
+          {
+            "home": "Stuttgart",
+            "away": "Atlético Madrid",
+            "forecast_score": [
+              1,
+              2
+            ],
+            "final_score": [
+              1,
+              1
+            ],
+            "direction_1x2": "A"
+          }
+        ]
+      },
+      {
+        "id": "standalone-ucl-oct21",
+        "label": "UCL 21–22 Okt",
+        "date_wib": "2026-10-22",
+        "direction_basis": "score_direction",
+        "source": "standalone_chat",
+        "result_source": "ucl",
+        "metrics": {
+          "1x2": {
+            "correct": 6,
+            "evaluated": 9,
+            "accuracy": 0.6666666666666666
+          },
+          "exact_score": {
+            "correct": 1,
+            "evaluated": 9,
+            "accuracy": 0.1111111111111111
+          }
+        },
+        "fixtures": [
+          {
+            "home": "Como",
+            "away": "Manchester United",
+            "forecast_score": [
+              2,
+              1
+            ],
+            "final_score": [
+              4,
+              1
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Lille",
+            "away": "Galatasaray",
+            "forecast_score": [
+              2,
+              1
+            ],
+            "final_score": [
+              2,
+              4
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Bayern München",
+            "away": "Arsenal",
+            "forecast_score": [
+              1,
+              1
+            ],
+            "final_score": [
+              2,
+              2
+            ],
+            "direction_1x2": "D"
+          },
+          {
+            "home": "Real Madrid",
+            "away": "Leipzig",
+            "forecast_score": [
+              3,
+              1
+            ],
+            "final_score": [
+              4,
+              1
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Inter",
+            "away": "Shakhtar Donetsk",
+            "forecast_score": [
+              2,
+              1
+            ],
+            "final_score": [
+              1,
+              0
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Sporting CP",
+            "away": "LASK",
+            "forecast_score": [
+              3,
+              1
+            ],
+            "final_score": [
+              2,
+              3
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Aston Villa",
+            "away": "Viking",
+            "forecast_score": [
+              3,
+              1
+            ],
+            "final_score": [
+              3,
+              1
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Club Brugge",
+            "away": "Lens",
+            "forecast_score": [
+              2,
+              1
+            ],
+            "final_score": [
+              3,
+              0
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Real Betis",
+            "away": "Feyenoord",
+            "forecast_score": [
+              2,
+              2
+            ],
+            "final_score": [
+              1,
+              0
+            ],
+            "direction_1x2": "D"
+          }
+        ]
+      },
+      {
+        "id": "standalone-ucl-nov05",
+        "label": "UCL 5 Nov",
+        "date_wib": "2026-11-05",
+        "direction_basis": "archived_1x2_direction",
+        "source": "standalone_chat",
+        "result_source": "ucl",
+        "metrics": {
+          "1x2": {
+            "correct": 7,
+            "evaluated": 9,
+            "accuracy": 0.7777777777777778
+          },
+          "exact_score": {
+            "correct": 1,
+            "evaluated": 9,
+            "accuracy": 0.1111111111111111
+          }
+        },
+        "fixtures": [
+          {
+            "home": "AEK",
+            "away": "Real Madrid",
+            "forecast_score": [
+              0,
+              2
+            ],
+            "final_score": [
+              2,
+              3
+            ],
+            "direction_1x2": "A"
+          },
+          {
+            "home": "Fenerbahçe",
+            "away": "Liverpool",
+            "forecast_score": [
+              1,
+              3
+            ],
+            "final_score": [
+              3,
+              2
+            ],
+            "direction_1x2": "A"
+          },
+          {
+            "home": "Borussia Dortmund",
+            "away": "Real Betis",
+            "forecast_score": [
+              2,
+              1
+            ],
+            "final_score": [
+              2,
+              1
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Porto",
+            "away": "Napoli",
+            "forecast_score": [
+              1,
+              0
+            ],
+            "final_score": [
+              4,
+              1
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "PSV",
+            "away": "Club Brugge",
+            "forecast_score": [
+              2,
+              1
+            ],
+            "final_score": [
+              1,
+              2
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Leipzig",
+            "away": "Manchester City",
+            "forecast_score": [
+              1,
+              2
+            ],
+            "final_score": [
+              2,
+              3
+            ],
+            "direction_1x2": "A"
+          },
+          {
+            "home": "Lens",
+            "away": "Como",
+            "forecast_score": [
+              1,
+              2
+            ],
+            "final_score": [
+              1,
+              9
+            ],
+            "direction_1x2": "A"
+          },
+          {
+            "home": "Slavia Praha",
+            "away": "Arsenal",
+            "forecast_score": [
+              0,
+              2
+            ],
+            "final_score": [
+              1,
+              2
+            ],
+            "direction_1x2": "A"
+          },
+          {
+            "home": "Viking",
+            "away": "Sabah",
+            "forecast_score": [
+              3,
+              2
+            ],
+            "final_score": [
+              4,
+              1
+            ],
+            "direction_1x2": "H"
+          }
+        ]
+      },
+      {
+        "id": "standalone-unl-nov13",
+        "label": "UNL 13 Nov · chat umum",
+        "date_wib": "2026-11-13",
+        "direction_basis": "archived_1x2_direction",
+        "source": "standalone_chat",
+        "result_source": "unl",
+        "metrics": {
+          "1x2": {
+            "correct": 6,
+            "evaluated": 8,
+            "accuracy": 0.75
+          },
+          "exact_score": {
+            "correct": 3,
+            "evaluated": 8,
+            "accuracy": 0.375
+          }
+        },
+        "fixtures": [
+          {
+            "home": "Turki",
+            "away": "Belgia",
+            "forecast_score": [
+              1,
+              2
+            ],
+            "final_score": [
+              1,
+              2
+            ],
+            "direction_1x2": "A"
+          },
+          {
+            "home": "Armenia",
+            "away": "Siprus",
+            "forecast_score": [
+              0,
+              1
+            ],
+            "final_score": [
+              1,
+              1
+            ],
+            "direction_1x2": "A"
+          },
+          {
+            "home": "Inggris",
+            "away": "Kroasia",
+            "forecast_score": [
+              2,
+              0
+            ],
+            "final_score": [
+              2,
+              1
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Italia",
+            "away": "Prancis",
+            "forecast_score": [
+              1,
+              1
+            ],
+            "final_score": [
+              3,
+              1
+            ],
+            "direction_1x2": "D"
+          },
+          {
+            "home": "Ceko",
+            "away": "Spanyol",
+            "forecast_score": [
+              0,
+              2
+            ],
+            "final_score": [
+              0,
+              2
+            ],
+            "direction_1x2": "A"
+          },
+          {
+            "home": "Albania",
+            "away": "Finlandia",
+            "forecast_score": [
+              1,
+              0
+            ],
+            "final_score": [
+              2,
+              0
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Montenegro",
+            "away": "Latvia",
+            "forecast_score": [
+              2,
+              0
+            ],
+            "final_score": [
+              2,
+              1
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "San Marino",
+            "away": "Belarus",
+            "forecast_score": [
+              0,
+              2
+            ],
+            "final_score": [
+              0,
+              2
+            ],
+            "direction_1x2": "A"
+          }
+        ]
+      },
+      {
+        "id": "standalone-unl-nov14",
+        "label": "UNL 14 Nov · chat umum",
+        "date_wib": "2026-11-14",
+        "direction_basis": "archived_1x2_direction",
+        "source": "standalone_chat",
+        "result_source": "unl",
+        "metrics": {
+          "1x2": {
+            "correct": 6,
+            "evaluated": 11,
+            "accuracy": 0.5454545454545454
+          },
+          "exact_score": {
+            "correct": 1,
+            "evaluated": 11,
+            "accuracy": 0.09090909090909091
+          }
+        },
+        "fixtures": [
+          {
+            "home": "Moldova",
+            "away": "Kazakhstan",
+            "forecast_score": [
+              1,
+              1
+            ],
+            "final_score": [
+              2,
+              1
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Belanda",
+            "away": "Yunani",
+            "forecast_score": [
+              2,
+              1
+            ],
+            "final_score": [
+              7,
+              0
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Serbia",
+            "away": "Jerman",
+            "forecast_score": [
+              0,
+              1
+            ],
+            "final_score": [
+              1,
+              3
+            ],
+            "direction_1x2": "A"
+          },
+          {
+            "home": "Skotlandia",
+            "away": "Makedonia Utara",
+            "forecast_score": [
+              2,
+              0
+            ],
+            "final_score": [
+              2,
+              1
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Slovenia",
+            "away": "Swiss",
+            "forecast_score": [
+              0,
+              1
+            ],
+            "final_score": [
+              0,
+              0
+            ],
+            "direction_1x2": "A"
+          },
+          {
+            "home": "Bulgaria",
+            "away": "Islandia",
+            "forecast_score": [
+              0,
+              1
+            ],
+            "final_score": [
+              0,
+              5
+            ],
+            "direction_1x2": "A"
+          },
+          {
+            "home": "Luksemburg",
+            "away": "Estonia",
+            "forecast_score": [
+              0,
+              0
+            ],
+            "final_score": [
+              0,
+              1
+            ],
+            "direction_1x2": "D"
+          },
+          {
+            "home": "Slovakia",
+            "away": "Kep. Faroe",
+            "forecast_score": [
+              2,
+              0
+            ],
+            "final_score": [
+              2,
+              2
+            ],
+            "direction_1x2": "H"
+          },
+          {
+            "home": "Andorra",
+            "away": "Gibraltar",
+            "forecast_score": [
+              0,
+              0
+            ],
+            "final_score": [
+              2,
+              0
+            ],
+            "direction_1x2": "D"
+          },
+          {
+            "home": "Liechtenstein",
+            "away": "Azerbaijan",
+            "forecast_score": [
+              0,
+              1
+            ],
+            "final_score": [
+              0,
+              1
+            ],
+            "direction_1x2": "A"
+          },
+          {
+            "home": "Kosovo",
+            "away": "Israel",
+            "forecast_score": [
+              1,
+              0
+            ],
+            "final_score": [
+              0,
+              0
+            ],
+            "direction_1x2": "H"
+          }
+        ]
+      }
+    ]
+  },
+  "other_forecasts": {
+    "u17": {
+      "date_wib": "2026-11-19",
+      "fixtures": [
+        {
+          "home": "Prancis",
+          "away": "Haiti",
+          "forecast_score": [
+            3,
+            0
+          ],
+          "final_score": [
+            3,
+            1
+          ],
+          "picks": {
+            "1x2": "H",
+            "btts": false,
+            "total_2_5": "over"
+          },
+          "priority_target": "1x2"
+        },
+        {
+          "home": "Kaledonia Baru",
+          "away": "Ekuador",
+          "forecast_score": [
+            0,
+            3
+          ],
+          "final_score": [
+            0,
+            1
+          ],
+          "picks": {
+            "1x2": "A",
+            "btts": false,
+            "total_2_5": "over"
+          },
+          "priority_target": "1x2"
+        },
+        {
+          "home": "Korea Selatan",
+          "away": "Uganda",
+          "forecast_score": [
+            1,
+            1
+          ],
+          "final_score": [
+            3,
+            0
+          ],
+          "picks": {
+            "1x2": null,
+            "btts": true,
+            "total_2_5": null
+          },
+          "priority_target": "btts"
+        },
+        {
+          "home": "Arab Saudi",
+          "away": "Uruguay",
+          "forecast_score": [
+            0,
+            2
+          ],
+          "final_score": [
+            2,
+            3
+          ],
+          "picks": {
+            "1x2": "A",
+            "btts": false,
+            "total_2_5": null
+          },
+          "priority_target": null
+        },
+        {
+          "home": "Mozambik",
+          "away": "Denmark",
+          "forecast_score": [
+            1,
+            2
+          ],
+          "final_score": [
+            4,
+            0
+          ],
+          "picks": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "priority_target": null
+        },
+        {
+          "home": "Qatar",
+          "away": "Panama",
+          "forecast_score": [
+            1,
+            1
+          ],
+          "final_score": [
+            2,
+            0
+          ],
+          "picks": {
+            "1x2": null,
+            "btts": null,
+            "total_2_5": "under"
+          },
+          "priority_target": null
+        },
+        {
+          "home": "Argentina",
+          "away": "Australia",
+          "forecast_score": [
+            2,
+            1
+          ],
+          "final_score": [
+            0,
+            2
+          ],
+          "picks": {
+            "1x2": "H",
+            "btts": null,
+            "total_2_5": "over"
+          },
+          "priority_target": null
+        },
+        {
+          "home": "Mesir",
+          "away": "Yunani",
+          "forecast_score": [
+            2,
+            1
+          ],
+          "final_score": [
+            1,
+            2
+          ],
+          "picks": {
+            "1x2": "H",
+            "btts": true,
+            "total_2_5": null
+          },
+          "priority_target": null
+        }
+      ],
+      "source": "u17_19",
+      "result_source": "u17",
+      "metrics": {
+        "1x2": {
+          "correct": 3,
+          "evaluated": 6,
+          "accuracy": 0.5
+        },
+        "btts": {
+          "correct": 2,
+          "evaluated": 6,
+          "accuracy": 0.3333333333333333
+        },
+        "total_2_5": {
+          "correct": 3,
+          "evaluated": 5,
+          "accuracy": 0.6
+        },
+        "explicit_priorities": {
+          "correct": 2,
+          "evaluated": 3,
+          "accuracy": 0.6666666666666666
+        },
+        "all_active_targets": {
+          "correct": 8,
+          "evaluated": 17,
+          "accuracy": 0.47058823529411764
+        },
+        "exact_score": {
+          "correct": 0,
+          "evaluated": 8,
+          "accuracy": 0
+        }
+      }
+    },
+    "live_unl": {
+      "date_wib": "2026-11-16",
+      "fixtures": [
+        {
+          "home": "Belgia",
+          "away": "Italia",
+          "final_score": [
+            4,
+            1
+          ],
+          "forecast_score": [
+            4,
+            2
+          ],
+          "pick_1x2": "H",
+          "already_resolved": [
+            "btts",
+            "total_2_5"
+          ]
+        },
+        {
+          "home": "Kroasia",
+          "away": "Ceko",
+          "final_score": [
+            2,
+            1
+          ],
+          "forecast_score": [
+            2,
+            0
+          ],
+          "pick_1x2": "H",
+          "already_resolved": []
+        },
+        {
+          "home": "Prancis",
+          "away": "Turki",
+          "final_score": [
+            2,
+            1
+          ],
+          "forecast_score": [
+            2,
+            0
+          ],
+          "pick_1x2": "H",
+          "already_resolved": []
+        },
+        {
+          "home": "Spanyol",
+          "away": "Inggris",
+          "final_score": [
+            2,
+            3
+          ],
+          "forecast_score": [
+            1,
+            1
+          ],
+          "pick_1x2": null,
+          "already_resolved": []
+        }
+      ],
+      "source": "unl_live_16",
+      "result_source": "unl",
+      "metrics": {
+        "new_active": {
+          "correct": 3,
+          "evaluated": 3,
+          "accuracy": 1
+        },
+        "exact_score": {
+          "correct": 0,
+          "evaluated": 4,
+          "accuracy": 0
+        }
+      }
+    }
+  },
+  "experiments": {
+    "summary": [
+      {
+        "id": "xi_resmi_v1_ucl",
+        "label": "XI Resmi v1 · UCL",
+        "basis": "Fokus aktif",
+        "record": {
+          "correct": 5,
+          "evaluated": 10,
+          "accuracy": 0.5
+        },
+        "sources": [
+          "ucl_25",
+          "ucl_26"
+        ]
+      },
+      {
+        "id": "balanced_ucl",
+        "label": "Poisson kontrol · UCL",
+        "basis": "Arah untuk target fokus Model Utama",
+        "record": {
+          "correct": 9,
+          "evaluated": 18,
+          "accuracy": 0.5
+        },
+        "sources": [
+          "ucl_25",
+          "ucl_26"
+        ]
+      },
+      {
+        "id": "adjusted_ucl",
+        "label": "Poisson xG disesuaikan · UCL",
+        "basis": "Arah untuk target fokus Model Utama",
+        "record": {
+          "correct": 10,
+          "evaluated": 18,
+          "accuracy": 0.5555555555555556
+        },
+        "sources": [
+          "ucl_25",
+          "ucl_26"
+        ]
+      },
+      {
+        "id": "dixon_coles_ucl",
+        "label": "Dixon–Coles · UCL",
+        "basis": "Arah untuk target fokus Model Utama",
+        "record": {
+          "correct": 10,
+          "evaluated": 18,
+          "accuracy": 0.5555555555555556
+        },
+        "sources": [
+          "ucl_25",
+          "ucl_26"
+        ]
+      },
+      {
+        "id": "total_goals_v1_ucl",
+        "label": "Total Gol v1 · UCL 25 Nov",
+        "basis": "Arah Over/Under 2,5",
+        "record": {
+          "correct": 3,
+          "evaluated": 9,
+          "accuracy": 0.3333333333333333
+        },
+        "sources": [
+          "ucl_total_v1",
+          "ucl_25"
+        ],
+        "thresholds": {
+          "0.5": {
+            "correct": 9,
+            "evaluated": 9,
+            "accuracy": 1
+          },
+          "1.5": {
+            "correct": 5,
+            "evaluated": 9,
+            "accuracy": 0.5555555555555556
+          },
+          "2.5": {
+            "correct": 3,
+            "evaluated": 9,
+            "accuracy": 0.3333333333333333
+          },
+          "3.5": {
+            "correct": 8,
+            "evaluated": 9,
+            "accuracy": 0.8888888888888888
+          },
+          "4.5": {
+            "correct": 8,
+            "evaluated": 9,
+            "accuracy": 0.8888888888888888
+          },
+          "5.5": {
+            "correct": 8,
+            "evaluated": 9,
+            "accuracy": 0.8888888888888888
+          }
+        }
+      },
+      {
+        "id": "poisson_liga_eropa",
+        "label": "Poisson liga Eropa",
+        "basis": "Fokus aktif",
+        "record": {
+          "correct": 7,
+          "evaluated": 13,
+          "accuracy": 0.5384615384615384
+        },
+        "sources": [
+          "domestic_21"
+        ]
+      },
+      {
+        "id": "poisson_unl_lima",
+        "label": "Poisson UNL · 5 laga",
+        "basis": "Arah untuk target fokus Model Utama",
+        "record": {
+          "correct": 4,
+          "evaluated": 6,
+          "accuracy": 0.6666666666666666
+        },
+        "sources": [
+          "unl_pooled_poisson"
+        ]
+      },
+      {
+        "id": "poisson_unl_empat",
+        "label": "Poisson UNL · 4 laga",
+        "basis": "Arah untuk target fokus Model Utama",
+        "record": {
+          "correct": 4,
+          "evaluated": 6,
+          "accuracy": 0.6666666666666666
+        },
+        "sources": [
+          "unl_pooled_poisson"
+        ]
+      },
+      {
+        "id": "beta_mc10k",
+        "label": "Beta lama MC10K",
+        "basis": "Fokus aktif",
+        "record": {
+          "correct": 14,
+          "evaluated": 23,
+          "accuracy": 0.6086956521739131
+        },
+        "sources": [
+          "unl_november_original"
+        ],
+        "original_common_22": {
+          "correct": 13,
+          "evaluated": 22,
+          "accuracy": 0.5909090909090909
+        }
+      },
+      {
+        "id": "beta_riset_timnas",
+        "label": "Beta riset timnas v1",
+        "basis": "Fokus aktif",
+        "record": {
+          "correct": 3,
+          "evaluated": 5,
+          "accuracy": 0.6
+        },
+        "sources": [
+          "unl_18_original"
+        ]
+      },
+      {
+        "id": "beta_v2",
+        "label": "Beta V2",
+        "basis": "Fokus aktif",
+        "record": {
+          "correct": 3,
+          "evaluated": 5,
+          "accuracy": 0.6
+        },
+        "matchday_fixtures": 8,
+        "sources": [
+          "unl_18_beta_v2"
+        ]
+      },
+      {
+        "id": "hybrid_beta",
+        "label": "Hybrid Beta",
+        "basis": "Fokus aktif",
+        "record": {
+          "correct": 3,
+          "evaluated": 5,
+          "accuracy": 0.6
+        },
+        "matchday_fixtures": 8,
+        "sources": [
+          "unl_18_beta_v2"
+        ]
+      },
+      {
+        "id": "btts_kontrol",
+        "label": "Kontrol BTTS",
+        "basis": "Arah BTTS 22 Nov",
+        "record": {
+          "correct": 11,
+          "evaluated": 21,
+          "accuracy": 0.5238095238095238
+        },
+        "sources": [
+          "btts_venue",
+          "domestic_22"
+        ]
+      },
+      {
+        "id": "btts_kandang_tandang",
+        "label": "BTTS kandang/tandang",
+        "basis": "Arah BTTS 22 Nov",
+        "record": {
+          "correct": 11,
+          "evaluated": 21,
+          "accuracy": 0.5238095238095238
+        },
+        "sources": [
+          "btts_venue",
+          "domestic_22"
+        ]
+      }
+    ],
+    "ucl_paired_xi": {
+      "main": {
+        "nov25": {
+          "correct": 4,
+          "evaluated": 9,
+          "accuracy": 0.4444444444444444
+        },
+        "nov26": {
+          "correct": 6,
+          "evaluated": 9,
+          "accuracy": 0.6666666666666666
+        },
+        "combined": {
+          "correct": 10,
+          "evaluated": 18,
+          "accuracy": 0.5555555555555556
+        }
+      },
+      "xi": {
+        "nov25": {
+          "correct": 4,
+          "evaluated": 8,
+          "accuracy": 0.5
+        },
+        "nov26": {
+          "correct": 1,
+          "evaluated": 2,
+          "accuracy": 0.5
+        },
+        "combined": {
+          "correct": 5,
+          "evaluated": 10,
+          "accuracy": 0.5
+        }
+      },
+      "paired": {
+        "before": {
+          "correct": 5,
+          "evaluated": 10,
+          "accuracy": 0.5
+        },
+        "after": {
+          "correct": 5,
+          "evaluated": 10,
+          "accuracy": 0.5
+        }
+      },
+      "comparison_basis": "Laga dengan pilihan fokus aktif pada kedua versi."
+    },
+    "ucl_numeric": [
+      {
+        "id": "balanced",
+        "label": "Poisson kontrol",
+        "metric_basis": "direction_on_original_main_focus",
+        "nov25": {
+          "correct": 4,
+          "evaluated": 9,
+          "accuracy": 0.4444444444444444
+        },
+        "nov26": {
+          "correct": 5,
+          "evaluated": 9,
+          "accuracy": 0.5555555555555556
+        },
+        "total": {
+          "correct": 9,
+          "evaluated": 18,
+          "accuracy": 0.5
+        },
+        "per_target": {
+          "1x2": {
+            "correct": 7,
+            "evaluated": 18,
+            "accuracy": 0.3888888888888889
+          },
+          "btts": {
+            "correct": 8,
+            "evaluated": 18,
+            "accuracy": 0.4444444444444444
+          },
+          "total_2_5": {
+            "correct": 10,
+            "evaluated": 18,
+            "accuracy": 0.5555555555555556
+          }
+        }
+      },
+      {
+        "id": "adjusted",
+        "label": "Poisson xG disesuaikan",
+        "metric_basis": "direction_on_original_main_focus",
+        "nov25": {
+          "correct": 5,
+          "evaluated": 9,
+          "accuracy": 0.5555555555555556
+        },
+        "nov26": {
+          "correct": 5,
+          "evaluated": 9,
+          "accuracy": 0.5555555555555556
+        },
+        "total": {
+          "correct": 10,
+          "evaluated": 18,
+          "accuracy": 0.5555555555555556
+        },
+        "per_target": {
+          "1x2": {
+            "correct": 10,
+            "evaluated": 18,
+            "accuracy": 0.5555555555555556
+          },
+          "btts": {
+            "correct": 8,
+            "evaluated": 18,
+            "accuracy": 0.4444444444444444
+          },
+          "total_2_5": {
+            "correct": 10,
+            "evaluated": 18,
+            "accuracy": 0.5555555555555556
+          }
+        }
+      },
+      {
+        "id": "dixon_coles",
+        "label": "Dixon–Coles",
+        "metric_basis": "direction_on_original_main_focus",
+        "nov25": {
+          "correct": 5,
+          "evaluated": 9,
+          "accuracy": 0.5555555555555556
+        },
+        "nov26": {
+          "correct": 5,
+          "evaluated": 9,
+          "accuracy": 0.5555555555555556
+        },
+        "total": {
+          "correct": 10,
+          "evaluated": 18,
+          "accuracy": 0.5555555555555556
+        },
+        "per_target": {
+          "1x2": {
+            "correct": 10,
+            "evaluated": 18,
+            "accuracy": 0.5555555555555556
+          },
+          "btts": {
+            "correct": 8,
+            "evaluated": 18,
+            "accuracy": 0.4444444444444444
+          },
+          "total_2_5": {
+            "correct": 10,
+            "evaluated": 18,
+            "accuracy": 0.5555555555555556
+          }
+        }
+      }
+    ],
+    "dixon_coles_own_focus_nov26": {
+      "correct": 5,
+      "evaluated": 9,
+      "accuracy": 0.5555555555555556
+    },
+    "common_case_comparisons": {
+      "poisson_europe": {
+        "model_utama": {
+          "correct": 8,
+          "evaluated": 13,
+          "accuracy": 0.6153846153846154
+        },
+        "poisson": {
+          "correct": 7,
+          "evaluated": 13,
+          "accuracy": 0.5384615384615384
+        }
+      },
+      "btts_europe": {
+        "model_utama": {
+          "correct": 10,
+          "evaluated": 18,
+          "accuracy": 0.5555555555555556
+        },
+        "control": {
+          "correct": 10,
+          "evaluated": 18,
+          "accuracy": 0.5555555555555556
+        },
+        "home_away": {
+          "correct": 10,
+          "evaluated": 18,
+          "accuracy": 0.5555555555555556
+        }
+      },
+      "beta_v2_and_hybrid": {
+        "model_utama": {
+          "correct": 3,
+          "evaluated": 5,
+          "accuracy": 0.6
+        },
+        "beta_v2": {
+          "correct": 3,
+          "evaluated": 5,
+          "accuracy": 0.6
+        },
+        "hybrid": {
+          "correct": 3,
+          "evaluated": 5,
+          "accuracy": 0.6
+        }
+      }
+    }
+  },
+  "historical_reference": {
+    "beta_v2_test_focus": {
+      "basis": "Perhitungan ulang historis 2024–2025",
+      "results": {
+        "correct": 271,
+        "evaluated": 379,
+        "accuracy": 0.7150395778364116
+      },
+      "source": "historical_beta_v2"
+    },
+    "hybrid_posthoc": {
+      "basis": "Evaluasi ulang pada 16 laga UNL yang sama",
+      "hybrid": {
+        "correct": 14,
+        "evaluated": 16,
+        "accuracy": 0.875
+      },
+      "model_utama": {
+        "correct": 14,
+        "evaluated": 16,
+        "accuracy": 0.875
+      },
+      "source": "historical_beta_v2"
+    }
+  },
+  "final_scores_backfilled": [
+    {
+      "session": "europe-2026-11-21",
+      "home": "Nice",
+      "away": "PSG",
+      "score": [
+        2,
+        3
+      ],
+      "source": "ligue1"
+    },
+    {
+      "session": "europe-2026-11-22",
+      "home": "Racing Santander",
+      "away": "Real Sociedad",
+      "score": [
+        3,
+        2
+      ],
+      "source": "racing"
+    },
+    {
+      "session": "europe-2026-11-22",
+      "home": "Lorient",
+      "away": "Rennes",
+      "score": [
+        1,
+        1
+      ],
+      "source": "ligue1"
+    },
+    {
+      "session": "europe-2026-11-22",
+      "home": "Liverpool",
+      "away": "Manchester United",
+      "score": [
+        4,
+        0
+      ],
+      "source": "liverpool"
+    },
+    {
+      "session": "europe-2026-11-22",
+      "home": "Werder Bremen",
+      "away": "Hamburger SV",
+      "score": [
+        4,
+        0
+      ],
+      "source": "werder"
+    }
+  ],
+  "sources": {
+    "unl_13_pilot": {
+      "archive": "local_audit",
+      "description": "Penilaian snapshot pilot prapertandingan UNL 13 November 2026 WIB.",
+      "public_reference": "skills/superanalyst/references/unl-baseline.md"
+    },
+    "unl_14_poster": {
+      "archive": "local_audit",
+      "description": "Evaluasi poster awal sepuluh laga dan arsip dua pembaruan yang diterbitkan sebelum kickoff."
+    },
+    "friendly_14": {
+      "archive": "forecast_archive_and_prior_chat",
+      "description": "Snapshot empat persahabatan dan pilihan Ekuador menang yang dinyatakan sebagai prioritas dalam chat."
+    },
+    "unl_november_original": {
+      "archive": "repository",
+      "path": "test-v2/artifacts/november-posthoc-evaluation.json",
+      "description": "Kolom prediksi asli Model Utama dan Beta lama dibandingkan dengan hasil akhir. Evaluasi ulang Beta V2 dan Hybrid memiliki label tersendiri."
+    },
+    "unl_18_original": {
+      "archive": "repository",
+      "path": "hasil-analisis/2026-11-18-unl",
+      "description": "Sesi awal Model Utama dan Beta riset timnas v1."
+    },
+    "unl_18_beta_v2": {
+      "archive": "repository",
+      "path": "test-v2/forecasts/unl-2026-11-17-18/evaluation/evaluasi-v1.json",
+      "description": "Uji prospektif Beta V2 dan Hybrid pada delapan laga UNL."
+    },
+    "domestic_21": {
+      "archive": "repository",
+      "path": "hasil-analisis/2026-11-21-europe/evaluasi.json",
+      "description": "Evaluasi 18 laga awal, dilengkapi skor akhir Nice–PSG untuk rekap ini."
+    },
+    "domestic_22": {
+      "archive": "repository",
+      "path": "hasil-analisis/2026-11-22-europe/README.md",
+      "description": "Evaluasi awal 17 laga, dilengkapi empat hasil akhir dari jadwal yang sama."
+    },
+    "btts_venue": {
+      "archive": "forecast_archive",
+      "description": "Dua seri probabilitas BTTS dicatat sebelum kickoff, kemudian dinilai pada 21 hasil akhir."
+    },
+    "ucl_25": {
+      "archive": "repository",
+      "path": "hasil-analisis/2026-11-25-ucl-md5/evaluasi.json"
+    },
+    "ucl_26": {
+      "archive": "repository",
+      "path": "hasil-analisis/2026-11-26-ucl-md5/evaluasi.json"
+    },
+    "ucl_total_v1": {
+      "archive": "forecast_archive",
+      "description": "Probabilitas tersimpan untuk Total Gol v1, dengan 9 laga UCL 25 November WIB."
+    },
+    "unl_pooled_poisson": {
+      "archive": "local_forecast_archive",
+      "description": "Dua jendela untuk perhitungan Poisson UNL, dinilai pada enam target fokus aktif yang sama."
+    },
+    "u17_19": {
+      "archive": "prior_chat",
+      "description": "Pilihan dan skenario awal pada delapan laga. Tiga rekomendasi disebut secara eksplisit."
+    },
+    "unl_live_16": {
+      "archive": "live_forecast_archive",
+      "description": "Snapshot saat empat laga UNL sedang berjalan. Peristiwa yang sudah terjadi pada saat analisis dikeluarkan dari hasil prediksi."
+    },
+    "standalone_chat": {
+      "archive": "prior_chats",
+      "description": "Prediksi chat umum yang berhasil ditemukan pada audit, dengan kelompok 1X2 dan skenario skor yang dipublikasikan."
+    },
+    "historical_beta_v2": {
+      "archive": "repository",
+      "path": "test-v2/Laporan-Pengembangan-Beta-V2.md",
+      "description": "Hasil perhitungan ulang historis dan diagnosis sesudah hasil laga diketahui."
+    }
+  },
+  "official_results_sources": {
+    "unl": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures/",
+    "ucl": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-a/",
+    "u17": "https://www.fifa.com/en/articles/round-up-matchday-one-doha",
+    "friendlies": "https://www.11v11.com/competitions/international-friendly/2026/matches/",
+    "ligue1": "https://www.psg.fr/en/content/results-of-matchday-11-of-ligue-1-2026-2027-ogc-nice-paris-saint-germain",
+    "racing": "https://www.realsociedad.eus/es/noticias/detalle/tropiezo-en-el-sardinero",
+    "liverpool": "https://lfcbeta.liverpoolfc.com/matches/mens-team/liverpool-v-manchester-united-english-premier-league-20261122",
+    "werder": "https://datencenter.dfb.de/en/data-center/bundesliga/2026-2027/10/2419440"
+  }
+}
