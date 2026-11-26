@@ -1,0 +1,1517 @@
+{
+  "schema": "superanalyst-ucl-md5-evaluation-v1",
+  "competition": "UEFA Champions League 2026/27",
+  "matchday": 5,
+  "date_wib": "2026-11-26",
+  "scope": "90m",
+  "outcomes_verified": 9,
+  "results_sources": {
+    "uefa": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-a/",
+    "secondary": "https://www.rte.ie/sport/results/soccer/champions-league/47760/results/"
+  },
+  "snapshots": {
+    "model_utama": {
+      "file": "Superanalyst_UCL_MD5_26_November_2026.md",
+      "file_sha256": "e662adb706bd03345ba6ff563b56457da7c1dfe04337d66791ff8e14b915d1ab",
+      "id": "211df5015f454193a50b95802b0ba280",
+      "snapshot_sha256": "e62d71be58347dbb6e662d317b6a25389fb85827b6e283a4c51d27935e0bfbc6",
+      "recorded_at": "2026-11-25T09:31:43.944977+00:00"
+    },
+    "xi_resmi_v1": {
+      "file": "Superanalyst_UCL_MD5_XI_v1_26_November_2026_0045.json",
+      "file_sha256": "f256d7bf3933a0ae60c6d12258fdb08c3569c2a0df4d366e288abc62af97a137",
+      "id": "69fe13b89aa44d29a2ec866908a45172",
+      "snapshot_sha256": "41bb481149003a35c288f2e9b9286d6681be8ea812c16dbe87435f06311bec87",
+      "recorded_at": "2026-11-25T17:04:19.928747+00:00"
+    },
+    "numeric": {
+      "file": "Superanalyst_UCL_MD5_Eksperimen_26_November_2026.md",
+      "file_sha256": "3db97185c9bc51a402dc8feb051ad0a4dd3eb5bebd07eba7c9f2c0efd27ae943",
+      "id": null,
+      "snapshot_sha256": "abcc10ae7a4527492a6a870a18fd848425252b29247b0255fa3a30924bc4f46b",
+      "recorded_at": "2026-11-25T09:53:58.568869+00:00"
+    }
+  },
+  "model_utama": {
+    "considered": 9,
+    "focus": {
+      "correct": 6,
+      "evaluated": 9,
+      "accuracy": 0.6666666666666666
+    },
+    "1x2": {
+      "correct": 4,
+      "evaluated": 7,
+      "accuracy": 0.5714285714285714
+    },
+    "btts": {
+      "correct": 2,
+      "evaluated": 7,
+      "accuracy": 0.2857142857142857
+    },
+    "total_2_5": {
+      "correct": 4,
+      "evaluated": 5,
+      "accuracy": 0.8
+    },
+    "score": {
+      "correct": 1,
+      "evaluated": 9,
+      "accuracy": 0.1111111111111111
+    }
+  },
+  "xi_resmi_v1": {
+    "official_lineups": 2,
+    "projected_lineups": 7,
+    "baseline_on_official_matches": {
+      "considered": 2,
+      "focus": {
+        "correct": 1,
+        "evaluated": 2,
+        "accuracy": 0.5
+      },
+      "1x2": {
+        "correct": 1,
+        "evaluated": 1,
+        "accuracy": 1
+      },
+      "btts": {
+        "correct": 1,
+        "evaluated": 2,
+        "accuracy": 0.5
+      },
+      "total_2_5": {
+        "correct": 1,
+        "evaluated": 2,
+        "accuracy": 0.5
+      },
+      "score": {
+        "correct": 0,
+        "evaluated": 2,
+        "accuracy": 0
+      }
+    },
+    "updated_on_official_matches": {
+      "considered": 2,
+      "focus": {
+        "correct": 1,
+        "evaluated": 2,
+        "accuracy": 0.5
+      },
+      "1x2": {
+        "correct": 1,
+        "evaluated": 1,
+        "accuracy": 1
+      },
+      "btts": {
+        "correct": 0,
+        "evaluated": 1,
+        "accuracy": 0
+      },
+      "total_2_5": {
+        "correct": 1,
+        "evaluated": 1,
+        "accuracy": 1
+      },
+      "score": {
+        "correct": 0,
+        "evaluated": 2,
+        "accuracy": 0
+      }
+    },
+    "common_targets": {
+      "focus": {
+        "model_utama": {
+          "correct": 1,
+          "evaluated": 2,
+          "accuracy": 0.5
+        },
+        "xi_resmi_v1": {
+          "correct": 1,
+          "evaluated": 2,
+          "accuracy": 0.5
+        }
+      },
+      "1x2": {
+        "model_utama": {
+          "correct": 1,
+          "evaluated": 1,
+          "accuracy": 1
+        },
+        "xi_resmi_v1": {
+          "correct": 1,
+          "evaluated": 1,
+          "accuracy": 1
+        }
+      },
+      "btts": {
+        "model_utama": {
+          "correct": 0,
+          "evaluated": 1,
+          "accuracy": 0
+        },
+        "xi_resmi_v1": {
+          "correct": 0,
+          "evaluated": 1,
+          "accuracy": 0
+        }
+      },
+      "total_2_5": {
+        "model_utama": {
+          "correct": 1,
+          "evaluated": 1,
+          "accuracy": 1
+        },
+        "xi_resmi_v1": {
+          "correct": 1,
+          "evaluated": 1,
+          "accuracy": 1
+        }
+      },
+      "score": {
+        "model_utama": {
+          "correct": 0,
+          "evaluated": 2,
+          "accuracy": 0
+        },
+        "xi_resmi_v1": {
+          "correct": 0,
+          "evaluated": 2,
+          "accuracy": 0
+        }
+      }
+    },
+    "changes": [
+      {
+        "match_id": "ucl-2026-11-25-sabah-vs-barcelona",
+        "target": "btts",
+        "before": {
+          "pick": true,
+          "confidence": "low",
+          "status": "provisional"
+        },
+        "after": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi"
+        },
+        "before_correct": true,
+        "after_correct": null
+      },
+      {
+        "match_id": "ucl-2026-11-25-sabah-vs-barcelona",
+        "target": "total_2_5",
+        "before": {
+          "pick": "over",
+          "confidence": "medium",
+          "status": "provisional"
+        },
+        "after": {
+          "pick": "over",
+          "confidence": "low",
+          "status": "provisional"
+        },
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "match_id": "ucl-2026-11-25-sabah-vs-barcelona",
+        "target": "score_scenario",
+        "before": [
+          1,
+          3
+        ],
+        "after": [
+          0,
+          2
+        ],
+        "before_correct": false,
+        "after_correct": false
+      },
+      {
+        "match_id": "ucl-2026-11-25-slavia-praha-vs-villarreal",
+        "target": "btts",
+        "before": {
+          "pick": true,
+          "confidence": "medium",
+          "status": "provisional"
+        },
+        "after": {
+          "pick": true,
+          "confidence": "low",
+          "status": "provisional"
+        },
+        "before_correct": false,
+        "after_correct": false
+      },
+      {
+        "match_id": "ucl-2026-11-25-slavia-praha-vs-villarreal",
+        "target": "total_2_5",
+        "before": {
+          "pick": "over",
+          "confidence": "low",
+          "status": "provisional"
+        },
+        "after": {
+          "pick": null,
+          "confidence": null,
+          "status": "observasi"
+        },
+        "before_correct": false,
+        "after_correct": null
+      },
+      {
+        "match_id": "ucl-2026-11-25-slavia-praha-vs-villarreal",
+        "target": "score_scenario",
+        "before": [
+          2,
+          1
+        ],
+        "after": [
+          1,
+          1
+        ],
+        "before_correct": false,
+        "after_correct": false
+      }
+    ]
+  },
+  "dixon_coles_own_focus": {
+    "correct": 5,
+    "evaluated": 9,
+    "accuracy": 0.5555555555555556
+  },
+  "dixon_coles_own_focus_rule": "Highest probability across 1X2, BTTS yes/no and over/under 2.5",
+  "numeric_evaluation_plan": {
+    "common_matches": 9,
+    "actual": "official UEFA final score at 90 minutes plus added time",
+    "metrics": {
+      "1x2": "mean log loss",
+      "btts": "mean Brier",
+      "over_0_5": "mean Brier",
+      "over_1_5": "mean Brier",
+      "over_2_5": "mean Brier",
+      "over_3_5": "mean Brier"
+    },
+    "binary_direction": "p>0.5",
+    "1x2_direction": "argmax(home,draw,away); order home,draw,away at exact tie",
+    "focus_comparison": "Compare only the target frozen as the Model Utama focus for each fixture. Score binary paired directional accuracy."
+  },
+  "log_loss_clip": [
+    1e-15,
+    0.999999999999999
+  ],
+  "numeric_metrics": {
+    "balanced": {
+      "evaluated": 9,
+      "log_loss_1x2": 1.1707410737442812,
+      "brier_btts": 0.29556848132293073,
+      "brier_over_0_5": 0.0019260849879825309,
+      "brier_over_1_5": 0.15420363308446866,
+      "brier_over_2_5": 0.20683231168364102,
+      "brier_over_3_5": 0.21330051478936174,
+      "on_model_utama_focus": {
+        "correct": 5,
+        "evaluated": 9,
+        "accuracy": 0.5555555555555556
+      },
+      "score_mode": {
+        "correct": 0,
+        "evaluated": 9,
+        "accuracy": 0
+      }
+    },
+    "adjusted": {
+      "evaluated": 9,
+      "log_loss_1x2": 1.113847679078521,
+      "brier_btts": 0.2893632256111903,
+      "brier_over_0_5": 0.0017596787949526673,
+      "brier_over_1_5": 0.14620134444238178,
+      "brier_over_2_5": 0.19001913148500404,
+      "brier_over_3_5": 0.21118041623218747,
+      "on_model_utama_focus": {
+        "correct": 5,
+        "evaluated": 9,
+        "accuracy": 0.5555555555555556
+      },
+      "score_mode": {
+        "correct": 0,
+        "evaluated": 9,
+        "accuracy": 0
+      }
+    },
+    "dixon_coles": {
+      "evaluated": 9,
+      "log_loss_1x2": 1.1107098216081117,
+      "brier_btts": 0.28440410386692955,
+      "brier_over_0_5": 0.0009219304153499914,
+      "brier_over_1_5": 0.1435032373904352,
+      "brier_over_2_5": 0.19001913148500402,
+      "brier_over_3_5": 0.21118041623218747,
+      "on_model_utama_focus": {
+        "correct": 5,
+        "evaluated": 9,
+        "accuracy": 0.5555555555555556
+      },
+      "score_mode": {
+        "correct": 1,
+        "evaluated": 9,
+        "accuracy": 0.1111111111111111
+      }
+    }
+  },
+  "matches": [
+    {
+      "match_id": "ucl-2026-11-25-sabah-vs-barcelona",
+      "uefa_id": "2049642",
+      "uefa_url": "https://www.uefa.com/uefachampionsleague/match/2049642--sabah-vs-barcelona/",
+      "kickoff_at": "2026-11-26T00:45:00+07:00",
+      "home": "Sabah FC",
+      "away": "Barcelona",
+      "actual": {
+        "score": [
+          1,
+          4
+        ],
+        "scope": "90m",
+        "status": "completed",
+        "1x2": "A",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "model_utama": {
+        "focus_target": "1x2",
+        "targets": {
+          "1x2": {
+            "pick": "A",
+            "confidence": "relatively_strong",
+            "status": "provisional",
+            "correct": true
+          },
+          "btts": {
+            "pick": true,
+            "confidence": "low",
+            "status": "provisional",
+            "correct": true
+          },
+          "total_2_5": {
+            "pick": "over",
+            "confidence": "medium",
+            "status": "provisional",
+            "correct": true
+          }
+        },
+        "score_scenario": [
+          1,
+          3
+        ],
+        "score_correct": false
+      },
+      "xi_resmi_v1": {
+        "focus_target": "1x2",
+        "targets": {
+          "1x2": {
+            "pick": "A",
+            "confidence": "relatively_strong",
+            "status": "provisional",
+            "correct": true
+          },
+          "btts": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "correct": null
+          },
+          "total_2_5": {
+            "pick": "over",
+            "confidence": "low",
+            "status": "provisional",
+            "correct": true
+          }
+        },
+        "score_scenario": [
+          0,
+          2
+        ],
+        "score_correct": false
+      },
+      "numeric": {
+        "balanced": {
+          "probabilities": {
+            "home": 0.1305833826212955,
+            "draw": 0.14534785154541366,
+            "away": 0.7240687658332906,
+            "btts": 0.6815198252813994,
+            "over_0_5": 0.9858844901164949,
+            "over_1_5": 0.9257456271198977,
+            "over_2_5": 0.7976353827018091,
+            "over_3_5": 0.6156982912540693
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": true,
+          "mode_score": [
+            1,
+            2
+          ]
+        },
+        "adjusted": {
+          "probabilities": {
+            "home": 0.12678514332009186,
+            "draw": 0.14211572687955412,
+            "away": 0.7310991298003541,
+            "btts": 0.6841772255579527,
+            "over_0_5": 0.9866524271909407,
+            "over_1_5": 0.9290386873198864,
+            "over_2_5": 0.8046961169734445,
+            "over_3_5": 0.6257911678535126
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": true,
+          "mode_score": [
+            1,
+            3
+          ]
+        },
+        "dixon_coles": {
+          "probabilities": {
+            "home": 0.13360008755598154,
+            "draw": 0.12848583840777475,
+            "away": 0.7379140740362437,
+            "btts": 0.677362281322063,
+            "over_0_5": 0.9934673714268303,
+            "over_1_5": 0.9222237430839968,
+            "over_2_5": 0.8046961169734445,
+            "over_3_5": 0.6257911678535126
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": true,
+          "mode_score": [
+            1,
+            3
+          ]
+        }
+      },
+      "dixon_coles_focus": {
+        "target": "total_2_5",
+        "pick": "over",
+        "probability": 0.8046961169734445,
+        "correct": true
+      }
+    },
+    {
+      "match_id": "ucl-2026-11-25-slavia-praha-vs-villarreal",
+      "uefa_id": "2049641",
+      "uefa_url": "https://www.uefa.com/uefachampionsleague/match/2049641--slavia-praha-vs-villarreal/",
+      "kickoff_at": "2026-11-26T00:45:00+07:00",
+      "home": "Slavia Praha",
+      "away": "Villarreal",
+      "actual": {
+        "score": [
+          0,
+          1
+        ],
+        "scope": "90m",
+        "status": "completed",
+        "1x2": "A",
+        "btts": false,
+        "total_2_5": "under"
+      },
+      "model_utama": {
+        "focus_target": "btts",
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "correct": null
+          },
+          "btts": {
+            "pick": true,
+            "confidence": "medium",
+            "status": "provisional",
+            "correct": false
+          },
+          "total_2_5": {
+            "pick": "over",
+            "confidence": "low",
+            "status": "provisional",
+            "correct": false
+          }
+        },
+        "score_scenario": [
+          2,
+          1
+        ],
+        "score_correct": false
+      },
+      "xi_resmi_v1": {
+        "focus_target": "btts",
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "correct": null
+          },
+          "btts": {
+            "pick": true,
+            "confidence": "low",
+            "status": "provisional",
+            "correct": false
+          },
+          "total_2_5": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "correct": null
+          }
+        },
+        "score_scenario": [
+          1,
+          1
+        ],
+        "score_correct": false
+      },
+      "numeric": {
+        "balanced": {
+          "probabilities": {
+            "home": 0.5754440257278691,
+            "draw": 0.20590452672704612,
+            "away": 0.21865144754508486,
+            "btts": 0.6299956807249988,
+            "over_0_5": 0.9662321900594265,
+            "over_1_5": 0.851818499238294,
+            "over_2_5": 0.6579875597969878,
+            "over_3_5": 0.4390718407948235
+          },
+          "directions": {
+            "1x2": "H",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": false,
+          "mode_score": [
+            2,
+            1
+          ]
+        },
+        "adjusted": {
+          "probabilities": {
+            "home": 0.5169413636920746,
+            "draw": 0.22935033395202917,
+            "away": 0.2537083023558961,
+            "btts": 0.5898728235152884,
+            "over_0_5": 0.9521700932518166,
+            "over_1_5": 0.8067621942508482,
+            "over_2_5": 0.5857346141303952,
+            "over_3_5": 0.3617523247245174
+          },
+          "directions": {
+            "1x2": "H",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": false,
+          "mode_score": [
+            1,
+            1
+          ]
+        },
+        "dixon_coles": {
+          "probabilities": {
+            "home": 0.5309592209853272,
+            "draw": 0.20131461936552383,
+            "away": 0.2677261596491487,
+            "btts": 0.5758549662220358,
+            "over_0_5": 0.9661879505450691,
+            "over_1_5": 0.7927443369575956,
+            "over_2_5": 0.5857346141303952,
+            "over_3_5": 0.3617523247245174
+          },
+          "directions": {
+            "1x2": "H",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": false,
+          "mode_score": [
+            1,
+            0
+          ]
+        }
+      },
+      "dixon_coles_focus": {
+        "target": "total_2_5",
+        "pick": "over",
+        "probability": 0.5857346141303952,
+        "correct": false
+      }
+    },
+    {
+      "match_id": "ucl-2026-11-25-atleti-vs-viking",
+      "uefa_id": "2049636",
+      "uefa_url": "https://www.uefa.com/uefachampionsleague/match/2049636--atleti-vs-viking/",
+      "kickoff_at": "2026-11-26T03:00:00+07:00",
+      "home": "Atlético Madrid",
+      "away": "Viking",
+      "actual": {
+        "score": [
+          2,
+          0
+        ],
+        "scope": "90m",
+        "status": "completed",
+        "1x2": "H",
+        "btts": false,
+        "total_2_5": "under"
+      },
+      "model_utama": {
+        "focus_target": "1x2",
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "medium",
+            "status": "provisional",
+            "correct": true
+          },
+          "btts": {
+            "pick": true,
+            "confidence": "low",
+            "status": "provisional",
+            "correct": false
+          },
+          "total_2_5": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "correct": null
+          }
+        },
+        "score_scenario": [
+          2,
+          1
+        ],
+        "score_correct": false
+      },
+      "xi_resmi_v1": null,
+      "numeric": {
+        "balanced": {
+          "probabilities": {
+            "home": 0.46668206744032603,
+            "draw": 0.24183361197636372,
+            "away": 0.29148432058331036,
+            "btts": 0.5790472287811517,
+            "over_0_5": 0.9456822536648689,
+            "over_1_5": 0.7874598575991564,
+            "over_2_5": 0.5570165098365509,
+            "over_3_5": 0.33326337143347246
+          },
+          "directions": {
+            "1x2": "H",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": true,
+          "mode_score": [
+            1,
+            1
+          ]
+        },
+        "adjusted": {
+          "probabilities": {
+            "home": 0.49778177818623986,
+            "draw": 0.23867023474880736,
+            "away": 0.26354798706495275,
+            "btts": 0.5676428222592336,
+            "over_0_5": 0.9444809258183213,
+            "over_1_5": 0.7839736923858169,
+            "over_2_5": 0.5519581881300006,
+            "over_3_5": 0.3283703656836995
+          },
+          "directions": {
+            "1x2": "H",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": true,
+          "mode_score": [
+            1,
+            1
+          ]
+        },
+        "dixon_coles": {
+          "probabilities": {
+            "home": 0.5126006349268263,
+            "draw": 0.2090325212676347,
+            "away": 0.27836684380553905,
+            "btts": 0.5528239655186472,
+            "over_0_5": 0.9592997825589078,
+            "over_1_5": 0.7691548356452306,
+            "over_2_5": 0.5519581881300006,
+            "over_3_5": 0.3283703656836995
+          },
+          "directions": {
+            "1x2": "H",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": true,
+          "mode_score": [
+            1,
+            0
+          ]
+        }
+      },
+      "dixon_coles_focus": {
+        "target": "btts",
+        "pick": true,
+        "probability": 0.5528239655186472,
+        "correct": false
+      }
+    },
+    {
+      "match_id": "ucl-2026-11-25-club-brugge-vs-liverpool",
+      "uefa_id": "2049638",
+      "uefa_url": "https://www.uefa.com/uefachampionsleague/match/2049638--club-brugge-vs-liverpool/",
+      "kickoff_at": "2026-11-26T03:00:00+07:00",
+      "home": "Club Brugge",
+      "away": "Liverpool",
+      "actual": {
+        "score": [
+          0,
+          3
+        ],
+        "scope": "90m",
+        "status": "completed",
+        "1x2": "A",
+        "btts": false,
+        "total_2_5": "over"
+      },
+      "model_utama": {
+        "focus_target": "total_2_5",
+        "targets": {
+          "1x2": {
+            "pick": "A",
+            "confidence": "low",
+            "status": "provisional",
+            "correct": true
+          },
+          "btts": {
+            "pick": true,
+            "confidence": "relatively_strong",
+            "status": "provisional",
+            "correct": false
+          },
+          "total_2_5": {
+            "pick": "over",
+            "confidence": "relatively_strong",
+            "status": "provisional",
+            "correct": true
+          }
+        },
+        "score_scenario": [
+          1,
+          2
+        ],
+        "score_correct": false
+      },
+      "xi_resmi_v1": null,
+      "numeric": {
+        "balanced": {
+          "probabilities": {
+            "home": 0.25378115171553245,
+            "draw": 0.1650644229444433,
+            "away": 0.5811544253400243,
+            "btts": 0.8392937772997524,
+            "over_0_5": 0.9945333926569555,
+            "over_1_5": 0.9660573042827681,
+            "over_2_5": 0.8918899498150794,
+            "over_3_5": 0.7631082998343877
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": true,
+          "mode_score": [
+            2,
+            3
+          ]
+        },
+        "adjusted": {
+          "probabilities": {
+            "home": 0.28658981078719536,
+            "draw": 0.17052916171703414,
+            "away": 0.5428810274957705,
+            "btts": 0.8475645153896946,
+            "over_0_5": 0.9945997305204536,
+            "over_1_5": 0.9664032688007655,
+            "over_2_5": 0.8927920854587982,
+            "over_3_5": 0.7646765706618667
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": true,
+          "mode_score": [
+            2,
+            2
+          ]
+        },
+        "dixon_coles": {
+          "probabilities": {
+            "home": 0.29135045947007376,
+            "draw": 0.16100786435127729,
+            "away": 0.5476416761786489,
+            "btts": 0.8428038667068162,
+            "over_0_5": 0.999360379203332,
+            "over_1_5": 0.961642620117887,
+            "over_2_5": 0.8927920854587982,
+            "over_3_5": 0.7646765706618667
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": true,
+          "mode_score": [
+            2,
+            2
+          ]
+        }
+      },
+      "dixon_coles_focus": {
+        "target": "total_2_5",
+        "pick": "over",
+        "probability": 0.8927920854587982,
+        "correct": true
+      }
+    },
+    {
+      "match_id": "ucl-2026-11-25-inter-vs-stuttgart",
+      "uefa_id": "2049635",
+      "uefa_url": "https://www.uefa.com/uefachampionsleague/match/2049635--inter-vs-stuttgart/",
+      "kickoff_at": "2026-11-26T03:00:00+07:00",
+      "home": "Inter",
+      "away": "Stuttgart",
+      "actual": {
+        "score": [
+          2,
+          0
+        ],
+        "scope": "90m",
+        "status": "completed",
+        "1x2": "H",
+        "btts": false,
+        "total_2_5": "under"
+      },
+      "model_utama": {
+        "focus_target": "1x2",
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "low",
+            "status": "provisional",
+            "correct": true
+          },
+          "btts": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "correct": null
+          },
+          "total_2_5": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "correct": null
+          }
+        },
+        "score_scenario": [
+          2,
+          0
+        ],
+        "score_correct": true
+      },
+      "xi_resmi_v1": null,
+      "numeric": {
+        "balanced": {
+          "probabilities": {
+            "home": 0.2332761112849761,
+            "draw": 0.20600464390206308,
+            "away": 0.5607192448129608,
+            "btts": 0.6507104825385219,
+            "over_0_5": 0.9692929516107114,
+            "over_1_5": 0.8623322242282128,
+            "over_2_5": 0.6760460488662073,
+            "over_3_5": 0.4597514643632101
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": false,
+          "mode_score": [
+            1,
+            2
+          ]
+        },
+        "adjusted": {
+          "probabilities": {
+            "home": 0.3134973107717351,
+            "draw": 0.22055187837467835,
+            "away": 0.4659508108535867,
+            "btts": 0.6705235463602351,
+            "over_0_5": 0.968527072390248,
+            "over_1_5": 0.859673938080111,
+            "over_2_5": 0.6714327138117142,
+            "over_3_5": 0.4544139527771961
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": false,
+          "mode_score": [
+            1,
+            1
+          ]
+        },
+        "dixon_coles": {
+          "probabilities": {
+            "home": 0.3257944792859434,
+            "draw": 0.19595754134626178,
+            "away": 0.478247979367795,
+            "btts": 0.6582263778460269,
+            "over_0_5": 0.9808242409044563,
+            "over_1_5": 0.8473767695659029,
+            "over_2_5": 0.6714327138117142,
+            "over_3_5": 0.4544139527771961
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": false,
+          "mode_score": [
+            1,
+            2
+          ]
+        }
+      },
+      "dixon_coles_focus": {
+        "target": "total_2_5",
+        "pick": "over",
+        "probability": 0.6714327138117142,
+        "correct": false
+      }
+    },
+    {
+      "match_id": "ucl-2026-11-25-lille-vs-bayern-munchen",
+      "uefa_id": "2049639",
+      "uefa_url": "https://www.uefa.com/uefachampionsleague/match/2049639--lille-vs-bayern-munchen/",
+      "kickoff_at": "2026-11-26T03:00:00+07:00",
+      "home": "Lille",
+      "away": "Bayern",
+      "actual": {
+        "score": [
+          2,
+          1
+        ],
+        "scope": "90m",
+        "status": "completed",
+        "1x2": "H",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "model_utama": {
+        "focus_target": "1x2",
+        "targets": {
+          "1x2": {
+            "pick": "A",
+            "confidence": "medium",
+            "status": "provisional",
+            "correct": false
+          },
+          "btts": {
+            "pick": false,
+            "confidence": "low",
+            "status": "provisional",
+            "correct": false
+          },
+          "total_2_5": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "correct": null
+          }
+        },
+        "score_scenario": [
+          0,
+          2
+        ],
+        "score_correct": false
+      },
+      "xi_resmi_v1": null,
+      "numeric": {
+        "balanced": {
+          "probabilities": {
+            "home": 0.17037171520169223,
+            "draw": 0.21765491948320886,
+            "away": 0.6119733653150986,
+            "btts": 0.5028015139136016,
+            "over_0_5": 0.9392166121348023,
+            "over_1_5": 0.7689964572036198,
+            "over_2_5": 0.5306508979773478,
+            "over_3_5": 0.30816018440369636
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": false,
+          "mode_score": [
+            0,
+            1
+          ]
+        },
+        "adjusted": {
+          "probabilities": {
+            "home": 0.16544325663999826,
+            "draw": 0.19956318862181952,
+            "away": 0.6349935547381823,
+            "btts": 0.5529965803469705,
+            "over_0_5": 0.9556961706336895,
+            "over_1_5": 0.817615127243618,
+            "over_2_5": 0.6024376266031279,
+            "over_3_5": 0.3788908570387775
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": false,
+          "mode_score": [
+            0,
+            2
+          ]
+        },
+        "dixon_coles": {
+          "probabilities": {
+            "home": 0.1777594065617876,
+            "draw": 0.17493088877824087,
+            "away": 0.6473097046599716,
+            "btts": 0.5406804304251811,
+            "over_0_5": 0.9680123205554789,
+            "over_1_5": 0.8052989773218288,
+            "over_2_5": 0.6024376266031279,
+            "over_3_5": 0.3788908570387775
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": false,
+          "mode_score": [
+            0,
+            1
+          ]
+        }
+      },
+      "dixon_coles_focus": {
+        "target": "1x2",
+        "pick": "A",
+        "probability": 0.6473097046599716,
+        "correct": false
+      }
+    },
+    {
+      "match_id": "ucl-2026-11-25-paris-vs-roma",
+      "uefa_id": "2049634",
+      "uefa_url": "https://www.uefa.com/uefachampionsleague/match/2049634--paris-vs-roma/",
+      "kickoff_at": "2026-11-26T03:00:00+07:00",
+      "home": "PSG",
+      "away": "AS Roma",
+      "actual": {
+        "score": [
+          2,
+          2
+        ],
+        "scope": "90m",
+        "status": "completed",
+        "1x2": "D",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "model_utama": {
+        "focus_target": "total_2_5",
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "relatively_strong",
+            "status": "provisional",
+            "correct": false
+          },
+          "btts": {
+            "pick": true,
+            "confidence": "medium",
+            "status": "provisional",
+            "correct": true
+          },
+          "total_2_5": {
+            "pick": "over",
+            "confidence": "relatively_strong",
+            "status": "provisional",
+            "correct": true
+          }
+        },
+        "score_scenario": [
+          3,
+          1
+        ],
+        "score_correct": false
+      },
+      "xi_resmi_v1": null,
+      "numeric": {
+        "balanced": {
+          "probabilities": {
+            "home": 0.5500668105572968,
+            "draw": 0.19649918519076143,
+            "away": 0.2534340042519419,
+            "btts": 0.7133326402448333,
+            "over_0_5": 0.9796420773525089,
+            "over_1_5": 0.9003625220395628,
+            "over_2_5": 0.7459939256102747,
+            "over_3_5": 0.5456088160698737
+          },
+          "directions": {
+            "1x2": "H",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": true,
+          "mode_score": [
+            2,
+            1
+          ]
+        },
+        "adjusted": {
+          "probabilities": {
+            "home": 0.540568461094556,
+            "draw": 0.20188899142336714,
+            "away": 0.25754254748207667,
+            "btts": 0.6966138568212334,
+            "over_0_5": 0.976511136067911,
+            "over_1_5": 0.8883990321407327,
+            "over_2_5": 0.723134699201505,
+            "over_3_5": 0.516486588256985
+          },
+          "directions": {
+            "1x2": "H",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": true,
+          "mode_score": [
+            2,
+            1
+          ]
+        },
+        "dixon_coles": {
+          "probabilities": {
+            "home": 0.5510827788805936,
+            "draw": 0.1808603558512923,
+            "away": 0.2680568652681142,
+            "btts": 0.686099539035196,
+            "over_0_5": 0.9870254538539488,
+            "over_1_5": 0.8778847143546955,
+            "over_2_5": 0.7231346992015051,
+            "over_3_5": 0.516486588256985
+          },
+          "directions": {
+            "1x2": "H",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": true,
+          "mode_score": [
+            2,
+            1
+          ]
+        }
+      },
+      "dixon_coles_focus": {
+        "target": "total_2_5",
+        "pick": "over",
+        "probability": 0.7231346992015051,
+        "correct": true
+      }
+    },
+    {
+      "match_id": "ucl-2026-11-25-shakhtar-vs-fenerbahce",
+      "uefa_id": "2049640",
+      "uefa_url": "https://www.uefa.com/uefachampionsleague/match/2049640--shakhtar-vs-fenerbahce/",
+      "kickoff_at": "2026-11-26T03:00:00+07:00",
+      "home": "Shakhtar Donetsk",
+      "away": "Fenerbahçe",
+      "actual": {
+        "score": [
+          0,
+          1
+        ],
+        "scope": "90m",
+        "status": "completed",
+        "1x2": "A",
+        "btts": false,
+        "total_2_5": "under"
+      },
+      "model_utama": {
+        "focus_target": "total_2_5",
+        "targets": {
+          "1x2": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "correct": null
+          },
+          "btts": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "correct": null
+          },
+          "total_2_5": {
+            "pick": "under",
+            "confidence": "low",
+            "status": "provisional",
+            "correct": true
+          }
+        },
+        "score_scenario": [
+          1,
+          1
+        ],
+        "score_correct": false
+      },
+      "xi_resmi_v1": null,
+      "numeric": {
+        "balanced": {
+          "probabilities": {
+            "home": 0.38059004116712575,
+            "draw": 0.2702533226535562,
+            "away": 0.3491566361793179,
+            "btts": 0.5075191206643277,
+            "over_0_5": 0.9174142742239322,
+            "over_1_5": 0.7114522110841481,
+            "over_2_5": 0.4546259190453774,
+            "over_3_5": 0.24112464514777338
+          },
+          "directions": {
+            "1x2": "H",
+            "btts": true,
+            "total_2_5": "under"
+          },
+          "correct_on_main_focus": true,
+          "mode_score": [
+            1,
+            1
+          ]
+        },
+        "adjusted": {
+          "probabilities": {
+            "home": 0.35452251665604284,
+            "draw": 0.26555744435481915,
+            "away": 0.3799200389891379,
+            "btts": 0.5231535871180827,
+            "over_0_5": 0.923510492619551,
+            "over_1_5": 0.7268864344576286,
+            "over_2_5": 0.47416536478353566,
+            "over_3_5": 0.25761696050290994
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "under"
+          },
+          "correct_on_main_focus": true,
+          "mode_score": [
+            1,
+            1
+          ]
+        },
+        "dixon_coles": {
+          "probabilities": {
+            "home": 0.3712172352792563,
+            "draw": 0.23216800710839222,
+            "away": 0.3966147576123514,
+            "btts": 0.5064588684948693,
+            "over_0_5": 0.9402052112427646,
+            "over_1_5": 0.7101917158344152,
+            "over_2_5": 0.47416536478353566,
+            "over_3_5": 0.25761696050290994
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "under"
+          },
+          "correct_on_main_focus": true,
+          "mode_score": [
+            0,
+            1
+          ]
+        }
+      },
+      "dixon_coles_focus": {
+        "target": "total_2_5",
+        "pick": "under",
+        "probability": 0.5258346352164643,
+        "correct": true
+      }
+    },
+    {
+      "match_id": "ucl-2026-11-25-sporting-cp-vs-man-utd",
+      "uefa_id": "2049637",
+      "uefa_url": "https://www.uefa.com/uefachampionsleague/match/2049637--sporting-cp-vs-man-utd/",
+      "kickoff_at": "2026-11-26T03:00:00+07:00",
+      "home": "Sporting CP",
+      "away": "Manchester United",
+      "actual": {
+        "score": [
+          2,
+          2
+        ],
+        "scope": "90m",
+        "status": "completed",
+        "1x2": "D",
+        "btts": true,
+        "total_2_5": "over"
+      },
+      "model_utama": {
+        "focus_target": "1x2",
+        "targets": {
+          "1x2": {
+            "pick": "H",
+            "confidence": "medium",
+            "status": "provisional",
+            "correct": false
+          },
+          "btts": {
+            "pick": false,
+            "confidence": "low",
+            "status": "provisional",
+            "correct": false
+          },
+          "total_2_5": {
+            "pick": null,
+            "confidence": null,
+            "status": "observasi",
+            "correct": null
+          }
+        },
+        "score_scenario": [
+          2,
+          0
+        ],
+        "score_correct": false
+      },
+      "xi_resmi_v1": null,
+      "numeric": {
+        "balanced": {
+          "probabilities": {
+            "home": 0.40371086325812716,
+            "draw": 0.22671949063604532,
+            "away": 0.36956964610582727,
+            "btts": 0.6657873206007873,
+            "over_0_5": 0.9661982138935854,
+            "over_1_5": 0.8517033966733297,
+            "over_2_5": 0.6577925907616261,
+            "over_3_5": 0.4388516723734921
+          },
+          "directions": {
+            "1x2": "H",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": false,
+          "mode_score": [
+            1,
+            1
+          ]
+        },
+        "adjusted": {
+          "probabilities": {
+            "home": 0.3605221502292812,
+            "draw": 0.22213477828438594,
+            "away": 0.41734307148633293,
+            "btts": 0.6824399815469,
+            "over_0_5": 0.9699338224955901,
+            "over_1_5": 0.8645712807671099,
+            "over_2_5": 0.6799574368912561,
+            "over_3_5": 0.46430665758205086
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": false,
+          "mode_score": [
+            1,
+            1
+          ]
+        },
+        "dixon_coles": {
+          "probabilities": {
+            "home": 0.37270397658911963,
+            "draw": 0.19777112556470916,
+            "away": 0.4295248978461713,
+            "btts": 0.6702581551870616,
+            "over_0_5": 0.9821156488554285,
+            "over_1_5": 0.8523894544072714,
+            "over_2_5": 0.6799574368912561,
+            "over_3_5": 0.46430665758205086
+          },
+          "directions": {
+            "1x2": "A",
+            "btts": true,
+            "total_2_5": "over"
+          },
+          "correct_on_main_focus": false,
+          "mode_score": [
+            1,
+            2
+          ]
+        }
+      },
+      "dixon_coles_focus": {
+        "target": "total_2_5",
+        "pick": "over",
+        "probability": 0.6799574368912561,
+        "correct": true
+      }
+    }
+  ]
+}
